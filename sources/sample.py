@@ -1,66 +1,31 @@
 from __future__ import (absolute_import, division, print_function,
                         unicode_literals)
 
-import pandas
 import datetime  # For datetime objects
 import os.path  # To manage paths
 import sys  # To find out the script name (in argv[0])
 
 # Import the backtrader platform
 import backtrader as bt
-import backtrader.feeds as btfeeds
+
+from datafeed import pandasdatafeed
+from strategies import TestStrategy
 
 
-
-# Create a Stratey
-class TestStrategy(bt.Strategy):
-
-    def log(self, txt, dt=None):
-        ''' Logging function for this strategy'''
-        dt = dt or self.datas[0].datetime.date(0)
-        print('%s, %s' % (dt.isoformat(), txt))
-
-    def __init__(self):
-        # Keep a reference to the "close" line in the data[0] dataseries
-        self.dataclose = self.datas[0].volume
-
-    def next(self):
-        # Simply log the closing price of the series from the reference
-        self.log('Close, %.2f' % self.dataclose[0])
-
-
-if __name__ == '__main__':
+def runstrat(pargs=None):
     # Create a cerebro entity
-    cerebro = bt.Cerebro()
+    cerebro = bt.Cerebro(stdstats=False)
 
     # Add a strategy
     cerebro.addstrategy(TestStrategy)
 
-    # Datas are in a subfolder of the samples. Need to find where the script is
-    # because it could have been called from anywhere
-    # modpath = os.path.dirname(os.path.abspath(sys.argv[0]))
-    # datapath = os.path.join(modpath, '../../datas/orcl-1995-2014.txt')
-    # datapath = "FB.csv"
-    datapath = "../resources/WIN$N_15M.csv"
-    # datapath = "WIN$N_15M_v2.csv"
-    # Create a Data Feed
-    # data = bt.feeds.YahooFinanceCSVData(
-    #     dataname=datapath,
-    #     # Do not pass values before this date
-    #     fromdate=datetime.datetime(2012, 1, 1),
-    #     # Do not pass values after this date
-    #     todate=datetime.datetime(2018, 12, 31),
-    #     reverse=False)
-        # reverse=True)
-    # data = MyOHLC(dataname=datapath)
-    dataframe = pandas.read_csv(datapath, parse_dates={'datetime': ['date', 'hour']})
-    dataframe = dataframe.set_index('datetime').sort_index()
-    data_cols = ['open', 'high', 'low', 'close', 'real_volume']
-    dataframe = dataframe.loc[:, data_cols]
-    dataframe = dataframe.rename(columns={"real_volume": "volume"})
-    data = bt.feeds.PandasData(dataname=dataframe, openinterest=None)  # timeframe='Minutes',
+    # Get a pandas dataframe
+    datapath = ('../resources/WIN$N_15M.csv')
+    dataframe = pandasdatafeed(datapath)
 
-    # Add the Data Feed to Cerebro
+    # Pass it to the backtrader datafeed and add it to the cerebro
+    data = bt.feeds.PandasData(dataname=dataframe)
+
     cerebro.adddata(data)
 
     # Set our desired cash start
@@ -72,5 +37,12 @@ if __name__ == '__main__':
     # Run over everything
     cerebro.run()
 
+    # Plot the result
+    cerebro.plot(style='bar')
+
     # Print out the final result
     print('Final Portfolio Value: %.2f' % cerebro.broker.getvalue())
+
+
+if __name__ == '__main__':
+    runstrat()
