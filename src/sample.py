@@ -14,13 +14,14 @@ from strategies import TestStrategy
 
 def runstrat(pargs=None):
     # Create a cerebro entity
-    cerebro = bt.Cerebro(stdstats=False)
+    cerebro = bt.Cerebro()
+    # cerebro = bt.Cerebro(stdstats=False)
 
     # Add a strategy
     cerebro.addstrategy(TestStrategy)
 
     # Get a pandas dataframe
-    datapath = ('../resources/WIN$N_15M.csv')
+    datapath = '../resources/WIN$N_15M.csv'
     dataframe = pandasdatafeed(datapath)
 
     # Pass it to the backtrader datafeed and add it to the cerebro
