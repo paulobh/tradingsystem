@@ -1,27 +1,22 @@
-from __future__ import (absolute_import, division, print_function,
-                        unicode_literals)
+# from __future__ import (absolute_import, division, print_function, unicode_literals)
 
 import argparse
 import pandas
 import datetime  # For datetime objects
+from args import parse_args
 
 # Import the backtrader platform
-import backtrader as bt
-import backtrader.feeds as btfeeds
+# import backtrader as bt
+# import backtrader.feeds as btfeeds
+
 
 def pandasdatafeed(datapath):
-    # args = parse_args()
-    #
-    # # Simulate the header row isn't there if noheaders requested
-    # skiprows = 1 if args.noheaders else 0
-    # header = None if args.noheaders else 0
-    # datapath = args.data
+    # args = datafeed_parse_args()
+    args = parse_args()
 
-    # import os
-    #
-    # cwd = os.getcwd()  # Get the current working directory (cwd)
-    # files = os.listdir(cwd)  # Get all the files in that directory
-    # print("Files in '%s': %s" % (cwd, files))
+    # Simulate the header row isn't there if noheaders requested
+    skiprows = 1 if args.noheaders else 0
+    header = None if args.noheaders else 0
 
     dataframe = pandas.read_csv(datapath,
                                 # skiprows=skiprows,
@@ -35,26 +30,9 @@ def pandasdatafeed(datapath):
     dataframe = dataframe.loc[:, data_cols]
     dataframe = dataframe.rename(columns={"real_volume": "volume"})
 
-    return dataframe
+    if not args.noprint:
+        print('--------------------------------------------------')
+        print(dataframe)
+        print('--------------------------------------------------')
 
-# def parse_args(pargs=None):
-#
-#     parser = argparse.ArgumentParser(
-#         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
-#         description='Pandas test script')
-#
-#     parser.add_argument('--noheaders', action='store_true', default=False,
-#                         required=False,
-#                         help='Do not use header rows')
-#
-#     parser.add_argument('--noprint', action='store_true', default=False,
-#                         help='Print the dataframe')
-#
-#     parser.add_argument('--data', required=False,
-#                         default=r'../resources/WIN$N_15M.csv',
-#                         help='Data to be read in')
-#
-#     if pargs is not None:
-#         return parser.parse_args(pargs)
-#
-#     return parser.parse_args()
+    return dataframe
