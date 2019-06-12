@@ -27,3 +27,14 @@ class TestStrategy(bt.Strategy):
     def next(self):
         # Simply log the closing price of the series from the reference
         self.log('Close, %.2f' % self.dataclose[0])
+
+class RSIStrategy(bt.Strategy):
+    params = (('period_rsi', 20),
+              ('threshold_Buy', 10),
+              ('threshold_Sell', 90),)
+
+    def __init__(self):
+        self.rsi = bt.indicators.RelativeStrengthIndex(period=self.p.period_rsi)
+        self.atr = bt.indicators.AverageTrueRange()
+
+    def next(self):

@@ -17,8 +17,8 @@ def runstrat(args=None):
     args = parse_args(args)
 
     # Create a cerebro entity
-    # cerebro = bt.Cerebro()
-    cerebro = bt.Cerebro(stdstats=False)
+    cerebro = bt.Cerebro()
+    # cerebro = bt.Cerebro(stdstats=False)
 
     # Add a strategy
     cerebro.addstrategy(TestStrategy)

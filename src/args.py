@@ -27,7 +27,7 @@ def parse_args(pargs=None):
 
     # Data Feed
     parser.add_argument('--data', required=False,
-                        default='../resources/WIN$N_15M.csv',
+                        default='../samples/WIN$N_15M.csv',
                         help='Specific data to be read in')
 
     parser.add_argument('--fromdate', required=False, #default=None,
@@ -57,6 +57,19 @@ def parse_args(pargs=None):
     parser.add_argument('--exitsignal', required=False, action='store',
                         default=None, choices=EXITSIGNALS,
                         help='Signal type to use for the exit signal')
+
+    # Cerebro
+    parser.add_argument('--cerebro', required=False, default='',
+                        metavar='kwargs', help='kwargs in key=value format')
+
+    parser.add_argument('--broker', required=False, default='',
+                        metavar='kwargs', help='kwargs in key=value format')
+
+    parser.add_argument('--sizer', required=False, default='',
+                        metavar='kwargs', help='kwargs in key=value format')
+
+    parser.add_argument('--strat', required=False, default='',
+                        metavar='kwargs', help='kwargs in key=value format')
 
     # Plot options
     parser.add_argument('--plot', '-p', nargs='?', required=False,
