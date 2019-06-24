@@ -10,6 +10,7 @@ import backtrader as bt  # Import the backtrader platform
 
 from datafeed import pandasdatafeed
 from strategies import TestStrategy
+from strategies import MainStrategy
 from args import parse_args
 
 
@@ -19,9 +20,11 @@ def runstrat(args=None):
     # Create a cerebro entity
     cerebro = bt.Cerebro()
     # cerebro = bt.Cerebro(stdstats=False)
+    # cerebro = bt.Cerebro(tradehistory=True)
 
     # Add a strategy
-    cerebro.addstrategy(TestStrategy)
+    # cerebro.addstrategy(TestStrategy)
+    cerebro.addstrategy(MainStrategy)
 
     # Get a pandas dataframe
     datapath = args.data
@@ -44,7 +47,14 @@ def runstrat(args=None):
     cerebro.run()
 
     # Plot the result
-    cerebro.plot(style='bar')
+    # cerebro.plot(style='bar')
+    if args.plot:
+        pkwargs = dict(style='bar')
+        if args.plot is not True:  # evals to True but is not True
+            npkwargs = eval('dict(' + args.plot + ')')  # args were passed
+            pkwargs.update(npkwargs)
+        cerebro.plot(**pkwargs)
+
 
     # Print out the final result
     print('Final Portfolio Value: %.2f' % cerebro.broker.getvalue())

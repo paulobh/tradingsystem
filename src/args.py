@@ -35,7 +35,8 @@ def parse_args(pargs=None):
                         help='Starting date in YYYY-MM-DD format')
 
     parser.add_argument('--todate', required=False, #default=None,
-                        default=datetime.datetime(2012, 10, 1),
+                        # default=datetime.datetime(2012, 10, 1),
+                        default=datetime.datetime(2012, 8, 1),
                         help='Ending date in YYYY-MM-DD format')
 
     parser.add_argument('--noheaders', action='store_true', default=False,
@@ -47,7 +48,7 @@ def parse_args(pargs=None):
 
     # Strategy
     parser.add_argument('--cash', required=False, action='store',
-                        type=float, default=42000,
+                        type=float, default=1000000,
                         help='Cash to start with')
 
     parser.add_argument('--signal', required=False, action='store',
@@ -57,6 +58,21 @@ def parse_args(pargs=None):
     parser.add_argument('--exitsignal', required=False, action='store',
                         default=None, choices=EXITSIGNALS,
                         help='Signal type to use for the exit signal')
+
+    parser.add_argument('--exitperiod', required=False, action='store',
+                        type=int, default=20,
+                        help=('Period for the exit control ATR'))
+
+    # pgroup = parser.add_mutually_exclusive_group(required=True)
+    #
+    # pgroup.add_argument('--target-size', required=False, action='store_true',
+    #                     help=('Use order_target_size'))
+    #
+    # pgroup.add_argument('--target-value', required=False, action='store_true',
+    #                     help=('Use order_target_value'))
+    #
+    # pgroup.add_argument('--target-percent', required=False, action='store_true',
+    #                     help=('Use order_target_percent'))
 
     # Cerebro
     parser.add_argument('--cerebro', required=False, default='',
@@ -72,7 +88,7 @@ def parse_args(pargs=None):
                         metavar='kwargs', help='kwargs in key=value format')
 
     # Plot options
-    parser.add_argument('--plot', '-p', nargs='?', required=False,
+    parser.add_argument('--plot', '-p', nargs='?', required=False, default=True,
                         metavar='kwargs', const=True,
                         help=('Plot the read data applying any kwargs passed\n'
                               '\n'
