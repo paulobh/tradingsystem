@@ -40,6 +40,9 @@ def runstrat(args=None):
     # cerebro.broker.setcash(100000.0)
     cerebro.broker.setcash(args.cash)
 
+    # Add a FixedSize sizer according to the stake
+    cerebro.addsizer(bt.sizers.FixedSize, stake=1)
+
     # Print out the starting conditions
     print('Starting Portfolio Value: %.2f' % cerebro.broker.getvalue())
 
