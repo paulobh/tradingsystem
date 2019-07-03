@@ -311,13 +311,13 @@ class MainStrategy(bt.Strategy):
                self.dataclose[0])
               )
 
-        print('Datetime: %s, ATR: %.2f, RSI: %.2f, RSI_buy: %.2f, RSI_sell: %.2f' %
-              (self.data.datetime.datetime(0),
-               self.atr.lines.signal[0],
-               self.rsi.lines.signal[0],
-               self.rsi.lines.signal_buy[0],
-               self.rsi.lines.signal_sell[0])
-              )
+        # print('Datetime: %s, ATR: %.2f, RSI: %.2f, RSI_buy: %.2f, RSI_sell: %.2f' %
+        #       (self.data.datetime.datetime(0),
+        #        self.atr.lines.signal[0],
+        #        self.rsi.lines.signal[0],
+        #        self.rsi.lines.signal_buy[0],
+        #        self.rsi.lines.signal_sell[0])
+        #       )
 
         # Check if an order is in Pending state, if yes, we cannot send a 2nd one
         if self.order:
@@ -329,10 +329,14 @@ class MainStrategy(bt.Strategy):
         # if not self.position:
             if self.rsi.lines.signal_buy[0] > 0:
                 pstop = self.atr.lines.signal_stopbuy[0]
-                # pprof = self.dataclose[0] + self.rsi.params.target
+                pprof = self.dataclose[0] + self.rsi.params.target
+
                 self.price_at_signal = self.dataclose[0]
 
                 self.buy()
+                # orders = self.buy(price=None,oargs=dict(exectype=bt.Order.Market,valid=datetime.timedelta(self.params.limdays)),
+                #                   stopprice=pstop, stopargs=dict(exectype=bt.Order.Limit),
+                #                   limitprice=pprof, limitargs=dict(exectype=bt.Order.Limit),)
                 # order = self.buy(valid=datetime.timedelta(self.params.limdays))
                 self.trades += 1
 
@@ -402,21 +406,149 @@ class MainStrategy(bt.Strategy):
             else:
                 self.log("Nothing, wait.")
 
-        # if there is an existing position already, then we have to close it if:
-        # elif self.position:
 
-            # if (len(self) - self.holdstart) >= self.params.hold:
-            #     self.close()
+class MainStrategy2(bt.Strategy):
+    args = parse_args()
 
-            # pclose = self.data.close[0]
-            # pstop = self.pstop
-            #
-            # if self.position.size() > 0:
-            #
-            #
-            # if pclose < pstop:
-            #     self.close()  # stop met - get out
+    params = (('plot_entry', True),
+              ('plot_exit', True),
+              ('limdays', 1),   #limit of days of alive orders
+              )
+
+    def log(self, txt, dt=None):
+        """Logging function for this strategy"""
+        dt = dt or self.datas[0].datetime.datetime(0)
+        print('%s, %s' % (dt.isoformat(), txt))
+
+    def __init__(self):
+
+        # To keep track of pending orders and buy price / commission.
+        self.order = None
+
+        # Keep a reference to the OHLC line in the data[0] dataseries
+        self.dataopen = self.datas[0].open
+        self.datahigh = self.datas[0].high
+        self.datalow = self.datas[0].low
+        self.dataclose = self.datas[0].close
+
+        self.atr = ATRSignal()
+        self.rsi = RSISignal()
+
+        self.orefs = list()
+
+    def notify_trade(self, trade):
+        """Receives a trade whenever there has been a change in one"""
+        if not trade.isclosed:
+            return
+
+        self.log('OPERATION PROFIT, REF: %s, PRICE: %.2f, GROSS %.2f' %
+                 (trade.ref,
+                  trade.price,
+                  trade.pnl,
+                  ))
+
+    def notify_order(self, order):
+        """Receives an order whenever there has been a change in one"""
+        # print('{}: Order ref: {} / Type {} / Status {}'.format(
+        #     self.data.datetime.date(0),
+        #     order.ref,
+        #     'Buy' * order.isbuy() or 'Sell',
+        #     order.getstatusname()))
+
+        # Check whether an order has enought Margin to call or was Rejected by the Broker
+        if order.status in [order.Margin, order.Rejected]:
+            self.log('REJECTED ORDER. Type: %s, REF: %s, PRICE: %.2f, SIZE: %.2f' %
+                     (order.getstatusname(),
+                      order.ref,
+                      order.executed.price,
+                      order.executed.size,
+                      ))
+
+        # Check whether an order is Submitted or Accepted by the Broker
+        if order.status in [order.Submitted, order.Accepted]:
+            # Order accepted by the broker. Do nothing.
+            # self.log('ACCEPTED ORDER. STATUS: %s, Type: %s, REF: %s, PRICE: %.2f, SIZE: %.2f' %
+            #          (order.getstatusname(),
+            #           'Buy' * order.isbuy() or 'Sell',
+            #           order.ref,
+            #           order.executed.price,
+            #           order.executed.size,
+            #           ))
+            return
+
+        elif order.status in [order.Cancelled]:
+            self.log('CANCEL ORDER. STATUS: %s, Type: %s, REF: %s, PRICE: %.2f, SIZE: %.2f' %
+                     (order.getstatusname(),
+                      'Buy' * order.isbuy() or 'Sell',
+                      order.ref,
+                      order.executed.price,
+                      order.executed.size,
+                      ))
+
+        # Check if an order is completed
+        elif order.status in [order.Completed]:
+            self.log("COMPLETED ORDER. STATUS: %s, Type: %s, REF: %s, PRICE : %.3f, SIZE : %.2f" %
+                     (order.getstatusname(),
+                      'Buy' * order.isbuy() or 'Sell',
+                      order.ref,
+                      order.executed.price,
+                      order.executed.size,
+                      ))
+
+        # if not order.alive():
+        #     self.order = None  # indicate no order is pending
+        if not order.alive() and order.ref in self.orefs:
+            self.orefs.remove(order.ref)
+
+    def next(self):
+        """Simply log the closing price of the series from the reference"""
+
+        print('Datetime: %s, Open: %.2f, High: %.2f, Low: %.2f, Close: %.2f' %
+              (self.data.datetime.datetime(0),
+               self.dataopen[0],
+               self.datahigh[0],
+               self.datalow[0],
+               self.dataclose[0])
+              )
+
+        # Check if an order is in Pending state, if yes, we cannot send a 2nd one
+        # if self.order:
+        #     print('An order already in Pending state:')
+        #     return
+        if self.orefs:
+            print('An order already in Pending state:')
+            return  # pending orders do nothing
+
+        # Check whether we have an open position already, if no, then we can enter a new position by entering a trade
+        if not self.position:
+            valid = datetime.timedelta(self.params.limdays)
+            if self.rsi.lines.signal_buy[0] > 0:
+                stop_loss = self.atr.lines.signal_stopbuy[0]
+                take_profit = self.dataclose[0] + self.rsi.params.target
+
+                os = self.buy_bracket(price=None, valid=valid,
+                                      stopprice=stop_loss, stopargs=dict(valid=valid),
+                                      limitprice=take_profit, limitargs=dict(valid=valid),
+                                      )
+                self.orefs = [o.ref for o in os]
+
+            elif self.rsi.lines.signal_sell[0] > 0:
+                stop_loss = self.atr.lines.signal_stopsell[0]
+                take_profit = self.dataclose[0] - self.rsi.params.target
+
+                os = self.sell_bracket(price=None, valid=valid,
+                                       stopprice=stop_loss, stopargs=dict(valid=valid),
+                                       limitprice=take_profit, limitargs=dict(valid=valid),
+                                       )
+                self.orefs = [o.ref for o in os]
+
+                self.log('Signal, Close: %.2f, Stop: %.2f, Profit: %.2f, ATR: %.2f, RSI Signal: %.2f' %
+                         (self.dataclose[0],
+                          stop_loss,
+                          take_profit,
+                          self.atr.lines.signal[0],
+                          self.rsi.lines.signal[0])
+                         )
+
             # else:
-            #     self.pdist = self.atr[0]
-            #     # Update only if greater than
-            #     self.pstop = max(pstop, pclose - self.pdist)
+            #     self.log("Nothing, wait.")

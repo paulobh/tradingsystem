@@ -11,6 +11,7 @@ import backtrader as bt  # Import the backtrader platform
 from datafeed import pandasdatafeed
 from strategies import TestStrategy
 from strategies import MainStrategy
+from strategies import MainStrategy2
 from args import parse_args
 
 
@@ -24,7 +25,8 @@ def runstrat(args=None):
 
     # Add a strategy
     # cerebro.addstrategy(TestStrategy)
-    cerebro.addstrategy(MainStrategy)
+    # cerebro.addstrategy(MainStrategy)
+    cerebro.addstrategy(MainStrategy2)
 
     # Get a pandas dataframe
     datapath = args.data
