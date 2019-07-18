@@ -27,26 +27,35 @@ EXITSIGNALS = {
 class ATRSignal(bt.Indicator):
     args = parse_args()
 
-    lines = (('signal'),
+    lines = (('atr'),
+             ('signal'),
              ('signal_stopbuy'),
              ('signal_stopsell'),
+             ('signal_takeprofit'),
+             ('signal_profit_buy'),
+             ('signal_profit_sell'),
              )
     params = (('period_atr', 20),
               ('atrdist', 1.5),  # ATR distance for stop price
+              ('atrprofit', 1.5),  # ATR ratio for takeprofit
               )
     plotinfo = dict(subplot=False)
 
     def __init__(self):
-        self.atr = bt.indicators.AverageTrueRange(period=self.params.period_atr) * self.params.atrdist // 1
-        self.lines.signal = self.atr
-        self.lines.signal_stopbuy = self.data - self.atr
-        self.lines.signal_stopsell = self.data + self.atr
+        self.atr = bt.indicators.AverageTrueRange(period=self.params.period_atr)
+        self.lines.signal = self.atr * self.params.atrdist // 1
+        self.lines.signal_stopbuy = self.data - self.lines.signal
+        self.lines.signal_stopsell = self.data + self.lines.signal
+        self.lines.signal_takeprofit = self.lines.signal * self.params.atrprofit // 1
+        self.lines.signal_profit_buy = self.data + self.lines.signal_takeprofit
+        self.lines.signal_profit_sell = self.data - self.lines.signal_takeprofit
 
 
 class RSISignal(bt.Indicator):
     args = parse_args()
 
-    lines = (('signal'),
+    lines = (('rsi'),
+             ('signal'),
              ('signal_buy'),
              ('signal_sell'),
              )
@@ -63,7 +72,7 @@ class RSISignal(bt.Indicator):
         self.threshold_buy = self.params.threshold_buy
         self.threshold_sell = self.params.threshold_sell
 
-        self.lines.signal = self.rsi
+        self.lines.rsi = self.rsi
         self.lines.signal_buy = self.threshold_buy - self.rsi
         self.lines.signal_sell = self.rsi - self.threshold_sell
         # self.lines.signal_buy = self.rsi < self.threshold_buy
@@ -76,6 +85,35 @@ class RSISignal(bt.Indicator):
         # to show date/time progress
         # self.trace = 0
 
+    def next(self):
+        if self.lines.signal_buy > 0:
+            self.lines.signal[0] = 100
+        elif self.lines.signal_sell > 0:
+            self.lines.signal[0] = -100
+        else:
+            self.lines.signal[0] = 0.0
+
+
+class TIMESignal(bt.Indicator):
+    args = parse_args()
+
+    lines = (('signal'),)
+
+    params = (('time_start', [10, 0]),
+              ('time_stop', [16, 45]),
+              )
+
+    def __init__(self):
+        # self.time = self.datas[0].datetime
+        self.time_stop = datetime.time(self.params.time_stop[0], self.params.time_stop[1])
+        self.time_start = datetime.time(self.params.time_start[0], self.params.time_start[1])
+
+    def next(self):
+        if (self.data.datetime.time() > self.time_start) & (self.data.datetime.time() < self.time_stop):
+            self.lines.signal[0] = 1
+        else:
+            self.lines.signal[0] = 0
+
 
 # Create a Stratey
 class TestStrategy(bt.Strategy):
@@ -87,8 +125,9 @@ class TestStrategy(bt.Strategy):
         print('%s, %s' % (dt.isoformat(), txt))
 
     def __init__(self):
-        self.atr = ATRSignal()
-        self.rsi = RSISignal()
+        # self.atr = ATRSignal()
+        # self.rsi = RSISignal()
+        self.time_signal = TIMESignal()
         # Keep a reference to the OHLC line in the data[0] dataseries
         self.dataopen = self.datas[0].open
         self.datahigh = self.datas[0].high
@@ -108,12 +147,12 @@ class TestStrategy(bt.Strategy):
                   self.datalow[0],
                   self.dataclose[0])
                  )
-        self.log('Datetime: %s, ATR: %.2f, ATR_stopbuy: %.2f, ATR_stopsell: %.2f' %
-                 (self.data.datetime.datetime(0),
-                  self.atr.signal[0],
-                  self.atr.signal_stopbuy[0],
-                  self.atr.signal_stopsell[0])
-                 )
+        # self.log('Datetime: %s, ATR: %.2f, ATR_stopbuy: %.2f, ATR_stopsell: %.2f' %
+        #          (self.data.datetime.datetime(0),
+        #           self.atr.signal[0],
+        #           self.atr.signal_stopbuy[0],
+        #           self.atr.signal_stopsell[0])
+        #          )
 
 
 class MainStrategy(bt.Strategy):
@@ -433,6 +472,7 @@ class MainStrategy2(bt.Strategy):
 
         self.atr = ATRSignal()
         self.rsi = RSISignal()
+        self.time_signal = TIMESignal()
 
         self.orefs = list()
 
@@ -524,7 +564,8 @@ class MainStrategy2(bt.Strategy):
             valid = datetime.timedelta(self.params.limdays)
             if self.rsi.lines.signal_buy[0] > 0:
                 stop_loss = self.atr.lines.signal_stopbuy[0]
-                take_profit = self.dataclose[0] + self.rsi.params.target
+                take_profit = self.atr.lines.signal_profit_buy[0]
+                # take_profit = self.dataclose[0] + self.rsi.params.target
 
                 os = self.buy_bracket(price=None, valid=valid,
                                       stopprice=stop_loss, stopargs=dict(valid=valid),
@@ -534,7 +575,8 @@ class MainStrategy2(bt.Strategy):
 
             elif self.rsi.lines.signal_sell[0] > 0:
                 stop_loss = self.atr.lines.signal_stopsell[0]
-                take_profit = self.dataclose[0] - self.rsi.params.target
+                take_profit = self.atr.lines.signal_profit_sell[0]
+                # take_profit = self.dataclose[0] - self.rsi.params.target
 
                 os = self.sell_bracket(price=None, valid=valid,
                                        stopprice=stop_loss, stopargs=dict(valid=valid),
