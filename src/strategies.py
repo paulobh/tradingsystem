@@ -52,12 +52,95 @@ class ATRSignal(bt.Indicator):
 
 
 class RSISignal(bt.Indicator):
+    """RelativeStrengthIndex
+    Alias: RSI, RSI_SMMA, RSI_Wilder
+    Defined by J. Welles Wilder, Jr. in 1978 in his book “New Concepts in Technical Trading Systems”.
+
+    It measures momentum by calculating the ration of higher closes and lower closes after having been smoothed by an average, normalizing the result between 0 and 100
+
+    Formula:
+    up = upday(data)
+    down = downday(data)
+    maup = movingaverage(up, period)
+    madown = movingaverage(down, period)
+    rs = maup / madown
+
+    rsi = 100 - 100 / (1 + rs)
+
+    The moving average used is the one originally defined by Wilder, the SmoothedMovingAverage
+
+    See: http://en.wikipedia.org/wiki/Relative_strength_index
+
+    #Notes:
+    safediv (default: False) If this parameter is True the division rs = maup / madown will be checked for the special cases in which a 0 / 0 or x / 0 division will happen
+    safehigh (default: 100.0) will be used as RSI value for the x / 0 case
+    safelow (default: 50.0) will be used as RSI value for the 0 / 0 case
+
+    #Lines:
+    rsi
+
+    #Params:
+    period (14)
+    movav (SmoothedMovingAverage)
+    upperband (70.0)
+    lowerband (30.0)
+    safediv (False)
+    safehigh (100.0)
+    safelow (50.0)
+    lookback (1)
+
+    #PlotInfo:
+    plot (True)
+    plotmaster (None)
+    legendloc (None)
+    subplot (True)
+    plotname ()
+    plotskip (False)
+    plotabove (False)
+    plotlinelabels (False)
+    plotlinevalues (True)
+    plotvaluetags (True)
+    plotymargin (0.0)
+    plotyhlines ([])
+    plotyticks ([])
+    plothlines ([])
+    plotforce (False)
+
+    #PlotLines:
+    rsi:
+
+    #Signal
+    Lines:
+
+    signal
+    PlotInfo:
+
+    plot (True)
+    plotmaster (None)
+    legendloc (None)
+    subplot (True)
+    plotname ()
+    plotskip (False)
+    plotabove (False)
+    plotlinelabels (False)
+    plotlinevalues (True)
+    plotvaluetags (True)
+    plotymargin (0.0)
+    plotyhlines ([])
+    plotyticks ([])
+    plothlines ([])
+    plotforce (False)
+
+    PlotLines:
+    signal:
+
+    """
     args = parse_args()
 
     lines = (('rsi'),
              ('signal'),
-             ('signal_buy'),
-             ('signal_sell'),
+             # ('signal_buy'),
+             # ('signal_sell'),
              )
     params = (('period_rsi', 20),
               ('threshold_buy', 30),
@@ -73,22 +156,98 @@ class RSISignal(bt.Indicator):
         self.threshold_sell = self.params.threshold_sell
 
         self.lines.rsi = self.rsi
-        self.lines.signal_buy = self.threshold_buy - self.rsi
-        self.lines.signal_sell = self.rsi - self.threshold_sell
-        # self.lines.signal_buy = self.rsi < self.threshold_buy
-        # self.lines.signal_sell = self.rsi > self.threshold_sell
-
-        # plot indicators
-        # bt.LinePlotterIndicator(self.threshold_buy*1, name='upband', subplot=False)
-        # bt.LinePlotterIndicator(self.threshold_sell*1, name='downband', subplot=False)
+        # self.lines.signal_buy = self.threshold_buy - self.rsi
+        # self.lines.signal_sell = self.rsi - self.threshold_sell
 
         # to show date/time progress
         # self.trace = 0
 
     def next(self):
-        if self.lines.signal_buy > 0:
+        # if (self.threshold_buy - self.rsi[0]) > 0:
+        if self.rsi[0] < self.threshold_buy:
             self.lines.signal[0] = 100
-        elif self.lines.signal_sell > 0:
+        # elif (self.rsi[0] - self.threshold_sell) > 0:
+        elif self.rsi[0] > self.threshold_sell:
+            self.lines.signal[0] = -100
+        else:
+            self.lines.signal[0] = 0.0
+
+
+class WillRSignal(bt.Indicator):
+    """WilliamsR
+    Developed by Larry Williams to show the relation of closing prices to the highest-lowest range of a given period.
+
+    Known as Williams %R (but % is not allowed in Python identifiers)
+
+    Formula:
+    num = highest_period - close
+    den = highestg_period - lowest_period
+    percR = (num / den) * -100.0
+
+    See:
+
+    http://en.wikipedia.org/wiki/Williams_%25R
+
+    Lines:
+    percR
+
+    Params:
+    period (14)
+    upperband (-20.0)
+    lowerband (-80.0)
+
+    PlotInfo:
+    plot (True)
+    plotmaster (None)
+    legendloc (None)
+    subplot (True)
+    plotname (Williams R%)
+    plotskip (False)
+    plotabove (False)
+    plotlinelabels (False)
+    plotlinevalues (True)
+    plotvaluetags (True)
+    plotymargin (0.0)
+    plotyhlines ([])
+    plotyticks ([])
+    plothlines ([])
+    plotforce (False)
+
+    PlotLines:
+    percR:
+
+    _name (R%)
+
+    """
+    args = parse_args()
+
+    lines = (('willr'),
+             ('signal'),
+             # ('signal_buy'),
+             # ('signal_sell'),
+             )
+    params = (('period_willr', 3),
+              ('threshold_upper', -20),
+              ('threshold_lower', -80),
+              # ('target', 400),
+              )
+    # plotinfo = dict(subplot=False)
+
+    def __init__(self):
+        self.willr = bt.indicators.WilliamsR(period=self.params.period_willr,
+                                             upperband=self.params.threshold_upper,
+                                             lowerband=self.params.threshold_lower)
+        self.lines.willr = self.willr
+        self.threshold_buy = self.params.threshold_lower
+        self.threshold_sell = self.params.threshold_upper
+
+        # to show date/time progress
+        # self.trace = 0
+
+    def next(self):
+        if self.lines.willr > self.threshold_buy:
+            self.lines.signal[0] = 100
+        elif self.lines.willr < self.threshold_sell:
             self.lines.signal[0] = -100
         else:
             self.lines.signal[0] = 0.0
@@ -192,6 +351,7 @@ class MainStrategy(bt.Strategy):
 
         self.atr = ATRSignal()
         self.rsi = RSISignal()
+        self.willr = WillRSignal()
 
         self.price_at_signal = 0
         self.trades = 0
@@ -366,7 +526,8 @@ class MainStrategy(bt.Strategy):
         # Check whether we have an open position already, if no, then we can enter a new position by entering a trade
         if self.position.size == 0:
         # if not self.position:
-            if self.rsi.lines.signal_buy[0] > 0:
+        #     if self.rsi.lines.signal_buy[0] > 0:
+            if self.rsi.lines.signal[0] > 0:
                 pstop = self.atr.lines.signal_stopbuy[0]
                 pprof = self.dataclose[0] + self.rsi.params.target
 
@@ -406,7 +567,8 @@ class MainStrategy(bt.Strategy):
                           self.rsi.lines.signal[0])
                          )
 
-            elif self.rsi.lines.signal_sell[0] > 0:
+            # elif self.rsi.lines.signal_sell[0] > 0:
+            elif self.rsi.lines.signal[0] > 0:
                 pstop = self.atr.lines.signal_stopsell[0]
                 # pprof = self.dataclose[0] + self.rsi.params.target
                 self.price_at_signal = self.dataclose[0]
@@ -472,6 +634,7 @@ class MainStrategy2(bt.Strategy):
 
         self.atr = ATRSignal()
         self.rsi = RSISignal()
+        self.willr = WillRSignal()
         self.time_signal = TIMESignal()
 
         self.orefs = list()
@@ -562,7 +725,12 @@ class MainStrategy2(bt.Strategy):
         # Check whether we have an open position already, if no, then we can enter a new position by entering a trade
         if not self.position:
             valid = datetime.timedelta(self.params.limdays)
-            if self.rsi.lines.signal_buy[0] > 0:
+
+            if self.time_signal.signal[0] == 0:
+                print('Out of schedule time of operation')
+
+            # elif self.rsi.lines.signal_buy[0] > 0:
+            elif self.rsi.lines.signal[0] > 0:
                 stop_loss = self.atr.lines.signal_stopbuy[0]
                 take_profit = self.atr.lines.signal_profit_buy[0]
                 # take_profit = self.dataclose[0] + self.rsi.params.target
@@ -573,7 +741,8 @@ class MainStrategy2(bt.Strategy):
                                       )
                 self.orefs = [o.ref for o in os]
 
-            elif self.rsi.lines.signal_sell[0] > 0:
+            # elif self.rsi.lines.signal_sell[0] > 0:
+            elif self.rsi.lines.signal[0] < 0:
                 stop_loss = self.atr.lines.signal_stopsell[0]
                 take_profit = self.atr.lines.signal_profit_sell[0]
                 # take_profit = self.dataclose[0] - self.rsi.params.target
@@ -594,3 +763,10 @@ class MainStrategy2(bt.Strategy):
 
             # else:
             #     self.log("Nothing, wait.")
+
+        elif self.position:
+            if self.time_signal.signal[0] == 0:
+                print('Out of schedule time of operation, closing operation')
+                self.close()
+
+
