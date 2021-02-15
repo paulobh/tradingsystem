@@ -83,22 +83,30 @@ def test_split_dates_dfs():
 
 
 def test_process_files():
-    expected_filenames = [
-        "data/WIN$N_1M_2015.12.30_2015.08.12.csv",
-        "./data/WIN$N_1M_2020.08.21_2019.11.21.csv"]
-    output = data.process_files(expected_filenames)
-    assert isinstance(output, list)
-    assert isinstance(output[0], pandas.DataFrame)
-    assert len(output) == 2
+    # expected_filenames = [
+    #     "data/old/WIN$N_1M_2015.12.30_2015.08.12.csv",
+    #     "./data/old/WIN$N_1M_2020.08.21_2019.11.21.csv"]
+    # output = data.process_files(expected_filenames)
+    # assert isinstance(output, list)
+    # assert isinstance(output[0], pandas.DataFrame)
+    # assert len(output) == 2
+
+    # expected_filenames = [
+    #     "./data/WIN$N_1M_2015.12.30_2015.08.12.csv",
+    #     "./data/WIN$N_1M_2020.08.21_2019.11.21.csv",
+    #     "./data/WIN$N_1M_2021.01.20_2020.04.24.csv"]
+    # output = data.process_files(expected_filenames)
+    # assert isinstance(output, list)
+    # assert isinstance(output[0], pandas.DataFrame)
+    # assert len(output) == 2
 
     expected_filenames = [
-        "./data/WIN$N_1M_2015.12.30_2015.08.12.csv",
-        "./data/WIN$N_1M_2020.08.21_2019.11.21.csv",
-        "./data/WIN$N_1M_2021.01.20_2020.04.24.csv"]
+        "./data/old/WIN$N_10M_2020.08.21_2015.08.12.csv",
+        "./data/old/WIN$N_10M_2021.01.22_2015.12.16.csv"]
     output = data.process_files(expected_filenames)
     assert isinstance(output, list)
     assert isinstance(output[0], pandas.DataFrame)
-    assert len(output) == 2
+    assert len(output) == 1
 
 
 # @patch.object(pandas.DataFrame, "to_csv")

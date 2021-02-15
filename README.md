@@ -117,6 +117,9 @@ cd
 echo alias ll=\'ls -l\' >> .bashrc
 echo alias act=\'source ./venv/Scripts/activate\' >> .bashrc
 
+git status
+git rm -rf --cached .    #Clear Entire Git Cache
+
 ```
 
 #References

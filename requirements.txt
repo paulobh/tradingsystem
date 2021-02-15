@@ -1,4 +1,5 @@
-pandas
-matplotlib
-backtrader
-pytest
+pandas>=1.2.1, <2
+backtrader>=1.9.76.123,<2
+pytest==6.2.2,<7
+matplotlib>=3.3.3,<4
+plotly>=4.14.3,<5
