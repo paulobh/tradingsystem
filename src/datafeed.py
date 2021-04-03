@@ -10,9 +10,9 @@ from args import parse_args
 # import backtrader.feeds as btfeeds
 
 
-def pandasdatafeed(datapath):
-    # args = datafeed_parse_args()
-    args = parse_args()
+def pandasdatafeed(datapath, **kwargs):
+    args = kwargs.get('args', None)
+    # args = parse_args()
 
     # Simulate the header row isn't there if noheaders requested
     skiprows = 1 if args.noheaders else 0

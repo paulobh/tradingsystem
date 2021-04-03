@@ -41,14 +41,14 @@ tradingsystem/
 
 ## How to use
 
-run on the terminal from the ``src`` directory:
-``python main/py``
+run on the terminal from main repository directory:
+``python ./src/main.py``
 
 obs: if you get the message ``ImportError: cannot import name 'warnings' from 'matplotlib.dates' `` 
 while running the program, remove the `warning` import on "backtrader/plot/locator.py"
 
 
-## How to get source file
+## How to get data source file
 
 To generate the timeseries dataset is necessary to compile the script "coletar_mini_xp.mql5" on Metatrader in order to generate the ".ex5" file and then run it.
 
@@ -58,6 +58,23 @@ In order to change the security collected you need to change the variable `nome_
 ``
 string nome_ativo= "WIN$N"
 ``
+
+## How to configure
+
+1. Create a Strategy.
+   * Decide on potential adjustable parameters.
+   * Instantiate the Indicators you need in the Strategy
+   * Write down the logic for entering/exiting the market
+   * Or alternatively:
+      * Prepare some indicators to work as long/short signals
+   
+2. Create a `Cerebro` Engine.
+   * First: Inject the `Strategy` (or signal-based strategy)
+   
+   And then:
+   * Load and Inject a Data Feed (once created use `cerebro.adddata`)
+   * And execute `cerebro.run()`
+   * For visual feedback use: `cerebro.plot()`
 
 
 ## Args
@@ -83,24 +100,8 @@ Along the parameters there is the ones relates with:
     - `--plot`  Plot the read data applying any kwargs passed
         - `--plot style="candle"` to plot candles
 
-## Setup enviroment
-
-Using bash:
-```
-python3 -m pip install --upgrade pip
-pip3 install virtualenv
-pip3 install --upgrade setuptools
-
-virtualenv -p ./venv venv
-python -m venv venv
-
-deactivate
-conda deactivate
-
-source ./venv/Scripts/activate
-./venv/Scripts/activate
-```
-
+## How to Install/ Setup enviroment
+python
 ```
 where python
 which python3
@@ -108,18 +109,52 @@ python --version
 python -V
 ```
 
-### Useful Commands
+venv
 ```
-rm -r venv # remove directory
+python3 -m pip install --upgrade pip
+pip3 install virtualenv
+pip3 install --upgrade setuptools
 
-#create alias on bash
+python -m venv ./venv
+# or 
+"C:\Users\<username>\AppData\Local\Programs\Python\Python39\python.exe" -m venv ./venv
+# or 
+virtualenv -p ./venv venv
+
+deactivate
+conda deactivate
+
+source ./venv/Scripts/activate
+# or
+./venv/Scripts/activate
+
+pip3 install -r requirements.txt
+ 
+rm -r venv # remove directory
+```
+
+
+
+backtrader
+```
+pip install backtrader
+# or
+pip install backtrader[plotting]
+```
+
+
+### Useful Commands
+
+git
+```
+git status
+git rm -rf --cached .    #Clear Entire Git Cache
+```
+create alias on bash
+```
 cd
 echo alias ll=\'ls -l\' >> .bashrc
 echo alias act=\'source ./venv/Scripts/activate\' >> .bashrc
-
-git status
-git rm -rf --cached .    #Clear Entire Git Cache
-
 ```
 
 #References

@@ -1,9 +1,7 @@
 import os
 import pandas
-import pytest
 
-from src import data
-from unittest.mock import patch
+from data.analysis import data
 
 os.chdir('..')
 

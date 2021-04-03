@@ -3,7 +3,7 @@
 import pandas
 # import datetime
 
-from .context import data_analysis as da
+from data.analysis import data_analysis as da
 
 
 def test_list_data_files():
