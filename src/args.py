@@ -34,13 +34,15 @@ def parse_args(pargs=None):
                         help='Starting date in YYYY-MM-DD format')
     parser.add_argument('--todate', required=False, #default=None,
                         # default=datetime.datetime(2012, 10, 1),
-                        default=datetime.datetime(2020, 11, 18),
+                        default=datetime.datetime(2020, 11, 25),
                         help='Ending date in YYYY-MM-DD format')
     parser.add_argument('--noheaders', action='store_true', default=False,
                         required=False,
                         help='Do not use header rows')
     parser.add_argument('--noprint', action='store_true', default=False,
                         help='Print the dataframe')
+    parser.add_argument('--writercsv', '-wcsv', action='store_true',
+                        help='Tell the writer to produce a csv stream')
 
     # Strategy
     parser.add_argument('--cash', required=False, action='store',

@@ -164,3 +164,9 @@ echo alias act=\'source ./venv/Scripts/activate\' >> .bashrc
 [Backtrader Github](https://github.com/mementum/backtrader)
 
 [Metatrader Docs.](https://www.mql5.com/pt/docs)
+
+[Backtrader for Backtesting (Python) – A Complete Guide](https://algotrading101.com/learn/backtrader-for-backtesting/)
+
+[What is a Walk-Forward Optimization and How to Run It?](https://algotrading101.com/learn/walk-forward-optimization/)
+
+[What is Overfitting in Trading?](https://algotrading101.com/learn/what-is-overfitting-in-trading/)

@@ -1,8 +1,8 @@
 {
   "RSISignal": {
-    "period_rsi": [10, 50],
-    "threshold_buy": [10, 40],
-    "threshold_sell": [60, 90]
+    "period_rsi": [10, 50, 5],
+    "threshold_buy": [10, 40, 5],
+    "threshold_sell": [60, 90, 5]
   },
   "ATRSignal": {
     "period_atr": [10, 50],
@@ -16,7 +16,7 @@
   },
   "TIMESignal": {
     "time_start": [9, 0],
-    "time_stop": [18, 15]
+    "time_stop": [18, 0]
   },
   "SMASignal": {
     "period_sma": [20, 30]

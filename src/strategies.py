@@ -8,10 +8,10 @@ import numpy
 
 # Import the backtrader platform
 import backtrader as bt
+import quantstats
 
 from args import parse_args
 import signals
-from signals import ATRSignal, RSISignal, WillRSignal, TIMESignal, SMASignal
 from time import process_time
 
 
@@ -44,10 +44,10 @@ class MainStrategy(bt.Strategy):
         self.dataclose = self.datas[0].close
 
         # Add indicators signals
-        self.atr = ATRSignal()
-        self.rsi = RSISignal()
-        self.willr = WillRSignal()
-        self.time_signal = TIMESignal()
+        self.atr = signals.ATRSignal()
+        self.rsi = signals.RSISignal()
+        self.willr = signals.WillRSignal()
+        self.time_signal = signals.TIMESignal()
 
         self.orefs = list()
 
@@ -177,12 +177,13 @@ class MainStrategy(bt.Strategy):
 
 
 class OptStrategy(bt.Strategy):
-    params = (('plot_entry', True),
-              ('plot_exit', True),
-              ('limdays', 1),   #limit of days of alive orders
-              ('printlog', True),
-              # ('signal', None),
-              )
+    params = (
+        # ('plot_entry', True),
+        # ('plot_exit', True),
+        ('limdays', 1),   #limit of days of alive orders
+        # ('printlog', True),
+        # ('signal', None),
+    )
 
     def log(self, txt, dt=None, doprint=False):
         """Logging function for this strategy"""
@@ -192,12 +193,18 @@ class OptStrategy(bt.Strategy):
 
     def __init__(self, **kwargs):
         self.params_opt = kwargs
+        self.params.__dict__.update(kwargs)
         self.__dict__.update(kwargs)
         # allowed_keys = {'args', 'period_rsi', 'threshold_buy', 'threshold_sell'}
         # self.__dict__.update((k, v) for k, v in kwargs.items() if k in allowed_keys)
 
         self.tstart = process_time()
         self.initial_value = self.broker.getvalue()
+
+        # Activate the fund mode and set the default value at 100
+        self.broker.set_fundmode(fundmode=True, fundstartval=100.00)
+        self.cash_start = self.broker.get_cash()
+        self.val_start = 100.0
 
         # To keep track of pending orders and buy price / commission.
         self.order = None
@@ -211,12 +218,12 @@ class OptStrategy(bt.Strategy):
         self.dataclose = self.datas[0].close
 
         # Add indicators signals
-        self.atr = ATRSignal()
+        self.time_signal = signals.TIMESignal()
+        self.atr = signals.ATRSignal()
+        self.signal = getattr(signals, self.signal)(**kwargs)
         # self.rsi = RSISignal()
         # self.willr = WillRSignal()
-        self.time_signal = TIMESignal()
-        self.sma = SMASignal(**kwargs)
-        self.signal = getattr(signals, "SMASignal")
+        # self.sma = SMASignal(**kwargs)
 
         self.orefs = list()
 
@@ -312,8 +319,7 @@ class OptStrategy(bt.Strategy):
                 # print('Out of schedule time of operation')
                 return
 
-            # elif self.rsi.lines.signal_buy[0] > 0:
-            elif self.sma.lines.signal[0] > 0:
+            elif self.signal.lines.signal[0] > 0:
                 stop_loss = self.atr.lines.signal_stopbuy[0]
                 take_profit = self.atr.lines.signal_profit_buy[0]
 
@@ -323,7 +329,7 @@ class OptStrategy(bt.Strategy):
                                       )
                 self.orefs = [o.ref for o in os]
 
-            elif self.sma.lines.signal[0] < 0:
+            elif self.signal.lines.signal[0] < 0:
                 stop_loss = self.atr.lines.signal_stopsell[0]
                 take_profit = self.atr.lines.signal_profit_sell[0]
 
@@ -333,13 +339,16 @@ class OptStrategy(bt.Strategy):
                                        )
                 self.orefs = [o.ref for o in os]
 
-                self.log('Signal, Close: %.2f, Stop: %.2f, Profit: %.2f, ATR: %.2f, SMA Signal: %.2f, SMA value: %.2f' %
+                signal_name = [line for line in self.signal.lines.getlinealiases() if line != "signal"][0]
+
+                self.log('Signal, Close: %.2f, Stop: %.2f, Profit: %.2f, ATR: %.2f, Signal: %.2f, Indicator: %s, Value: %.2f' %
                          (self.dataclose[0],
                           stop_loss,
                           take_profit,
                           self.atr.lines.signal[0],
-                          self.sma.lines.signal[0],
-                          self.sma.lines.sma[0])
+                          self.signal.lines.signal[0],
+                          signal_name,
+                          getattr(self.signal.lines, signal_name)[0])
                          )
 
     def stop(self):
@@ -350,11 +359,20 @@ class OptStrategy(bt.Strategy):
         self.final_value = self.broker.getvalue()
         balance = self.final_value - self.initial_value
 
-        # self.log('(MA Period %2d) Ending Value %.2f' %
-                 # (self.period_sma, balance), doprint=True)
-        self.log(f'Parameters used: {self.params_opt}| '
-                 # f'Analysis: {self.analyzers.mysharpe.get_analysis()}|'
-                 f' Ending Value: {balance}', doprint=True)
+        self.roi = (self.broker.get_value() / self.cash_start) - 1.0
+        self.froi = self.broker.get_fundvalue() - self.val_start
+
+        params_pop = ['plot_entry', 'plot_exit', 'limdays', 'printlog']
+        [self.params_opt.pop(param) for param in params_pop if param in self.params_opt]
+        self.log(
+                 f'Parameters used: {self.params_opt}| '
+                 f'ROI: {100.0 * self.roi}| '
+                 f'Fund Value {self.froi}| '                 
+                 f'Ending Value: {balance}',
+
+                 doprint=True)
+
+
 
 
 class TestStrategy(bt.Strategy):
