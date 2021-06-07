@@ -178,18 +178,10 @@ class MainStrategy(bt.Strategy):
 
 class OptStrategy(bt.Strategy):
     params = (
-        # ('plot_entry', True),
-        # ('plot_exit', True),
         ('limdays', 1),   #limit of days of alive orders
-        # ('printlog', True),
+        ('printlog', True),     #very useful to debugging
         # ('signal', None),
-    )
-
-    def log(self, txt, dt=None, doprint=False):
-        """Logging function for this strategy"""
-        if self.params.printlog or doprint:
-            dt = dt or self.datas[0].datetime.datetime(0)
-            print('%s, %s' % (dt.isoformat(), txt))
+              )
 
     def __init__(self, **kwargs):
         self.params_opt = kwargs
@@ -198,13 +190,13 @@ class OptStrategy(bt.Strategy):
         # allowed_keys = {'args', 'period_rsi', 'threshold_buy', 'threshold_sell'}
         # self.__dict__.update((k, v) for k, v in kwargs.items() if k in allowed_keys)
 
-        self.tstart = process_time()
+        # self.tstart = process_time()
         self.initial_value = self.broker.getvalue()
 
         # Activate the fund mode and set the default value at 100
-        self.broker.set_fundmode(fundmode=True, fundstartval=100.00)
+        self.broker.set_fundmode(fundmode=True, fundstartval=100.0)
         self.cash_start = self.broker.get_cash()
-        self.val_start = 100.0
+        # self.val_start = 100.0
 
         # To keep track of pending orders and buy price / commission.
         self.order = None
@@ -221,11 +213,15 @@ class OptStrategy(bt.Strategy):
         self.time_signal = signals.TIMESignal()
         self.atr = signals.ATRSignal()
         self.signal = getattr(signals, self.signal)(**kwargs)
-        # self.rsi = RSISignal()
-        # self.willr = WillRSignal()
-        # self.sma = SMASignal(**kwargs)
 
         self.orefs = list()
+        self.os = list()
+
+    def log(self, txt, dt=None, doprint=False):
+        """Logging function for this strategy"""
+        if self.params.printlog or doprint:
+            dt = dt or self.datas[0].datetime.datetime(0)
+            print('%s, %s' % (dt.isoformat(), txt))
 
     def notify_trade(self, trade):
         """Receives a trade whenever there has been a change in one"""
@@ -240,11 +236,6 @@ class OptStrategy(bt.Strategy):
 
     def notify_order(self, order):
         """Receives an order whenever there has been a change in one"""
-        # print('{}: Order ref: {} / Type {} / Status {}'.format(
-        #     self.data.datetime.date(0),
-        #     order.ref,
-        #     'Buy' * order.isbuy() or 'Sell',
-        #     order.getstatusname()))
 
         # Check whether an order has enought Margin to call or was Rejected by the Broker
         if order.status in [order.Margin, order.Rejected]:
@@ -278,69 +269,86 @@ class OptStrategy(bt.Strategy):
                       order.executed.size,
                       ))
 
-        # if not order.alive():
-        #     self.order = None  # indicate no order is pending
         if not order.alive() and order.ref in self.orefs:
             self.orefs.remove(order.ref)
-            self.order = None
+            self.order = None   # indicate no order is pending
 
     def next(self):
         """Simply log the closing price of the series from the reference"""
 
-        self.log('Datetime: %s, Open: %.2f, High: %.2f, Low: %.2f, Close: %.2f' %
-        # print('Datetime: %s, Open: %.2f, High: %.2f, Low: %.2f, Close: %.2f' %
-              (self.data.datetime.datetime(0),
-               self.dataopen[0],
-               self.datahigh[0],
-               self.datalow[0],
-               self.dataclose[0])
-              )
+        # self.log('Datetime: %s, Open: %.2f, High: %.2f, Low: %.2f, Close: %.2f' %
+        #       (self.data.datetime.datetime(0),
+        #        self.dataopen[0],
+        #        self.datahigh[0],
+        #        self.datalow[0],
+        #        self.dataclose[0]))
+
+        if self.time_signal.signal[0] == 0:
+            if self.orefs:
+                self.log('Out of schedule time of operation, closing operation')
+                self.close()
+                [self.cancel(order) for order in self.os if order.ref in self.orefs]
+                self.orefs = list()
+                return
+            elif self.os:
+                self.log('Out of schedule time of operation')
+                self.cancel(self.os[0])
+                self.orefs = list()
+                return
 
         # Check if an order is in Pending state, if yes, we cannot send a 2nd one
         # if self.order:
-        #     print('An order already in Pending state:')
+        #     print('An order already in Pending state')
         #     return
-        if self.orefs:
-            # print('An order already in Pending state:')
-            self.log('An order already in Pending state:')
-            if self.time_signal.signal[0] == 0:
-                self.log('Out of schedule time of operation, closing operation')
-                # print('Out of schedule time of operation, closing operation')
-                self.close()
-                self.orefs = list()
-
-            return  # pending orders do nothing
+        elif self.orefs:
+            self.log('An order already in Pending state')
+            return
 
         # Check whether we have an open position already, if no, then we can enter a new position by entering a trade
-        if not self.position:
+        elif not self.position:
             valid = datetime.timedelta(self.params.limdays)
 
             if self.time_signal.signal[0] == 0:
-                # print('Out of schedule time of operation')
+                self.log('Out of schedule time of operation')
                 return
 
             elif self.signal.lines.signal[0] > 0:
                 stop_loss = self.atr.lines.signal_stopbuy[0]
                 take_profit = self.atr.lines.signal_profit_buy[0]
 
-                os = self.buy_bracket(price=None, valid=valid,
-                                      stopprice=stop_loss, stopargs=dict(valid=valid),
-                                      limitprice=take_profit, limitargs=dict(valid=valid),
+                self.os = self.buy_bracket(price=None,
+                                      valid=valid,
+                                      stopprice=stop_loss,
+                                      stopargs=dict(valid=valid),
+                                      limitprice=take_profit,
+                                      limitargs=dict(valid=valid),
                                       )
-                self.orefs = [o.ref for o in os]
+                self.orefs = [o.ref for o in self.os]
+                signal_name = [line for line in self.signal.lines.getlinealiases() if line != "signal"][0]
+                self.log(
+                    'Signal, Close: %.2f, Stop: %.2f, Profit: %.2f, ATR: %.2f, Signal: %.2f, Indicator: %s, Value: %.2f' %
+                    (self.dataclose[0],
+                     stop_loss,
+                     take_profit,
+                     self.atr.lines.signal[0],
+                     self.signal.lines.signal[0],
+                     signal_name,
+                     getattr(self.signal.lines, signal_name)[0])
+                    )
 
             elif self.signal.lines.signal[0] < 0:
                 stop_loss = self.atr.lines.signal_stopsell[0]
                 take_profit = self.atr.lines.signal_profit_sell[0]
 
-                os = self.sell_bracket(price=None, valid=valid,
-                                       stopprice=stop_loss, stopargs=dict(valid=valid),
-                                       limitprice=take_profit, limitargs=dict(valid=valid),
+                self.os = self.sell_bracket(price=None,
+                                       # valid=valid,
+                                       stopprice=stop_loss,
+                                       # stopargs=dict(valid=valid),
+                                       limitprice=take_profit,
+                                       # limitargs=dict(valid=valid),
                                        )
-                self.orefs = [o.ref for o in os]
-
+                self.orefs = [o.ref for o in self.os]
                 signal_name = [line for line in self.signal.lines.getlinealiases() if line != "signal"][0]
-
                 self.log('Signal, Close: %.2f, Stop: %.2f, Profit: %.2f, ATR: %.2f, Signal: %.2f, Indicator: %s, Value: %.2f' %
                          (self.dataclose[0],
                           stop_loss,
@@ -352,27 +360,26 @@ class OptStrategy(bt.Strategy):
                          )
 
     def stop(self):
-        self.tend = process_time()
-        time_spent = self.tend - self.tstart
+        # self.tend = process_time()
+        # time_spent = self.tend - self.tstart
         # print('Time used:', str(time_spent))
 
         self.final_value = self.broker.getvalue()
         balance = self.final_value - self.initial_value
+        balancecash = self.broker.getcash() - self.initial_value
 
-        self.roi = (self.broker.get_value() / self.cash_start) - 1.0
-        self.froi = self.broker.get_fundvalue() - self.val_start
+        # self.roi = (self.broker.get_value() / self.cash_start) - 1.0
+        # self.froi = self.broker.get_fundvalue() - self.val_start
 
-        params_pop = ['plot_entry', 'plot_exit', 'limdays', 'printlog']
+        # params_pop = ['plot_entry', 'plot_exit', 'limdays', 'printlog']
+        params_pop = ['plot_entry', 'plot_exit', 'limdays']
         [self.params_opt.pop(param) for param in params_pop if param in self.params_opt]
         self.log(
                  f'Parameters used: {self.params_opt}| '
-                 f'ROI: {100.0 * self.roi}| '
-                 f'Fund Value {self.froi}| '                 
+                 # f'ROI: {100.0 * self.roi}| '
+                 # f'Fund Value {self.froi}| '                 
                  f'Ending Value: {balance}',
-
                  doprint=True)
-
-
 
 
 class TestStrategy(bt.Strategy):

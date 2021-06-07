@@ -34,6 +34,10 @@ class ATRSignal(bt.Indicator):
     plotinfo = dict(subplot=False)
 
     def __init__(self, **kwargs):
+        # self.__dict__.update(kwargs)
+        allowed_keys = {'period_atr', 'atrdist', 'atrprofit'}
+        self.params.__dict__.update((k, v) for k, v in kwargs.items() if k in allowed_keys)
+
         self.atr = bt.indicators.AverageTrueRange(period=self.params.period_atr)
 
         self.lines.signal = self.atr * self.params.atrdist // 1
@@ -216,6 +220,10 @@ class WillRSignal(bt.Indicator):
     # plotinfo = dict(subplot=False)
 
     def __init__(self, **kwargs):
+        # self.__dict__.update(kwargs)
+        allowed_keys = {'period_willr', 'threshold_upper', 'threshold_lower'}
+        self.params.__dict__.update((k, v) for k, v in kwargs.items() if k in allowed_keys)
+
         self.willr = bt.indicators.WilliamsR(period=self.params.period_willr,
                                              upperband=self.params.threshold_upper,
                                              lowerband=self.params.threshold_lower)
@@ -238,13 +246,16 @@ class WillRSignal(bt.Indicator):
 class TIMESignal(bt.Indicator):
     lines = (('signal'),)
 
-    params = (('time_start', [9, 0]),
-              ('time_stop', [17, 30]),
+    params = (('time_start', [9, 30]),
+              ('time_stop', [17, 0]),
               )
     # plotinfo = dict(subplot=False)
 
-    def __init__(self):
-        # self.time = self.datas[0].datetime
+    def __init__(self, **kwargs):
+        # self.__dict__.update(kwargs)
+        allowed_keys = {'time_start', 'time_stop'}
+        self.params.__dict__.update((k, v) for k, v in kwargs.items() if k in allowed_keys)
+
         self.time_stop = datetime.time(*self.params.time_stop)
         self.time_start = datetime.time(*self.params.time_start)
 

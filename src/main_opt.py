@@ -1,25 +1,33 @@
 from __future__ import (absolute_import, division, print_function,
                         unicode_literals)
-
-import datetime  # For datetime objects
-import os.path  # To manage paths
-import sys  # To find out the script name (in argv[0])
-import argparse
+import glob
 import json
-import datetime
-from time import process_time
 
+import pandas
+
+import strategies
 import backtrader as bt  # Import the backtrader platform
-# from backtrader.utils.py3 import range
+import datetime  # For datetime objects
+# import os.path  # To manage paths
+# import sys  # To find out the script name (in argv[0])
+# import argparse
+
+from args import parse_args
+from time import process_time
 from datafeed import pandasdatafeed
+from backtrader.utils.py3 import range
 # from strategies import TestStrategy
 # from strategies import MainStrategy
 # from strategies import TestStrategy
-from args import parse_args
-import collections
-import strategies
-import quantstats
+# import collections
+# import quantstats
 
+TFRAMES = dict(
+    minutes=bt.TimeFrame.Minutes,
+    days=bt.TimeFrame.Days,
+    weeks=bt.TimeFrame.Weeks,
+    months=bt.TimeFrame.Months,
+    years=bt.TimeFrame.Years)
 
 
 def runstrat(**kwargs):
@@ -30,7 +38,6 @@ def runstrat(**kwargs):
     signal = list(kwargs.keys())[0]
 
     # Create a cerebro entity
-    # cerebro = bt.Cerebro(stdstats=False)
     cerebro = bt.Cerebro(stdstats=False,
                          maxcpus=args.maxcpus,
                          runonce=not args.no_runonce,
@@ -40,37 +47,21 @@ def runstrat(**kwargs):
                          )
 
     # Add a strategy
-    # cerebro.addstrategy(strategies.OptStrategy)
     cerebro.optstrategy(
-        # strategies.TestStrategy,
-        # maperiod=range(15, 25)
-        # strategies.OptStrategy,
-        # period_sma=range(*params["SMASignal"]["period_sma"]),
-        # signal="SMASignal",
-        # period_sma=range(*kwargs["period_sma"]),
-        # period_sma=range(*kwargs[signal]["period_sma"]),
-        # period_sma=[20, 21, 22, 23, 24, 25],
-        # **{'period_sma':[20, 21, 22, 23, 24, 25]},
-        # **kwargs,
         strategies.OptStrategy,
         **kwargs.get(signal),
         signal=signal,
-        printlog=False
+        # printlog=False
         )
 
     datapath = args.data
     data = bt.feeds.PandasData(dataname=pandasdatafeed(datapath, args=args),
                                fromdate=args.fromdate,
-                               todate=args.todate
-                               )
+                               todate=args.todate)
     cerebro.adddata(data)
 
     # Set our desired cash start
     cerebro.broker.setcash(args.cash)  # cerebro.broker.setcash(100000.0)
-
-    # Print out the starting conditions
-    # print('Starting Portfolio Value: %.2f' % initial_value)
-    # initial_value = cerebro.broker.getvalue()
 
     # Add a FixedSize sizer according to the stake
     cerebro.addsizer(bt.sizers.FixedSize, stake=1)
@@ -78,33 +69,11 @@ def runstrat(**kwargs):
     # Set the commission
     cerebro.broker.setcommission(commission=0.0)
 
-    # Set Observer
-    cerebro.addobserver(bt.observers.Broker)
-    cerebro.addobserver(bt.observers.Trades)
-    cerebro.addobserver(bt.observers.BuySell, barplot=True, bardist=0.0025)
-    cerebro.addobserver(bt.observers.DrawDown)
-
     # Analyzer
-    cerebro.addanalyzer(bt.analyzers.TradeAnalyzer, _name='tradeanalyzer')  # muito completo, ate de +
-    cerebro.addanalyzer(bt.analyzers.PeriodStats, _name='periodstats')
-    cerebro.addanalyzer(bt.analyzers.Returns, _name='returns')
-
-    cerebro.addanalyzer(bt.analyzers.DrawDown, _name='drawdown')
+    cerebro.addanalyzer(bt.analyzers.TradeAnalyzer, _name='tradeanalyzer')  # muito completo
     cerebro.addanalyzer(bt.analyzers.TimeDrawDown, _name='timedrawdown')
-
-    cerebro.addanalyzer(bt.analyzers.SQN, _name='sqn')  #   SystemQualityNumber.
-    cerebro.addanalyzer(bt.analyzers.VWR, _name='vwr')  #   VariabilityWeightedReturn
-
-    # cerebro.addanalyzer(bt.analyzers.Calmar, _name='calmar')    # precisa configurar melhor
-    # cerebro.addanalyzer(bt.analyzers.SharpeRatio, _name='sharpe_ratio')     # precisa configurar melhor
-    # cerebro.addanalyzer(bt.analyzers.SharpeRatio_A, _name='sharpe_ratio_a')     # precisa configurar melhor
-    # cerebro.addanalyzer(bt.analyzers.PositionsValue, _name='positionsvalue')  # mostra valores diarios acumulados
-    # cerebro.addanalyzer(bt.analyzers.LogReturnsRolling, _name='logreturnsrolling')  # mostra valores diarios acumulados
-    # cerebro.addanalyzer(bt.analyzers.TimeReturn, _name='timereturn') # mostra valores diarios acumulados
-    # AnnualReturn
-    # GrossLeverage
-    # PyFolio
-    # Transactions
+    cerebro.addanalyzer(bt.analyzers.VWR, _name='vwr')  # VariabilityWeightedReturn
+    cerebro.addanalyzer(bt.analyzers.SQN, _name='sqn')  # SystemQualityNumber.
 
     # Writer
     # cerebro.addwriter(bt.WriterFile, csv=True, out='./logs/log.csv')
@@ -113,89 +82,77 @@ def runstrat(**kwargs):
     # Run over everything
     results = cerebro.run()
 
-    # # Plot the result
-    # if args.plot:
-    #     pkwargs = dict(style='bar')
-    #     # pkwargs = dict(style='ohlc')
-    #     if args.plot is not True:  # evals to True but is not True
-    #         npkwargs = eval('dict(' + args.plot + ')')  # args were passed
-    #         pkwargs.update(npkwargs)
-    #     cerebro.plot(**pkwargs)
-    # # cerebro.plot(style='bar', bardist=0)
-
-    # Print out the final result
-    # final_value = cerebro.broker.getvalue()
-    # print('Final Portfolio Value: %.2f' % final_value)
-
+    # Extract/save analyzers
     analyzers_log(results)
-    # print('==================================================')
-    # for stratrun in results:
-    #     for strat in stratrun:
-    #         print(strat.p._getkwargs())
-    #
-    #         returns, positions, transactions, gross_lev = strat.analyzers.pyfolio.get_pf_items()
-            # returns.index = returns.index.tz_convert(None)
-            # pyfolio.create_full_tear_sheet(
-            #     returns,
-            #     positions=positions,
-            #     transactions=transactions,
-            #     gross_lev=gross_lev,
-            #     # live_start_date='2005-05-01',  # This date is sample specific
-            #     round_trips=True)
-    #
-    # print('==================================================')
-    # quantstats.reports.html(results, output='./logs/stats.html', title='BTC Sentiment')
-
-
 
     # clock the end of the process
-    # tend = process_time()
+    tend = process_time()
 
     # print out the result
-    # print('Time used:', str(tend - tstart))
-    print('Time used:', str(process_time() - tstart))
-    # print('Final balance:', str(final_value - initial_value))
+    print('Time used:', str(tend - tstart))
+
 
 def analyzers_log(results):
-
+    analyzers_dict = {}
+    params_pop = ['plot_entry', 'plot_exit', 'limdays', 'printlog']
     for stratrun in results:
         for strat in stratrun:
-            params_pop = ['plot_entry', 'plot_exit', 'limdays', 'printlog']
             params = strat.params.__dict__
             [params.pop(param) for param in params_pop if param in params]
-            print(params)
-            # print(self.params._getkwargs())
-            for analyzer in strat.analyzers:
-                a = analyzer.get_analysis()
-                print(analyzer.__class__.__name__, dict(a))
-
+            analysis_value = {analyzer.__class__.__name__: analyzer.get_analysis() for analyzer in strat.analyzers}
+            analysis_key = json.dumps(params)
+            analyzers_dict.update({analysis_key: analysis_value})
+    filepath = f"./data/analyzers_opt/analyzer_{params['signal']}.json"
+    json.dump(analyzers_dict, open(filepath, "w"), sort_keys=True, indent=4)
     return None
 
 
+def analyzers_read(filepath="./data/analyzers_opt/analyzer_*.json"):
+    analyzers_keys = {
+        "SQN": ["sqn"],
+        "VWR": ["vwr"],
+        "TimeDrawDown": ["maxdrawdown", "maxdrawdownperiod"]
+    }
+    # allowed_keys = {'args', 'period_rsi', 'threshold_buy', 'threshold_sell'}
+    # self.__dict__.update((k, v) for k, v in kwargs.items() if k in allowed_keys)
 
+    files = glob.glob(filepath)
+    for file in files:
+        analyzers = json.load(open(file, 'r'))
+        analyzers = {tuple(json.loads(key).items()): value for key, value in analyzers.items()}
+        analyzers_df = pandas.DataFrame()
+        df = pandas.DataFrame(analyzers).T
+        for key, values in analyzers_keys.items():
+            df_sample = df[key].apply(pandas.Series).loc[:, values]
+            analyzers_df = pandas.concat([analyzers_df, df_sample], axis=1)
+        file = file.replace(".json", ".csv")
+        analyzers_df.to_csv(file, sep=";")
+    return None
 
 
 
 def main(**kwargs):
     params = json.load(open("./src/opt_params.json"))
 
-    # signals = list(list(params.keys())[-1])
-    # signals = ["SMASignal"]
-    # signals = ["SMASignal", "RSISignal"]
     # params_signal = [params.get(key) for key in signals]
     # params_signal = params.get("SMASignal")
-    # params_signal = {key: params.get(key) for key in params if key in signals}
-    # params_signal = {signal: {key: range(*params.get(signal).get(key)) for key in params.get(signal)} for signal in
-    #                  params_signal}
-    signals = ["SMASignal"]
-    # signals = ["RSISignal"]
-    # Filter Signal to be used.
-    params_signal = {key: params.get(key) for key in params if key in signals}
-    # Fill range values.
-    params_signal = {signal: {key: range(*params.get(signal).get(key))
-                              for key in params.get(signal)}
-                     for signal in params_signal}
-    runstrat(**params_signal)
+    # signals = ["SMASignal"]
+    signals = ["RSISignal"]
+    # signals = ["SMASignal", "RSISignal"]
+
+    for signal in signals:
+        # Filter Signal to be used.
+        params_signal = {key: params.get(key) for key in params if key in signal}
+
+        # Fill range values.
+        params_signal = {signal: {key: range(*params.get(signal).get(key))
+                                  for key in params.get(signal)}
+                         for signal in params_signal}
+
+        # run optimization strategy
+        runstrat(**params_signal)
+
+    # analyzers_read()
     return None
 
 

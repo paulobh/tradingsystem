@@ -1,23 +1,25 @@
 from __future__ import (absolute_import, division, print_function,
                         unicode_literals)
 
-import datetime  # For datetime objects
-import os.path  # To manage paths
-import sys  # To find out the script name (in argv[0])
-import argparse
-import json
-from time import process_time
-
 import backtrader as bt  # Import the backtrader platform
+# import datetime  # For datetime objects
+# import os.path  # To manage paths
+# import sys  # To find out the script name (in argv[0])
+# import argparse
+# import json
 
 from datafeed import pandasdatafeed
-# from strategies import TestStrategy
-# from strategies import MainStrategy
-from strategies import MainStrategy
+from time import process_time
 from args import parse_args
+from strategies import MainStrategy
+# from strategies import TestStrategy
+
 
 
 def runstrat(args=None):
+    # clock the start of the process
+    tstart = process_time()
+
     args = parse_args(args)
 
     # Create a cerebro entity
@@ -64,6 +66,7 @@ def runstrat(args=None):
 
     # clock the end of the process
     tend = process_time()
+    print('Time used:', str(tend - tstart))
 
     # Plot the result
     if args.plot:
