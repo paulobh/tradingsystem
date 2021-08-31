@@ -7,6 +7,8 @@
 -[ ] Improve documentation
 -[ ] Fix source files path to data/source
 -[ ] Set output files & reports to data/output
+-[ ] Optimize the parameters (min/max/pymoo)
+-[ ] 
 
 ## Structure
 
@@ -47,6 +49,9 @@ run on the terminal from main repository directory:
 obs: if you get the message ``ImportError: cannot import name 'warnings' from 'matplotlib.dates' `` 
 while running the program, remove the `warning` import on "backtrader/plot/locator.py"
 
+### How to use training/optimization
+
+on the `src` directory, the `main_opt.py` is the module for optimization, using the `settings.json` file as input parameters.
 
 ## How to get data source file
 

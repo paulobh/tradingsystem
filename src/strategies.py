@@ -10,8 +10,8 @@ import numpy
 import backtrader as bt
 import quantstats
 
-from args import parse_args
-import signals
+# from args import parse_args
+from src import signals
 from time import process_time
 
 
@@ -21,16 +21,19 @@ class MainStrategy(bt.Strategy):
               ('plot_exit', True),
               ('limdays', 1),   #limit of days of alive orders
               )
-
-    def log(self, txt, dt=None):
-        """Logging function for this strategy"""
-        dt = dt or self.datas[0].datetime.datetime(0)
-        print('%s, %s' % (dt.isoformat(), txt))
-
     def __init__(self, **kwargs):
+        # self.params.__dict__.update(kwargs)
         # self.__dict__.update(kwargs)
-        # allowed_keys = {'args', 'period_rsi', 'threshold_buy', 'threshold_sell'}
-        # self.__dict__.update((k, v) for k, v in kwargs.items() if k in allowed_keys)
+        # # allowed_keys = {'args', 'period_rsi', 'threshold_buy', 'threshold_sell'}
+        # # self.__dict__.update((k, v) for k, v in kwargs.items() if k in allowed_keys)
+
+        # # self.tstart = process_time()
+        # self.initial_value = self.broker.getvalue()
+
+        # # Activate the fund mode and set the default value at 100
+        # self.broker.set_fundmode(fundmode=True, fundstartval=100.0)
+        # self.cash_start = self.broker.get_cash()
+        # # self.val_start = 100.0
 
         # To keep track of pending orders and buy price / commission.
         self.order = None
@@ -48,8 +51,16 @@ class MainStrategy(bt.Strategy):
         self.rsi = signals.RSISignal()
         self.willr = signals.WillRSignal()
         self.time_signal = signals.TIMESignal()
+        # self.signal = getattr(signals, self.signal)(**kwargs)
 
         self.orefs = list()
+        self.os = list()
+
+    def log(self, txt, dt=None, doprint=True):
+        """Logging function for this strategy"""
+        if self.params.printlog or doprint:
+            dt = dt or self.datas[0].datetime.datetime(0)
+            print('%s, %s' % (dt.isoformat(), txt))
 
     def notify_trade(self, trade):
         """Receives a trade whenever there has been a change in one"""
@@ -182,7 +193,6 @@ class OptStrategy(bt.Strategy):
         ('printlog', True),     #very useful to debugging
         # ('signal', None),
               )
-
     def __init__(self, **kwargs):
         self.params_opt = kwargs
         self.params.__dict__.update(kwargs)
@@ -387,13 +397,6 @@ class TestStrategy(bt.Strategy):
         ('maperiod', 15),
         ('printlog', False),
     )
-
-    def log(self, txt, dt=None, doprint=False):
-        ''' Logging function fot this strategy'''
-        if self.params.printlog or doprint:
-            dt = dt or self.datas[0].datetime.date(0)
-            print('%s, %s' % (dt.isoformat(), txt))
-
     def __init__(self):
 
         # To keep track of pending orders and buy price/commission
@@ -413,6 +416,12 @@ class TestStrategy(bt.Strategy):
         # self.sma = SMASignal()
 
         self.orefs = list()
+
+    def log(self, txt, dt=None, doprint=False):
+        ''' Logging function fot this strategy'''
+        if self.params.printlog or doprint:
+            dt = dt or self.datas[0].datetime.date(0)
+            print('%s, %s' % (dt.isoformat(), txt))
 
     def notify_order(self, order):
         if order.status in [order.Submitted, order.Accepted]:

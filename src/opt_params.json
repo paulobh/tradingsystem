@@ -1,4 +1,12 @@
 {
+  "SMASignal": {
+    "period_sma": [20, 30, 5]
+  },
+  "MACDSignal": {
+    "period_me1": [10, 20, 2],
+    "period_me2": [20, 30, 2],
+    "period_signal": [5, 15, 5]
+  },
   "RSISignal": {
     "period_rsi": [10, 50, 10],
     "threshold_buy": [10, 40, 10],
@@ -8,9 +16,6 @@
     "period_willr": [10, 50],
     "threshold_upper": [10, 40],
     "threshold_lower": [60, 90]
-  },
-  "SMASignal": {
-    "period_sma": [20, 30, 5]
   },
   "ATRSignal": {
     "period_atr": [10, 50],

@@ -119,7 +119,9 @@ def parse_args(pargs=None):
 
     if pargs is not None:
         print("detected pargs \n")
-        return parser.parse_args(pargs)
+        args = parser.parse_args()
+        args.__dict__.update(pargs)
+        return args
 
     args = parser.parse_args()
     print("not detected pargs \n")

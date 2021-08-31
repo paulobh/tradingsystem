@@ -1,0 +1,128 @@
+[
+  {
+    "fromdate": "2015-05-22 00:00:00",
+    "todate": "2015-06-08 00:00:00",
+    "signal": {
+      "MACDSignal": {
+        "period_me1": 15,
+        "period_me2": 20,
+        "period_signal": 10,
+        "vwr": 1.878874294516635,
+        "sqn": 0.5214235167189658
+      },
+      "RSISignal": {
+        "period_rsi": 10,
+        "threshold_buy": 20,
+        "threshold_sell": 80,
+        "vwr": 1.0605633554563092,
+        "sqn": 0.9628744762432728
+      },
+      "WillRSignal": {
+        "period_willr": 30,
+        "threshold_upper": 10,
+        "threshold_lower": 60,
+        "vwr": 0.15599863034234024,
+        "sqn": 0.04233248480648825
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 10,
+        "vwr": 3.1677216070435876,
+        "sqn": 0.9865822369696601
+      },
+      "StochasticSignal": {
+        "period_dslow": 10,
+        "period_dfast": 4,
+        "period": 10,
+        "upperband": 70,
+        "lowerband": 20,
+        "vwr": 1.7626181547900373,
+        "sqn": 0.745162071334369
+      }
+    }
+  },
+  {
+    "fromdate": "2015-06-14 00:00:00",
+    "todate": "2015-07-01 00:00:00",
+    "signal": {
+      "MACDSignal": {
+        "period_me1": 10,
+        "period_me2": 25,
+        "period_signal": 10,
+        "vwr": -3.981591838134625,
+        "sqn": -1.4215275830404492
+      },
+      "RSISignal": {
+        "period_rsi": 20,
+        "threshold_buy": 10,
+        "threshold_sell": 70,
+        "vwr": 0.6839479164447602,
+        "sqn": 0.9816214014171095
+      },
+      "WillRSignal": {
+        "period_willr": 40,
+        "threshold_upper": 30,
+        "threshold_lower": 80,
+        "vwr": 0.8621508426252927,
+        "sqn": 0.27864277747203714
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 5,
+        "vwr": 0.3082491520051966,
+        "sqn": 0.104335846399569
+      },
+      "StochasticSignal": {
+        "period_dslow": 5,
+        "period_dfast": 2,
+        "period": 10,
+        "upperband": 70,
+        "lowerband": 10,
+        "vwr": 1.421035604512009,
+        "sqn": 0.7116280365843554
+      }
+    }
+  },
+  {
+    "fromdate": "2015-07-07 00:00:00",
+    "todate": "2015-07-24 00:00:00",
+    "signal": {
+      "MACDSignal": {
+        "period_me1": 15,
+        "period_me2": 20,
+        "period_signal": 5,
+        "vwr": -1.0773141286522223,
+        "sqn": -0.3643494255985969
+      },
+      "RSISignal": {
+        "period_rsi": 10,
+        "threshold_buy": 20,
+        "threshold_sell": 70,
+        "vwr": 1.3708800186378376,
+        "sqn": 0.9091933665865705
+      },
+      "WillRSignal": {
+        "period_willr": 10,
+        "threshold_upper": 10,
+        "threshold_lower": 60,
+        "vwr": 2.811763395195077,
+        "sqn": 0.9365840218671925
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 10,
+        "vwr": 0.5971069501435124,
+        "sqn": 0.21769923938541857
+      },
+      "StochasticSignal": {
+        "period_dslow": 5,
+        "period_dfast": 2,
+        "period": 10,
+        "upperband": 80,
+        "lowerband": 20,
+        "vwr": 2.4226285243070333,
+        "sqn": 1.094992254742711
+      }
+    }
+  }
+]

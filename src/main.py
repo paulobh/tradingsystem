@@ -6,17 +6,23 @@ import backtrader as bt  # Import the backtrader platform
 # import os.path  # To manage paths
 # import sys  # To find out the script name (in argv[0])
 # import argparse
-# import json
+import pandas
+import glob
+import json
+import datetime  # For datetime objects
 
-from datafeed import pandasdatafeed
+from src.datafeed import pandasdatafeed
 from time import process_time
-from args import parse_args
-from strategies import MainStrategy
+from src.args import parse_args
+from backtrader.utils.py3 import range
+
+from src.strategies import MainStrategy
 # from strategies import TestStrategy
+from src import strategies
+from src import main_opt
 
 
-
-def runstrat(args=None):
+def runstrat_main(args=None, **kwargs):
     # clock the start of the process
     tstart = process_time()
 
@@ -82,5 +88,34 @@ def runstrat(args=None):
     print('Final Portfolio Value: %.2f' % cerebro.broker.getvalue())
 
 
+def analyzers_opt_params(settings, **kwargs):
+    filename = settings["opt_analyzer"]["path_opt_parms"]
+    return
+
+
+def main(settings, **kwargs):
+    params_settings = settings["opt_params"]
+    filename = settings["opt_analyzer"]["path_opt_parms"]
+
+    dates = main_opt.daterange_opt(settings)
+    params = {}
+
+    for idx, date in dates.items():
+        fromdate, todate = date["test"]
+        params.update({"fromdate": fromdate, "todate": todate})
+
+        # run optimization strategy
+        runstrat_main(settings, **params)
+        # read analyzers and save output
+        main_opt.analyzers_read(settings, **params)
+    return None
+
+
 if __name__ == '__main__':
-    runstrat()
+    settings = json.load(open("./src/settings.json"))
+
+    # generate optimization params
+    main_opt.main_opt(settings)
+
+    # run strategy with opt params
+    # runstrat_main()

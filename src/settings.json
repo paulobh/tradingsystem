@@ -1,0 +1,56 @@
+{
+  "opt_analyzer": {
+    "path_log": "./data/analyzers_opt/analyzer_{}.json",
+    "path_opt_parms": "./data/analyzers_opt/analyzers_opt_params.json",
+    "datapath": "./data/WIN$N_5M_2015.05.22_2021.01.22_.csv",
+    "fromdate": "",
+    "todate": "2015.08.01",
+    "daterange_opt": 21,
+    "daterange_opt_train": 0.8,
+    "analyzer_opt": "vwr"
+  },
+  "opt_params" : {
+    "SMASignal": {
+      "period_sma": [20, 30, 5]
+    },
+    "MACDSignal": {
+      "period_me1": [10, 20, 5],
+      "period_me2": [20, 30, 5],
+      "period_signal": [5, 15, 5]
+    },
+    "RSISignal": {
+      "period_rsi": [10, 30, 10],
+      "threshold_buy": [10, 30, 10],
+      "threshold_sell": [70, 90, 10]
+    },
+    "WillRSignal": {
+      "period_willr": [10, 50, 10],
+      "threshold_upper": [10, 40, 10],
+      "threshold_lower": [60, 90, 10]
+    },
+    "ATRSignal": {
+      "period_atr": [10, 50],
+      "atrdist": [1.3, 2.2],
+      "atrprofit": [1.3, 2.2]
+    },
+    "TIMESignal": {
+      "time_start": [[9, 0]],
+      "time_stop": [[17, 0]]
+    },
+    "ADXSignal": {
+      "period_adx": [10, 20, 5],
+      "period_adxr": [5, 15, 5]
+    },
+    "StochasticSignal": {
+      "period_dslow": [5, 15, 5],
+      "period_dfast": [2, 6, 2],
+      "period": [10, 20, 5],
+      "upperband": [70, 90, 10],
+      "lowerband": [10, 30, 10]
+    },
+    "OBVSignal": {
+      "period_obv": [20, 40, 5]
+    }
+
+  }
+}
