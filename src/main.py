@@ -16,34 +16,38 @@ from time import process_time
 from src.args import parse_args
 from backtrader.utils.py3 import range
 
-from src.strategies import MainStrategy
+# from src.strategies import MainStrategy
 # from strategies import TestStrategy
 from src import strategies
-from src import main_opt
 
 
-def runstrat_main(args=None, **kwargs):
+def runstrat_main(settings, **kwargs):
     # clock the start of the process
     tstart = process_time()
 
-    args = parse_args(args)
+    args = parse_args(kwargs)
+    # signal = list(kwargs["signal"].keys())[0]
 
     # Create a cerebro entity
-    cerebro = bt.Cerebro(stdstats=False)  # default kwarg: stdstats=True
+    cerebro = bt.Cerebro(stdstats=False,        # default kwarg: stdstats=True
+                         # maxcpus=args.maxcpus,
+                         # runonce=not args.no_runonce,
+                         # exactbars=args.exactbars,
+                         # optdatas=not args.no_optdatas,
+                         # optreturn=not args.no_optreturn
+                         )
+
 
     # Add a strategy
-    cerebro.addstrategy(MainStrategy)
+    cerebro.addstrategy(strategies.MainStrategy, **settings, **kwargs)
 
-    # Get a pandas dataframe
-    # modpath = os.path.dirname(os.path.abspath(sys.argv[0]))
-    # datapath = os.path.join(modpath, '../WIN$N_5M_2015.05.22_2021.01.22_.csv')
+    # Get a data source path
     datapath = args.data
 
     # Pass it to the backtrader datafeed and add it to the cerebro
     data = bt.feeds.PandasData(dataname=pandasdatafeed(datapath, args=args),
-                               fromdate=args.fromdate,
-                               todate=args.todate
-                               )
+                               fromdate=args.fromdate,  # fromdate=args.fromdate,
+                               todate=args.todate)  # todate=args.todate)
     cerebro.adddata(data)
 
     # Set our desired cash start
@@ -61,61 +65,71 @@ def runstrat_main(args=None, **kwargs):
     cerebro.addobserver(bt.observers.BuySell, barplot=True, bardist=0.0025)
     cerebro.addobserver(bt.observers.DrawDown)
 
-    # Print out the starting conditions
-    print('Starting Portfolio Value: %.2f' % cerebro.broker.getvalue())
+    # Set Analyzer
+    cerebro.addanalyzer(bt.analyzers.TradeAnalyzer, _name='tradeanalyzer')  # muito completo
+    # cerebro.addanalyzer(bt.analyzers.TimeDrawDown, _name='timedrawdown')
+    cerebro.addanalyzer(bt.analyzers.VWR, _name='vwr')  # VariabilityWeightedReturn
+    cerebro.addanalyzer(bt.analyzers.SQN, _name='sqn')  # SystemQualityNumber.
 
-    # clock the start of the process
-    tstart = process_time()
+    # Writer
+    # cerebro.addwriter(bt.WriterFile, csv=True, out='./logs/log.csv')
+    # cerebro.addwriter(bt.WriterFile, csv=args.writercsv, out='./logs/log.csv')
+
+    # Print out the starting conditions
+    # print('Starting Portfolio Value: %.2f' % cerebro.broker.getvalue())
 
     # Run over everything
-    cerebro.run()
+    results = cerebro.run()
+
+    # # Extract/save analyzers
+    # analyzers_log(settings, results)
 
     # clock the end of the process
     tend = process_time()
+
+    # print out the result
     print('Time used:', str(tend - tstart))
 
-    # Plot the result
-    if args.plot:
-        pkwargs = dict(style='bar')
-        # pkwargs = dict(style='ohlc')
-        if args.plot is not True:  # evals to True but is not True
-            npkwargs = eval('dict(' + args.plot + ')')  # args were passed
-            pkwargs.update(npkwargs)
-        cerebro.plot(**pkwargs)
-    # cerebro.plot(style='bar', bardist=0)
+    # # Plot the result
+    # if args.plot:
+    #     pkwargs = dict(style='bar')
+    #     # pkwargs = dict(style='ohlc')
+    #     if args.plot is not True:  # evals to True but is not True
+    #         npkwargs = eval('dict(' + args.plot + ')')  # args were passed
+    #         pkwargs.update(npkwargs)
+    #     cerebro.plot(**pkwargs)
+    # # cerebro.plot(style='bar', bardist=0)
 
     # Print out the final result
     print('Final Portfolio Value: %.2f' % cerebro.broker.getvalue())
 
 
-def analyzers_opt_params(settings, **kwargs):
-    filename = settings["opt_analyzer"]["path_opt_parms"]
-    return
-
-
 def main(settings, **kwargs):
-    params_settings = settings["opt_params"]
+    # params_settings = settings["opt_params"]
     filename = settings["opt_analyzer"]["path_opt_parms"]
 
-    dates = main_opt.daterange_opt(settings)
+    # data = json.load(open(filename, "r"))
     params = {}
+    # params.update(data)
+    params.update({"signal": {"ElderForceIndexSignal": {}}})
 
-    for idx, date in dates.items():
-        fromdate, todate = date["test"]
-        params.update({"fromdate": fromdate, "todate": todate})
+    # run strategy
+    runstrat_main(settings, **params)
 
-        # run optimization strategy
-        runstrat_main(settings, **params)
-        # read analyzers and save output
-        main_opt.analyzers_read(settings, **params)
     return None
 
 
 if __name__ == '__main__':
     settings = json.load(open("./src/settings.json"))
 
-    # generate optimization params
-    main_opt.main_opt(settings)
+    # clock the start of the process
+    tstart = process_time()
 
-    # run strategy with opt params
-    # runstrat_main()
+    # main script
+    main(settings)
+
+    # clock the end of the process
+    tend = process_time()
+
+    # print out the result
+    print('Total Time used:', str(tend - tstart))

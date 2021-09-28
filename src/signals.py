@@ -39,7 +39,7 @@ EXITSIGNALS = {
 class TIMESignal(bt.Indicator):
     lines = (('signal'),)
 
-    params = (('time_start', [9, 30]),
+    params = (('time_start', [9, 0]),
               ('time_stop', [17, 0]),
               )
     # plotinfo = dict(subplot=False)
@@ -60,6 +60,39 @@ class TIMESignal(bt.Indicator):
             self.lines.signal[0] = 0
 
 
+# Volatilidade/STOP
+class ATRSignal(bt.Indicator):
+    lines = (('atr'),
+             ('signal'),
+             ('signal_stopbuy'),
+             ('signal_stopsell'),
+             ('signal_takeprofit'),
+             ('signal_profit_buy'),
+             ('signal_profit_sell'),
+             )
+    params = (('period_atr', 20),
+              ('atrdist', 2.),  # ATR distance for stop price
+              ('atrprofit', 2.),  # ATR ratio for takeprofit
+              )
+    plotinfo = dict(subplot=False)
+
+    def __init__(self, **kwargs):
+        # self.__dict__.update(kwargs)
+        allowed_keys = {'period_atr', 'atrdist', 'atrprofit'}
+        self.params.__dict__.update((k, v) for k, v in kwargs.items() if k in allowed_keys)
+
+        self.atr = bt.indicators.AverageTrueRange(period=self.params.period_atr)
+
+        self.lines.signal = self.atr * self.params.atrdist // 1
+        self.lines.signal_takeprofit = self.lines.signal * self.params.atrprofit // 1
+
+        self.lines.signal_stopbuy = self.data - self.lines.signal
+        self.lines.signal_stopsell = self.data + self.lines.signal
+
+        self.lines.signal_profit_buy = self.data + self.lines.signal_takeprofit
+        self.lines.signal_profit_sell = self.data - self.lines.signal_takeprofit
+
+
 # Tendencia
 class SMASignal(bt.Indicator):
     lines = (('sma'),
@@ -73,6 +106,7 @@ class SMASignal(bt.Indicator):
         # self.__dict__.update(kwargs)
         allowed_keys = {'period_sma'}
         self.params.__dict__.update((k, v) for k, v in kwargs.items() if k in allowed_keys)
+        self.params.__dict__.update({"analyzer_opt": kwargs.get("analyzer_opt")})
 
         # Add a MovingAverageSimple indicator
         # self.sma = bt.indicators.MovingAverageSimple(self.datas[0],
@@ -109,6 +143,7 @@ class MACDSignal(bt.Indicator):
         # self.__dict__.update(kwargs)
         allowed_keys = ['period_me1', 'period_me2', 'period_signal']
         self.params.__dict__.update((k, v) for k, v in kwargs.items() if k in allowed_keys)
+        self.params.__dict__.update({"analyzer_opt": kwargs.get("analyzer_opt")})
 
         # me1 = self.params.movav(self.data, period=self.params.period_me1)
         # me2 = self.params.movav(self.data, period=self.params.period_me2)
@@ -124,7 +159,6 @@ class MACDSignal(bt.Indicator):
             self.datas[0], period_me1=self.params.period_me1, period_me2=self.params.period_me2, period_signal=self.params.period_signal)
         self.lines.histo = bt.indicators.MACDHisto(
             self.datas[0], period_me1=self.params.period_me1, period_me2=self.params.period_me2, period_signal=self.params.period_signal)
-
 
     def next(self):
         if self.lines.signal[0] > 0:
@@ -151,13 +185,13 @@ class ADXSignal(bt.Indicator):
         # self.__dict__.update(kwargs)
         allowed_keys = ['period_adx', 'period_adxr']
         self.params.__dict__.update((k, v) for k, v in kwargs.items() if k in allowed_keys)
+        self.params.__dict__.update({"analyzer_opt": kwargs.get("analyzer_opt")})
 
         self.adx = bt.indicators.AverageDirectionalMovementIndex(period=self.params.period_adx)
         self.adxr = bt.indicators.AverageDirectionalMovementIndexRating(period=self.params.period_adxr)
 
         self.lines.adx = self.adxr.lines.adx
         self.lines.adxr = self.adxr.lines.adxr
-
 
     def next(self):
         if (self.lines.adx[0] > 25) & (self.lines.adx[0] > self.lines.adxr[0]):
@@ -266,6 +300,7 @@ class RSISignal(bt.Indicator):
         # self.__dict__.update(kwargs)
         allowed_keys = {'period_rsi', 'threshold_buy', 'threshold_sell'}
         self.params.__dict__.update((k, v) for k, v in kwargs.items() if k in allowed_keys)
+        self.params.__dict__.update({"analyzer_opt": kwargs.get("analyzer_opt")})
 
         self.rsi = bt.indicators.RelativeStrengthIndex(period=self.params.period_rsi,
                                                        safediv=True)
@@ -284,119 +319,121 @@ class RSISignal(bt.Indicator):
 
 
 # Moment/ Osciladores
-class WillRSignal(bt.Indicator):
-    """WilliamsR
-    Developed by Larry Williams to show the relation of closing prices to the highest-lowest range of a given period.
-
-    Known as Williams %R (but % is not allowed in Python identifiers)
-
-    Formula:
-    num = highest_period - close
-    den = highestg_period - lowest_period
-    percR = (num / den) * -100.0
-
-    See:
-
-    http://en.wikipedia.org/wiki/Williams_%25R
-
-    Lines:
-    percR
-
-    Params:
-    period (14)
-    upperband (-20.0)
-    lowerband (-80.0)
-
-    PlotInfo:
-    plot (True)
-    plotmaster (None)
-    legendloc (None)
-    subplot (True)
-    plotname (Williams R%)
-    plotskip (False)
-    plotabove (False)
-    plotlinelabels (False)
-    plotlinevalues (True)
-    plotvaluetags (True)
-    plotymargin (0.0)
-    plotyhlines ([])
-    plotyticks ([])
-    plothlines ([])
-    plotforce (False)
-
-    PlotLines:
-    percR:
-
-    _name (R%)
-
-    """
-    lines = (('willr'),
-             ('signal'),
-             )
-    params = (('period_willr', 3),
-              ('threshold_upper', -20),
-              ('threshold_lower', -80),
-              )
-    # plotinfo = dict(subplot=False)
-
-    def __init__(self, **kwargs):
-        # self.__dict__.update(kwargs)
-        allowed_keys = {'period_willr', 'threshold_upper', 'threshold_lower'}
-        self.params.__dict__.update((k, v) for k, v in kwargs.items() if k in allowed_keys)
-
-        self.willr = bt.indicators.WilliamsR(period=self.params.period_willr,
-                                             upperband=self.params.threshold_upper,
-                                             lowerband=self.params.threshold_lower)
-        self.lines.willr = self.willr
-        self.threshold_buy = self.params.threshold_lower
-        self.threshold_sell = self.params.threshold_upper
-
-        # to show date/time progress
-        # self.trace = 0
-
-    def next(self):
-        if self.lines.willr[0] > self.threshold_buy:
-            self.lines.signal[0] = 100
-        elif self.lines.willr[0] < self.threshold_sell:
-            self.lines.signal[0] = -100
-        else:
-            self.lines.signal[0] = 0.0
-
-
-# Moment/ Osciladores
-class StochasticSignal(bt.Indicator):
-    lines = (('percK'),
-             ('percD'),
-             ('percDSlow'),
-             ('signal'))
-    params = {'period_dslow': 3,
-              'period_dfast': 3,
-              'period': 14,
-              'upperband': 80.0,
-              'lowerband': 20.0,
-              # 'movav': 'MovingAverage', #will not be updated so don't need to declare it here
-              }
-    plotinfo = dict(subplot=False)
-
-    def __init__(self, **kwargs):
-        # self.__dict__.update(kwargs)
-        allowed_keys = {'period_dslow', 'period_dfast', 'period', 'upperband', 'lowerband'}
-        self.params.__dict__.update((k, v) for k, v in kwargs.items() if k in allowed_keys)
-
-        self.stoch = bt.indicators.StochasticFull(period=self.params.period,
-                                                  period_dslow=self.params.period_dslow,
-                                                  period_dfast=self.params.period_dfast,
-                                                  upperband=self.params.upperband,
-                                                  lowerband=self.params.lowerband
-                                                  )
-
-    def next(self):
-        if self.stoch.lines.percDSlow[0] > self.params.upperband:
-            self.lines.signal[0] = 100
-        elif self.stoch.lines.percDSlow[0] < self.params.lowerband:
-            self.lines.signal[0] = -100
-        else:
-            self.lines.signal[0] = 0.0
+# class WillRSignal(bt.Indicator):
+#     """WilliamsR
+#     Developed by Larry Williams to show the relation of closing prices to the highest-lowest range of a given period.
+#
+#     Known as Williams %R (but % is not allowed in Python identifiers)
+#
+#     Formula:
+#     num = highest_period - close
+#     den = highestg_period - lowest_period
+#     percR = (num / den) * -100.0
+#
+#     See:
+#
+#     http://en.wikipedia.org/wiki/Williams_%25R
+#
+#     Lines:
+#     percR
+#
+#     Params:
+#     period (14)
+#     upperband (-20.0)
+#     lowerband (-80.0)
+#
+#     PlotInfo:
+#     plot (True)
+#     plotmaster (None)
+#     legendloc (None)
+#     subplot (True)
+#     plotname (Williams R%)
+#     plotskip (False)
+#     plotabove (False)
+#     plotlinelabels (False)
+#     plotlinevalues (True)
+#     plotvaluetags (True)
+#     plotymargin (0.0)
+#     plotyhlines ([])
+#     plotyticks ([])
+#     plothlines ([])
+#     plotforce (False)
+#
+#     PlotLines:
+#     percR:
+#
+#     _name (R%)
+#
+#     """
+#     lines = (('willr'),
+#              ('signal'),
+#              )
+#     params = (('period_willr', 3),
+#               ('threshold_upper', -20),
+#               ('threshold_lower', -80),
+#               )
+#     # plotinfo = dict(subplot=False)
+#
+#     def __init__(self, **kwargs):
+#         # self.__dict__.update(kwargs)
+#         allowed_keys = {'period_willr', 'threshold_upper', 'threshold_lower'}
+#         self.params.__dict__.update((k, v) for k, v in kwargs.items() if k in allowed_keys)
+#         self.params.__dict__.update({"analyzer_opt": kwargs.get("analyzer_opt")})
+#
+#         self.willr = bt.indicators.WilliamsR(period=self.params.period_willr,
+#                                              upperband=self.params.threshold_upper,
+#                                              lowerband=self.params.threshold_lower)
+#         self.lines.willr = self.willr
+#         self.threshold_buy = self.params.threshold_lower
+#         self.threshold_sell = self.params.threshold_upper
+#
+#         # to show date/time progress
+#         # self.trace = 0
+#
+#     def next(self):
+#         if self.lines.willr[0] > self.threshold_buy:
+#             self.lines.signal[0] = 100
+#         elif self.lines.willr[0] < self.threshold_sell:
+#             self.lines.signal[0] = -100
+#         else:
+#             self.lines.signal[0] = 0.0
+#
+#
+# # Moment/ Osciladores
+# class StochasticSignal(bt.Indicator):
+#     lines = (('percK'),
+#              ('percD'),
+#              ('percDSlow'),
+#              ('signal'))
+#     params = {'period_dslow': 3,
+#               'period_dfast': 3,
+#               'period': 14,
+#               'upperband': 80.0,
+#               'lowerband': 20.0,
+#               # 'movav': 'MovingAverage', #will not be updated so don't need to declare it here
+#               }
+#     plotinfo = dict(subplot=False)
+#
+#     def __init__(self, **kwargs):
+#         # self.__dict__.update(kwargs)
+#         allowed_keys = {'period_dslow', 'period_dfast', 'period', 'upperband', 'lowerband'}
+#         self.params.__dict__.update((k, v) for k, v in kwargs.items() if k in allowed_keys)
+#         self.params.__dict__.update({"analyzer_opt": kwargs.get("analyzer_opt")})
+#
+#         self.stoch = bt.indicators.StochasticFull(period=self.params.period,
+#                                                   period_dslow=self.params.period_dslow,
+#                                                   period_dfast=self.params.period_dfast,
+#                                                   upperband=self.params.upperband,
+#                                                   lowerband=self.params.lowerband
+#                                                   )
+#
+#     def next(self):
+#         if self.stoch.lines.percDSlow[0] > self.params.upperband:
+#             self.lines.signal[0] = 100
+#         elif self.stoch.lines.percDSlow[0] < self.params.lowerband:
+#             self.lines.signal[0] = -100
+#         else:
+#             self.lines.signal[0] = 0.0
 
 
 # Volatilidade
@@ -424,141 +461,147 @@ class StochasticSignal(bt.Indicator):
 #             self.lines.signal[0] = 0.0
 
 
-# Volatilidade/STOP
-class ATRSignal(bt.Indicator):
-    lines = (('atr'),
+
+# Volume
+# class OBVSignal(bt.Indicator):
+#     '''
+#     REQUIREMENTS
+#     ----------------------------------------------------------------------
+#     Investopedia:
+#     ----------------------------------------------------------------------
+#     https://stockcharts.com/school/doku.php?id=chart_school:technical_indicators:on_balance_volume_obv
+#     https://backtest-rookies.com/2018/11/30/backtrader-on-balance-volume/
+#
+#     1. If today's closing price is higher than yesterday's closing price,
+#        then: Current OBV = Previous OBV + today's volume
+#
+#     2. If today's closing price is lower than yesterday's closing price,
+#        then: Current OBV = Previous OBV - today's volume
+#
+#     3. If today's closing price equals yesterday's closing price,
+#        then: Current OBV = Previous OBV
+#     ----------------------------------------------------------------------
+#     '''
+#     alias = 'OBV'
+#     lines = (('obv'),
+#              ('signal'))
+#     params = (('period_obv', 25),
+#               )
+#     plotlines = dict(
+#         obv=dict(
+#             _name='OBV',
+#             color='purple',
+#             alpha=0.50
+#         ))
+#     plotinfo = dict(subplot=False)
+#     # plotinfo = dict(subplot=True)
+#
+#     def __init__(self, **kwargs):
+#         self.vol = self.data.volume
+#         self.lines.obv = bt.If(self.data.close(0) > self.data.close(-1),
+#                                (self.vol + self.data.volume),
+#                                self.vol - self.data.volume)
+#
+#     def nextstart(self):
+#         # We need to use next start to provide the initial value. This is because
+#         # we do not have a previous value for the first calculation. These are
+#         # known as seed values.
+#
+#         # Create some aliases
+#         c = self.data.close
+#         v = self.data.volume
+#         obv = self.lines.obv
+#
+#         if c[0] > c[-1]:
+#             obv[0] = v[0]
+#         elif c[0] < c[-1]:
+#             obv[0] = -v[0]
+#         else:
+#             obv[0] = 0
+#
+#     def next(self):
+#         # Aliases to avoid long lines
+#         c = self.data.close
+#         v = self.data.volume
+#         obv = self.lines.obv
+#         if c[0] > c[-1]:
+#             obv[0] = obv[-1] + v[0]
+#         elif c[0] < c[-1]:
+#             obv[0] = obv[-1] - v[0]
+#         else:
+#             obv[0] = obv[-1]
+
+
+# Volume
+
+# Moment/ Osciladores
+class ElderForceIndexSignal(bt.Indicator):
+    lines = (('efi1'),
+             ('efi2'),
              ('signal'),
-             ('signal_stopbuy'),
-             ('signal_stopsell'),
-             ('signal_takeprofit'),
-             ('signal_profit_buy'),
-             ('signal_profit_sell'),
              )
-    params = (('period_atr', 20),
-              ('atrdist', 1.5),  # ATR distance for stop price
-              ('atrprofit', 1.5),  # ATR ratio for takeprofit
+    params = (('period_ema1', 2),
+              ('period_ema2', 13),
               )
-    plotinfo = dict(subplot=False)
+    # plotinfo = dict(subplot=False)
 
     def __init__(self, **kwargs):
         # self.__dict__.update(kwargs)
-        allowed_keys = {'period_atr', 'atrdist', 'atrprofit'}
+        allowed_keys = {'period_rsi', 'threshold_buy', 'threshold_sell'}
         self.params.__dict__.update((k, v) for k, v in kwargs.items() if k in allowed_keys)
+        self.params.__dict__.update({"analyzer_opt": kwargs.get("analyzer_opt")})
 
-        self.atr = bt.indicators.AverageTrueRange(period=self.params.period_atr)
-
-        self.lines.signal = self.atr * self.params.atrdist // 1
-        self.lines.signal_takeprofit = self.lines.signal * self.params.atrprofit // 1
-
-        self.lines.signal_stopbuy = self.data - self.lines.signal
-        self.lines.signal_stopsell = self.data + self.lines.signal
-
-        self.lines.signal_profit_buy = self.data + self.lines.signal_takeprofit
-        self.lines.signal_profit_sell = self.data - self.lines.signal_takeprofit
-
-
-# Volume
-class OBVSignal(bt.Indicator):
-    '''
-    REQUIREMENTS
-    ----------------------------------------------------------------------
-    Investopedia:
-    ----------------------------------------------------------------------
-    https://stockcharts.com/school/doku.php?id=chart_school:technical_indicators:on_balance_volume_obv
-    https://backtest-rookies.com/2018/11/30/backtrader-on-balance-volume/
-
-    1. If today's closing price is higher than yesterday's closing price,
-       then: Current OBV = Previous OBV + today's volume
-
-    2. If today's closing price is lower than yesterday's closing price,
-       then: Current OBV = Previous OBV - today's volume
-
-    3. If today's closing price equals yesterday's closing price,
-       then: Current OBV = Previous OBV
-    ----------------------------------------------------------------------
-    '''
-    alias = 'OBV'
-    lines = (('obv'),
-             ('signal'))
-    params = (('period_obv', 25),
-              )
-    plotlines = dict(
-        obv=dict(
-            _name='OBV',
-            color='purple',
-            alpha=0.50
-        ))
-    plotinfo = dict(subplot=False)
-    # plotinfo = dict(subplot=True)
-
-    def __init__(self, **kwargs):
-        self.vol = self.data.volume
-        self.lines.obv = bt.If(self.data.close(0) > self.data.close(-1),
-                               (self.vol + self.data.volume),
-                               self.vol - self.data.volume)
-
-    def nextstart(self):
-        # We need to use next start to provide the initial value. This is because
-        # we do not have a previous value for the first calculation. These are
-        # known as seed values.
-
-        # Create some aliases
-        c = self.data.close
-        v = self.data.volume
-        obv = self.lines.obv
-
-        if c[0] > c[-1]:
-            obv[0] = v[0]
-        elif c[0] < c[-1]:
-            obv[0] = -v[0]
-        else:
-            obv[0] = 0
+        self.lines.efi1 = bt.indicators.ExponentialMovingAverage(
+            self.datas[0].volume(0) * (self.datas[0].close(0) - self.datas[0].close(-1)),
+            period=self.params.period_ema1)
+        self.lines.efi2 = bt.indicators.ExponentialMovingAverage(
+            self.datas[0].volume(0) * (self.datas[0].close(0) - self.datas[0].close(-1)),
+            period=self.params.period_ema2)
 
     def next(self):
-        # Aliases to avoid long lines
-        c = self.data.close
-        v = self.data.volume
-        obv = self.lines.obv
-        if c[0] > c[-1]:
-            obv[0] = obv[-1] + v[0]
-        elif c[0] < c[-1]:
-            obv[0] = obv[-1] - v[0]
-        else:
-            obv[0] = obv[-1]
+        if (self.lines.efi2[0] >= 0):
+            if (self.lines.efi1[0] > 0) & (self.lines.efi1[0] > self.lines.efi2[0]):
+                self.lines.signal[0] = 100
+            else:
+                self.lines.signal[0] = 0
+        elif (self.lines.efi2[0] < 0):
+            if (self.lines.efi1[0] < 0) & (self.lines.efi1[0] < self.lines.efi2[0]):
+                self.lines.signal[0] = -100
+            else:
+                self.lines.signal[0] = 0
 
 
-# Volume
-# class EFISignal(bt.indicator):
-#     lines = (('efi1',
-#               'efi2'),
-#              ('signal'))
-#     params = (('period_ema1', 2),
-#               ('period_ema2', 13),
-#               )
+
+
+# class GenericSignal(bt.Indicator):
+#     lines = (('signal'),
+#              ('atr'),
+#              ('signal_stopbuy'),
+#              ('signal_stopsell'),
+#              ('signal_takeprofit'),
+#              ('signal_profit_buy'),
+#              ('signal_profit_sell'),
+#              )
+#     params = ()
 #     # plotinfo = dict(subplot=False)
-#     plotinfo = dict(subplot=True)
 #
 #     def __init__(self, **kwargs):
-#         self.efi1 = bt.indicators.ExponentialMovingAverage(
-#             self.datas[0].volume(0) * (self.datas[0].close(0) - self.datas[0].close(-1)),
-#             period=self.params.period_ema1)
-#         self.efi2 = bt.indicators.ExponentialMovingAverage(
-#             self.datas[0].volume(0) * (self.datas[0].close(0) - self.datas[0].close(-1)),
-#             period=self.params.period_ema2)
+#         # self.__dict__.update(kwargs)
+#         self.params.__dict__.update(kwargs)     # nem precisaria
+#         # allowed_keys = {'period_rsi', 'threshold_buy', 'threshold_sell'}
+#         # self.params.__dict__.update((k, v) for k, v in kwargs.items() if k in allowed_keys)
 #
-#     def next(self):
-#         if (self.lines.efi2[0] >= 0):
-#             if (self.lines.efi1[0] > 0) & (self.lines.efi1[0] > self.lines.efi2[0]):
-#                 self.lines.signal[0] = 100
-#             else:
-#                 self.lines.signal[0] = 0
-#         elif (self.lines.efi2[0] < 0):
-#             if (self.lines.efi1[0] < 0) & (self.lines.efi1[0] < self.lines.efi2[0]):
-#                 self.lines.signal[0] = -100
-#             else:
-#                 self.lines.signal[0] = 0
-
-
+#         # signal = self.params.signal
+#         signal = kwargs["signal"]
+#         self.lines.signal = globals()[signal](**kwargs)
+#
+#         self.lines.atr = ATRSignal(**kwargs)
+#
+#         # self.lines.signal_takeprofit = self.lines.atr.lines
+#         # self.lines.signal_stopbuy = self.data - self.lines.signal
+#         # self.lines.signal_stopsell = self.data + self.lines.signal
+#         # self.lines.signal_profit_buy = self.data + self.lines.signal_takeprofit
+#         # self.lines.signal_profit_sell = self.data - self.lines.signal_takeprofit
 
 
 

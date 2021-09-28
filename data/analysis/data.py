@@ -1,3 +1,6 @@
+""" Organize source data series
+
+"""
 import os
 import glob
 import pandas

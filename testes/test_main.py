@@ -1,5 +1,5 @@
 # from src import main
-from src import main_opt
+from src import main, main_signals, main_opt
 import json
 # from src.args import parse_args
 
@@ -24,11 +24,9 @@ settings = json.load(open(f"./src/settings.json"))
 #     output = main.main_opt()
 #     assert output is None
 
-def test_daterange_opt():
-    params_signal = {"RSISignal": {
-      "period_rsi": [10, 30, 10],
-      "threshold_buy": [10, 30, 10],
-      "threshold_sell": [70, 90, 10]
-    }}
-    output = main_opt.daterange_opt(settings, params_signal)
+
+def test_runstrat_main_FORCE():
+    settings = json.load(open("./src/settings.json"))
+
+    output = main.runstrat_main(settings, signal="EFISignal")
     assert output is None

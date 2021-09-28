@@ -1,14 +1,25 @@
 # Trading Systems Simulator
 
+
+
 ## TO DO
 
--[ ] Test strategy for opening
--[ ] Increase rules with other indicators
--[ ] Improve documentation
--[ ] Fix source files path to data/source
--[ ] Set output files & reports to data/output
--[ ] Optimize the parameters (min/max/pymoo)
--[ ] 
+- [ ] Test strategy for opening
+- [ ] Increase rules with other indicators
+- [ ] Improve documentation
+- [ ] Fix source files path to data/source
+- [ ] Set output files & reports to data/output
+- [ ] 
+
+## ETA
+
+28/09/2021 - ENTREGAR: 
+FUNÇAO DE TREINO
+FUNÇAO DE TESTE
+
+FORMATO DE TABELA PARA TODOS OS SINAIS
+OVERLEAF ATUALIZADO COM RESULTADOS
+
 
 ## Structure
 
@@ -46,12 +57,22 @@ tradingsystem/
 run on the terminal from main repository directory:
 ``python ./src/main.py``
 
+obs: if you get the message ``ModuleNotFoundError: No module named 'src'`` while running the program, try using:
+``python -m src.main``
+
 obs: if you get the message ``ImportError: cannot import name 'warnings' from 'matplotlib.dates' `` 
 while running the program, remove the `warning` import on "backtrader/plot/locator.py"
 
 ### How to use training/optimization
 
 on the `src` directory, the `main_opt.py` is the module for optimization, using the `settings.json` file as input parameters.
+
+run on the terminal from main repository directory:
+``python ./src/main_opt.py``
+
+obs: if you get the message ``ModuleNotFoundError: No module named 'src'`` while running the program, try using:
+``python -m src.main_opt``
+
 
 ## How to get data source file
 

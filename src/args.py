@@ -30,16 +30,16 @@ def parse_args(pargs=None):
                         default='./data/WIN$N_5M_2015.05.22_2021.01.22_.csv',
                         help='Specific data to be read in')
     parser.add_argument('--fromdate', required=False, #default=None,
-                        default=datetime.datetime(2020, 11, 17),
+                        default=datetime.datetime(2015, 11, 17),
                         help='Starting date in YYYY-MM-DD format')
     parser.add_argument('--todate', required=False, #default=None,
                         # default=datetime.datetime(2012, 10, 1),
-                        default=datetime.datetime(2020, 11, 25),
+                        default=datetime.datetime(2015, 11, 25),
                         help='Ending date in YYYY-MM-DD format')
     parser.add_argument('--noheaders', action='store_true', default=False,
                         required=False,
                         help='Do not use header rows')
-    parser.add_argument('--noprint', action='store_true', default=False,
+    parser.add_argument('--noprint', action='store_true', default=True,
                         help='Print the dataframe')
     parser.add_argument('--writercsv', '-wcsv', action='store_true',
                         help='Tell the writer to produce a csv stream')
@@ -75,28 +75,28 @@ def parse_args(pargs=None):
                         help='Do not optimize data preloading in optimization')
     parser.add_argument('--no-optreturn', action='store_true', required=False,
                         help='Do not optimize the returned values to save time')
-    ## RSI
-    parser.add_argument('--period_rsi_low', type=int, default=10, required=False,
-                        help='RSI period range to optimize')
-    parser.add_argument('--period_rsi_high', type=int, default=50, required=False,
-                        help='RSI period range to optimize')
-    ## SMA
-    parser.add_argument('--ma_low', type=int, default=10, required=False,
-                        help='SMA range low to optimize')
-    parser.add_argument('--ma_high', type=int, default=14, required=False,
-                        help='SMA range high to optimize')
-    parser.add_argument('--m1_low', type=int, default=12, required=False,
-                        help='MACD Fast MA range low to optimize')
-    parser.add_argument('--m1_high', type=int, default=15, required=False,
-                        help='MACD Fast MA range high to optimize')
-    parser.add_argument('--m2_low', type=int, default=26, required=False,
-                        help='MACD Slow MA range low to optimize')
-    parser.add_argument('--m2_high', type=int, default=28, required=False,
-                        help='MACD Slow MA range high to optimize')
-    parser.add_argument('--m3_low', type=int, default=9, required=False,
-                        help='MACD Signal range low to optimize')
-    parser.add_argument('--m3_high', type=int, default=12, required=False,
-                        help='MACD Signal range high to optimize')
+    # ## RSI
+    # parser.add_argument('--period_rsi_low', type=int, default=10, required=False,
+    #                     help='RSI period range to optimize')
+    # parser.add_argument('--period_rsi_high', type=int, default=50, required=False,
+    #                     help='RSI period range to optimize')
+    # ## SMA
+    # parser.add_argument('--ma_low', type=int, default=10, required=False,
+    #                     help='SMA range low to optimize')
+    # parser.add_argument('--ma_high', type=int, default=14, required=False,
+    #                     help='SMA range high to optimize')
+    # parser.add_argument('--m1_low', type=int, default=12, required=False,
+    #                     help='MACD Fast MA range low to optimize')
+    # parser.add_argument('--m1_high', type=int, default=15, required=False,
+    #                     help='MACD Fast MA range high to optimize')
+    # parser.add_argument('--m2_low', type=int, default=26, required=False,
+    #                     help='MACD Slow MA range low to optimize')
+    # parser.add_argument('--m2_high', type=int, default=28, required=False,
+    #                     help='MACD Slow MA range high to optimize')
+    # parser.add_argument('--m3_low', type=int, default=9, required=False,
+    #                     help='MACD Signal range low to optimize')
+    # parser.add_argument('--m3_high', type=int, default=12, required=False,
+    #                     help='MACD Signal range high to optimize')
 
     # Cerebro
     parser.add_argument('--cerebro', required=False, default='',

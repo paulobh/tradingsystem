@@ -1,3 +1,7 @@
+""" Data analysis functions for source files
+associated with : `data_analysis.ipynb`
+"""
+
 import os
 import glob
 import pandas
