@@ -580,9 +580,12 @@ class SignalsStrategy(bt.Strategy):
 
         # Add indicators signals
         self.signal_time = signals.TIMESignal()
-        for signal, signal_params in self.params.signal.items():
+
+        for signal, signal_params in getattr(self.params, "output_train").items():
+        # for signal, signal_params in self.params.signal.items():
             signal_name = "signal_" + signal.split("Signal")[0].lower()
-            signal_params = self.params.signal.get(signal)
+            signal_params = getattr(self.params, "output_train").get(signal)
+            # signal_params = self.params.signal.get(signal)
             # self.__dict__.update({signal_name: signals.GenericSignal(signal=signal, **signal_params)})
             self.__dict__.update({signal_name: getattr(signals, signal)(**signal_params)})
             self.__dict__.update({signal_name+"_atr": signals.ATRSignal(**signal_params)})

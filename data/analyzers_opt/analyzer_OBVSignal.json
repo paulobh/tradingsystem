@@ -1,0 +1,22 @@
+{
+    "{\"period_obv\": 20, \"signal\": \"OBVSignal\"}": {
+        "VWR": {
+            "vwr": 0.0
+        }
+    },
+    "{\"period_obv\": 25, \"signal\": \"OBVSignal\"}": {
+        "VWR": {
+            "vwr": 0.0
+        }
+    },
+    "{\"period_obv\": 30, \"signal\": \"OBVSignal\"}": {
+        "VWR": {
+            "vwr": 0.0
+        }
+    },
+    "{\"period_obv\": 35, \"signal\": \"OBVSignal\"}": {
+        "VWR": {
+            "vwr": 0.0
+        }
+    }
+}

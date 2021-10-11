@@ -40,8 +40,16 @@ def runstrat_signals(settings, **kwargs):
     # clock the start of the process
     tstart = process_time()
 
+    opt_type = kwargs.pop("opt_type")
+    filename, output_key = filename_key_opt_type(settings, opt_type=opt_type)
+    # opt_type_dict = {
+    #     "train": {"key": "output_train_key", "path": "path_output_train"},
+    #     "test": {"key": "output_test_key", "path": "path_output_test"}
+    # }
+    # output_key = settings["opt_analyzer"][opt_type_dict[opt_type]["key"]]
+
+    # update args of strategy
     args = parse_args(kwargs)
-    # signal = list(kwargs["signal"].keys())[0]
 
     # Create a cerebro entity
     cerebro = bt.Cerebro(stdstats=False,        # default kwarg: stdstats=True
@@ -52,10 +60,9 @@ def runstrat_signals(settings, **kwargs):
                          # optreturn=not args.no_optreturn
                          )
 
-    # update params of strategy
+
 
     # Add a strategy
-    # cerebro.addstrategy(strategies.SignalsStrategy, **kwargs.get("signal"))
     cerebro.addstrategy(strategies.SignalsStrategy, **settings, **kwargs)
 
     # Get a data source path
@@ -63,8 +70,9 @@ def runstrat_signals(settings, **kwargs):
 
     # Pass it to the backtrader datafeed and add it to the cerebro
     data = bt.feeds.PandasData(dataname=pandasdatafeed(datapath, args=args),
-                               fromdate=args.test["fromdate"],  # fromdate=args.fromdate,
-                               todate=args.test["todate"])  # todate=args.todate)
+                               fromdate=getattr(args, opt_type)["fromdate"], # fromdate=args.test["fromdate"],  # fromdate=args.fromdate,
+                               todate=getattr(args, opt_type)["todate"]  # todate=args.test["todate"] # todate=args.todate)
+                               )
     cerebro.adddata(data)
 
     # Set our desired cash start
@@ -83,23 +91,16 @@ def runstrat_signals(settings, **kwargs):
     cerebro.addobserver(bt.observers.DrawDown)
 
     # Set Analyzer
-    cerebro.addanalyzer(bt.analyzers.TradeAnalyzer, _name='tradeanalyzer')  # muito completo
-    # cerebro.addanalyzer(bt.analyzers.TimeDrawDown, _name='timedrawdown')
     cerebro.addanalyzer(bt.analyzers.VWR, _name='vwr')  # VariabilityWeightedReturn
     cerebro.addanalyzer(bt.analyzers.SQN, _name='sqn')  # SystemQualityNumber.
-
-    # Writer
-    # cerebro.addwriter(bt.WriterFile, csv=True, out='./logs/log.csv')
-    # cerebro.addwriter(bt.WriterFile, csv=args.writercsv, out='./logs/log.csv')
-
-    # Print out the starting conditions
-    # print('Starting Portfolio Value: %.2f' % cerebro.broker.getvalue())
+    # cerebro.addanalyzer(bt.analyzers.TimeDrawDown, _name='timedrawdown')
+    cerebro.addanalyzer(bt.analyzers.TradeAnalyzer, _name='tradeanalyzer')  # muito completo
 
     # Run over everything
     results = cerebro.run()
 
     # Extract/save analyzers
-    analyzers_signals_log(settings, results, **kwargs)
+    analyzers_signals_log(settings, results, output_key=output_key, **kwargs)
 
     # clock the end of the process
     tend = process_time()
@@ -109,13 +110,11 @@ def runstrat_signals(settings, **kwargs):
 
 
 def analyzers_signals_log(settings, results, **kwargs):
-    # analyzers_dict = {}
+    output_key = kwargs.pop("output_key")
     analyzers_dict = kwargs
     for stratrun in results:
         analysis_value = {analyzer.__class__.__name__: analyzer.get_analysis() for analyzer in stratrun.analyzers}
-        # analysis_key = json.dumps(kwargs, cls=NpEncoder, default=str)
-        # analyzers_dict.update({analysis_key: analysis_value})
-        analyzers_dict.update({"analyzers": analysis_value})
+        analyzers_dict.update({output_key: {"Signals": {"analyzer_opt": analysis_value}}})
 
     filepath = settings["opt_analyzer"]["path_log"].format('Signals')
     json.dump(analyzers_dict, open(filepath, "w"), indent=2, default=str)
@@ -127,16 +126,18 @@ def analyzers_signals_read(settings, **kwargs):
     filepath = settings["opt_analyzer"]["path_log"].format("Signals")
     output = json.load(open(filepath, 'r'))
 
-    # filename = settings["opt_analyzer"]["path_opt_parms"]
-    filename = settings["opt_analyzer"]["path_output"]
+    # opt_type = kwargs.pop("opt_type")
+    filename, output_key = filename_key_opt_type(settings, opt_type="test")
+
     with open(filename, "r+") as file:
         data = json.load(file)
         match_date = False
 
         for idx, row in enumerate(data):
-            if (row.get("train").get("fromdate") == str(output.get("train").get("fromdate"))) & \
-                    (row.get("train").get("todate") == str(output.get("train").get("todate"))):
-                data[idx]["analyzers"] = output["analyzers"]
+            if (row.get("test").get("fromdate") == str(output.get("test").get("fromdate"))) & \
+                    (row.get("test").get("todate") == str(output.get("test").get("todate"))):
+                data[idx]["output_train"] = output["output_train"]
+                data[idx][output_key]["Signals"] = output[output_key]["Signals"]
                 match_date = True
                 break
 
@@ -146,7 +147,6 @@ def analyzers_signals_read(settings, **kwargs):
         file.seek(0, 0)
         json.dump(data, file, indent=2, default=str)
         file.close()
-
     return None
 
 
@@ -160,64 +160,61 @@ def datetime_parser(json_dict):
 
 
 def params_output_validate(settings, **kwargs):
+    # opt_type = kwargs.pop("opt_type")
+    filename, output_key = filename_key_opt_type(settings, opt_type="test")
     output = {}
     output.update(kwargs)
-    # signal_opt = list(kwargs["signal"].keys())[0]
-    # filename = settings["opt_analyzer"]["path_opt_parms"]
-    filename = settings["opt_analyzer"]["path_output"]
+    # signal_opt = list(kwargs[output_key].keys())[0]
 
-    if kwargs.get("ovverideskip"):
+    if kwargs.get("override"):
         return False
 
     with open(filename, "r") as file:
         data = json.load(file)
         for idx, row in enumerate(data):
-            if (row.get("train").get("fromdate") == str(output.get("train").get("fromdate"))) & \
-                (row.get("train").get("todate") == str(output.get("train").get("todate"))) & \
-                ("analyzers" in list(row.keys())):
+            if (row.get("test").get("fromdate") == str(output.get("test").get("fromdate"))) & \
+                    (row.get("test").get("todate") == str(output.get("test").get("todate"))) & \
+                    ("Signals" in list(row.get(output_key).keys())):
                 file.close()
                 return True
     return False
 
 
-def remove_previous_records(settings, **kwargs):
-    # filename = settings["opt_analyzer"]["path_opt_parms"]
-    filename = settings["opt_analyzer"]["path_output"]
-
-    if kwargs.get("ovverideskip"):
-        return None
-
-    with open(filename, "r+") as file:
-        data = json.load(file)
-        for idx, row in enumerate(data):
-            remove_key = data[idx].pop("analyzers", None)
-
-        file.seek(0, 0)
-        json.dump(data, file, indent=2, default=str)
-        file.close()
-
-    return None
+def filename_key_opt_type(settings, **kwargs):
+    opt_type_dict = {
+        "train": {"key": "output_train_key", "path": "path_output_train"},
+        "test": {"key": "output_test_key", "path": "path_output_test"}
+    }
+    opt_type = kwargs.get("opt_type")
+    days_train = settings["opt_analyzer"]["daterange_opt"]
+    range_train = settings["opt_analyzer"]["daterange_opt_train"]
+    filename = settings["opt_analyzer"][opt_type_dict[opt_type]["path"]].format(days_train, range_train)
+    output_key = settings["opt_analyzer"][opt_type_dict[opt_type]["key"]]
+    return filename, output_key
 
 
 def main(settings, **kwargs):
-    # remove_previous_records(settings, ovverideskip=False)
-    remove_previous_records(settings, ovverideskip=True)
+    filename, output_key = filename_key_opt_type(settings, opt_type="test")
+    filename_train, output_key_train = filename_key_opt_type(settings, opt_type="train")
 
-    filename = settings["opt_analyzer"]["path_opt_parms"]
-    params = json.load(open(filename, "r"), object_hook=datetime_parser)
+    # create file to store the output if there is none
+    if os.path.isfile(filename) is False:
+        json.dump([], open(filename, "w"), sort_keys=True, indent=4)
+
+    params = json.load(open(filename_train, "r"), object_hook=datetime_parser)
 
     for idx, params_opt in enumerate(params):
 
         # validate if params already calculated, very helpful is case the code breaks
-        if params_output_validate(settings, ovverideskip=False, **params_opt):
+        if params_output_validate(settings, override=False, opt_type="test", **params_opt):
             continue
 
         else:
             # run optimization strategy
-            runstrat_signals(settings, **params_opt)
+            runstrat_signals(settings, opt_type="test", **params_opt)
 
             # read analyzers and save output
-            analyzers_signals_read(settings, **params_opt)
+            analyzers_signals_read(settings, opt_type="test", **params_opt)
 
     return None
 
@@ -228,7 +225,7 @@ if __name__ == '__main__':
     # clock the start of the process
     tstart = process_time()
 
-    # main script
+    # main script for test
     main(settings)
 
     # clock the end of the process

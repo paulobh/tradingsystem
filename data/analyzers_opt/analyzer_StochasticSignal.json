@@ -1,0 +1,3890 @@
+{
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.2342425283166513,
+            "trades": 106
+        },
+        "VWR": {
+            "vwr": -0.4223690136277149
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.03645760529697085,
+            "trades": 98
+        },
+        "VWR": {
+            "vwr": -0.06689948239441569
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.6475312944626425,
+            "trades": 86
+        },
+        "VWR": {
+            "vwr": 1.1862066670784943
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.31361753119850205,
+            "trades": 93
+        },
+        "VWR": {
+            "vwr": -0.6093009269493066
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.03149888514021597,
+            "trades": 79
+        },
+        "VWR": {
+            "vwr": 0.06201541314122258
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.4544612375009113,
+            "trades": 70
+        },
+        "VWR": {
+            "vwr": 0.8917855192616051
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.269399208581448,
+            "trades": 75
+        },
+        "VWR": {
+            "vwr": 0.5443104994720671
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.58803396662568,
+            "trades": 67
+        },
+        "VWR": {
+            "vwr": 1.2216938348542699
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.7603847265918339,
+            "trades": 65
+        },
+        "VWR": {
+            "vwr": 1.6723261371199287
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.6333576798130742,
+            "trades": 97
+        },
+        "VWR": {
+            "vwr": -1.0757776571399063
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.08998576280057721,
+            "trades": 90
+        },
+        "VWR": {
+            "vwr": 0.15612812602307707
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.5994057336354282,
+            "trades": 80
+        },
+        "VWR": {
+            "vwr": 1.0542950699837825
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.03991355327221085,
+            "trades": 88
+        },
+        "VWR": {
+            "vwr": -0.07457130475840368
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.09573335595088021,
+            "trades": 75
+        },
+        "VWR": {
+            "vwr": 0.1810278772916438
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.6886208717821626,
+            "trades": 66
+        },
+        "VWR": {
+            "vwr": 1.2843721940442587
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.0637878489167696,
+            "trades": 73
+        },
+        "VWR": {
+            "vwr": 0.12767806255129
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.2981725263045957,
+            "trades": 63
+        },
+        "VWR": {
+            "vwr": 0.601942602868367
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.6046348551207402,
+            "trades": 62
+        },
+        "VWR": {
+            "vwr": 1.2948948173660006
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.6628669963147119,
+            "trades": 95
+        },
+        "VWR": {
+            "vwr": -1.1116169270348986
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.10072124951482148,
+            "trades": 89
+        },
+        "VWR": {
+            "vwr": 0.17295329659268666
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.46332859981331526,
+            "trades": 79
+        },
+        "VWR": {
+            "vwr": 0.8149911465743627
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.12343794871839286,
+            "trades": 85
+        },
+        "VWR": {
+            "vwr": -0.22732108683288044
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.4070758228394325,
+            "trades": 74
+        },
+        "VWR": {
+            "vwr": 0.7616856518673986
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.7721741711821518,
+            "trades": 65
+        },
+        "VWR": {
+            "vwr": 1.4268327928150193
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.05824166810005211,
+            "trades": 72
+        },
+        "VWR": {
+            "vwr": -0.11622595963503089
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.1597644920309738,
+            "trades": 62
+        },
+        "VWR": {
+            "vwr": 0.32089729387520544
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.38747042411226285,
+            "trades": 63
+        },
+        "VWR": {
+            "vwr": 0.8432855504640795
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.40532933228811346,
+            "trades": 134
+        },
+        "VWR": {
+            "vwr": -0.7981238616928642
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.05796014289532118,
+            "trades": 126
+        },
+        "VWR": {
+            "vwr": -0.11888566109414231
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.40936572118025644,
+            "trades": 113
+        },
+        "VWR": {
+            "vwr": 0.8500369126939264
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.23635594838678564,
+            "trades": 116
+        },
+        "VWR": {
+            "vwr": -0.5061549208626169
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.271947567583895,
+            "trades": 101
+        },
+        "VWR": {
+            "vwr": -0.5996282710022811
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.18391373653915496,
+            "trades": 92
+        },
+        "VWR": {
+            "vwr": -0.4087661496511744
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.06682239533695222,
+            "trades": 97
+        },
+        "VWR": {
+            "vwr": 0.1527493878641428
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.08402231904167948,
+            "trades": 89
+        },
+        "VWR": {
+            "vwr": -0.20059065267418144
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.3533825695974828,
+            "trades": 86
+        },
+        "VWR": {
+            "vwr": 0.8911577622924387
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.7580237036953462,
+            "trades": 125
+        },
+        "VWR": {
+            "vwr": -1.4274333332082265
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.055769052692635435,
+            "trades": 118
+        },
+        "VWR": {
+            "vwr": 0.10888500772863306
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.35691593122983895,
+            "trades": 107
+        },
+        "VWR": {
+            "vwr": 0.7179332142132943
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.01305077695783054,
+            "trades": 111
+        },
+        "VWR": {
+            "vwr": 0.027053598545388857
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.22129389497304283,
+            "trades": 97
+        },
+        "VWR": {
+            "vwr": -0.4707105641486367
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.00708366004722647,
+            "trades": 88
+        },
+        "VWR": {
+            "vwr": 0.015220140771803297
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.11890396605085192,
+            "trades": 95
+        },
+        "VWR": {
+            "vwr": -0.26796550065753394
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.3504906859869892,
+            "trades": 85
+        },
+        "VWR": {
+            "vwr": -0.8087148903148226
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.2048698176583773,
+            "trades": 83
+        },
+        "VWR": {
+            "vwr": 0.504882237777038
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.8550817612541936,
+            "trades": 122
+        },
+        "VWR": {
+            "vwr": -1.5844608201557262
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.0180552504854878,
+            "trades": 116
+        },
+        "VWR": {
+            "vwr": -0.03494569482220302
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.14436886970912086,
+            "trades": 105
+        },
+        "VWR": {
+            "vwr": 0.2894349190019944
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.06125765738003925,
+            "trades": 108
+        },
+        "VWR": {
+            "vwr": -0.12546913158100118
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.052835785760566946,
+            "trades": 96
+        },
+        "VWR": {
+            "vwr": 0.11190255086962807
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.07848029479934816,
+            "trades": 87
+        },
+        "VWR": {
+            "vwr": 0.1669493466424169
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.2268708678336566,
+            "trades": 94
+        },
+        "VWR": {
+            "vwr": -0.507817650632433
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.4707863653912342,
+            "trades": 84
+        },
+        "VWR": {
+            "vwr": -1.0740481590938973
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.08321431730598813,
+            "trades": 85
+        },
+        "VWR": {
+            "vwr": -0.20791123494200517
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.92954980219353,
+            "trades": 53
+        },
+        "VWR": {
+            "vwr": 1.12233536970821
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.7742102210373412,
+            "trades": 49
+        },
+        "VWR": {
+            "vwr": 0.98619590468526
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.9016524320951977,
+            "trades": 46
+        },
+        "VWR": {
+            "vwr": 1.1966679959593216
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.6400328501191385,
+            "trades": 47
+        },
+        "VWR": {
+            "vwr": 0.8693351190274099
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.6481292116445023,
+            "trades": 42
+        },
+        "VWR": {
+            "vwr": 0.9146711153546592
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.31761036062598197,
+            "trades": 39
+        },
+        "VWR": {
+            "vwr": 0.47902084553537744
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.3252503697849199,
+            "trades": 38
+        },
+        "VWR": {
+            "vwr": 0.46171753182344827
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.2935709588522279,
+            "trades": 34
+        },
+        "VWR": {
+            "vwr": 0.4444035723642667
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.4416072708961287,
+            "trades": 32
+        },
+        "VWR": {
+            "vwr": 0.6925431709387165
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.5780086769947651,
+            "trades": 44
+        },
+        "VWR": {
+            "vwr": 0.6367438308361527
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 1.0210613985052706,
+            "trades": 42
+        },
+        "VWR": {
+            "vwr": 1.1828398881574957
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.8374931560303595,
+            "trades": 38
+        },
+        "VWR": {
+            "vwr": 0.9956871007797105
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.5470070448183225,
+            "trades": 41
+        },
+        "VWR": {
+            "vwr": 0.6892733498525428
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.373846412434845,
+            "trades": 38
+        },
+        "VWR": {
+            "vwr": 0.498783815148761
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.432633419862213,
+            "trades": 34
+        },
+        "VWR": {
+            "vwr": 0.5901606699481003
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.3340595963816525,
+            "trades": 34
+        },
+        "VWR": {
+            "vwr": 0.44477939797453453
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.5938905511808977,
+            "trades": 30
+        },
+        "VWR": {
+            "vwr": 0.8229785536237947
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.365414553954057,
+            "trades": 28
+        },
+        "VWR": {
+            "vwr": 0.530751697355838
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.86287058974945,
+            "trades": 44
+        },
+        "VWR": {
+            "vwr": 0.9295700038572441
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 1.3254218223544,
+            "trades": 42
+        },
+        "VWR": {
+            "vwr": 1.5108796875077712
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.8317307249397947,
+            "trades": 38
+        },
+        "VWR": {
+            "vwr": 0.9900147251498217
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.5597997068734072,
+            "trades": 41
+        },
+        "VWR": {
+            "vwr": 0.7083311632468499
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.380306161133183,
+            "trades": 38
+        },
+        "VWR": {
+            "vwr": 0.5103035499488493
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.4447727164295356,
+            "trades": 34
+        },
+        "VWR": {
+            "vwr": 0.609263920946338
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.48923075113584796,
+            "trades": 35
+        },
+        "VWR": {
+            "vwr": 0.6623324042999655
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.7783158655039244,
+            "trades": 31
+        },
+        "VWR": {
+            "vwr": 1.0970708809489114
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.5676889932974061,
+            "trades": 29
+        },
+        "VWR": {
+            "vwr": 0.8425964644491355
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.4862491075077921,
+            "trades": 81
+        },
+        "VWR": {
+            "vwr": 0.7284381241134688
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.5863579675345919,
+            "trades": 77
+        },
+        "VWR": {
+            "vwr": 0.9239333214511267
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.5188897247366399,
+            "trades": 73
+        },
+        "VWR": {
+            "vwr": 0.8518644044099917
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.670067314428729,
+            "trades": 71
+        },
+        "VWR": {
+            "vwr": 1.1089147788125624
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.2559744488953365,
+            "trades": 65
+        },
+        "VWR": {
+            "vwr": 0.44554322062823315
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.3270619668287781,
+            "trades": 62
+        },
+        "VWR": {
+            "vwr": -0.5987786968204353
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.1420957187902413,
+            "trades": 61
+        },
+        "VWR": {
+            "vwr": 0.2541899489668492
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.3950584123575341,
+            "trades": 57
+        },
+        "VWR": {
+            "vwr": -0.7609446705059248
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.08485907468730824,
+            "trades": 54
+        },
+        "VWR": {
+            "vwr": 0.17099054504253283
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.17614661840425738,
+            "trades": 72
+        },
+        "VWR": {
+            "vwr": 0.24750611598174135
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.7583053794156229,
+            "trades": 70
+        },
+        "VWR": {
+            "vwr": 1.1272334496644076
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.4247616781006113,
+            "trades": 65
+        },
+        "VWR": {
+            "vwr": 0.6502296991077775
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.5976725915441956,
+            "trades": 65
+        },
+        "VWR": {
+            "vwr": 0.939902954603242
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.026427176001577343,
+            "trades": 61
+        },
+        "VWR": {
+            "vwr": 0.043996998902219545
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.26790235048628547,
+            "trades": 57
+        },
+        "VWR": {
+            "vwr": -0.4607993536801162
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.13742994636602274,
+            "trades": 57
+        },
+        "VWR": {
+            "vwr": 0.23542709283432497
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.20012724233032375,
+            "trades": 53
+        },
+        "VWR": {
+            "vwr": -0.36548621357803207
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.004959588998035113,
+            "trades": 50
+        },
+        "VWR": {
+            "vwr": 0.00950193536824263
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.3937875028516343,
+            "trades": 72
+        },
+        "VWR": {
+            "vwr": 0.5498018593571097
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.990628884860369,
+            "trades": 70
+        },
+        "VWR": {
+            "vwr": 1.461322880884991
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.42558173610662825,
+            "trades": 65
+        },
+        "VWR": {
+            "vwr": 0.65211341454496
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.6098958680066536,
+            "trades": 65
+        },
+        "VWR": {
+            "vwr": 0.9608068325471586
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.0378036599051764,
+            "trades": 61
+        },
+        "VWR": {
+            "vwr": 0.06313131870580693
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.24733891207448327,
+            "trades": 57
+        },
+        "VWR": {
+            "vwr": -0.4266066563207543
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.26246658834169984,
+            "trades": 58
+        },
+        "VWR": {
+            "vwr": 0.45483722897879697
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.042236229697728354,
+            "trades": 54
+        },
+        "VWR": {
+            "vwr": -0.07831064143687126
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.03587032095870154,
+            "trades": 52
+        },
+        "VWR": {
+            "vwr": 0.07044421913219259
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.4818947723590699,
+            "trades": 101
+        },
+        "VWR": {
+            "vwr": -2.3728881262267922
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.0101576741599119,
+            "trades": 91
+        },
+        "VWR": {
+            "vwr": -1.6807488119371692
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.46048911930686753,
+            "trades": 85
+        },
+        "VWR": {
+            "vwr": -0.824860715620557
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.0859928906227474,
+            "trades": 85
+        },
+        "VWR": {
+            "vwr": -1.903521466686426
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.7849100068592134,
+            "trades": 77
+        },
+        "VWR": {
+            "vwr": -1.4704660487138876
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.5683098760206798,
+            "trades": 68
+        },
+        "VWR": {
+            "vwr": -1.0886414099259318
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.5158808933887659,
+            "trades": 71
+        },
+        "VWR": {
+            "vwr": -0.9955018252157988
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.19940307064368845,
+            "trades": 61
+        },
+        "VWR": {
+            "vwr": -0.3996399739563335
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.15975903919619747,
+            "trades": 59
+        },
+        "VWR": {
+            "vwr": 0.34180967207988006
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.8802673408879782,
+            "trades": 93
+        },
+        "VWR": {
+            "vwr": -2.8586206970139174
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.9431911538664144,
+            "trades": 83
+        },
+        "VWR": {
+            "vwr": -1.4740115616708742
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.6061662323733672,
+            "trades": 77
+        },
+        "VWR": {
+            "vwr": -1.0175724240454083
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.0567458521568978,
+            "trades": 78
+        },
+        "VWR": {
+            "vwr": -1.7464348096382163
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.8767455109855542,
+            "trades": 72
+        },
+        "VWR": {
+            "vwr": -1.547355360690293
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.5465557211381229,
+            "trades": 63
+        },
+        "VWR": {
+            "vwr": -0.9909256397609338
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.9804244285223435,
+            "trades": 67
+        },
+        "VWR": {
+            "vwr": -1.7986989425313795
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.5212261077377226,
+            "trades": 59
+        },
+        "VWR": {
+            "vwr": -1.0131337125278008
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.13595215626310375,
+            "trades": 57
+        },
+        "VWR": {
+            "vwr": -0.28418941431007844
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.9218753839381508,
+            "trades": 89
+        },
+        "VWR": {
+            "vwr": -2.8580980494970016
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.0469015310020202,
+            "trades": 81
+        },
+        "VWR": {
+            "vwr": -1.6077370522291037
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.7612232900283304,
+            "trades": 76
+        },
+        "VWR": {
+            "vwr": -1.2581141224898877
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.169228967100402,
+            "trades": 77
+        },
+        "VWR": {
+            "vwr": -1.9136880514242043
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.8750928252029488,
+            "trades": 72
+        },
+        "VWR": {
+            "vwr": -1.5439347588687329
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.7116875194511779,
+            "trades": 62
+        },
+        "VWR": {
+            "vwr": -1.2651294242192723
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.8829132533849688,
+            "trades": 66
+        },
+        "VWR": {
+            "vwr": -1.6098254059930275
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.5723321217183565,
+            "trades": 57
+        },
+        "VWR": {
+            "vwr": -1.087079225092308
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.2917822753428025,
+            "trades": 55
+        },
+        "VWR": {
+            "vwr": -0.5955656907808334
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -2.0175619395191897,
+            "trades": 128
+        },
+        "VWR": {
+            "vwr": -3.4855237795513974
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.4369466884542594,
+            "trades": 118
+        },
+        "VWR": {
+            "vwr": -2.604847080851135
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.9020258972649192,
+            "trades": 111
+        },
+        "VWR": {
+            "vwr": -1.7517568360659
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.9292581725827264,
+            "trades": 109
+        },
+        "VWR": {
+            "vwr": -1.8311188189204697
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.8798604403279167,
+            "trades": 99
+        },
+        "VWR": {
+            "vwr": -1.821026004319101
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.8735080263546626,
+            "trades": 89
+        },
+        "VWR": {
+            "vwr": -1.8298698372466198
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.4069267529629544,
+            "trades": 93
+        },
+        "VWR": {
+            "vwr": -0.8818213245989907
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.5592072137482859,
+            "trades": 81
+        },
+        "VWR": {
+            "vwr": -1.2429655935027129
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.13961406352319009,
+            "trades": 77
+        },
+        "VWR": {
+            "vwr": 0.33453541867643155
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -2.3950988175200463,
+            "trades": 120
+        },
+        "VWR": {
+            "vwr": -3.959925453023208
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.3992795097657138,
+            "trades": 110
+        },
+        "VWR": {
+            "vwr": -2.4150567263592353
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.059242576473702,
+            "trades": 103
+        },
+        "VWR": {
+            "vwr": -1.948233533529916
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.8869361377065647,
+            "trades": 102
+        },
+        "VWR": {
+            "vwr": -1.6690161206514806
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.9600248573258711,
+            "trades": 94
+        },
+        "VWR": {
+            "vwr": -1.8928917187449519
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.8640736833203314,
+            "trades": 84
+        },
+        "VWR": {
+            "vwr": -1.7327539149025528
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.8852023544060262,
+            "trades": 88
+        },
+        "VWR": {
+            "vwr": -1.8314983406223586
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.8504038523825759,
+            "trades": 79
+        },
+        "VWR": {
+            "vwr": -1.8320445462433284
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.13151481990431,
+            "trades": 75
+        },
+        "VWR": {
+            "vwr": -0.30797337229605687
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -2.078848624627939,
+            "trades": 116
+        },
+        "VWR": {
+            "vwr": -3.4409487652672057
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.1360052322853504,
+            "trades": 108
+        },
+        "VWR": {
+            "vwr": -1.9710321031277054
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.9313629153143449,
+            "trades": 101
+        },
+        "VWR": {
+            "vwr": -1.7089101772657536
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.9856288625529921,
+            "trades": 101
+        },
+        "VWR": {
+            "vwr": -1.8384570889444272
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.9583879801756415,
+            "trades": 94
+        },
+        "VWR": {
+            "vwr": -1.8867910533445844
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.0095921313499105,
+            "trades": 83
+        },
+        "VWR": {
+            "vwr": -1.9902869991567047
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.7991119060960867,
+            "trades": 87
+        },
+        "VWR": {
+            "vwr": -1.6443308099194345
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.89730852346363,
+            "trades": 77
+        },
+        "VWR": {
+            "vwr": -1.897740194457342
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.3805630966889631,
+            "trades": 74
+        },
+        "VWR": {
+            "vwr": -0.8727043625909604
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.32339244055458916,
+            "trades": 54
+        },
+        "VWR": {
+            "vwr": -0.4307055418635564
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.600786065417518,
+            "trades": 51
+        },
+        "VWR": {
+            "vwr": -0.8213149750696076
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.25836760295601846,
+            "trades": 50
+        },
+        "VWR": {
+            "vwr": -0.3845766773819554
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.4050289360306172,
+            "trades": 49
+        },
+        "VWR": {
+            "vwr": -0.5859314968131927
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.1591412944612056,
+            "trades": 46
+        },
+        "VWR": {
+            "vwr": -0.2456241249849194
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.16786486118965013,
+            "trades": 44
+        },
+        "VWR": {
+            "vwr": -0.26874416449838057
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.022398275705502235,
+            "trades": 43
+        },
+        "VWR": {
+            "vwr": 0.035064140874033735
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.1225816168476652,
+            "trades": 41
+        },
+        "VWR": {
+            "vwr": 0.20415122137988642
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.2170639549901326,
+            "trades": 33
+        },
+        "VWR": {
+            "vwr": 0.35093490444573106
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.01418822092655,
+            "trades": 46
+        },
+        "VWR": {
+            "vwr": -1.2394683500240085
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.08771971071372388,
+            "trades": 44
+        },
+        "VWR": {
+            "vwr": -0.10949194150318685
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.43556315786597577,
+            "trades": 42
+        },
+        "VWR": {
+            "vwr": -0.5857746307138648
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.19609574953193049,
+            "trades": 43
+        },
+        "VWR": {
+            "vwr": -0.2591118578104225
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.22584990080618442,
+            "trades": 41
+        },
+        "VWR": {
+            "vwr": -0.3187928697534117
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.26367340760005964,
+            "trades": 38
+        },
+        "VWR": {
+            "vwr": -0.3839948930711866
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.2647343584293729,
+            "trades": 39
+        },
+        "VWR": {
+            "vwr": -0.39133526703539273
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.47057661160341,
+            "trades": 36
+        },
+        "VWR": {
+            "vwr": -0.726200526041059
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.2698316491451862,
+            "trades": 29
+        },
+        "VWR": {
+            "vwr": -0.4001068087893496
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.773293476375727,
+            "trades": 46
+        },
+        "VWR": {
+            "vwr": -0.9549402382522977
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.18464306554945503,
+            "trades": 44
+        },
+        "VWR": {
+            "vwr": 0.22964499874634514
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.15868937142313166,
+            "trades": 42
+        },
+        "VWR": {
+            "vwr": -0.2139139727285553
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.18791513239107788,
+            "trades": 43
+        },
+        "VWR": {
+            "vwr": -0.24934487817704556
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.09871060151246766,
+            "trades": 41
+        },
+        "VWR": {
+            "vwr": 0.1399930102797333
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.2531271659394344,
+            "trades": 38
+        },
+        "VWR": {
+            "vwr": -0.3702770859648534
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.26219090635389675,
+            "trades": 39
+        },
+        "VWR": {
+            "vwr": -0.3892248526350729
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.4658191911867889,
+            "trades": 36
+        },
+        "VWR": {
+            "vwr": -0.7221104699897748
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.26081474045125375,
+            "trades": 29
+        },
+        "VWR": {
+            "vwr": -0.3882848432649307
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.0919958354831338,
+            "trades": 81
+        },
+        "VWR": {
+            "vwr": -1.6397349788461935
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.1442658846461338,
+            "trades": 78
+        },
+        "VWR": {
+            "vwr": -1.780926477451211
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.7954069213308993,
+            "trades": 76
+        },
+        "VWR": {
+            "vwr": -1.337854522581755
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.3310874661461885,
+            "trades": 73
+        },
+        "VWR": {
+            "vwr": -0.5622267490810938
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.3574003080845498,
+            "trades": 68
+        },
+        "VWR": {
+            "vwr": -0.6414786933494947
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.5743927337109073,
+            "trades": 65
+        },
+        "VWR": {
+            "vwr": -1.0544332543805803
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.062019997389708766,
+            "trades": 65
+        },
+        "VWR": {
+            "vwr": 0.115439367270604
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.3459949411075899,
+            "trades": 61
+        },
+        "VWR": {
+            "vwr": -0.677741310169343
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.16844961375131698,
+            "trades": 51
+        },
+        "VWR": {
+            "vwr": 0.32795374100956826
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.7187765247775095,
+            "trades": 73
+        },
+        "VWR": {
+            "vwr": -2.4077067192611095
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.7567902501298792,
+            "trades": 71
+        },
+        "VWR": {
+            "vwr": -1.1182870021908917
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.9888903987877612,
+            "trades": 68
+        },
+        "VWR": {
+            "vwr": -1.5395321609639139
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.1451280269176507,
+            "trades": 67
+        },
+        "VWR": {
+            "vwr": -0.23174003256812903
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.4190407980606782,
+            "trades": 63
+        },
+        "VWR": {
+            "vwr": -0.7041306374934234
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.6797061460040528,
+            "trades": 59
+        },
+        "VWR": {
+            "vwr": -1.1611027400347105
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.25840405269734534,
+            "trades": 60
+        },
+        "VWR": {
+            "vwr": -0.4574826826798611
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.8623230164638419,
+            "trades": 56
+        },
+        "VWR": {
+            "vwr": -1.5675582191514077
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.2367430485277103,
+            "trades": 47
+        },
+        "VWR": {
+            "vwr": -0.43213460784442925
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.3453387868068487,
+            "trades": 73
+        },
+        "VWR": {
+            "vwr": -1.9169617806664274
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.35191628228532273,
+            "trades": 71
+        },
+        "VWR": {
+            "vwr": -0.5278969743623706
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.6638498124777534,
+            "trades": 67
+        },
+        "VWR": {
+            "vwr": -1.0453220810999817
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.1363043018720518,
+            "trades": 67
+        },
+        "VWR": {
+            "vwr": -0.21824515343517512
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.14529141528969897,
+            "trades": 63
+        },
+        "VWR": {
+            "vwr": -0.2464644489309116
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.6656204563876154,
+            "trades": 59
+        },
+        "VWR": {
+            "vwr": -1.1406645567395883
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.2533795322410097,
+            "trades": 60
+        },
+        "VWR": {
+            "vwr": -0.44973125130442587
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.8557906185669888,
+            "trades": 56
+        },
+        "VWR": {
+            "vwr": -1.560064462437149
+        }
+    },
+    "{\"period_dslow\": 10, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.3708196527757551,
+            "trades": 48
+        },
+        "VWR": {
+            "vwr": -0.6823354538275197
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.2104973303605561,
+            "trades": 132
+        },
+        "VWR": {
+            "vwr": 0.41858786077744403
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.30806578438024385,
+            "trades": 121
+        },
+        "VWR": {
+            "vwr": -0.6085566815515562
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.25025175782910514,
+            "trades": 108
+        },
+        "VWR": {
+            "vwr": 0.5130642687752627
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.5980997971912967,
+            "trades": 112
+        },
+        "VWR": {
+            "vwr": -1.2340159125392742
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.1267686575296492,
+            "trades": 101
+        },
+        "VWR": {
+            "vwr": -0.2789108923537358
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.3397736476792888,
+            "trades": 95
+        },
+        "VWR": {
+            "vwr": -0.7722982457716759
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.36466444309621854,
+            "trades": 91
+        },
+        "VWR": {
+            "vwr": -0.8155365613610074
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.4917753335775602,
+            "trades": 86
+        },
+        "VWR": {
+            "vwr": -1.1690265875495958
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.13300069361499917,
+            "trades": 75
+        },
+        "VWR": {
+            "vwr": -0.3225193438195682
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.39576521294158684,
+            "trades": 124
+        },
+        "VWR": {
+            "vwr": -0.752242515031147
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.19793456323559436,
+            "trades": 111
+        },
+        "VWR": {
+            "vwr": -0.37082651009109335
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.1886351032401782,
+            "trades": 102
+        },
+        "VWR": {
+            "vwr": 0.3730258191103917
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.6160050775110094,
+            "trades": 104
+        },
+        "VWR": {
+            "vwr": -1.2107182913507837
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.16591571329931584,
+            "trades": 96
+        },
+        "VWR": {
+            "vwr": -0.3500604773429519
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.3033217228660019,
+            "trades": 90
+        },
+        "VWR": {
+            "vwr": -0.6637834537068096
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.4465612495951766,
+            "trades": 88
+        },
+        "VWR": {
+            "vwr": -0.9705992506262306
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.8042296617930389,
+            "trades": 82
+        },
+        "VWR": {
+            "vwr": -1.818064124728886
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.45510587337718367,
+            "trades": 71
+        },
+        "VWR": {
+            "vwr": -1.0491097820267385
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.6761422569151826,
+            "trades": 121
+        },
+        "VWR": {
+            "vwr": -1.229356962257718
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.07988522039321376,
+            "trades": 110
+        },
+        "VWR": {
+            "vwr": 0.1500640718534639
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.28428372657407125,
+            "trades": 101
+        },
+        "VWR": {
+            "vwr": 0.5602689150847776
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.4887416915943719,
+            "trades": 103
+        },
+        "VWR": {
+            "vwr": -0.9626725739379475
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.08070279925983093,
+            "trades": 96
+        },
+        "VWR": {
+            "vwr": 0.17149110256061403
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.19170740857541999,
+            "trades": 89
+        },
+        "VWR": {
+            "vwr": -0.4196192168402001
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.3140872876516241,
+            "trades": 87
+        },
+        "VWR": {
+            "vwr": -0.6835864148779305
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.6771804240778821,
+            "trades": 81
+        },
+        "VWR": {
+            "vwr": -1.5367717843442739
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.3319728130604287,
+            "trades": 70
+        },
+        "VWR": {
+            "vwr": -0.7655268212860954
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.15883216693264077,
+            "trades": 187
+        },
+        "VWR": {
+            "vwr": 0.37732030509313835
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.30854794313691386,
+            "trades": 171
+        },
+        "VWR": {
+            "vwr": -0.7278634580917407
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.2588015309663654,
+            "trades": 155
+        },
+        "VWR": {
+            "vwr": 0.6330140573376225
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.02992829947839011,
+            "trades": 157
+        },
+        "VWR": {
+            "vwr": 0.07426163234484034
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.3839492878708183,
+            "trades": 143
+        },
+        "VWR": {
+            "vwr": 0.9994558198158121
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.3479296023346704,
+            "trades": 135
+        },
+        "VWR": {
+            "vwr": 0.9509078784885185
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.0858325016729158,
+            "trades": 131
+        },
+        "VWR": {
+            "vwr": 0.2278817846089737
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.27419708358639433,
+            "trades": 123
+        },
+        "VWR": {
+            "vwr": 0.7784106770250483
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.6221224161344956,
+            "trades": 108
+        },
+        "VWR": {
+            "vwr": 1.7738025319649278
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.3527535223609834,
+            "trades": 179
+        },
+        "VWR": {
+            "vwr": -0.8039477981741525
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.15420030878224616,
+            "trades": 162
+        },
+        "VWR": {
+            "vwr": -0.3531995066815514
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.19926420609231657,
+            "trades": 149
+        },
+        "VWR": {
+            "vwr": 0.4750763461790505
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.055379169140225525,
+            "trades": 150
+        },
+        "VWR": {
+            "vwr": -0.13245501506926555
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.3576750030845907,
+            "trades": 138
+        },
+        "VWR": {
+            "vwr": 0.9051546802196008
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.38454957335472095,
+            "trades": 130
+        },
+        "VWR": {
+            "vwr": 1.0205437906625543
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.015143336493748648,
+            "trades": 128
+        },
+        "VWR": {
+            "vwr": 0.039523494861540366
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.0305259692198282,
+            "trades": 119
+        },
+        "VWR": {
+            "vwr": 0.08467343683511104
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.3817886852497776,
+            "trades": 104
+        },
+        "VWR": {
+            "vwr": 1.064102306689093
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.6057685773727998,
+            "trades": 176
+        },
+        "VWR": {
+            "vwr": -1.3356295567531664
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.19210879697088679,
+            "trades": 161
+        },
+        "VWR": {
+            "vwr": 0.4417374400120602
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.2779224964813788,
+            "trades": 148
+        },
+        "VWR": {
+            "vwr": 0.6610183657727369
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.05162697939640201,
+            "trades": 149
+        },
+        "VWR": {
+            "vwr": 0.12352253841474495
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.5572802527516203,
+            "trades": 138
+        },
+        "VWR": {
+            "vwr": 1.4129401483001671
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.47398167318475015,
+            "trades": 129
+        },
+        "VWR": {
+            "vwr": 1.2520951042908095
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.057371452589628794,
+            "trades": 126
+        },
+        "VWR": {
+            "vwr": 0.14885354081312682
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.056056082278217415,
+            "trades": 117
+        },
+        "VWR": {
+            "vwr": 0.15447553084007945
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.3952714359178753,
+            "trades": 102
+        },
+        "VWR": {
+            "vwr": 1.090708741893939
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.27804032378075744,
+            "trades": 77
+        },
+        "VWR": {
+            "vwr": -0.41593818479308514
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.5943856968980902,
+            "trades": 67
+        },
+        "VWR": {
+            "vwr": -0.875955761214699
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.6274173974846726,
+            "trades": 63
+        },
+        "VWR": {
+            "vwr": -0.9527736796082528
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.667043449067283,
+            "trades": 65
+        },
+        "VWR": {
+            "vwr": -1.0551011933631198
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.5415479396386719,
+            "trades": 61
+        },
+        "VWR": {
+            "vwr": -0.911292897869325
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.0489692526223375,
+            "trades": 60
+        },
+        "VWR": {
+            "vwr": -1.8461136492558319
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.1392770751146744,
+            "trades": 61
+        },
+        "VWR": {
+            "vwr": -2.0194017965145807
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.3421664821529107,
+            "trades": 59
+        },
+        "VWR": {
+            "vwr": -2.534487798282187
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.2398024604290503,
+            "trades": 54
+        },
+        "VWR": {
+            "vwr": -2.4046207695246555
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.6177210602747149,
+            "trades": 72
+        },
+        "VWR": {
+            "vwr": -0.8826071835496497
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.6682884463081681,
+            "trades": 63
+        },
+        "VWR": {
+            "vwr": -0.942486249196093
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.4702400486408657,
+            "trades": 61
+        },
+        "VWR": {
+            "vwr": -0.7019044780260731
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.1611263245151269,
+            "trades": 61
+        },
+        "VWR": {
+            "vwr": -1.7382207470580233
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.9763778989567411,
+            "trades": 58
+        },
+        "VWR": {
+            "vwr": -1.5599561977254928
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.1797829671511408,
+            "trades": 56
+        },
+        "VWR": {
+            "vwr": -1.9689868886395938
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.1367462829542676,
+            "trades": 59
+        },
+        "VWR": {
+            "vwr": -1.9618476836544618
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.1591985767563588,
+            "trades": 55
+        },
+        "VWR": {
+            "vwr": -2.114651689454015
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.301789518172442,
+            "trades": 52
+        },
+        "VWR": {
+            "vwr": -2.4506167371208614
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.6162919938624102,
+            "trades": 70
+        },
+        "VWR": {
+            "vwr": -0.8734836195928725
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.6719488456129427,
+            "trades": 63
+        },
+        "VWR": {
+            "vwr": -0.949868427406044
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.4847408878082535,
+            "trades": 61
+        },
+        "VWR": {
+            "vwr": -0.7243835566115967
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.162163861918914,
+            "trades": 61
+        },
+        "VWR": {
+            "vwr": -1.7433559910811502
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.9840127342347101,
+            "trades": 58
+        },
+        "VWR": {
+            "vwr": -1.5740283671827984
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.1878230001395067,
+            "trades": 56
+        },
+        "VWR": {
+            "vwr": -1.9845681182909196
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.1456531302831157,
+            "trades": 59
+        },
+        "VWR": {
+            "vwr": -1.9794999755365459
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.1599133679129146,
+            "trades": 55
+        },
+        "VWR": {
+            "vwr": -2.119732956446811
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.2960675558430732,
+            "trades": 52
+        },
+        "VWR": {
+            "vwr": -2.4469688291415426
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.23140948395353547,
+            "trades": 132
+        },
+        "VWR": {
+            "vwr": -0.4550418186526883
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.5062640584229435,
+            "trades": 117
+        },
+        "VWR": {
+            "vwr": -0.9927978139121292
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.40632903268498305,
+            "trades": 110
+        },
+        "VWR": {
+            "vwr": -0.8311926293293117
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.1297507654297677,
+            "trades": 110
+        },
+        "VWR": {
+            "vwr": 0.2690957353261134
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.1664891334295015,
+            "trades": 103
+        },
+        "VWR": {
+            "vwr": 0.37193013425295096
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.06289481721366981,
+            "trades": 100
+        },
+        "VWR": {
+            "vwr": -0.1498822496060949
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.4380061161554257,
+            "trades": 101
+        },
+        "VWR": {
+            "vwr": -1.0171880004967848
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.26135006375650927,
+            "trades": 96
+        },
+        "VWR": {
+            "vwr": -0.6601683786201382
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.1357683717026346,
+            "trades": 87
+        },
+        "VWR": {
+            "vwr": -0.3504600840012072
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.4904761909411793,
+            "trades": 127
+        },
+        "VWR": {
+            "vwr": -0.9348177402501411
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.47908959899372494,
+            "trades": 114
+        },
+        "VWR": {
+            "vwr": -0.9239396232427203
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.29585919937044813,
+            "trades": 108
+        },
+        "VWR": {
+            "vwr": -0.5988638308847496
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.331630729805868,
+            "trades": 107
+        },
+        "VWR": {
+            "vwr": -0.6698689969363282
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.15160781893147604,
+            "trades": 100
+        },
+        "VWR": {
+            "vwr": -0.3294137978796796
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.14025821242555928,
+            "trades": 96
+        },
+        "VWR": {
+            "vwr": -0.32379799083654387
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.4329997967072252,
+            "trades": 99
+        },
+        "VWR": {
+            "vwr": -0.9888482791924054
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.09262332814266094,
+            "trades": 92
+        },
+        "VWR": {
+            "vwr": -0.22805636824218387
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.153726878842457,
+            "trades": 85
+        },
+        "VWR": {
+            "vwr": -0.39018636391612643
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.5170092725897725,
+            "trades": 125
+        },
+        "VWR": {
+            "vwr": -0.9796317519782777
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.34113698137013576,
+            "trades": 114
+        },
+        "VWR": {
+            "vwr": -0.661394324323896
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.306889739440329,
+            "trades": 108
+        },
+        "VWR": {
+            "vwr": -0.6215216210626068
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.33520374168884154,
+            "trades": 107
+        },
+        "VWR": {
+            "vwr": -0.6772763966784728
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.16650555563408445,
+            "trades": 100
+        },
+        "VWR": {
+            "vwr": -0.3616946541900227
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.15347278560472072,
+            "trades": 96
+        },
+        "VWR": {
+            "vwr": -0.35417249970484876
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.5227588871400028,
+            "trades": 98
+        },
+        "VWR": {
+            "vwr": -1.184038893372771
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.18911366515746594,
+            "trades": 91
+        },
+        "VWR": {
+            "vwr": -0.4613251415654267
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 2, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.256818126211327,
+            "trades": 84
+        },
+        "VWR": {
+            "vwr": -0.6455726132213193
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.4529323281899271,
+            "trades": 125
+        },
+        "VWR": {
+            "vwr": -2.5843372589170963
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.3802239595770742,
+            "trades": 113
+        },
+        "VWR": {
+            "vwr": -2.494795868498825
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.67610513606693,
+            "trades": 106
+        },
+        "VWR": {
+            "vwr": -1.333447654430265
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.27348585690657,
+            "trades": 109
+        },
+        "VWR": {
+            "vwr": -2.477986774381762
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.6568115798844251,
+            "trades": 100
+        },
+        "VWR": {
+            "vwr": -1.4023532841874613
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.8691399779426432,
+            "trades": 93
+        },
+        "VWR": {
+            "vwr": -1.8748540779617024
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.9015752870977698,
+            "trades": 94
+        },
+        "VWR": {
+            "vwr": -1.9687188636736614
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.760873650808529,
+            "trades": 85
+        },
+        "VWR": {
+            "vwr": -1.7374080016837938
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.4642630568982823,
+            "trades": 78
+        },
+        "VWR": {
+            "vwr": -1.1055835948781365
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.966257706700432,
+            "trades": 117
+        },
+        "VWR": {
+            "vwr": -3.3383274963815097
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.2595516402888927,
+            "trades": 104
+        },
+        "VWR": {
+            "vwr": -2.1642530951721617
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.892814192451285,
+            "trades": 99
+        },
+        "VWR": {
+            "vwr": -1.6727222855638766
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.2377592920440808,
+            "trades": 102
+        },
+        "VWR": {
+            "vwr": -2.3151184045024156
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.7313670454139354,
+            "trades": 95
+        },
+        "VWR": {
+            "vwr": -1.4944848465666374
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.8457972698087152,
+            "trades": 88
+        },
+        "VWR": {
+            "vwr": -1.7685679070069995
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.213685083909633,
+            "trades": 91
+        },
+        "VWR": {
+            "vwr": -2.5565705366688567
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.0775462279159806,
+            "trades": 81
+        },
+        "VWR": {
+            "vwr": -2.3567202563474963
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.6598105813996304,
+            "trades": 75
+        },
+        "VWR": {
+            "vwr": -1.5146635309806837
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.6705150238530055,
+            "trades": 115
+        },
+        "VWR": {
+            "vwr": -2.842826298641985
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.9146669377792772,
+            "trades": 102
+        },
+        "VWR": {
+            "vwr": -1.5785017371683305
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.7282337104323663,
+            "trades": 97
+        },
+        "VWR": {
+            "vwr": -1.3618701275301632
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.2298997072429987,
+            "trades": 100
+        },
+        "VWR": {
+            "vwr": -2.2818692635504525
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.6145099518080602,
+            "trades": 94
+        },
+        "VWR": {
+            "vwr": -1.255144962185695
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.8981607461592543,
+            "trades": 86
+        },
+        "VWR": {
+            "vwr": -1.8481277273401342
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.2106439877907,
+            "trades": 89
+        },
+        "VWR": {
+            "vwr": -2.5254444654758323
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.1037285683048095,
+            "trades": 79
+        },
+        "VWR": {
+            "vwr": -2.3806953550147663
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.7859262723808479,
+            "trades": 73
+        },
+        "VWR": {
+            "vwr": -1.7673982117644984
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.3471892388732571,
+            "trades": 171
+        },
+        "VWR": {
+            "vwr": -2.805809483739973
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.1910223573052523,
+            "trades": 158
+        },
+        "VWR": {
+            "vwr": -2.570001303458465
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.40427313215306965,
+            "trades": 149
+        },
+        "VWR": {
+            "vwr": -0.9512239726608888
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.0037764258461677,
+            "trades": 148
+        },
+        "VWR": {
+            "vwr": -2.3053094920478996
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.25834707944189544,
+            "trades": 138
+        },
+        "VWR": {
+            "vwr": -0.6563192644598212
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.24510576290877986,
+            "trades": 128
+        },
+        "VWR": {
+            "vwr": -0.6408812682900902
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.6903452003408687,
+            "trades": 131
+        },
+        "VWR": {
+            "vwr": -1.7849527675294272
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.5905683842143269,
+            "trades": 119
+        },
+        "VWR": {
+            "vwr": -1.60109306415888
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.16114153499176115,
+            "trades": 111
+        },
+        "VWR": {
+            "vwr": -0.4624657109243103
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.7803282872196171,
+            "trades": 163
+        },
+        "VWR": {
+            "vwr": -3.5786367483546857
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.0884478884086133,
+            "trades": 149
+        },
+        "VWR": {
+            "vwr": -2.2675645723196767
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.5871921870111503,
+            "trades": 142
+        },
+        "VWR": {
+            "vwr": -1.3308027801107198
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.951765020478281,
+            "trades": 141
+        },
+        "VWR": {
+            "vwr": -2.1239431694360182
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.17126662188015743,
+            "trades": 133
+        },
+        "VWR": {
+            "vwr": -0.4228746748487869
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.2060238648238667,
+            "trades": 125
+        },
+        "VWR": {
+            "vwr": -0.5295756489359259
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.9518946172127276,
+            "trades": 128
+        },
+        "VWR": {
+            "vwr": -2.392447055706843
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.9202438875040955,
+            "trades": 115
+        },
+        "VWR": {
+            "vwr": -2.401099025766145
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.3202005758763094,
+            "trades": 108
+        },
+        "VWR": {
+            "vwr": -0.8966843152288999
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.6235804463164338,
+            "trades": 160
+        },
+        "VWR": {
+            "vwr": -3.2599573055728452
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.7574766639781558,
+            "trades": 146
+        },
+        "VWR": {
+            "vwr": -1.5839779525822186
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.5429108826878236,
+            "trades": 139
+        },
+        "VWR": {
+            "vwr": -1.2211906688224348
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.9421445121642715,
+            "trades": 139
+        },
+        "VWR": {
+            "vwr": -2.090586028661203
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.07094568350289195,
+            "trades": 132
+        },
+        "VWR": {
+            "vwr": -0.17545659993630383
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.24449854499152004,
+            "trades": 123
+        },
+        "VWR": {
+            "vwr": -0.6216218250991601
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.0160907638548429,
+            "trades": 125
+        },
+        "VWR": {
+            "vwr": -2.5211402989130063
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.9086832369784839,
+            "trades": 113
+        },
+        "VWR": {
+            "vwr": -2.3657379032650727
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 70, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.5171319791453358,
+            "trades": 105
+        },
+        "VWR": {
+            "vwr": -1.4171104388388192
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.07281732598789763,
+            "trades": 75
+        },
+        "VWR": {
+            "vwr": -0.110735092103691
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.010014899752216875,
+            "trades": 70
+        },
+        "VWR": {
+            "vwr": 0.015608751479234581
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.3530408856041044,
+            "trades": 65
+        },
+        "VWR": {
+            "vwr": -0.5555149095160603
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.5438986295704835,
+            "trades": 66
+        },
+        "VWR": {
+            "vwr": -0.866259823633322
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.8573813428936433,
+            "trades": 59
+        },
+        "VWR": {
+            "vwr": -1.392206006023073
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.1447605614936156,
+            "trades": 58
+        },
+        "VWR": {
+            "vwr": -1.942193391869859
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.5770429911669835,
+            "trades": 58
+        },
+        "VWR": {
+            "vwr": -1.0152050484363053
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.5956235642514149,
+            "trades": 56
+        },
+        "VWR": {
+            "vwr": -1.1280637849703
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.11405127991826056,
+            "trades": 51
+        },
+        "VWR": {
+            "vwr": 0.22981531150650703
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.3073872252828525,
+            "trades": 67
+        },
+        "VWR": {
+            "vwr": -0.43639714016350506
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.15547905866115308,
+            "trades": 63
+        },
+        "VWR": {
+            "vwr": 0.22993221757927934
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.23515378187500588,
+            "trades": 59
+        },
+        "VWR": {
+            "vwr": -0.352812913324565
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.6864996373729418,
+            "trades": 60
+        },
+        "VWR": {
+            "vwr": -1.0350641835654328
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.0116968052092523,
+            "trades": 56
+        },
+        "VWR": {
+            "vwr": -1.573991057168282
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -1.005807585125996,
+            "trades": 54
+        },
+        "VWR": {
+            "vwr": -1.6391511786533532
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.8669815392431166,
+            "trades": 54
+        },
+        "VWR": {
+            "vwr": -1.4316728993713839
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.5742784409573494,
+            "trades": 51
+        },
+        "VWR": {
+            "vwr": -1.020651458606925
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.11622851682185532,
+            "trades": 48
+        },
+        "VWR": {
+            "vwr": -0.22419605161413994
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.18572169683797074,
+            "trades": 66
+        },
+        "VWR": {
+            "vwr": -0.26472304555839865
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.26738861788101104,
+            "trades": 62
+        },
+        "VWR": {
+            "vwr": 0.39568125156320055
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.1258371232805086,
+            "trades": 58
+        },
+        "VWR": {
+            "vwr": -0.18939627897456557
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.4732042874422798,
+            "trades": 60
+        },
+        "VWR": {
+            "vwr": -0.721883633455595
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.7700901151986702,
+            "trades": 56
+        },
+        "VWR": {
+            "vwr": -1.2173404108052601
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.755992019547182,
+            "trades": 54
+        },
+        "VWR": {
+            "vwr": -1.2560835092164462
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.8766259291950543,
+            "trades": 54
+        },
+        "VWR": {
+            "vwr": -1.4513935432032659
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.5815740088816956,
+            "trades": 51
+        },
+        "VWR": {
+            "vwr": -1.0370721990123184
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 10, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.11886255672429764,
+            "trades": 48
+        },
+        "VWR": {
+            "vwr": -0.22986620847277392
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.26326601747229195,
+            "trades": 122
+        },
+        "VWR": {
+            "vwr": -0.4961194537951169
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.10573813968366291,
+            "trades": 116
+        },
+        "VWR": {
+            "vwr": -0.20757651837998342
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.14689677548926003,
+            "trades": 109
+        },
+        "VWR": {
+            "vwr": -0.2972500603521144
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.26527658654011854,
+            "trades": 106
+        },
+        "VWR": {
+            "vwr": -0.5351761658989715
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.21702684479266107,
+            "trades": 98
+        },
+        "VWR": {
+            "vwr": -0.46116763902999897
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.21274190642189733,
+            "trades": 94
+        },
+        "VWR": {
+            "vwr": -0.4771716868622076
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.28798693955517823,
+            "trades": 96
+        },
+        "VWR": {
+            "vwr": -0.6477271493335967
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.31691614005298163,
+            "trades": 91
+        },
+        "VWR": {
+            "vwr": -0.76086445554013
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.44394649201406383,
+            "trades": 85
+        },
+        "VWR": {
+            "vwr": 1.1346703327404326
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.4654657255360451,
+            "trades": 114
+        },
+        "VWR": {
+            "vwr": -0.8405830956647129
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.01599215256610164,
+            "trades": 109
+        },
+        "VWR": {
+            "vwr": -0.030475097192242045
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.06796505935543005,
+            "trades": 103
+        },
+        "VWR": {
+            "vwr": -0.1337274646703847
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.3499470977954196,
+            "trades": 100
+        },
+        "VWR": {
+            "vwr": -0.6825202139327954
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.15099122646810575,
+            "trades": 95
+        },
+        "VWR": {
+            "vwr": -0.3142074382096066
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.07169059080568914,
+            "trades": 92
+        },
+        "VWR": {
+            "vwr": -0.1577775980879347
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.4986444677028474,
+            "trades": 92
+        },
+        "VWR": {
+            "vwr": -1.0824755065058234
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.36456881642691696,
+            "trades": 86
+        },
+        "VWR": {
+            "vwr": -0.8399820931983256
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.2728172038544479,
+            "trades": 82
+        },
+        "VWR": {
+            "vwr": 0.6817855207112659
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.4135395872630943,
+            "trades": 113
+        },
+        "VWR": {
+            "vwr": -0.7477394838076753
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.20019311638189483,
+            "trades": 108
+        },
+        "VWR": {
+            "vwr": 0.3818847823155566
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.0019462197515701827,
+            "trades": 102
+        },
+        "VWR": {
+            "vwr": -0.0038318830684584363
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.18632620570379402,
+            "trades": 100
+        },
+        "VWR": {
+            "vwr": -0.36593327149970245
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.029038313128913702,
+            "trades": 95
+        },
+        "VWR": {
+            "vwr": 0.06093524625496309
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.10840879083939868,
+            "trades": 92
+        },
+        "VWR": {
+            "vwr": 0.24035770940539403
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.5874183394106338,
+            "trades": 91
+        },
+        "VWR": {
+            "vwr": -1.2674027307922355
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": -0.33654076550624573,
+            "trades": 86
+        },
+        "VWR": {
+            "vwr": -0.7839348719468135
+        }
+    },
+    "{\"period_dslow\": 5, \"period_dfast\": 4, \"period\": 10, \"upperband\": 80, \"lowerband\": 20, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"StochasticSignal\"}": {
+        "SQN": {
+            "sqn": 0.16481655291676642,
+            "trades": 81
+        },
+        "VWR": {
+            "vwr": 0.40979257592108576
+        }
+    }
+}

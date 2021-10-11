@@ -1,0 +1,6050 @@
+{
+    "{\"period_ema1\": 10, \"period_ema2\": 15, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"ElderForceIndexSignal\"}": {
+        "SQN": {
+            "sqn": -1.1666381744571488,
+            "trades": 12
+        },
+        "TradeAnalyzer": {
+            "len": {
+                "average": 21.0,
+                "long": {
+                    "average": 24.77777777777778,
+                    "lost": {
+                        "average": 12.4,
+                        "max": 29,
+                        "min": 2,
+                        "total": 62
+                    },
+                    "max": 51,
+                    "min": 2,
+                    "total": 223,
+                    "won": {
+                        "average": 40.25,
+                        "max": 51,
+                        "min": 31,
+                        "total": 161
+                    }
+                },
+                "lost": {
+                    "average": 11.375,
+                    "max": 29,
+                    "min": 2,
+                    "total": 91
+                },
+                "max": 51,
+                "min": 2,
+                "short": {
+                    "average": 9.666666666666666,
+                    "lost": {
+                        "average": 9.666666666666666,
+                        "max": 18,
+                        "min": 4,
+                        "total": 29
+                    },
+                    "max": 18,
+                    "min": 4,
+                    "total": 29,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0,
+                        "min": 9223372036854775807,
+                        "total": 0
+                    }
+                },
+                "total": 252,
+                "won": {
+                    "average": 40.25,
+                    "max": 51,
+                    "min": 31,
+                    "total": 161
+                }
+            },
+            "long": {
+                "lost": 5,
+                "pnl": {
+                    "average": -40.888888888888886,
+                    "lost": {
+                        "average": -344.0,
+                        "max": -407.0,
+                        "total": -1720.0
+                    },
+                    "total": -368.0,
+                    "won": {
+                        "average": 338.0,
+                        "max": 622.0,
+                        "total": 1352.0
+                    }
+                },
+                "total": 9,
+                "won": 4
+            },
+            "lost": {
+                "pnl": {
+                    "average": -345.375,
+                    "max": -429.0,
+                    "total": -2763.0
+                },
+                "total": 8
+            },
+            "pnl": {
+                "gross": {
+                    "average": -117.58333333333333,
+                    "total": -1411.0
+                },
+                "net": {
+                    "average": -117.58333333333333,
+                    "total": -1411.0
+                }
+            },
+            "short": {
+                "lost": 3,
+                "pnl": {
+                    "average": -347.6666666666667,
+                    "lost": {
+                        "average": -347.6666666666667,
+                        "max": -429.0,
+                        "total": -1043.0
+                    },
+                    "total": -1043.0,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0.0,
+                        "total": 0.0
+                    }
+                },
+                "total": 3,
+                "won": 0
+            },
+            "streak": {
+                "lost": {
+                    "current": 0,
+                    "longest": 5
+                },
+                "won": {
+                    "current": 1,
+                    "longest": 2
+                }
+            },
+            "total": {
+                "closed": 12,
+                "open": 0,
+                "total": 12
+            },
+            "won": {
+                "pnl": {
+                    "average": 338.0,
+                    "max": 622.0,
+                    "total": 1352.0
+                },
+                "total": 4
+            }
+        },
+        "VWR": {
+            "vwr": -8.69814719436406
+        }
+    },
+    "{\"period_ema1\": 10, \"period_ema2\": 17, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"ElderForceIndexSignal\"}": {
+        "SQN": {
+            "sqn": -1.1666381744571488,
+            "trades": 12
+        },
+        "TradeAnalyzer": {
+            "len": {
+                "average": 21.0,
+                "long": {
+                    "average": 24.77777777777778,
+                    "lost": {
+                        "average": 12.4,
+                        "max": 29,
+                        "min": 2,
+                        "total": 62
+                    },
+                    "max": 51,
+                    "min": 2,
+                    "total": 223,
+                    "won": {
+                        "average": 40.25,
+                        "max": 51,
+                        "min": 31,
+                        "total": 161
+                    }
+                },
+                "lost": {
+                    "average": 11.375,
+                    "max": 29,
+                    "min": 2,
+                    "total": 91
+                },
+                "max": 51,
+                "min": 2,
+                "short": {
+                    "average": 9.666666666666666,
+                    "lost": {
+                        "average": 9.666666666666666,
+                        "max": 18,
+                        "min": 4,
+                        "total": 29
+                    },
+                    "max": 18,
+                    "min": 4,
+                    "total": 29,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0,
+                        "min": 9223372036854775807,
+                        "total": 0
+                    }
+                },
+                "total": 252,
+                "won": {
+                    "average": 40.25,
+                    "max": 51,
+                    "min": 31,
+                    "total": 161
+                }
+            },
+            "long": {
+                "lost": 5,
+                "pnl": {
+                    "average": -40.888888888888886,
+                    "lost": {
+                        "average": -344.0,
+                        "max": -407.0,
+                        "total": -1720.0
+                    },
+                    "total": -368.0,
+                    "won": {
+                        "average": 338.0,
+                        "max": 622.0,
+                        "total": 1352.0
+                    }
+                },
+                "total": 9,
+                "won": 4
+            },
+            "lost": {
+                "pnl": {
+                    "average": -345.375,
+                    "max": -429.0,
+                    "total": -2763.0
+                },
+                "total": 8
+            },
+            "pnl": {
+                "gross": {
+                    "average": -117.58333333333333,
+                    "total": -1411.0
+                },
+                "net": {
+                    "average": -117.58333333333333,
+                    "total": -1411.0
+                }
+            },
+            "short": {
+                "lost": 3,
+                "pnl": {
+                    "average": -347.6666666666667,
+                    "lost": {
+                        "average": -347.6666666666667,
+                        "max": -429.0,
+                        "total": -1043.0
+                    },
+                    "total": -1043.0,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0.0,
+                        "total": 0.0
+                    }
+                },
+                "total": 3,
+                "won": 0
+            },
+            "streak": {
+                "lost": {
+                    "current": 0,
+                    "longest": 5
+                },
+                "won": {
+                    "current": 1,
+                    "longest": 2
+                }
+            },
+            "total": {
+                "closed": 12,
+                "open": 0,
+                "total": 12
+            },
+            "won": {
+                "pnl": {
+                    "average": 338.0,
+                    "max": 622.0,
+                    "total": 1352.0
+                },
+                "total": 4
+            }
+        },
+        "VWR": {
+            "vwr": -8.69814719436406
+        }
+    },
+    "{\"period_ema1\": 10, \"period_ema2\": 19, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"ElderForceIndexSignal\"}": {
+        "SQN": {
+            "sqn": -0.19777638974013578,
+            "trades": 12
+        },
+        "TradeAnalyzer": {
+            "len": {
+                "average": 20.666666666666668,
+                "long": {
+                    "average": 26.125,
+                    "lost": {
+                        "average": 12.5,
+                        "max": 29,
+                        "min": 5,
+                        "total": 50
+                    },
+                    "max": 51,
+                    "min": 5,
+                    "total": 209,
+                    "won": {
+                        "average": 39.75,
+                        "max": 51,
+                        "min": 31,
+                        "total": 159
+                    }
+                },
+                "lost": {
+                    "average": 11.857142857142858,
+                    "max": 29,
+                    "min": 4,
+                    "total": 83
+                },
+                "max": 51,
+                "min": 4,
+                "short": {
+                    "average": 9.75,
+                    "lost": {
+                        "average": 11.0,
+                        "max": 18,
+                        "min": 4,
+                        "total": 33
+                    },
+                    "max": 18,
+                    "min": 4,
+                    "total": 39,
+                    "won": {
+                        "average": 6.0,
+                        "max": 6,
+                        "min": 6,
+                        "total": 6
+                    }
+                },
+                "total": 248,
+                "won": {
+                    "average": 33.0,
+                    "max": 51,
+                    "min": 6,
+                    "total": 165
+                }
+            },
+            "long": {
+                "lost": 4,
+                "pnl": {
+                    "average": -10.25,
+                    "lost": {
+                        "average": -352.25,
+                        "max": -430.0,
+                        "total": -1409.0
+                    },
+                    "total": -82.0,
+                    "won": {
+                        "average": 331.75,
+                        "max": 622.0,
+                        "total": 1327.0
+                    }
+                },
+                "total": 8,
+                "won": 4
+            },
+            "lost": {
+                "pnl": {
+                    "average": -347.7142857142857,
+                    "max": -430.0,
+                    "total": -2434.0
+                },
+                "total": 7
+            },
+            "pnl": {
+                "gross": {
+                    "average": -24.25,
+                    "total": -291.0
+                },
+                "net": {
+                    "average": -24.25,
+                    "total": -291.0
+                }
+            },
+            "short": {
+                "lost": 3,
+                "pnl": {
+                    "average": -52.25,
+                    "lost": {
+                        "average": -341.6666666666667,
+                        "max": -430.0,
+                        "total": -1025.0
+                    },
+                    "total": -209.0,
+                    "won": {
+                        "average": 816.0,
+                        "max": 816.0,
+                        "total": 816.0
+                    }
+                },
+                "total": 4,
+                "won": 1
+            },
+            "streak": {
+                "lost": {
+                    "current": 0,
+                    "longest": 3
+                },
+                "won": {
+                    "current": 1,
+                    "longest": 2
+                }
+            },
+            "total": {
+                "closed": 12,
+                "open": 0,
+                "total": 12
+            },
+            "won": {
+                "pnl": {
+                    "average": 428.6,
+                    "max": 816.0,
+                    "total": 2143.0
+                },
+                "total": 5
+            }
+        },
+        "VWR": {
+            "vwr": -1.9926941677005403
+        }
+    },
+    "{\"period_ema1\": 10, \"period_ema2\": 21, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"ElderForceIndexSignal\"}": {
+        "SQN": {
+            "sqn": -1.4922433686084435,
+            "trades": 12
+        },
+        "TradeAnalyzer": {
+            "len": {
+                "average": 21.0,
+                "long": {
+                    "average": 21.333333333333332,
+                    "lost": {
+                        "average": 10.6,
+                        "max": 29,
+                        "min": 1,
+                        "total": 53
+                    },
+                    "max": 51,
+                    "min": 1,
+                    "total": 192,
+                    "won": {
+                        "average": 34.75,
+                        "max": 51,
+                        "min": 11,
+                        "total": 139
+                    }
+                },
+                "lost": {
+                    "average": 14.125,
+                    "max": 31,
+                    "min": 1,
+                    "total": 113
+                },
+                "max": 51,
+                "min": 1,
+                "short": {
+                    "average": 20.0,
+                    "lost": {
+                        "average": 20.0,
+                        "max": 31,
+                        "min": 11,
+                        "total": 60
+                    },
+                    "max": 31,
+                    "min": 11,
+                    "total": 60,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0,
+                        "min": 9223372036854775807,
+                        "total": 0
+                    }
+                },
+                "total": 252,
+                "won": {
+                    "average": 34.75,
+                    "max": 51,
+                    "min": 11,
+                    "total": 139
+                }
+            },
+            "long": {
+                "lost": 5,
+                "pnl": {
+                    "average": -77.44444444444444,
+                    "lost": {
+                        "average": -360.8,
+                        "max": -430.0,
+                        "total": -1804.0
+                    },
+                    "total": -697.0,
+                    "won": {
+                        "average": 276.75,
+                        "max": 622.0,
+                        "total": 1107.0
+                    }
+                },
+                "total": 9,
+                "won": 4
+            },
+            "lost": {
+                "pnl": {
+                    "average": -351.125,
+                    "max": -430.0,
+                    "total": -2809.0
+                },
+                "total": 8
+            },
+            "pnl": {
+                "gross": {
+                    "average": -141.83333333333334,
+                    "total": -1702.0
+                },
+                "net": {
+                    "average": -141.83333333333334,
+                    "total": -1702.0
+                }
+            },
+            "short": {
+                "lost": 3,
+                "pnl": {
+                    "average": -335.0,
+                    "lost": {
+                        "average": -335.0,
+                        "max": -410.0,
+                        "total": -1005.0
+                    },
+                    "total": -1005.0,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0.0,
+                        "total": 0.0
+                    }
+                },
+                "total": 3,
+                "won": 0
+            },
+            "streak": {
+                "lost": {
+                    "current": 0,
+                    "longest": 5
+                },
+                "won": {
+                    "current": 1,
+                    "longest": 2
+                }
+            },
+            "total": {
+                "closed": 12,
+                "open": 0,
+                "total": 12
+            },
+            "won": {
+                "pnl": {
+                    "average": 276.75,
+                    "max": 622.0,
+                    "total": 1107.0
+                },
+                "total": 4
+            }
+        },
+        "VWR": {
+            "vwr": -10.261205151850458
+        }
+    },
+    "{\"period_ema1\": 10, \"period_ema2\": 23, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"ElderForceIndexSignal\"}": {
+        "SQN": {
+            "sqn": -1.2184199672222595,
+            "trades": 11
+        },
+        "TradeAnalyzer": {
+            "len": {
+                "average": 22.272727272727273,
+                "long": {
+                    "average": 23.125,
+                    "lost": {
+                        "average": 11.5,
+                        "max": 29,
+                        "min": 1,
+                        "total": 46
+                    },
+                    "max": 51,
+                    "min": 1,
+                    "total": 185,
+                    "won": {
+                        "average": 34.75,
+                        "max": 51,
+                        "min": 11,
+                        "total": 139
+                    }
+                },
+                "lost": {
+                    "average": 15.142857142857142,
+                    "max": 31,
+                    "min": 1,
+                    "total": 106
+                },
+                "max": 51,
+                "min": 1,
+                "short": {
+                    "average": 20.0,
+                    "lost": {
+                        "average": 20.0,
+                        "max": 31,
+                        "min": 11,
+                        "total": 60
+                    },
+                    "max": 31,
+                    "min": 11,
+                    "total": 60,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0,
+                        "min": 9223372036854775807,
+                        "total": 0
+                    }
+                },
+                "total": 245,
+                "won": {
+                    "average": 34.75,
+                    "max": 51,
+                    "min": 11,
+                    "total": 139
+                }
+            },
+            "long": {
+                "lost": 4,
+                "pnl": {
+                    "average": -45.375,
+                    "lost": {
+                        "average": -367.5,
+                        "max": -430.0,
+                        "total": -1470.0
+                    },
+                    "total": -363.0,
+                    "won": {
+                        "average": 276.75,
+                        "max": 622.0,
+                        "total": 1107.0
+                    }
+                },
+                "total": 8,
+                "won": 4
+            },
+            "lost": {
+                "pnl": {
+                    "average": -353.57142857142856,
+                    "max": -430.0,
+                    "total": -2475.0
+                },
+                "total": 7
+            },
+            "pnl": {
+                "gross": {
+                    "average": -124.36363636363636,
+                    "total": -1368.0
+                },
+                "net": {
+                    "average": -124.36363636363636,
+                    "total": -1368.0
+                }
+            },
+            "short": {
+                "lost": 3,
+                "pnl": {
+                    "average": -335.0,
+                    "lost": {
+                        "average": -335.0,
+                        "max": -410.0,
+                        "total": -1005.0
+                    },
+                    "total": -1005.0,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0.0,
+                        "total": 0.0
+                    }
+                },
+                "total": 3,
+                "won": 0
+            },
+            "streak": {
+                "lost": {
+                    "current": 0,
+                    "longest": 4
+                },
+                "won": {
+                    "current": 1,
+                    "longest": 2
+                }
+            },
+            "total": {
+                "closed": 11,
+                "open": 0,
+                "total": 11
+            },
+            "won": {
+                "pnl": {
+                    "average": 276.75,
+                    "max": 622.0,
+                    "total": 1107.0
+                },
+                "total": 4
+            }
+        },
+        "VWR": {
+            "vwr": -8.46186016260181
+        }
+    },
+    "{\"period_ema1\": 10, \"period_ema2\": 25, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"ElderForceIndexSignal\"}": {
+        "SQN": {
+            "sqn": -1.5443693502461673,
+            "trades": 12
+        },
+        "TradeAnalyzer": {
+            "len": {
+                "average": 20.25,
+                "long": {
+                    "average": 23.125,
+                    "lost": {
+                        "average": 11.5,
+                        "max": 29,
+                        "min": 1,
+                        "total": 46
+                    },
+                    "max": 51,
+                    "min": 1,
+                    "total": 185,
+                    "won": {
+                        "average": 34.75,
+                        "max": 51,
+                        "min": 11,
+                        "total": 139
+                    }
+                },
+                "lost": {
+                    "average": 13.0,
+                    "max": 31,
+                    "min": 1,
+                    "total": 104
+                },
+                "max": 51,
+                "min": 1,
+                "short": {
+                    "average": 14.5,
+                    "lost": {
+                        "average": 14.5,
+                        "max": 31,
+                        "min": 4,
+                        "total": 58
+                    },
+                    "max": 31,
+                    "min": 4,
+                    "total": 58,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0,
+                        "min": 9223372036854775807,
+                        "total": 0
+                    }
+                },
+                "total": 243,
+                "won": {
+                    "average": 34.75,
+                    "max": 51,
+                    "min": 11,
+                    "total": 139
+                }
+            },
+            "long": {
+                "lost": 4,
+                "pnl": {
+                    "average": -45.375,
+                    "lost": {
+                        "average": -367.5,
+                        "max": -430.0,
+                        "total": -1470.0
+                    },
+                    "total": -363.0,
+                    "won": {
+                        "average": 276.75,
+                        "max": 622.0,
+                        "total": 1107.0
+                    }
+                },
+                "total": 8,
+                "won": 4
+            },
+            "lost": {
+                "pnl": {
+                    "average": -361.625,
+                    "max": -430.0,
+                    "total": -2893.0
+                },
+                "total": 8
+            },
+            "pnl": {
+                "gross": {
+                    "average": -148.83333333333334,
+                    "total": -1786.0
+                },
+                "net": {
+                    "average": -148.83333333333334,
+                    "total": -1786.0
+                }
+            },
+            "short": {
+                "lost": 4,
+                "pnl": {
+                    "average": -355.75,
+                    "lost": {
+                        "average": -355.75,
+                        "max": -410.0,
+                        "total": -1423.0
+                    },
+                    "total": -1423.0,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0.0,
+                        "total": 0.0
+                    }
+                },
+                "total": 4,
+                "won": 0
+            },
+            "streak": {
+                "lost": {
+                    "current": 0,
+                    "longest": 5
+                },
+                "won": {
+                    "current": 1,
+                    "longest": 2
+                }
+            },
+            "total": {
+                "closed": 12,
+                "open": 0,
+                "total": 12
+            },
+            "won": {
+                "pnl": {
+                    "average": 276.75,
+                    "max": 622.0,
+                    "total": 1107.0
+                },
+                "total": 4
+            }
+        },
+        "VWR": {
+            "vwr": -10.701207454928044
+        }
+    },
+    "{\"period_ema1\": 12, \"period_ema2\": 15, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"ElderForceIndexSignal\"}": {
+        "SQN": {
+            "sqn": -1.163355871403333,
+            "trades": 12
+        },
+        "TradeAnalyzer": {
+            "len": {
+                "average": 21.083333333333332,
+                "long": {
+                    "average": 24.88888888888889,
+                    "lost": {
+                        "average": 12.6,
+                        "max": 29,
+                        "min": 3,
+                        "total": 63
+                    },
+                    "max": 51,
+                    "min": 3,
+                    "total": 224,
+                    "won": {
+                        "average": 40.25,
+                        "max": 51,
+                        "min": 31,
+                        "total": 161
+                    }
+                },
+                "lost": {
+                    "average": 11.5,
+                    "max": 29,
+                    "min": 3,
+                    "total": 92
+                },
+                "max": 51,
+                "min": 3,
+                "short": {
+                    "average": 9.666666666666666,
+                    "lost": {
+                        "average": 9.666666666666666,
+                        "max": 18,
+                        "min": 4,
+                        "total": 29
+                    },
+                    "max": 18,
+                    "min": 4,
+                    "total": 29,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0,
+                        "min": 9223372036854775807,
+                        "total": 0
+                    }
+                },
+                "total": 253,
+                "won": {
+                    "average": 40.25,
+                    "max": 51,
+                    "min": 31,
+                    "total": 161
+                }
+            },
+            "long": {
+                "lost": 5,
+                "pnl": {
+                    "average": -40.333333333333336,
+                    "lost": {
+                        "average": -343.0,
+                        "max": -407.0,
+                        "total": -1715.0
+                    },
+                    "total": -363.0,
+                    "won": {
+                        "average": 338.0,
+                        "max": 622.0,
+                        "total": 1352.0
+                    }
+                },
+                "total": 9,
+                "won": 4
+            },
+            "lost": {
+                "pnl": {
+                    "average": -344.75,
+                    "max": -429.0,
+                    "total": -2758.0
+                },
+                "total": 8
+            },
+            "pnl": {
+                "gross": {
+                    "average": -117.16666666666667,
+                    "total": -1406.0
+                },
+                "net": {
+                    "average": -117.16666666666667,
+                    "total": -1406.0
+                }
+            },
+            "short": {
+                "lost": 3,
+                "pnl": {
+                    "average": -347.6666666666667,
+                    "lost": {
+                        "average": -347.6666666666667,
+                        "max": -429.0,
+                        "total": -1043.0
+                    },
+                    "total": -1043.0,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0.0,
+                        "total": 0.0
+                    }
+                },
+                "total": 3,
+                "won": 0
+            },
+            "streak": {
+                "lost": {
+                    "current": 0,
+                    "longest": 5
+                },
+                "won": {
+                    "current": 1,
+                    "longest": 2
+                }
+            },
+            "total": {
+                "closed": 12,
+                "open": 0,
+                "total": 12
+            },
+            "won": {
+                "pnl": {
+                    "average": 338.0,
+                    "max": 622.0,
+                    "total": 1352.0
+                },
+                "total": 4
+            }
+        },
+        "VWR": {
+            "vwr": -8.670744571415854
+        }
+    },
+    "{\"period_ema1\": 12, \"period_ema2\": 17, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"ElderForceIndexSignal\"}": {
+        "SQN": {
+            "sqn": -1.1666381744571488,
+            "trades": 12
+        },
+        "TradeAnalyzer": {
+            "len": {
+                "average": 21.0,
+                "long": {
+                    "average": 24.77777777777778,
+                    "lost": {
+                        "average": 12.4,
+                        "max": 29,
+                        "min": 2,
+                        "total": 62
+                    },
+                    "max": 51,
+                    "min": 2,
+                    "total": 223,
+                    "won": {
+                        "average": 40.25,
+                        "max": 51,
+                        "min": 31,
+                        "total": 161
+                    }
+                },
+                "lost": {
+                    "average": 11.375,
+                    "max": 29,
+                    "min": 2,
+                    "total": 91
+                },
+                "max": 51,
+                "min": 2,
+                "short": {
+                    "average": 9.666666666666666,
+                    "lost": {
+                        "average": 9.666666666666666,
+                        "max": 18,
+                        "min": 4,
+                        "total": 29
+                    },
+                    "max": 18,
+                    "min": 4,
+                    "total": 29,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0,
+                        "min": 9223372036854775807,
+                        "total": 0
+                    }
+                },
+                "total": 252,
+                "won": {
+                    "average": 40.25,
+                    "max": 51,
+                    "min": 31,
+                    "total": 161
+                }
+            },
+            "long": {
+                "lost": 5,
+                "pnl": {
+                    "average": -40.888888888888886,
+                    "lost": {
+                        "average": -344.0,
+                        "max": -407.0,
+                        "total": -1720.0
+                    },
+                    "total": -368.0,
+                    "won": {
+                        "average": 338.0,
+                        "max": 622.0,
+                        "total": 1352.0
+                    }
+                },
+                "total": 9,
+                "won": 4
+            },
+            "lost": {
+                "pnl": {
+                    "average": -345.375,
+                    "max": -429.0,
+                    "total": -2763.0
+                },
+                "total": 8
+            },
+            "pnl": {
+                "gross": {
+                    "average": -117.58333333333333,
+                    "total": -1411.0
+                },
+                "net": {
+                    "average": -117.58333333333333,
+                    "total": -1411.0
+                }
+            },
+            "short": {
+                "lost": 3,
+                "pnl": {
+                    "average": -347.6666666666667,
+                    "lost": {
+                        "average": -347.6666666666667,
+                        "max": -429.0,
+                        "total": -1043.0
+                    },
+                    "total": -1043.0,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0.0,
+                        "total": 0.0
+                    }
+                },
+                "total": 3,
+                "won": 0
+            },
+            "streak": {
+                "lost": {
+                    "current": 0,
+                    "longest": 5
+                },
+                "won": {
+                    "current": 1,
+                    "longest": 2
+                }
+            },
+            "total": {
+                "closed": 12,
+                "open": 0,
+                "total": 12
+            },
+            "won": {
+                "pnl": {
+                    "average": 338.0,
+                    "max": 622.0,
+                    "total": 1352.0
+                },
+                "total": 4
+            }
+        },
+        "VWR": {
+            "vwr": -8.69814719436406
+        }
+    },
+    "{\"period_ema1\": 12, \"period_ema2\": 19, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"ElderForceIndexSignal\"}": {
+        "SQN": {
+            "sqn": -1.1970896021967077,
+            "trades": 12
+        },
+        "TradeAnalyzer": {
+            "len": {
+                "average": 20.833333333333332,
+                "long": {
+                    "average": 24.555555555555557,
+                    "lost": {
+                        "average": 12.4,
+                        "max": 29,
+                        "min": 2,
+                        "total": 62
+                    },
+                    "max": 51,
+                    "min": 2,
+                    "total": 221,
+                    "won": {
+                        "average": 39.75,
+                        "max": 51,
+                        "min": 31,
+                        "total": 159
+                    }
+                },
+                "lost": {
+                    "average": 11.375,
+                    "max": 29,
+                    "min": 2,
+                    "total": 91
+                },
+                "max": 51,
+                "min": 2,
+                "short": {
+                    "average": 9.666666666666666,
+                    "lost": {
+                        "average": 9.666666666666666,
+                        "max": 18,
+                        "min": 4,
+                        "total": 29
+                    },
+                    "max": 18,
+                    "min": 4,
+                    "total": 29,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0,
+                        "min": 9223372036854775807,
+                        "total": 0
+                    }
+                },
+                "total": 250,
+                "won": {
+                    "average": 39.75,
+                    "max": 51,
+                    "min": 31,
+                    "total": 159
+                }
+            },
+            "long": {
+                "lost": 5,
+                "pnl": {
+                    "average": -43.666666666666664,
+                    "lost": {
+                        "average": -344.0,
+                        "max": -407.0,
+                        "total": -1720.0
+                    },
+                    "total": -393.0,
+                    "won": {
+                        "average": 331.75,
+                        "max": 622.0,
+                        "total": 1327.0
+                    }
+                },
+                "total": 9,
+                "won": 4
+            },
+            "lost": {
+                "pnl": {
+                    "average": -345.375,
+                    "max": -429.0,
+                    "total": -2763.0
+                },
+                "total": 8
+            },
+            "pnl": {
+                "gross": {
+                    "average": -119.66666666666667,
+                    "total": -1436.0
+                },
+                "net": {
+                    "average": -119.66666666666667,
+                    "total": -1436.0
+                }
+            },
+            "short": {
+                "lost": 3,
+                "pnl": {
+                    "average": -347.6666666666667,
+                    "lost": {
+                        "average": -347.6666666666667,
+                        "max": -429.0,
+                        "total": -1043.0
+                    },
+                    "total": -1043.0,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0.0,
+                        "total": 0.0
+                    }
+                },
+                "total": 3,
+                "won": 0
+            },
+            "streak": {
+                "lost": {
+                    "current": 0,
+                    "longest": 5
+                },
+                "won": {
+                    "current": 1,
+                    "longest": 2
+                }
+            },
+            "total": {
+                "closed": 12,
+                "open": 0,
+                "total": 12
+            },
+            "won": {
+                "pnl": {
+                    "average": 331.75,
+                    "max": 622.0,
+                    "total": 1327.0
+                },
+                "total": 4
+            }
+        },
+        "VWR": {
+            "vwr": -8.834875846730204
+        }
+    },
+    "{\"period_ema1\": 12, \"period_ema2\": 21, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"ElderForceIndexSignal\"}": {
+        "SQN": {
+            "sqn": -1.4922433686084435,
+            "trades": 12
+        },
+        "TradeAnalyzer": {
+            "len": {
+                "average": 21.0,
+                "long": {
+                    "average": 21.333333333333332,
+                    "lost": {
+                        "average": 10.6,
+                        "max": 29,
+                        "min": 1,
+                        "total": 53
+                    },
+                    "max": 51,
+                    "min": 1,
+                    "total": 192,
+                    "won": {
+                        "average": 34.75,
+                        "max": 51,
+                        "min": 11,
+                        "total": 139
+                    }
+                },
+                "lost": {
+                    "average": 14.125,
+                    "max": 31,
+                    "min": 1,
+                    "total": 113
+                },
+                "max": 51,
+                "min": 1,
+                "short": {
+                    "average": 20.0,
+                    "lost": {
+                        "average": 20.0,
+                        "max": 31,
+                        "min": 11,
+                        "total": 60
+                    },
+                    "max": 31,
+                    "min": 11,
+                    "total": 60,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0,
+                        "min": 9223372036854775807,
+                        "total": 0
+                    }
+                },
+                "total": 252,
+                "won": {
+                    "average": 34.75,
+                    "max": 51,
+                    "min": 11,
+                    "total": 139
+                }
+            },
+            "long": {
+                "lost": 5,
+                "pnl": {
+                    "average": -77.44444444444444,
+                    "lost": {
+                        "average": -360.8,
+                        "max": -430.0,
+                        "total": -1804.0
+                    },
+                    "total": -697.0,
+                    "won": {
+                        "average": 276.75,
+                        "max": 622.0,
+                        "total": 1107.0
+                    }
+                },
+                "total": 9,
+                "won": 4
+            },
+            "lost": {
+                "pnl": {
+                    "average": -351.125,
+                    "max": -430.0,
+                    "total": -2809.0
+                },
+                "total": 8
+            },
+            "pnl": {
+                "gross": {
+                    "average": -141.83333333333334,
+                    "total": -1702.0
+                },
+                "net": {
+                    "average": -141.83333333333334,
+                    "total": -1702.0
+                }
+            },
+            "short": {
+                "lost": 3,
+                "pnl": {
+                    "average": -335.0,
+                    "lost": {
+                        "average": -335.0,
+                        "max": -410.0,
+                        "total": -1005.0
+                    },
+                    "total": -1005.0,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0.0,
+                        "total": 0.0
+                    }
+                },
+                "total": 3,
+                "won": 0
+            },
+            "streak": {
+                "lost": {
+                    "current": 0,
+                    "longest": 5
+                },
+                "won": {
+                    "current": 1,
+                    "longest": 2
+                }
+            },
+            "total": {
+                "closed": 12,
+                "open": 0,
+                "total": 12
+            },
+            "won": {
+                "pnl": {
+                    "average": 276.75,
+                    "max": 622.0,
+                    "total": 1107.0
+                },
+                "total": 4
+            }
+        },
+        "VWR": {
+            "vwr": -10.261205151850458
+        }
+    },
+    "{\"period_ema1\": 12, \"period_ema2\": 23, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"ElderForceIndexSignal\"}": {
+        "SQN": {
+            "sqn": -1.2184199672222595,
+            "trades": 11
+        },
+        "TradeAnalyzer": {
+            "len": {
+                "average": 22.272727272727273,
+                "long": {
+                    "average": 23.125,
+                    "lost": {
+                        "average": 11.5,
+                        "max": 29,
+                        "min": 1,
+                        "total": 46
+                    },
+                    "max": 51,
+                    "min": 1,
+                    "total": 185,
+                    "won": {
+                        "average": 34.75,
+                        "max": 51,
+                        "min": 11,
+                        "total": 139
+                    }
+                },
+                "lost": {
+                    "average": 15.142857142857142,
+                    "max": 31,
+                    "min": 1,
+                    "total": 106
+                },
+                "max": 51,
+                "min": 1,
+                "short": {
+                    "average": 20.0,
+                    "lost": {
+                        "average": 20.0,
+                        "max": 31,
+                        "min": 11,
+                        "total": 60
+                    },
+                    "max": 31,
+                    "min": 11,
+                    "total": 60,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0,
+                        "min": 9223372036854775807,
+                        "total": 0
+                    }
+                },
+                "total": 245,
+                "won": {
+                    "average": 34.75,
+                    "max": 51,
+                    "min": 11,
+                    "total": 139
+                }
+            },
+            "long": {
+                "lost": 4,
+                "pnl": {
+                    "average": -45.375,
+                    "lost": {
+                        "average": -367.5,
+                        "max": -430.0,
+                        "total": -1470.0
+                    },
+                    "total": -363.0,
+                    "won": {
+                        "average": 276.75,
+                        "max": 622.0,
+                        "total": 1107.0
+                    }
+                },
+                "total": 8,
+                "won": 4
+            },
+            "lost": {
+                "pnl": {
+                    "average": -353.57142857142856,
+                    "max": -430.0,
+                    "total": -2475.0
+                },
+                "total": 7
+            },
+            "pnl": {
+                "gross": {
+                    "average": -124.36363636363636,
+                    "total": -1368.0
+                },
+                "net": {
+                    "average": -124.36363636363636,
+                    "total": -1368.0
+                }
+            },
+            "short": {
+                "lost": 3,
+                "pnl": {
+                    "average": -335.0,
+                    "lost": {
+                        "average": -335.0,
+                        "max": -410.0,
+                        "total": -1005.0
+                    },
+                    "total": -1005.0,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0.0,
+                        "total": 0.0
+                    }
+                },
+                "total": 3,
+                "won": 0
+            },
+            "streak": {
+                "lost": {
+                    "current": 0,
+                    "longest": 4
+                },
+                "won": {
+                    "current": 1,
+                    "longest": 2
+                }
+            },
+            "total": {
+                "closed": 11,
+                "open": 0,
+                "total": 11
+            },
+            "won": {
+                "pnl": {
+                    "average": 276.75,
+                    "max": 622.0,
+                    "total": 1107.0
+                },
+                "total": 4
+            }
+        },
+        "VWR": {
+            "vwr": -8.46186016260181
+        }
+    },
+    "{\"period_ema1\": 12, \"period_ema2\": 25, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"ElderForceIndexSignal\"}": {
+        "SQN": {
+            "sqn": -1.5443693502461673,
+            "trades": 12
+        },
+        "TradeAnalyzer": {
+            "len": {
+                "average": 20.25,
+                "long": {
+                    "average": 23.125,
+                    "lost": {
+                        "average": 11.5,
+                        "max": 29,
+                        "min": 1,
+                        "total": 46
+                    },
+                    "max": 51,
+                    "min": 1,
+                    "total": 185,
+                    "won": {
+                        "average": 34.75,
+                        "max": 51,
+                        "min": 11,
+                        "total": 139
+                    }
+                },
+                "lost": {
+                    "average": 13.0,
+                    "max": 31,
+                    "min": 1,
+                    "total": 104
+                },
+                "max": 51,
+                "min": 1,
+                "short": {
+                    "average": 14.5,
+                    "lost": {
+                        "average": 14.5,
+                        "max": 31,
+                        "min": 4,
+                        "total": 58
+                    },
+                    "max": 31,
+                    "min": 4,
+                    "total": 58,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0,
+                        "min": 9223372036854775807,
+                        "total": 0
+                    }
+                },
+                "total": 243,
+                "won": {
+                    "average": 34.75,
+                    "max": 51,
+                    "min": 11,
+                    "total": 139
+                }
+            },
+            "long": {
+                "lost": 4,
+                "pnl": {
+                    "average": -45.375,
+                    "lost": {
+                        "average": -367.5,
+                        "max": -430.0,
+                        "total": -1470.0
+                    },
+                    "total": -363.0,
+                    "won": {
+                        "average": 276.75,
+                        "max": 622.0,
+                        "total": 1107.0
+                    }
+                },
+                "total": 8,
+                "won": 4
+            },
+            "lost": {
+                "pnl": {
+                    "average": -361.625,
+                    "max": -430.0,
+                    "total": -2893.0
+                },
+                "total": 8
+            },
+            "pnl": {
+                "gross": {
+                    "average": -148.83333333333334,
+                    "total": -1786.0
+                },
+                "net": {
+                    "average": -148.83333333333334,
+                    "total": -1786.0
+                }
+            },
+            "short": {
+                "lost": 4,
+                "pnl": {
+                    "average": -355.75,
+                    "lost": {
+                        "average": -355.75,
+                        "max": -410.0,
+                        "total": -1423.0
+                    },
+                    "total": -1423.0,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0.0,
+                        "total": 0.0
+                    }
+                },
+                "total": 4,
+                "won": 0
+            },
+            "streak": {
+                "lost": {
+                    "current": 0,
+                    "longest": 5
+                },
+                "won": {
+                    "current": 1,
+                    "longest": 2
+                }
+            },
+            "total": {
+                "closed": 12,
+                "open": 0,
+                "total": 12
+            },
+            "won": {
+                "pnl": {
+                    "average": 276.75,
+                    "max": 622.0,
+                    "total": 1107.0
+                },
+                "total": 4
+            }
+        },
+        "VWR": {
+            "vwr": -10.701207454928044
+        }
+    },
+    "{\"period_ema1\": 14, \"period_ema2\": 15, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"ElderForceIndexSignal\"}": {
+        "SQN": {
+            "sqn": 0.05913226721011128,
+            "trades": 11
+        },
+        "TradeAnalyzer": {
+            "len": {
+                "average": 22.636363636363637,
+                "long": {
+                    "average": 29.428571428571427,
+                    "lost": {
+                        "average": 15.0,
+                        "max": 29,
+                        "min": 6,
+                        "total": 45
+                    },
+                    "max": 51,
+                    "min": 6,
+                    "total": 206,
+                    "won": {
+                        "average": 40.25,
+                        "max": 51,
+                        "min": 31,
+                        "total": 161
+                    }
+                },
+                "lost": {
+                    "average": 13.666666666666666,
+                    "max": 29,
+                    "min": 4,
+                    "total": 82
+                },
+                "max": 51,
+                "min": 4,
+                "short": {
+                    "average": 10.75,
+                    "lost": {
+                        "average": 12.333333333333334,
+                        "max": 18,
+                        "min": 4,
+                        "total": 37
+                    },
+                    "max": 18,
+                    "min": 4,
+                    "total": 43,
+                    "won": {
+                        "average": 6.0,
+                        "max": 6,
+                        "min": 6,
+                        "total": 6
+                    }
+                },
+                "total": 249,
+                "won": {
+                    "average": 33.4,
+                    "max": 51,
+                    "min": 6,
+                    "total": 167
+                }
+            },
+            "long": {
+                "lost": 3,
+                "pnl": {
+                    "average": 40.0,
+                    "lost": {
+                        "average": -357.3333333333333,
+                        "max": -430.0,
+                        "total": -1072.0
+                    },
+                    "total": 280.0,
+                    "won": {
+                        "average": 338.0,
+                        "max": 622.0,
+                        "total": 1352.0
+                    }
+                },
+                "total": 7,
+                "won": 4
+            },
+            "lost": {
+                "pnl": {
+                    "average": -347.1666666666667,
+                    "max": -430.0,
+                    "total": -2083.0
+                },
+                "total": 6
+            },
+            "pnl": {
+                "gross": {
+                    "average": 7.7272727272727275,
+                    "total": 85.0
+                },
+                "net": {
+                    "average": 7.7272727272727275,
+                    "total": 85.0
+                }
+            },
+            "short": {
+                "lost": 3,
+                "pnl": {
+                    "average": -48.75,
+                    "lost": {
+                        "average": -337.0,
+                        "max": -430.0,
+                        "total": -1011.0
+                    },
+                    "total": -195.0,
+                    "won": {
+                        "average": 816.0,
+                        "max": 816.0,
+                        "total": 816.0
+                    }
+                },
+                "total": 4,
+                "won": 1
+            },
+            "streak": {
+                "lost": {
+                    "current": 0,
+                    "longest": 2
+                },
+                "won": {
+                    "current": 1,
+                    "longest": 2
+                }
+            },
+            "total": {
+                "closed": 11,
+                "open": 0,
+                "total": 11
+            },
+            "won": {
+                "pnl": {
+                    "average": 433.6,
+                    "max": 816.0,
+                    "total": 2168.0
+                },
+                "total": 5
+            }
+        },
+        "VWR": {
+            "vwr": 0.599134274702082
+        }
+    },
+    "{\"period_ema1\": 14, \"period_ema2\": 17, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"ElderForceIndexSignal\"}": {
+        "SQN": {
+            "sqn": -0.17999569324067177,
+            "trades": 12
+        },
+        "TradeAnalyzer": {
+            "len": {
+                "average": 20.833333333333332,
+                "long": {
+                    "average": 26.375,
+                    "lost": {
+                        "average": 12.5,
+                        "max": 29,
+                        "min": 5,
+                        "total": 50
+                    },
+                    "max": 51,
+                    "min": 5,
+                    "total": 211,
+                    "won": {
+                        "average": 40.25,
+                        "max": 51,
+                        "min": 31,
+                        "total": 161
+                    }
+                },
+                "lost": {
+                    "average": 11.857142857142858,
+                    "max": 29,
+                    "min": 4,
+                    "total": 83
+                },
+                "max": 51,
+                "min": 4,
+                "short": {
+                    "average": 9.75,
+                    "lost": {
+                        "average": 11.0,
+                        "max": 18,
+                        "min": 4,
+                        "total": 33
+                    },
+                    "max": 18,
+                    "min": 4,
+                    "total": 39,
+                    "won": {
+                        "average": 6.0,
+                        "max": 6,
+                        "min": 6,
+                        "total": 6
+                    }
+                },
+                "total": 250,
+                "won": {
+                    "average": 33.4,
+                    "max": 51,
+                    "min": 6,
+                    "total": 167
+                }
+            },
+            "long": {
+                "lost": 4,
+                "pnl": {
+                    "average": -7.125,
+                    "lost": {
+                        "average": -352.25,
+                        "max": -430.0,
+                        "total": -1409.0
+                    },
+                    "total": -57.0,
+                    "won": {
+                        "average": 338.0,
+                        "max": 622.0,
+                        "total": 1352.0
+                    }
+                },
+                "total": 8,
+                "won": 4
+            },
+            "lost": {
+                "pnl": {
+                    "average": -347.7142857142857,
+                    "max": -430.0,
+                    "total": -2434.0
+                },
+                "total": 7
+            },
+            "pnl": {
+                "gross": {
+                    "average": -22.166666666666668,
+                    "total": -266.0
+                },
+                "net": {
+                    "average": -22.166666666666668,
+                    "total": -266.0
+                }
+            },
+            "short": {
+                "lost": 3,
+                "pnl": {
+                    "average": -52.25,
+                    "lost": {
+                        "average": -341.6666666666667,
+                        "max": -430.0,
+                        "total": -1025.0
+                    },
+                    "total": -209.0,
+                    "won": {
+                        "average": 816.0,
+                        "max": 816.0,
+                        "total": 816.0
+                    }
+                },
+                "total": 4,
+                "won": 1
+            },
+            "streak": {
+                "lost": {
+                    "current": 0,
+                    "longest": 3
+                },
+                "won": {
+                    "current": 1,
+                    "longest": 2
+                }
+            },
+            "total": {
+                "closed": 12,
+                "open": 0,
+                "total": 12
+            },
+            "won": {
+                "pnl": {
+                    "average": 433.6,
+                    "max": 816.0,
+                    "total": 2168.0
+                },
+                "total": 5
+            }
+        },
+        "VWR": {
+            "vwr": -1.8264557890061321
+        }
+    },
+    "{\"period_ema1\": 14, \"period_ema2\": 19, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"ElderForceIndexSignal\"}": {
+        "SQN": {
+            "sqn": 0.04191877646191951,
+            "trades": 11
+        },
+        "TradeAnalyzer": {
+            "len": {
+                "average": 22.454545454545453,
+                "long": {
+                    "average": 29.142857142857142,
+                    "lost": {
+                        "average": 15.0,
+                        "max": 29,
+                        "min": 6,
+                        "total": 45
+                    },
+                    "max": 51,
+                    "min": 6,
+                    "total": 204,
+                    "won": {
+                        "average": 39.75,
+                        "max": 51,
+                        "min": 31,
+                        "total": 159
+                    }
+                },
+                "lost": {
+                    "average": 13.666666666666666,
+                    "max": 29,
+                    "min": 4,
+                    "total": 82
+                },
+                "max": 51,
+                "min": 4,
+                "short": {
+                    "average": 10.75,
+                    "lost": {
+                        "average": 12.333333333333334,
+                        "max": 18,
+                        "min": 4,
+                        "total": 37
+                    },
+                    "max": 18,
+                    "min": 4,
+                    "total": 43,
+                    "won": {
+                        "average": 6.0,
+                        "max": 6,
+                        "min": 6,
+                        "total": 6
+                    }
+                },
+                "total": 247,
+                "won": {
+                    "average": 33.0,
+                    "max": 51,
+                    "min": 6,
+                    "total": 165
+                }
+            },
+            "long": {
+                "lost": 3,
+                "pnl": {
+                    "average": 36.42857142857143,
+                    "lost": {
+                        "average": -357.3333333333333,
+                        "max": -430.0,
+                        "total": -1072.0
+                    },
+                    "total": 255.0,
+                    "won": {
+                        "average": 331.75,
+                        "max": 622.0,
+                        "total": 1327.0
+                    }
+                },
+                "total": 7,
+                "won": 4
+            },
+            "lost": {
+                "pnl": {
+                    "average": -347.1666666666667,
+                    "max": -430.0,
+                    "total": -2083.0
+                },
+                "total": 6
+            },
+            "pnl": {
+                "gross": {
+                    "average": 5.454545454545454,
+                    "total": 60.0
+                },
+                "net": {
+                    "average": 5.454545454545454,
+                    "total": 60.0
+                }
+            },
+            "short": {
+                "lost": 3,
+                "pnl": {
+                    "average": -48.75,
+                    "lost": {
+                        "average": -337.0,
+                        "max": -430.0,
+                        "total": -1011.0
+                    },
+                    "total": -195.0,
+                    "won": {
+                        "average": 816.0,
+                        "max": 816.0,
+                        "total": 816.0
+                    }
+                },
+                "total": 4,
+                "won": 1
+            },
+            "streak": {
+                "lost": {
+                    "current": 0,
+                    "longest": 2
+                },
+                "won": {
+                    "current": 1,
+                    "longest": 2
+                }
+            },
+            "total": {
+                "closed": 11,
+                "open": 0,
+                "total": 11
+            },
+            "won": {
+                "pnl": {
+                    "average": 428.6,
+                    "max": 816.0,
+                    "total": 2143.0
+                },
+                "total": 5
+            }
+        },
+        "VWR": {
+            "vwr": 0.422685618083672
+        }
+    },
+    "{\"period_ema1\": 14, \"period_ema2\": 21, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"ElderForceIndexSignal\"}": {
+        "SQN": {
+            "sqn": -1.2184199672222595,
+            "trades": 11
+        },
+        "TradeAnalyzer": {
+            "len": {
+                "average": 22.272727272727273,
+                "long": {
+                    "average": 23.125,
+                    "lost": {
+                        "average": 11.5,
+                        "max": 29,
+                        "min": 1,
+                        "total": 46
+                    },
+                    "max": 51,
+                    "min": 1,
+                    "total": 185,
+                    "won": {
+                        "average": 34.75,
+                        "max": 51,
+                        "min": 11,
+                        "total": 139
+                    }
+                },
+                "lost": {
+                    "average": 15.142857142857142,
+                    "max": 31,
+                    "min": 1,
+                    "total": 106
+                },
+                "max": 51,
+                "min": 1,
+                "short": {
+                    "average": 20.0,
+                    "lost": {
+                        "average": 20.0,
+                        "max": 31,
+                        "min": 11,
+                        "total": 60
+                    },
+                    "max": 31,
+                    "min": 11,
+                    "total": 60,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0,
+                        "min": 9223372036854775807,
+                        "total": 0
+                    }
+                },
+                "total": 245,
+                "won": {
+                    "average": 34.75,
+                    "max": 51,
+                    "min": 11,
+                    "total": 139
+                }
+            },
+            "long": {
+                "lost": 4,
+                "pnl": {
+                    "average": -45.375,
+                    "lost": {
+                        "average": -367.5,
+                        "max": -430.0,
+                        "total": -1470.0
+                    },
+                    "total": -363.0,
+                    "won": {
+                        "average": 276.75,
+                        "max": 622.0,
+                        "total": 1107.0
+                    }
+                },
+                "total": 8,
+                "won": 4
+            },
+            "lost": {
+                "pnl": {
+                    "average": -353.57142857142856,
+                    "max": -430.0,
+                    "total": -2475.0
+                },
+                "total": 7
+            },
+            "pnl": {
+                "gross": {
+                    "average": -124.36363636363636,
+                    "total": -1368.0
+                },
+                "net": {
+                    "average": -124.36363636363636,
+                    "total": -1368.0
+                }
+            },
+            "short": {
+                "lost": 3,
+                "pnl": {
+                    "average": -335.0,
+                    "lost": {
+                        "average": -335.0,
+                        "max": -410.0,
+                        "total": -1005.0
+                    },
+                    "total": -1005.0,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0.0,
+                        "total": 0.0
+                    }
+                },
+                "total": 3,
+                "won": 0
+            },
+            "streak": {
+                "lost": {
+                    "current": 0,
+                    "longest": 4
+                },
+                "won": {
+                    "current": 1,
+                    "longest": 2
+                }
+            },
+            "total": {
+                "closed": 11,
+                "open": 0,
+                "total": 11
+            },
+            "won": {
+                "pnl": {
+                    "average": 276.75,
+                    "max": 622.0,
+                    "total": 1107.0
+                },
+                "total": 4
+            }
+        },
+        "VWR": {
+            "vwr": -8.46186016260181
+        }
+    },
+    "{\"period_ema1\": 14, \"period_ema2\": 23, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"ElderForceIndexSignal\"}": {
+        "SQN": {
+            "sqn": -1.2184199672222595,
+            "trades": 11
+        },
+        "TradeAnalyzer": {
+            "len": {
+                "average": 22.272727272727273,
+                "long": {
+                    "average": 23.125,
+                    "lost": {
+                        "average": 11.5,
+                        "max": 29,
+                        "min": 1,
+                        "total": 46
+                    },
+                    "max": 51,
+                    "min": 1,
+                    "total": 185,
+                    "won": {
+                        "average": 34.75,
+                        "max": 51,
+                        "min": 11,
+                        "total": 139
+                    }
+                },
+                "lost": {
+                    "average": 15.142857142857142,
+                    "max": 31,
+                    "min": 1,
+                    "total": 106
+                },
+                "max": 51,
+                "min": 1,
+                "short": {
+                    "average": 20.0,
+                    "lost": {
+                        "average": 20.0,
+                        "max": 31,
+                        "min": 11,
+                        "total": 60
+                    },
+                    "max": 31,
+                    "min": 11,
+                    "total": 60,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0,
+                        "min": 9223372036854775807,
+                        "total": 0
+                    }
+                },
+                "total": 245,
+                "won": {
+                    "average": 34.75,
+                    "max": 51,
+                    "min": 11,
+                    "total": 139
+                }
+            },
+            "long": {
+                "lost": 4,
+                "pnl": {
+                    "average": -45.375,
+                    "lost": {
+                        "average": -367.5,
+                        "max": -430.0,
+                        "total": -1470.0
+                    },
+                    "total": -363.0,
+                    "won": {
+                        "average": 276.75,
+                        "max": 622.0,
+                        "total": 1107.0
+                    }
+                },
+                "total": 8,
+                "won": 4
+            },
+            "lost": {
+                "pnl": {
+                    "average": -353.57142857142856,
+                    "max": -430.0,
+                    "total": -2475.0
+                },
+                "total": 7
+            },
+            "pnl": {
+                "gross": {
+                    "average": -124.36363636363636,
+                    "total": -1368.0
+                },
+                "net": {
+                    "average": -124.36363636363636,
+                    "total": -1368.0
+                }
+            },
+            "short": {
+                "lost": 3,
+                "pnl": {
+                    "average": -335.0,
+                    "lost": {
+                        "average": -335.0,
+                        "max": -410.0,
+                        "total": -1005.0
+                    },
+                    "total": -1005.0,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0.0,
+                        "total": 0.0
+                    }
+                },
+                "total": 3,
+                "won": 0
+            },
+            "streak": {
+                "lost": {
+                    "current": 0,
+                    "longest": 4
+                },
+                "won": {
+                    "current": 1,
+                    "longest": 2
+                }
+            },
+            "total": {
+                "closed": 11,
+                "open": 0,
+                "total": 11
+            },
+            "won": {
+                "pnl": {
+                    "average": 276.75,
+                    "max": 622.0,
+                    "total": 1107.0
+                },
+                "total": 4
+            }
+        },
+        "VWR": {
+            "vwr": -8.46186016260181
+        }
+    },
+    "{\"period_ema1\": 14, \"period_ema2\": 25, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"ElderForceIndexSignal\"}": {
+        "SQN": {
+            "sqn": -1.5443693502461673,
+            "trades": 12
+        },
+        "TradeAnalyzer": {
+            "len": {
+                "average": 20.25,
+                "long": {
+                    "average": 23.125,
+                    "lost": {
+                        "average": 11.5,
+                        "max": 29,
+                        "min": 1,
+                        "total": 46
+                    },
+                    "max": 51,
+                    "min": 1,
+                    "total": 185,
+                    "won": {
+                        "average": 34.75,
+                        "max": 51,
+                        "min": 11,
+                        "total": 139
+                    }
+                },
+                "lost": {
+                    "average": 13.0,
+                    "max": 31,
+                    "min": 1,
+                    "total": 104
+                },
+                "max": 51,
+                "min": 1,
+                "short": {
+                    "average": 14.5,
+                    "lost": {
+                        "average": 14.5,
+                        "max": 31,
+                        "min": 4,
+                        "total": 58
+                    },
+                    "max": 31,
+                    "min": 4,
+                    "total": 58,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0,
+                        "min": 9223372036854775807,
+                        "total": 0
+                    }
+                },
+                "total": 243,
+                "won": {
+                    "average": 34.75,
+                    "max": 51,
+                    "min": 11,
+                    "total": 139
+                }
+            },
+            "long": {
+                "lost": 4,
+                "pnl": {
+                    "average": -45.375,
+                    "lost": {
+                        "average": -367.5,
+                        "max": -430.0,
+                        "total": -1470.0
+                    },
+                    "total": -363.0,
+                    "won": {
+                        "average": 276.75,
+                        "max": 622.0,
+                        "total": 1107.0
+                    }
+                },
+                "total": 8,
+                "won": 4
+            },
+            "lost": {
+                "pnl": {
+                    "average": -361.625,
+                    "max": -430.0,
+                    "total": -2893.0
+                },
+                "total": 8
+            },
+            "pnl": {
+                "gross": {
+                    "average": -148.83333333333334,
+                    "total": -1786.0
+                },
+                "net": {
+                    "average": -148.83333333333334,
+                    "total": -1786.0
+                }
+            },
+            "short": {
+                "lost": 4,
+                "pnl": {
+                    "average": -355.75,
+                    "lost": {
+                        "average": -355.75,
+                        "max": -410.0,
+                        "total": -1423.0
+                    },
+                    "total": -1423.0,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0.0,
+                        "total": 0.0
+                    }
+                },
+                "total": 4,
+                "won": 0
+            },
+            "streak": {
+                "lost": {
+                    "current": 0,
+                    "longest": 5
+                },
+                "won": {
+                    "current": 1,
+                    "longest": 2
+                }
+            },
+            "total": {
+                "closed": 12,
+                "open": 0,
+                "total": 12
+            },
+            "won": {
+                "pnl": {
+                    "average": 276.75,
+                    "max": 622.0,
+                    "total": 1107.0
+                },
+                "total": 4
+            }
+        },
+        "VWR": {
+            "vwr": -10.701207454928044
+        }
+    },
+    "{\"period_ema1\": 2, \"period_ema2\": 15, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"ElderForceIndexSignal\"}": {
+        "SQN": {
+            "sqn": -1.1833993456636818,
+            "trades": 16
+        },
+        "TradeAnalyzer": {
+            "len": {
+                "average": 15.5,
+                "long": {
+                    "average": 18.636363636363637,
+                    "lost": {
+                        "average": 13.0,
+                        "max": 29,
+                        "min": 3,
+                        "total": 91
+                    },
+                    "max": 46,
+                    "min": 3,
+                    "total": 205,
+                    "won": {
+                        "average": 28.5,
+                        "max": 46,
+                        "min": 4,
+                        "total": 114
+                    }
+                },
+                "lost": {
+                    "average": 12.090909090909092,
+                    "max": 29,
+                    "min": 3,
+                    "total": 133
+                },
+                "max": 46,
+                "min": 1,
+                "short": {
+                    "average": 8.6,
+                    "lost": {
+                        "average": 10.5,
+                        "max": 18,
+                        "min": 4,
+                        "total": 42
+                    },
+                    "max": 18,
+                    "min": 1,
+                    "total": 43,
+                    "won": {
+                        "average": 1.0,
+                        "max": 1,
+                        "min": 1,
+                        "total": 1
+                    }
+                },
+                "total": 248,
+                "won": {
+                    "average": 23.0,
+                    "max": 46,
+                    "min": 1,
+                    "total": 115
+                }
+            },
+            "long": {
+                "lost": 7,
+                "pnl": {
+                    "average": -34.81818181818182,
+                    "lost": {
+                        "average": -330.85714285714283,
+                        "max": -407.0,
+                        "total": -2316.0
+                    },
+                    "total": -383.0,
+                    "won": {
+                        "average": 483.25,
+                        "max": 622.0,
+                        "total": 1933.0
+                    }
+                },
+                "total": 11,
+                "won": 4
+            },
+            "lost": {
+                "pnl": {
+                    "average": -330.3636363636364,
+                    "max": -429.0,
+                    "total": -3634.0
+                },
+                "total": 11
+            },
+            "pnl": {
+                "gross": {
+                    "average": -105.6875,
+                    "total": -1691.0
+                },
+                "net": {
+                    "average": -105.6875,
+                    "total": -1691.0
+                }
+            },
+            "short": {
+                "lost": 4,
+                "pnl": {
+                    "average": -261.6,
+                    "lost": {
+                        "average": -329.5,
+                        "max": -429.0,
+                        "total": -1318.0
+                    },
+                    "total": -1308.0,
+                    "won": {
+                        "average": 10.0,
+                        "max": 10.0,
+                        "total": 10.0
+                    }
+                },
+                "total": 5,
+                "won": 1
+            },
+            "streak": {
+                "lost": {
+                    "current": 0,
+                    "longest": 5
+                },
+                "won": {
+                    "current": 1,
+                    "longest": 2
+                }
+            },
+            "total": {
+                "closed": 16,
+                "open": 0,
+                "total": 16
+            },
+            "won": {
+                "pnl": {
+                    "average": 388.6,
+                    "max": 622.0,
+                    "total": 1943.0
+                },
+                "total": 5
+            }
+        },
+        "VWR": {
+            "vwr": -10.29853268237809
+        }
+    },
+    "{\"period_ema1\": 2, \"period_ema2\": 17, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"ElderForceIndexSignal\"}": {
+        "SQN": {
+            "sqn": -1.1833993456636818,
+            "trades": 16
+        },
+        "TradeAnalyzer": {
+            "len": {
+                "average": 15.5,
+                "long": {
+                    "average": 18.636363636363637,
+                    "lost": {
+                        "average": 13.0,
+                        "max": 29,
+                        "min": 3,
+                        "total": 91
+                    },
+                    "max": 46,
+                    "min": 3,
+                    "total": 205,
+                    "won": {
+                        "average": 28.5,
+                        "max": 46,
+                        "min": 4,
+                        "total": 114
+                    }
+                },
+                "lost": {
+                    "average": 12.090909090909092,
+                    "max": 29,
+                    "min": 3,
+                    "total": 133
+                },
+                "max": 46,
+                "min": 1,
+                "short": {
+                    "average": 8.6,
+                    "lost": {
+                        "average": 10.5,
+                        "max": 18,
+                        "min": 4,
+                        "total": 42
+                    },
+                    "max": 18,
+                    "min": 1,
+                    "total": 43,
+                    "won": {
+                        "average": 1.0,
+                        "max": 1,
+                        "min": 1,
+                        "total": 1
+                    }
+                },
+                "total": 248,
+                "won": {
+                    "average": 23.0,
+                    "max": 46,
+                    "min": 1,
+                    "total": 115
+                }
+            },
+            "long": {
+                "lost": 7,
+                "pnl": {
+                    "average": -34.81818181818182,
+                    "lost": {
+                        "average": -330.85714285714283,
+                        "max": -407.0,
+                        "total": -2316.0
+                    },
+                    "total": -383.0,
+                    "won": {
+                        "average": 483.25,
+                        "max": 622.0,
+                        "total": 1933.0
+                    }
+                },
+                "total": 11,
+                "won": 4
+            },
+            "lost": {
+                "pnl": {
+                    "average": -330.3636363636364,
+                    "max": -429.0,
+                    "total": -3634.0
+                },
+                "total": 11
+            },
+            "pnl": {
+                "gross": {
+                    "average": -105.6875,
+                    "total": -1691.0
+                },
+                "net": {
+                    "average": -105.6875,
+                    "total": -1691.0
+                }
+            },
+            "short": {
+                "lost": 4,
+                "pnl": {
+                    "average": -261.6,
+                    "lost": {
+                        "average": -329.5,
+                        "max": -429.0,
+                        "total": -1318.0
+                    },
+                    "total": -1308.0,
+                    "won": {
+                        "average": 10.0,
+                        "max": 10.0,
+                        "total": 10.0
+                    }
+                },
+                "total": 5,
+                "won": 1
+            },
+            "streak": {
+                "lost": {
+                    "current": 0,
+                    "longest": 5
+                },
+                "won": {
+                    "current": 1,
+                    "longest": 2
+                }
+            },
+            "total": {
+                "closed": 16,
+                "open": 0,
+                "total": 16
+            },
+            "won": {
+                "pnl": {
+                    "average": 388.6,
+                    "max": 622.0,
+                    "total": 1943.0
+                },
+                "total": 5
+            }
+        },
+        "VWR": {
+            "vwr": -10.29853268237809
+        }
+    },
+    "{\"period_ema1\": 2, \"period_ema2\": 19, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"ElderForceIndexSignal\"}": {
+        "SQN": {
+            "sqn": -1.205478375236422,
+            "trades": 16
+        },
+        "TradeAnalyzer": {
+            "len": {
+                "average": 15.4375,
+                "long": {
+                    "average": 18.545454545454547,
+                    "lost": {
+                        "average": 13.142857142857142,
+                        "max": 29,
+                        "min": 3,
+                        "total": 92
+                    },
+                    "max": 46,
+                    "min": 3,
+                    "total": 204,
+                    "won": {
+                        "average": 28.0,
+                        "max": 46,
+                        "min": 4,
+                        "total": 112
+                    }
+                },
+                "lost": {
+                    "average": 12.181818181818182,
+                    "max": 29,
+                    "min": 3,
+                    "total": 134
+                },
+                "max": 46,
+                "min": 1,
+                "short": {
+                    "average": 8.6,
+                    "lost": {
+                        "average": 10.5,
+                        "max": 18,
+                        "min": 4,
+                        "total": 42
+                    },
+                    "max": 18,
+                    "min": 1,
+                    "total": 43,
+                    "won": {
+                        "average": 1.0,
+                        "max": 1,
+                        "min": 1,
+                        "total": 1
+                    }
+                },
+                "total": 247,
+                "won": {
+                    "average": 22.6,
+                    "max": 46,
+                    "min": 1,
+                    "total": 113
+                }
+            },
+            "long": {
+                "lost": 7,
+                "pnl": {
+                    "average": -36.72727272727273,
+                    "lost": {
+                        "average": -330.2857142857143,
+                        "max": -407.0,
+                        "total": -2312.0
+                    },
+                    "total": -404.0,
+                    "won": {
+                        "average": 477.0,
+                        "max": 622.0,
+                        "total": 1908.0
+                    }
+                },
+                "total": 11,
+                "won": 4
+            },
+            "lost": {
+                "pnl": {
+                    "average": -330.0,
+                    "max": -429.0,
+                    "total": -3630.0
+                },
+                "total": 11
+            },
+            "pnl": {
+                "gross": {
+                    "average": -107.0,
+                    "total": -1712.0
+                },
+                "net": {
+                    "average": -107.0,
+                    "total": -1712.0
+                }
+            },
+            "short": {
+                "lost": 4,
+                "pnl": {
+                    "average": -261.6,
+                    "lost": {
+                        "average": -329.5,
+                        "max": -429.0,
+                        "total": -1318.0
+                    },
+                    "total": -1308.0,
+                    "won": {
+                        "average": 10.0,
+                        "max": 10.0,
+                        "total": 10.0
+                    }
+                },
+                "total": 5,
+                "won": 1
+            },
+            "streak": {
+                "lost": {
+                    "current": 0,
+                    "longest": 5
+                },
+                "won": {
+                    "current": 1,
+                    "longest": 2
+                }
+            },
+            "total": {
+                "closed": 16,
+                "open": 0,
+                "total": 16
+            },
+            "won": {
+                "pnl": {
+                    "average": 383.6,
+                    "max": 622.0,
+                    "total": 1918.0
+                },
+                "total": 5
+            }
+        },
+        "VWR": {
+            "vwr": -10.407800690485637
+        }
+    },
+    "{\"period_ema1\": 2, \"period_ema2\": 21, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"ElderForceIndexSignal\"}": {
+        "SQN": {
+            "sqn": -1.296955460054989,
+            "trades": 16
+        },
+        "TradeAnalyzer": {
+            "len": {
+                "average": 15.1875,
+                "long": {
+                    "average": 18.181818181818183,
+                    "lost": {
+                        "average": 12.714285714285714,
+                        "max": 29,
+                        "min": 2,
+                        "total": 89
+                    },
+                    "max": 46,
+                    "min": 2,
+                    "total": 200,
+                    "won": {
+                        "average": 27.75,
+                        "max": 46,
+                        "min": 4,
+                        "total": 111
+                    }
+                },
+                "lost": {
+                    "average": 11.909090909090908,
+                    "max": 29,
+                    "min": 2,
+                    "total": 131
+                },
+                "max": 46,
+                "min": 1,
+                "short": {
+                    "average": 8.6,
+                    "lost": {
+                        "average": 10.5,
+                        "max": 18,
+                        "min": 4,
+                        "total": 42
+                    },
+                    "max": 18,
+                    "min": 1,
+                    "total": 43,
+                    "won": {
+                        "average": 1.0,
+                        "max": 1,
+                        "min": 1,
+                        "total": 1
+                    }
+                },
+                "total": 243,
+                "won": {
+                    "average": 22.4,
+                    "max": 46,
+                    "min": 1,
+                    "total": 112
+                }
+            },
+            "long": {
+                "lost": 7,
+                "pnl": {
+                    "average": -45.27272727272727,
+                    "lost": {
+                        "average": -330.14285714285717,
+                        "max": -407.0,
+                        "total": -2311.0
+                    },
+                    "total": -498.0,
+                    "won": {
+                        "average": 453.25,
+                        "max": 622.0,
+                        "total": 1813.0
+                    }
+                },
+                "total": 11,
+                "won": 4
+            },
+            "lost": {
+                "pnl": {
+                    "average": -329.90909090909093,
+                    "max": -429.0,
+                    "total": -3629.0
+                },
+                "total": 11
+            },
+            "pnl": {
+                "gross": {
+                    "average": -112.875,
+                    "total": -1806.0
+                },
+                "net": {
+                    "average": -112.875,
+                    "total": -1806.0
+                }
+            },
+            "short": {
+                "lost": 4,
+                "pnl": {
+                    "average": -261.6,
+                    "lost": {
+                        "average": -329.5,
+                        "max": -429.0,
+                        "total": -1318.0
+                    },
+                    "total": -1308.0,
+                    "won": {
+                        "average": 10.0,
+                        "max": 10.0,
+                        "total": 10.0
+                    }
+                },
+                "total": 5,
+                "won": 1
+            },
+            "streak": {
+                "lost": {
+                    "current": 0,
+                    "longest": 5
+                },
+                "won": {
+                    "current": 1,
+                    "longest": 2
+                }
+            },
+            "total": {
+                "closed": 16,
+                "open": 0,
+                "total": 16
+            },
+            "won": {
+                "pnl": {
+                    "average": 364.6,
+                    "max": 622.0,
+                    "total": 1823.0
+                },
+                "total": 5
+            }
+        },
+        "VWR": {
+            "vwr": -10.899278376713829
+        }
+    },
+    "{\"period_ema1\": 2, \"period_ema2\": 23, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"ElderForceIndexSignal\"}": {
+        "SQN": {
+            "sqn": -1.0733922130356413,
+            "trades": 15
+        },
+        "TradeAnalyzer": {
+            "len": {
+                "average": 16.0,
+                "long": {
+                    "average": 19.7,
+                    "lost": {
+                        "average": 14.333333333333334,
+                        "max": 29,
+                        "min": 2,
+                        "total": 86
+                    },
+                    "max": 46,
+                    "min": 2,
+                    "total": 197,
+                    "won": {
+                        "average": 27.75,
+                        "max": 46,
+                        "min": 4,
+                        "total": 111
+                    }
+                },
+                "lost": {
+                    "average": 12.8,
+                    "max": 29,
+                    "min": 2,
+                    "total": 128
+                },
+                "max": 46,
+                "min": 1,
+                "short": {
+                    "average": 8.6,
+                    "lost": {
+                        "average": 10.5,
+                        "max": 18,
+                        "min": 4,
+                        "total": 42
+                    },
+                    "max": 18,
+                    "min": 1,
+                    "total": 43,
+                    "won": {
+                        "average": 1.0,
+                        "max": 1,
+                        "min": 1,
+                        "total": 1
+                    }
+                },
+                "total": 240,
+                "won": {
+                    "average": 22.4,
+                    "max": 46,
+                    "min": 1,
+                    "total": 112
+                }
+            },
+            "long": {
+                "lost": 6,
+                "pnl": {
+                    "average": -16.7,
+                    "lost": {
+                        "average": -330.0,
+                        "max": -407.0,
+                        "total": -1980.0
+                    },
+                    "total": -167.0,
+                    "won": {
+                        "average": 453.25,
+                        "max": 622.0,
+                        "total": 1813.0
+                    }
+                },
+                "total": 10,
+                "won": 4
+            },
+            "lost": {
+                "pnl": {
+                    "average": -329.8,
+                    "max": -429.0,
+                    "total": -3298.0
+                },
+                "total": 10
+            },
+            "pnl": {
+                "gross": {
+                    "average": -98.33333333333333,
+                    "total": -1475.0
+                },
+                "net": {
+                    "average": -98.33333333333333,
+                    "total": -1475.0
+                }
+            },
+            "short": {
+                "lost": 4,
+                "pnl": {
+                    "average": -261.6,
+                    "lost": {
+                        "average": -329.5,
+                        "max": -429.0,
+                        "total": -1318.0
+                    },
+                    "total": -1308.0,
+                    "won": {
+                        "average": 10.0,
+                        "max": 10.0,
+                        "total": 10.0
+                    }
+                },
+                "total": 5,
+                "won": 1
+            },
+            "streak": {
+                "lost": {
+                    "current": 0,
+                    "longest": 4
+                },
+                "won": {
+                    "current": 1,
+                    "longest": 2
+                }
+            },
+            "total": {
+                "closed": 15,
+                "open": 0,
+                "total": 15
+            },
+            "won": {
+                "pnl": {
+                    "average": 364.6,
+                    "max": 622.0,
+                    "total": 1823.0
+                },
+                "total": 5
+            }
+        },
+        "VWR": {
+            "vwr": -9.141052512695962
+        }
+    },
+    "{\"period_ema1\": 2, \"period_ema2\": 25, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"ElderForceIndexSignal\"}": {
+        "SQN": {
+            "sqn": -1.0733922130356413,
+            "trades": 15
+        },
+        "TradeAnalyzer": {
+            "len": {
+                "average": 16.0,
+                "long": {
+                    "average": 19.7,
+                    "lost": {
+                        "average": 14.333333333333334,
+                        "max": 29,
+                        "min": 2,
+                        "total": 86
+                    },
+                    "max": 46,
+                    "min": 2,
+                    "total": 197,
+                    "won": {
+                        "average": 27.75,
+                        "max": 46,
+                        "min": 4,
+                        "total": 111
+                    }
+                },
+                "lost": {
+                    "average": 12.8,
+                    "max": 29,
+                    "min": 2,
+                    "total": 128
+                },
+                "max": 46,
+                "min": 1,
+                "short": {
+                    "average": 8.6,
+                    "lost": {
+                        "average": 10.5,
+                        "max": 18,
+                        "min": 4,
+                        "total": 42
+                    },
+                    "max": 18,
+                    "min": 1,
+                    "total": 43,
+                    "won": {
+                        "average": 1.0,
+                        "max": 1,
+                        "min": 1,
+                        "total": 1
+                    }
+                },
+                "total": 240,
+                "won": {
+                    "average": 22.4,
+                    "max": 46,
+                    "min": 1,
+                    "total": 112
+                }
+            },
+            "long": {
+                "lost": 6,
+                "pnl": {
+                    "average": -16.7,
+                    "lost": {
+                        "average": -330.0,
+                        "max": -407.0,
+                        "total": -1980.0
+                    },
+                    "total": -167.0,
+                    "won": {
+                        "average": 453.25,
+                        "max": 622.0,
+                        "total": 1813.0
+                    }
+                },
+                "total": 10,
+                "won": 4
+            },
+            "lost": {
+                "pnl": {
+                    "average": -329.8,
+                    "max": -429.0,
+                    "total": -3298.0
+                },
+                "total": 10
+            },
+            "pnl": {
+                "gross": {
+                    "average": -98.33333333333333,
+                    "total": -1475.0
+                },
+                "net": {
+                    "average": -98.33333333333333,
+                    "total": -1475.0
+                }
+            },
+            "short": {
+                "lost": 4,
+                "pnl": {
+                    "average": -261.6,
+                    "lost": {
+                        "average": -329.5,
+                        "max": -429.0,
+                        "total": -1318.0
+                    },
+                    "total": -1308.0,
+                    "won": {
+                        "average": 10.0,
+                        "max": 10.0,
+                        "total": 10.0
+                    }
+                },
+                "total": 5,
+                "won": 1
+            },
+            "streak": {
+                "lost": {
+                    "current": 0,
+                    "longest": 4
+                },
+                "won": {
+                    "current": 1,
+                    "longest": 2
+                }
+            },
+            "total": {
+                "closed": 15,
+                "open": 0,
+                "total": 15
+            },
+            "won": {
+                "pnl": {
+                    "average": 364.6,
+                    "max": 622.0,
+                    "total": 1823.0
+                },
+                "total": 5
+            }
+        },
+        "VWR": {
+            "vwr": -9.141052512695962
+        }
+    },
+    "{\"period_ema1\": 4, \"period_ema2\": 15, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"ElderForceIndexSignal\"}": {
+        "SQN": {
+            "sqn": -1.1666381744571488,
+            "trades": 12
+        },
+        "TradeAnalyzer": {
+            "len": {
+                "average": 21.0,
+                "long": {
+                    "average": 24.77777777777778,
+                    "lost": {
+                        "average": 12.4,
+                        "max": 29,
+                        "min": 2,
+                        "total": 62
+                    },
+                    "max": 51,
+                    "min": 2,
+                    "total": 223,
+                    "won": {
+                        "average": 40.25,
+                        "max": 51,
+                        "min": 31,
+                        "total": 161
+                    }
+                },
+                "lost": {
+                    "average": 11.375,
+                    "max": 29,
+                    "min": 2,
+                    "total": 91
+                },
+                "max": 51,
+                "min": 2,
+                "short": {
+                    "average": 9.666666666666666,
+                    "lost": {
+                        "average": 9.666666666666666,
+                        "max": 18,
+                        "min": 4,
+                        "total": 29
+                    },
+                    "max": 18,
+                    "min": 4,
+                    "total": 29,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0,
+                        "min": 9223372036854775807,
+                        "total": 0
+                    }
+                },
+                "total": 252,
+                "won": {
+                    "average": 40.25,
+                    "max": 51,
+                    "min": 31,
+                    "total": 161
+                }
+            },
+            "long": {
+                "lost": 5,
+                "pnl": {
+                    "average": -40.888888888888886,
+                    "lost": {
+                        "average": -344.0,
+                        "max": -407.0,
+                        "total": -1720.0
+                    },
+                    "total": -368.0,
+                    "won": {
+                        "average": 338.0,
+                        "max": 622.0,
+                        "total": 1352.0
+                    }
+                },
+                "total": 9,
+                "won": 4
+            },
+            "lost": {
+                "pnl": {
+                    "average": -345.375,
+                    "max": -429.0,
+                    "total": -2763.0
+                },
+                "total": 8
+            },
+            "pnl": {
+                "gross": {
+                    "average": -117.58333333333333,
+                    "total": -1411.0
+                },
+                "net": {
+                    "average": -117.58333333333333,
+                    "total": -1411.0
+                }
+            },
+            "short": {
+                "lost": 3,
+                "pnl": {
+                    "average": -347.6666666666667,
+                    "lost": {
+                        "average": -347.6666666666667,
+                        "max": -429.0,
+                        "total": -1043.0
+                    },
+                    "total": -1043.0,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0.0,
+                        "total": 0.0
+                    }
+                },
+                "total": 3,
+                "won": 0
+            },
+            "streak": {
+                "lost": {
+                    "current": 0,
+                    "longest": 5
+                },
+                "won": {
+                    "current": 1,
+                    "longest": 2
+                }
+            },
+            "total": {
+                "closed": 12,
+                "open": 0,
+                "total": 12
+            },
+            "won": {
+                "pnl": {
+                    "average": 338.0,
+                    "max": 622.0,
+                    "total": 1352.0
+                },
+                "total": 4
+            }
+        },
+        "VWR": {
+            "vwr": -8.69814719436406
+        }
+    },
+    "{\"period_ema1\": 4, \"period_ema2\": 17, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"ElderForceIndexSignal\"}": {
+        "SQN": {
+            "sqn": -1.1666381744571488,
+            "trades": 12
+        },
+        "TradeAnalyzer": {
+            "len": {
+                "average": 21.0,
+                "long": {
+                    "average": 24.77777777777778,
+                    "lost": {
+                        "average": 12.4,
+                        "max": 29,
+                        "min": 2,
+                        "total": 62
+                    },
+                    "max": 51,
+                    "min": 2,
+                    "total": 223,
+                    "won": {
+                        "average": 40.25,
+                        "max": 51,
+                        "min": 31,
+                        "total": 161
+                    }
+                },
+                "lost": {
+                    "average": 11.375,
+                    "max": 29,
+                    "min": 2,
+                    "total": 91
+                },
+                "max": 51,
+                "min": 2,
+                "short": {
+                    "average": 9.666666666666666,
+                    "lost": {
+                        "average": 9.666666666666666,
+                        "max": 18,
+                        "min": 4,
+                        "total": 29
+                    },
+                    "max": 18,
+                    "min": 4,
+                    "total": 29,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0,
+                        "min": 9223372036854775807,
+                        "total": 0
+                    }
+                },
+                "total": 252,
+                "won": {
+                    "average": 40.25,
+                    "max": 51,
+                    "min": 31,
+                    "total": 161
+                }
+            },
+            "long": {
+                "lost": 5,
+                "pnl": {
+                    "average": -40.888888888888886,
+                    "lost": {
+                        "average": -344.0,
+                        "max": -407.0,
+                        "total": -1720.0
+                    },
+                    "total": -368.0,
+                    "won": {
+                        "average": 338.0,
+                        "max": 622.0,
+                        "total": 1352.0
+                    }
+                },
+                "total": 9,
+                "won": 4
+            },
+            "lost": {
+                "pnl": {
+                    "average": -345.375,
+                    "max": -429.0,
+                    "total": -2763.0
+                },
+                "total": 8
+            },
+            "pnl": {
+                "gross": {
+                    "average": -117.58333333333333,
+                    "total": -1411.0
+                },
+                "net": {
+                    "average": -117.58333333333333,
+                    "total": -1411.0
+                }
+            },
+            "short": {
+                "lost": 3,
+                "pnl": {
+                    "average": -347.6666666666667,
+                    "lost": {
+                        "average": -347.6666666666667,
+                        "max": -429.0,
+                        "total": -1043.0
+                    },
+                    "total": -1043.0,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0.0,
+                        "total": 0.0
+                    }
+                },
+                "total": 3,
+                "won": 0
+            },
+            "streak": {
+                "lost": {
+                    "current": 0,
+                    "longest": 5
+                },
+                "won": {
+                    "current": 1,
+                    "longest": 2
+                }
+            },
+            "total": {
+                "closed": 12,
+                "open": 0,
+                "total": 12
+            },
+            "won": {
+                "pnl": {
+                    "average": 338.0,
+                    "max": 622.0,
+                    "total": 1352.0
+                },
+                "total": 4
+            }
+        },
+        "VWR": {
+            "vwr": -8.69814719436406
+        }
+    },
+    "{\"period_ema1\": 4, \"period_ema2\": 19, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"ElderForceIndexSignal\"}": {
+        "SQN": {
+            "sqn": -1.1970896021967077,
+            "trades": 12
+        },
+        "TradeAnalyzer": {
+            "len": {
+                "average": 20.833333333333332,
+                "long": {
+                    "average": 24.555555555555557,
+                    "lost": {
+                        "average": 12.4,
+                        "max": 29,
+                        "min": 2,
+                        "total": 62
+                    },
+                    "max": 51,
+                    "min": 2,
+                    "total": 221,
+                    "won": {
+                        "average": 39.75,
+                        "max": 51,
+                        "min": 31,
+                        "total": 159
+                    }
+                },
+                "lost": {
+                    "average": 11.375,
+                    "max": 29,
+                    "min": 2,
+                    "total": 91
+                },
+                "max": 51,
+                "min": 2,
+                "short": {
+                    "average": 9.666666666666666,
+                    "lost": {
+                        "average": 9.666666666666666,
+                        "max": 18,
+                        "min": 4,
+                        "total": 29
+                    },
+                    "max": 18,
+                    "min": 4,
+                    "total": 29,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0,
+                        "min": 9223372036854775807,
+                        "total": 0
+                    }
+                },
+                "total": 250,
+                "won": {
+                    "average": 39.75,
+                    "max": 51,
+                    "min": 31,
+                    "total": 159
+                }
+            },
+            "long": {
+                "lost": 5,
+                "pnl": {
+                    "average": -43.666666666666664,
+                    "lost": {
+                        "average": -344.0,
+                        "max": -407.0,
+                        "total": -1720.0
+                    },
+                    "total": -393.0,
+                    "won": {
+                        "average": 331.75,
+                        "max": 622.0,
+                        "total": 1327.0
+                    }
+                },
+                "total": 9,
+                "won": 4
+            },
+            "lost": {
+                "pnl": {
+                    "average": -345.375,
+                    "max": -429.0,
+                    "total": -2763.0
+                },
+                "total": 8
+            },
+            "pnl": {
+                "gross": {
+                    "average": -119.66666666666667,
+                    "total": -1436.0
+                },
+                "net": {
+                    "average": -119.66666666666667,
+                    "total": -1436.0
+                }
+            },
+            "short": {
+                "lost": 3,
+                "pnl": {
+                    "average": -347.6666666666667,
+                    "lost": {
+                        "average": -347.6666666666667,
+                        "max": -429.0,
+                        "total": -1043.0
+                    },
+                    "total": -1043.0,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0.0,
+                        "total": 0.0
+                    }
+                },
+                "total": 3,
+                "won": 0
+            },
+            "streak": {
+                "lost": {
+                    "current": 0,
+                    "longest": 5
+                },
+                "won": {
+                    "current": 1,
+                    "longest": 2
+                }
+            },
+            "total": {
+                "closed": 12,
+                "open": 0,
+                "total": 12
+            },
+            "won": {
+                "pnl": {
+                    "average": 331.75,
+                    "max": 622.0,
+                    "total": 1327.0
+                },
+                "total": 4
+            }
+        },
+        "VWR": {
+            "vwr": -8.834875846730204
+        }
+    },
+    "{\"period_ema1\": 4, \"period_ema2\": 21, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"ElderForceIndexSignal\"}": {
+        "SQN": {
+            "sqn": -1.3093679878674973,
+            "trades": 12
+        },
+        "TradeAnalyzer": {
+            "len": {
+                "average": 20.583333333333332,
+                "long": {
+                    "average": 24.22222222222222,
+                    "lost": {
+                        "average": 12.0,
+                        "max": 29,
+                        "min": 2,
+                        "total": 60
+                    },
+                    "max": 51,
+                    "min": 2,
+                    "total": 218,
+                    "won": {
+                        "average": 39.5,
+                        "max": 51,
+                        "min": 30,
+                        "total": 158
+                    }
+                },
+                "lost": {
+                    "average": 11.125,
+                    "max": 29,
+                    "min": 2,
+                    "total": 89
+                },
+                "max": 51,
+                "min": 2,
+                "short": {
+                    "average": 9.666666666666666,
+                    "lost": {
+                        "average": 9.666666666666666,
+                        "max": 18,
+                        "min": 4,
+                        "total": 29
+                    },
+                    "max": 18,
+                    "min": 4,
+                    "total": 29,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0,
+                        "min": 9223372036854775807,
+                        "total": 0
+                    }
+                },
+                "total": 247,
+                "won": {
+                    "average": 39.5,
+                    "max": 51,
+                    "min": 30,
+                    "total": 158
+                }
+            },
+            "long": {
+                "lost": 5,
+                "pnl": {
+                    "average": -53.55555555555556,
+                    "lost": {
+                        "average": -342.8,
+                        "max": -407.0,
+                        "total": -1714.0
+                    },
+                    "total": -482.0,
+                    "won": {
+                        "average": 308.0,
+                        "max": 622.0,
+                        "total": 1232.0
+                    }
+                },
+                "total": 9,
+                "won": 4
+            },
+            "lost": {
+                "pnl": {
+                    "average": -344.625,
+                    "max": -429.0,
+                    "total": -2757.0
+                },
+                "total": 8
+            },
+            "pnl": {
+                "gross": {
+                    "average": -127.08333333333333,
+                    "total": -1525.0
+                },
+                "net": {
+                    "average": -127.08333333333333,
+                    "total": -1525.0
+                }
+            },
+            "short": {
+                "lost": 3,
+                "pnl": {
+                    "average": -347.6666666666667,
+                    "lost": {
+                        "average": -347.6666666666667,
+                        "max": -429.0,
+                        "total": -1043.0
+                    },
+                    "total": -1043.0,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0.0,
+                        "total": 0.0
+                    }
+                },
+                "total": 3,
+                "won": 0
+            },
+            "streak": {
+                "lost": {
+                    "current": 0,
+                    "longest": 5
+                },
+                "won": {
+                    "current": 1,
+                    "longest": 2
+                }
+            },
+            "total": {
+                "closed": 12,
+                "open": 0,
+                "total": 12
+            },
+            "won": {
+                "pnl": {
+                    "average": 308.0,
+                    "max": 622.0,
+                    "total": 1232.0
+                },
+                "total": 4
+            }
+        },
+        "VWR": {
+            "vwr": -9.317830902114242
+        }
+    },
+    "{\"period_ema1\": 4, \"period_ema2\": 23, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"ElderForceIndexSignal\"}": {
+        "SQN": {
+            "sqn": -1.0427543050308203,
+            "trades": 11
+        },
+        "TradeAnalyzer": {
+            "len": {
+                "average": 22.181818181818183,
+                "long": {
+                    "average": 26.875,
+                    "lost": {
+                        "average": 14.25,
+                        "max": 29,
+                        "min": 2,
+                        "total": 57
+                    },
+                    "max": 51,
+                    "min": 2,
+                    "total": 215,
+                    "won": {
+                        "average": 39.5,
+                        "max": 51,
+                        "min": 30,
+                        "total": 158
+                    }
+                },
+                "lost": {
+                    "average": 12.285714285714286,
+                    "max": 29,
+                    "min": 2,
+                    "total": 86
+                },
+                "max": 51,
+                "min": 2,
+                "short": {
+                    "average": 9.666666666666666,
+                    "lost": {
+                        "average": 9.666666666666666,
+                        "max": 18,
+                        "min": 4,
+                        "total": 29
+                    },
+                    "max": 18,
+                    "min": 4,
+                    "total": 29,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0,
+                        "min": 9223372036854775807,
+                        "total": 0
+                    }
+                },
+                "total": 244,
+                "won": {
+                    "average": 39.5,
+                    "max": 51,
+                    "min": 30,
+                    "total": 158
+                }
+            },
+            "long": {
+                "lost": 4,
+                "pnl": {
+                    "average": -18.875,
+                    "lost": {
+                        "average": -345.75,
+                        "max": -407.0,
+                        "total": -1383.0
+                    },
+                    "total": -151.0,
+                    "won": {
+                        "average": 308.0,
+                        "max": 622.0,
+                        "total": 1232.0
+                    }
+                },
+                "total": 8,
+                "won": 4
+            },
+            "lost": {
+                "pnl": {
+                    "average": -346.57142857142856,
+                    "max": -429.0,
+                    "total": -2426.0
+                },
+                "total": 7
+            },
+            "pnl": {
+                "gross": {
+                    "average": -108.54545454545455,
+                    "total": -1194.0
+                },
+                "net": {
+                    "average": -108.54545454545455,
+                    "total": -1194.0
+                }
+            },
+            "short": {
+                "lost": 3,
+                "pnl": {
+                    "average": -347.6666666666667,
+                    "lost": {
+                        "average": -347.6666666666667,
+                        "max": -429.0,
+                        "total": -1043.0
+                    },
+                    "total": -1043.0,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0.0,
+                        "total": 0.0
+                    }
+                },
+                "total": 3,
+                "won": 0
+            },
+            "streak": {
+                "lost": {
+                    "current": 0,
+                    "longest": 4
+                },
+                "won": {
+                    "current": 1,
+                    "longest": 2
+                }
+            },
+            "total": {
+                "closed": 11,
+                "open": 0,
+                "total": 11
+            },
+            "won": {
+                "pnl": {
+                    "average": 308.0,
+                    "max": 622.0,
+                    "total": 1232.0
+                },
+                "total": 4
+            }
+        },
+        "VWR": {
+            "vwr": -7.490926901598497
+        }
+    },
+    "{\"period_ema1\": 4, \"period_ema2\": 25, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"ElderForceIndexSignal\"}": {
+        "SQN": {
+            "sqn": -0.7676081267211337,
+            "trades": 10
+        },
+        "TradeAnalyzer": {
+            "len": {
+                "average": 24.2,
+                "long": {
+                    "average": 30.428571428571427,
+                    "lost": {
+                        "average": 18.333333333333332,
+                        "max": 29,
+                        "min": 10,
+                        "total": 55
+                    },
+                    "max": 51,
+                    "min": 10,
+                    "total": 213,
+                    "won": {
+                        "average": 39.5,
+                        "max": 51,
+                        "min": 30,
+                        "total": 158
+                    }
+                },
+                "lost": {
+                    "average": 14.0,
+                    "max": 29,
+                    "min": 4,
+                    "total": 84
+                },
+                "max": 51,
+                "min": 4,
+                "short": {
+                    "average": 9.666666666666666,
+                    "lost": {
+                        "average": 9.666666666666666,
+                        "max": 18,
+                        "min": 4,
+                        "total": 29
+                    },
+                    "max": 18,
+                    "min": 4,
+                    "total": 29,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0,
+                        "min": 9223372036854775807,
+                        "total": 0
+                    }
+                },
+                "total": 242,
+                "won": {
+                    "average": 39.5,
+                    "max": 51,
+                    "min": 30,
+                    "total": 158
+                }
+            },
+            "long": {
+                "lost": 3,
+                "pnl": {
+                    "average": 26.142857142857142,
+                    "lost": {
+                        "average": -349.6666666666667,
+                        "max": -407.0,
+                        "total": -1049.0
+                    },
+                    "total": 183.0,
+                    "won": {
+                        "average": 308.0,
+                        "max": 622.0,
+                        "total": 1232.0
+                    }
+                },
+                "total": 7,
+                "won": 4
+            },
+            "lost": {
+                "pnl": {
+                    "average": -348.6666666666667,
+                    "max": -429.0,
+                    "total": -2092.0
+                },
+                "total": 6
+            },
+            "pnl": {
+                "gross": {
+                    "average": -86.0,
+                    "total": -860.0
+                },
+                "net": {
+                    "average": -86.0,
+                    "total": -860.0
+                }
+            },
+            "short": {
+                "lost": 3,
+                "pnl": {
+                    "average": -347.6666666666667,
+                    "lost": {
+                        "average": -347.6666666666667,
+                        "max": -429.0,
+                        "total": -1043.0
+                    },
+                    "total": -1043.0,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0.0,
+                        "total": 0.0
+                    }
+                },
+                "total": 3,
+                "won": 0
+            },
+            "streak": {
+                "lost": {
+                    "current": 0,
+                    "longest": 3
+                },
+                "won": {
+                    "current": 1,
+                    "longest": 2
+                }
+            },
+            "total": {
+                "closed": 10,
+                "open": 0,
+                "total": 10
+            },
+            "won": {
+                "pnl": {
+                    "average": 308.0,
+                    "max": 622.0,
+                    "total": 1232.0
+                },
+                "total": 4
+            }
+        },
+        "VWR": {
+            "vwr": -5.55559760336583
+        }
+    },
+    "{\"period_ema1\": 6, \"period_ema2\": 15, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"ElderForceIndexSignal\"}": {
+        "SQN": {
+            "sqn": -1.1666381744571488,
+            "trades": 12
+        },
+        "TradeAnalyzer": {
+            "len": {
+                "average": 21.0,
+                "long": {
+                    "average": 24.77777777777778,
+                    "lost": {
+                        "average": 12.4,
+                        "max": 29,
+                        "min": 2,
+                        "total": 62
+                    },
+                    "max": 51,
+                    "min": 2,
+                    "total": 223,
+                    "won": {
+                        "average": 40.25,
+                        "max": 51,
+                        "min": 31,
+                        "total": 161
+                    }
+                },
+                "lost": {
+                    "average": 11.375,
+                    "max": 29,
+                    "min": 2,
+                    "total": 91
+                },
+                "max": 51,
+                "min": 2,
+                "short": {
+                    "average": 9.666666666666666,
+                    "lost": {
+                        "average": 9.666666666666666,
+                        "max": 18,
+                        "min": 4,
+                        "total": 29
+                    },
+                    "max": 18,
+                    "min": 4,
+                    "total": 29,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0,
+                        "min": 9223372036854775807,
+                        "total": 0
+                    }
+                },
+                "total": 252,
+                "won": {
+                    "average": 40.25,
+                    "max": 51,
+                    "min": 31,
+                    "total": 161
+                }
+            },
+            "long": {
+                "lost": 5,
+                "pnl": {
+                    "average": -40.888888888888886,
+                    "lost": {
+                        "average": -344.0,
+                        "max": -407.0,
+                        "total": -1720.0
+                    },
+                    "total": -368.0,
+                    "won": {
+                        "average": 338.0,
+                        "max": 622.0,
+                        "total": 1352.0
+                    }
+                },
+                "total": 9,
+                "won": 4
+            },
+            "lost": {
+                "pnl": {
+                    "average": -345.375,
+                    "max": -429.0,
+                    "total": -2763.0
+                },
+                "total": 8
+            },
+            "pnl": {
+                "gross": {
+                    "average": -117.58333333333333,
+                    "total": -1411.0
+                },
+                "net": {
+                    "average": -117.58333333333333,
+                    "total": -1411.0
+                }
+            },
+            "short": {
+                "lost": 3,
+                "pnl": {
+                    "average": -347.6666666666667,
+                    "lost": {
+                        "average": -347.6666666666667,
+                        "max": -429.0,
+                        "total": -1043.0
+                    },
+                    "total": -1043.0,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0.0,
+                        "total": 0.0
+                    }
+                },
+                "total": 3,
+                "won": 0
+            },
+            "streak": {
+                "lost": {
+                    "current": 0,
+                    "longest": 5
+                },
+                "won": {
+                    "current": 1,
+                    "longest": 2
+                }
+            },
+            "total": {
+                "closed": 12,
+                "open": 0,
+                "total": 12
+            },
+            "won": {
+                "pnl": {
+                    "average": 338.0,
+                    "max": 622.0,
+                    "total": 1352.0
+                },
+                "total": 4
+            }
+        },
+        "VWR": {
+            "vwr": -8.69814719436406
+        }
+    },
+    "{\"period_ema1\": 6, \"period_ema2\": 17, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"ElderForceIndexSignal\"}": {
+        "SQN": {
+            "sqn": -1.1666381744571488,
+            "trades": 12
+        },
+        "TradeAnalyzer": {
+            "len": {
+                "average": 21.0,
+                "long": {
+                    "average": 24.77777777777778,
+                    "lost": {
+                        "average": 12.4,
+                        "max": 29,
+                        "min": 2,
+                        "total": 62
+                    },
+                    "max": 51,
+                    "min": 2,
+                    "total": 223,
+                    "won": {
+                        "average": 40.25,
+                        "max": 51,
+                        "min": 31,
+                        "total": 161
+                    }
+                },
+                "lost": {
+                    "average": 11.375,
+                    "max": 29,
+                    "min": 2,
+                    "total": 91
+                },
+                "max": 51,
+                "min": 2,
+                "short": {
+                    "average": 9.666666666666666,
+                    "lost": {
+                        "average": 9.666666666666666,
+                        "max": 18,
+                        "min": 4,
+                        "total": 29
+                    },
+                    "max": 18,
+                    "min": 4,
+                    "total": 29,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0,
+                        "min": 9223372036854775807,
+                        "total": 0
+                    }
+                },
+                "total": 252,
+                "won": {
+                    "average": 40.25,
+                    "max": 51,
+                    "min": 31,
+                    "total": 161
+                }
+            },
+            "long": {
+                "lost": 5,
+                "pnl": {
+                    "average": -40.888888888888886,
+                    "lost": {
+                        "average": -344.0,
+                        "max": -407.0,
+                        "total": -1720.0
+                    },
+                    "total": -368.0,
+                    "won": {
+                        "average": 338.0,
+                        "max": 622.0,
+                        "total": 1352.0
+                    }
+                },
+                "total": 9,
+                "won": 4
+            },
+            "lost": {
+                "pnl": {
+                    "average": -345.375,
+                    "max": -429.0,
+                    "total": -2763.0
+                },
+                "total": 8
+            },
+            "pnl": {
+                "gross": {
+                    "average": -117.58333333333333,
+                    "total": -1411.0
+                },
+                "net": {
+                    "average": -117.58333333333333,
+                    "total": -1411.0
+                }
+            },
+            "short": {
+                "lost": 3,
+                "pnl": {
+                    "average": -347.6666666666667,
+                    "lost": {
+                        "average": -347.6666666666667,
+                        "max": -429.0,
+                        "total": -1043.0
+                    },
+                    "total": -1043.0,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0.0,
+                        "total": 0.0
+                    }
+                },
+                "total": 3,
+                "won": 0
+            },
+            "streak": {
+                "lost": {
+                    "current": 0,
+                    "longest": 5
+                },
+                "won": {
+                    "current": 1,
+                    "longest": 2
+                }
+            },
+            "total": {
+                "closed": 12,
+                "open": 0,
+                "total": 12
+            },
+            "won": {
+                "pnl": {
+                    "average": 338.0,
+                    "max": 622.0,
+                    "total": 1352.0
+                },
+                "total": 4
+            }
+        },
+        "VWR": {
+            "vwr": -8.69814719436406
+        }
+    },
+    "{\"period_ema1\": 6, \"period_ema2\": 19, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"ElderForceIndexSignal\"}": {
+        "SQN": {
+            "sqn": -1.1970896021967077,
+            "trades": 12
+        },
+        "TradeAnalyzer": {
+            "len": {
+                "average": 20.833333333333332,
+                "long": {
+                    "average": 24.555555555555557,
+                    "lost": {
+                        "average": 12.4,
+                        "max": 29,
+                        "min": 2,
+                        "total": 62
+                    },
+                    "max": 51,
+                    "min": 2,
+                    "total": 221,
+                    "won": {
+                        "average": 39.75,
+                        "max": 51,
+                        "min": 31,
+                        "total": 159
+                    }
+                },
+                "lost": {
+                    "average": 11.375,
+                    "max": 29,
+                    "min": 2,
+                    "total": 91
+                },
+                "max": 51,
+                "min": 2,
+                "short": {
+                    "average": 9.666666666666666,
+                    "lost": {
+                        "average": 9.666666666666666,
+                        "max": 18,
+                        "min": 4,
+                        "total": 29
+                    },
+                    "max": 18,
+                    "min": 4,
+                    "total": 29,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0,
+                        "min": 9223372036854775807,
+                        "total": 0
+                    }
+                },
+                "total": 250,
+                "won": {
+                    "average": 39.75,
+                    "max": 51,
+                    "min": 31,
+                    "total": 159
+                }
+            },
+            "long": {
+                "lost": 5,
+                "pnl": {
+                    "average": -43.666666666666664,
+                    "lost": {
+                        "average": -344.0,
+                        "max": -407.0,
+                        "total": -1720.0
+                    },
+                    "total": -393.0,
+                    "won": {
+                        "average": 331.75,
+                        "max": 622.0,
+                        "total": 1327.0
+                    }
+                },
+                "total": 9,
+                "won": 4
+            },
+            "lost": {
+                "pnl": {
+                    "average": -345.375,
+                    "max": -429.0,
+                    "total": -2763.0
+                },
+                "total": 8
+            },
+            "pnl": {
+                "gross": {
+                    "average": -119.66666666666667,
+                    "total": -1436.0
+                },
+                "net": {
+                    "average": -119.66666666666667,
+                    "total": -1436.0
+                }
+            },
+            "short": {
+                "lost": 3,
+                "pnl": {
+                    "average": -347.6666666666667,
+                    "lost": {
+                        "average": -347.6666666666667,
+                        "max": -429.0,
+                        "total": -1043.0
+                    },
+                    "total": -1043.0,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0.0,
+                        "total": 0.0
+                    }
+                },
+                "total": 3,
+                "won": 0
+            },
+            "streak": {
+                "lost": {
+                    "current": 0,
+                    "longest": 5
+                },
+                "won": {
+                    "current": 1,
+                    "longest": 2
+                }
+            },
+            "total": {
+                "closed": 12,
+                "open": 0,
+                "total": 12
+            },
+            "won": {
+                "pnl": {
+                    "average": 331.75,
+                    "max": 622.0,
+                    "total": 1327.0
+                },
+                "total": 4
+            }
+        },
+        "VWR": {
+            "vwr": -8.834875846730204
+        }
+    },
+    "{\"period_ema1\": 6, \"period_ema2\": 21, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"ElderForceIndexSignal\"}": {
+        "SQN": {
+            "sqn": -1.4902689372061368,
+            "trades": 12
+        },
+        "TradeAnalyzer": {
+            "len": {
+                "average": 20.666666666666668,
+                "long": {
+                    "average": 20.88888888888889,
+                    "lost": {
+                        "average": 9.8,
+                        "max": 29,
+                        "min": 1,
+                        "total": 49
+                    },
+                    "max": 51,
+                    "min": 1,
+                    "total": 188,
+                    "won": {
+                        "average": 34.75,
+                        "max": 51,
+                        "min": 11,
+                        "total": 139
+                    }
+                },
+                "lost": {
+                    "average": 13.625,
+                    "max": 31,
+                    "min": 1,
+                    "total": 109
+                },
+                "max": 51,
+                "min": 1,
+                "short": {
+                    "average": 20.0,
+                    "lost": {
+                        "average": 20.0,
+                        "max": 31,
+                        "min": 11,
+                        "total": 60
+                    },
+                    "max": 31,
+                    "min": 11,
+                    "total": 60,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0,
+                        "min": 9223372036854775807,
+                        "total": 0
+                    }
+                },
+                "total": 248,
+                "won": {
+                    "average": 34.75,
+                    "max": 51,
+                    "min": 11,
+                    "total": 139
+                }
+            },
+            "long": {
+                "lost": 5,
+                "pnl": {
+                    "average": -77.11111111111111,
+                    "lost": {
+                        "average": -360.2,
+                        "max": -430.0,
+                        "total": -1801.0
+                    },
+                    "total": -694.0,
+                    "won": {
+                        "average": 276.75,
+                        "max": 622.0,
+                        "total": 1107.0
+                    }
+                },
+                "total": 9,
+                "won": 4
+            },
+            "lost": {
+                "pnl": {
+                    "average": -350.75,
+                    "max": -430.0,
+                    "total": -2806.0
+                },
+                "total": 8
+            },
+            "pnl": {
+                "gross": {
+                    "average": -141.58333333333334,
+                    "total": -1699.0
+                },
+                "net": {
+                    "average": -141.58333333333334,
+                    "total": -1699.0
+                }
+            },
+            "short": {
+                "lost": 3,
+                "pnl": {
+                    "average": -335.0,
+                    "lost": {
+                        "average": -335.0,
+                        "max": -410.0,
+                        "total": -1005.0
+                    },
+                    "total": -1005.0,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0.0,
+                        "total": 0.0
+                    }
+                },
+                "total": 3,
+                "won": 0
+            },
+            "streak": {
+                "lost": {
+                    "current": 0,
+                    "longest": 5
+                },
+                "won": {
+                    "current": 1,
+                    "longest": 2
+                }
+            },
+            "total": {
+                "closed": 12,
+                "open": 0,
+                "total": 12
+            },
+            "won": {
+                "pnl": {
+                    "average": 276.75,
+                    "max": 622.0,
+                    "total": 1107.0
+                },
+                "total": 4
+            }
+        },
+        "VWR": {
+            "vwr": -10.245400592837827
+        }
+    },
+    "{\"period_ema1\": 6, \"period_ema2\": 23, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"ElderForceIndexSignal\"}": {
+        "SQN": {
+            "sqn": -1.2184199672222595,
+            "trades": 11
+        },
+        "TradeAnalyzer": {
+            "len": {
+                "average": 22.272727272727273,
+                "long": {
+                    "average": 23.125,
+                    "lost": {
+                        "average": 11.5,
+                        "max": 29,
+                        "min": 1,
+                        "total": 46
+                    },
+                    "max": 51,
+                    "min": 1,
+                    "total": 185,
+                    "won": {
+                        "average": 34.75,
+                        "max": 51,
+                        "min": 11,
+                        "total": 139
+                    }
+                },
+                "lost": {
+                    "average": 15.142857142857142,
+                    "max": 31,
+                    "min": 1,
+                    "total": 106
+                },
+                "max": 51,
+                "min": 1,
+                "short": {
+                    "average": 20.0,
+                    "lost": {
+                        "average": 20.0,
+                        "max": 31,
+                        "min": 11,
+                        "total": 60
+                    },
+                    "max": 31,
+                    "min": 11,
+                    "total": 60,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0,
+                        "min": 9223372036854775807,
+                        "total": 0
+                    }
+                },
+                "total": 245,
+                "won": {
+                    "average": 34.75,
+                    "max": 51,
+                    "min": 11,
+                    "total": 139
+                }
+            },
+            "long": {
+                "lost": 4,
+                "pnl": {
+                    "average": -45.375,
+                    "lost": {
+                        "average": -367.5,
+                        "max": -430.0,
+                        "total": -1470.0
+                    },
+                    "total": -363.0,
+                    "won": {
+                        "average": 276.75,
+                        "max": 622.0,
+                        "total": 1107.0
+                    }
+                },
+                "total": 8,
+                "won": 4
+            },
+            "lost": {
+                "pnl": {
+                    "average": -353.57142857142856,
+                    "max": -430.0,
+                    "total": -2475.0
+                },
+                "total": 7
+            },
+            "pnl": {
+                "gross": {
+                    "average": -124.36363636363636,
+                    "total": -1368.0
+                },
+                "net": {
+                    "average": -124.36363636363636,
+                    "total": -1368.0
+                }
+            },
+            "short": {
+                "lost": 3,
+                "pnl": {
+                    "average": -335.0,
+                    "lost": {
+                        "average": -335.0,
+                        "max": -410.0,
+                        "total": -1005.0
+                    },
+                    "total": -1005.0,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0.0,
+                        "total": 0.0
+                    }
+                },
+                "total": 3,
+                "won": 0
+            },
+            "streak": {
+                "lost": {
+                    "current": 0,
+                    "longest": 4
+                },
+                "won": {
+                    "current": 1,
+                    "longest": 2
+                }
+            },
+            "total": {
+                "closed": 11,
+                "open": 0,
+                "total": 11
+            },
+            "won": {
+                "pnl": {
+                    "average": 276.75,
+                    "max": 622.0,
+                    "total": 1107.0
+                },
+                "total": 4
+            }
+        },
+        "VWR": {
+            "vwr": -8.46186016260181
+        }
+    },
+    "{\"period_ema1\": 6, \"period_ema2\": 25, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"ElderForceIndexSignal\"}": {
+        "SQN": {
+            "sqn": -0.7676081267211337,
+            "trades": 10
+        },
+        "TradeAnalyzer": {
+            "len": {
+                "average": 24.2,
+                "long": {
+                    "average": 30.428571428571427,
+                    "lost": {
+                        "average": 18.333333333333332,
+                        "max": 29,
+                        "min": 10,
+                        "total": 55
+                    },
+                    "max": 51,
+                    "min": 10,
+                    "total": 213,
+                    "won": {
+                        "average": 39.5,
+                        "max": 51,
+                        "min": 30,
+                        "total": 158
+                    }
+                },
+                "lost": {
+                    "average": 14.0,
+                    "max": 29,
+                    "min": 4,
+                    "total": 84
+                },
+                "max": 51,
+                "min": 4,
+                "short": {
+                    "average": 9.666666666666666,
+                    "lost": {
+                        "average": 9.666666666666666,
+                        "max": 18,
+                        "min": 4,
+                        "total": 29
+                    },
+                    "max": 18,
+                    "min": 4,
+                    "total": 29,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0,
+                        "min": 9223372036854775807,
+                        "total": 0
+                    }
+                },
+                "total": 242,
+                "won": {
+                    "average": 39.5,
+                    "max": 51,
+                    "min": 30,
+                    "total": 158
+                }
+            },
+            "long": {
+                "lost": 3,
+                "pnl": {
+                    "average": 26.142857142857142,
+                    "lost": {
+                        "average": -349.6666666666667,
+                        "max": -407.0,
+                        "total": -1049.0
+                    },
+                    "total": 183.0,
+                    "won": {
+                        "average": 308.0,
+                        "max": 622.0,
+                        "total": 1232.0
+                    }
+                },
+                "total": 7,
+                "won": 4
+            },
+            "lost": {
+                "pnl": {
+                    "average": -348.6666666666667,
+                    "max": -429.0,
+                    "total": -2092.0
+                },
+                "total": 6
+            },
+            "pnl": {
+                "gross": {
+                    "average": -86.0,
+                    "total": -860.0
+                },
+                "net": {
+                    "average": -86.0,
+                    "total": -860.0
+                }
+            },
+            "short": {
+                "lost": 3,
+                "pnl": {
+                    "average": -347.6666666666667,
+                    "lost": {
+                        "average": -347.6666666666667,
+                        "max": -429.0,
+                        "total": -1043.0
+                    },
+                    "total": -1043.0,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0.0,
+                        "total": 0.0
+                    }
+                },
+                "total": 3,
+                "won": 0
+            },
+            "streak": {
+                "lost": {
+                    "current": 0,
+                    "longest": 3
+                },
+                "won": {
+                    "current": 1,
+                    "longest": 2
+                }
+            },
+            "total": {
+                "closed": 10,
+                "open": 0,
+                "total": 10
+            },
+            "won": {
+                "pnl": {
+                    "average": 308.0,
+                    "max": 622.0,
+                    "total": 1232.0
+                },
+                "total": 4
+            }
+        },
+        "VWR": {
+            "vwr": -5.55559760336583
+        }
+    },
+    "{\"period_ema1\": 8, \"period_ema2\": 15, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"ElderForceIndexSignal\"}": {
+        "SQN": {
+            "sqn": -1.1666381744571488,
+            "trades": 12
+        },
+        "TradeAnalyzer": {
+            "len": {
+                "average": 21.0,
+                "long": {
+                    "average": 24.77777777777778,
+                    "lost": {
+                        "average": 12.4,
+                        "max": 29,
+                        "min": 2,
+                        "total": 62
+                    },
+                    "max": 51,
+                    "min": 2,
+                    "total": 223,
+                    "won": {
+                        "average": 40.25,
+                        "max": 51,
+                        "min": 31,
+                        "total": 161
+                    }
+                },
+                "lost": {
+                    "average": 11.375,
+                    "max": 29,
+                    "min": 2,
+                    "total": 91
+                },
+                "max": 51,
+                "min": 2,
+                "short": {
+                    "average": 9.666666666666666,
+                    "lost": {
+                        "average": 9.666666666666666,
+                        "max": 18,
+                        "min": 4,
+                        "total": 29
+                    },
+                    "max": 18,
+                    "min": 4,
+                    "total": 29,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0,
+                        "min": 9223372036854775807,
+                        "total": 0
+                    }
+                },
+                "total": 252,
+                "won": {
+                    "average": 40.25,
+                    "max": 51,
+                    "min": 31,
+                    "total": 161
+                }
+            },
+            "long": {
+                "lost": 5,
+                "pnl": {
+                    "average": -40.888888888888886,
+                    "lost": {
+                        "average": -344.0,
+                        "max": -407.0,
+                        "total": -1720.0
+                    },
+                    "total": -368.0,
+                    "won": {
+                        "average": 338.0,
+                        "max": 622.0,
+                        "total": 1352.0
+                    }
+                },
+                "total": 9,
+                "won": 4
+            },
+            "lost": {
+                "pnl": {
+                    "average": -345.375,
+                    "max": -429.0,
+                    "total": -2763.0
+                },
+                "total": 8
+            },
+            "pnl": {
+                "gross": {
+                    "average": -117.58333333333333,
+                    "total": -1411.0
+                },
+                "net": {
+                    "average": -117.58333333333333,
+                    "total": -1411.0
+                }
+            },
+            "short": {
+                "lost": 3,
+                "pnl": {
+                    "average": -347.6666666666667,
+                    "lost": {
+                        "average": -347.6666666666667,
+                        "max": -429.0,
+                        "total": -1043.0
+                    },
+                    "total": -1043.0,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0.0,
+                        "total": 0.0
+                    }
+                },
+                "total": 3,
+                "won": 0
+            },
+            "streak": {
+                "lost": {
+                    "current": 0,
+                    "longest": 5
+                },
+                "won": {
+                    "current": 1,
+                    "longest": 2
+                }
+            },
+            "total": {
+                "closed": 12,
+                "open": 0,
+                "total": 12
+            },
+            "won": {
+                "pnl": {
+                    "average": 338.0,
+                    "max": 622.0,
+                    "total": 1352.0
+                },
+                "total": 4
+            }
+        },
+        "VWR": {
+            "vwr": -8.69814719436406
+        }
+    },
+    "{\"period_ema1\": 8, \"period_ema2\": 17, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"ElderForceIndexSignal\"}": {
+        "SQN": {
+            "sqn": -1.1666381744571488,
+            "trades": 12
+        },
+        "TradeAnalyzer": {
+            "len": {
+                "average": 21.0,
+                "long": {
+                    "average": 24.77777777777778,
+                    "lost": {
+                        "average": 12.4,
+                        "max": 29,
+                        "min": 2,
+                        "total": 62
+                    },
+                    "max": 51,
+                    "min": 2,
+                    "total": 223,
+                    "won": {
+                        "average": 40.25,
+                        "max": 51,
+                        "min": 31,
+                        "total": 161
+                    }
+                },
+                "lost": {
+                    "average": 11.375,
+                    "max": 29,
+                    "min": 2,
+                    "total": 91
+                },
+                "max": 51,
+                "min": 2,
+                "short": {
+                    "average": 9.666666666666666,
+                    "lost": {
+                        "average": 9.666666666666666,
+                        "max": 18,
+                        "min": 4,
+                        "total": 29
+                    },
+                    "max": 18,
+                    "min": 4,
+                    "total": 29,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0,
+                        "min": 9223372036854775807,
+                        "total": 0
+                    }
+                },
+                "total": 252,
+                "won": {
+                    "average": 40.25,
+                    "max": 51,
+                    "min": 31,
+                    "total": 161
+                }
+            },
+            "long": {
+                "lost": 5,
+                "pnl": {
+                    "average": -40.888888888888886,
+                    "lost": {
+                        "average": -344.0,
+                        "max": -407.0,
+                        "total": -1720.0
+                    },
+                    "total": -368.0,
+                    "won": {
+                        "average": 338.0,
+                        "max": 622.0,
+                        "total": 1352.0
+                    }
+                },
+                "total": 9,
+                "won": 4
+            },
+            "lost": {
+                "pnl": {
+                    "average": -345.375,
+                    "max": -429.0,
+                    "total": -2763.0
+                },
+                "total": 8
+            },
+            "pnl": {
+                "gross": {
+                    "average": -117.58333333333333,
+                    "total": -1411.0
+                },
+                "net": {
+                    "average": -117.58333333333333,
+                    "total": -1411.0
+                }
+            },
+            "short": {
+                "lost": 3,
+                "pnl": {
+                    "average": -347.6666666666667,
+                    "lost": {
+                        "average": -347.6666666666667,
+                        "max": -429.0,
+                        "total": -1043.0
+                    },
+                    "total": -1043.0,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0.0,
+                        "total": 0.0
+                    }
+                },
+                "total": 3,
+                "won": 0
+            },
+            "streak": {
+                "lost": {
+                    "current": 0,
+                    "longest": 5
+                },
+                "won": {
+                    "current": 1,
+                    "longest": 2
+                }
+            },
+            "total": {
+                "closed": 12,
+                "open": 0,
+                "total": 12
+            },
+            "won": {
+                "pnl": {
+                    "average": 338.0,
+                    "max": 622.0,
+                    "total": 1352.0
+                },
+                "total": 4
+            }
+        },
+        "VWR": {
+            "vwr": -8.69814719436406
+        }
+    },
+    "{\"period_ema1\": 8, \"period_ema2\": 19, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"ElderForceIndexSignal\"}": {
+        "SQN": {
+            "sqn": -0.19777638974013578,
+            "trades": 12
+        },
+        "TradeAnalyzer": {
+            "len": {
+                "average": 20.666666666666668,
+                "long": {
+                    "average": 26.125,
+                    "lost": {
+                        "average": 12.5,
+                        "max": 29,
+                        "min": 5,
+                        "total": 50
+                    },
+                    "max": 51,
+                    "min": 5,
+                    "total": 209,
+                    "won": {
+                        "average": 39.75,
+                        "max": 51,
+                        "min": 31,
+                        "total": 159
+                    }
+                },
+                "lost": {
+                    "average": 11.857142857142858,
+                    "max": 29,
+                    "min": 4,
+                    "total": 83
+                },
+                "max": 51,
+                "min": 4,
+                "short": {
+                    "average": 9.75,
+                    "lost": {
+                        "average": 11.0,
+                        "max": 18,
+                        "min": 4,
+                        "total": 33
+                    },
+                    "max": 18,
+                    "min": 4,
+                    "total": 39,
+                    "won": {
+                        "average": 6.0,
+                        "max": 6,
+                        "min": 6,
+                        "total": 6
+                    }
+                },
+                "total": 248,
+                "won": {
+                    "average": 33.0,
+                    "max": 51,
+                    "min": 6,
+                    "total": 165
+                }
+            },
+            "long": {
+                "lost": 4,
+                "pnl": {
+                    "average": -10.25,
+                    "lost": {
+                        "average": -352.25,
+                        "max": -430.0,
+                        "total": -1409.0
+                    },
+                    "total": -82.0,
+                    "won": {
+                        "average": 331.75,
+                        "max": 622.0,
+                        "total": 1327.0
+                    }
+                },
+                "total": 8,
+                "won": 4
+            },
+            "lost": {
+                "pnl": {
+                    "average": -347.7142857142857,
+                    "max": -430.0,
+                    "total": -2434.0
+                },
+                "total": 7
+            },
+            "pnl": {
+                "gross": {
+                    "average": -24.25,
+                    "total": -291.0
+                },
+                "net": {
+                    "average": -24.25,
+                    "total": -291.0
+                }
+            },
+            "short": {
+                "lost": 3,
+                "pnl": {
+                    "average": -52.25,
+                    "lost": {
+                        "average": -341.6666666666667,
+                        "max": -430.0,
+                        "total": -1025.0
+                    },
+                    "total": -209.0,
+                    "won": {
+                        "average": 816.0,
+                        "max": 816.0,
+                        "total": 816.0
+                    }
+                },
+                "total": 4,
+                "won": 1
+            },
+            "streak": {
+                "lost": {
+                    "current": 0,
+                    "longest": 3
+                },
+                "won": {
+                    "current": 1,
+                    "longest": 2
+                }
+            },
+            "total": {
+                "closed": 12,
+                "open": 0,
+                "total": 12
+            },
+            "won": {
+                "pnl": {
+                    "average": 428.6,
+                    "max": 816.0,
+                    "total": 2143.0
+                },
+                "total": 5
+            }
+        },
+        "VWR": {
+            "vwr": -1.9926941677005403
+        }
+    },
+    "{\"period_ema1\": 8, \"period_ema2\": 21, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"ElderForceIndexSignal\"}": {
+        "SQN": {
+            "sqn": -1.4922433686084435,
+            "trades": 12
+        },
+        "TradeAnalyzer": {
+            "len": {
+                "average": 21.0,
+                "long": {
+                    "average": 21.333333333333332,
+                    "lost": {
+                        "average": 10.6,
+                        "max": 29,
+                        "min": 1,
+                        "total": 53
+                    },
+                    "max": 51,
+                    "min": 1,
+                    "total": 192,
+                    "won": {
+                        "average": 34.75,
+                        "max": 51,
+                        "min": 11,
+                        "total": 139
+                    }
+                },
+                "lost": {
+                    "average": 14.125,
+                    "max": 31,
+                    "min": 1,
+                    "total": 113
+                },
+                "max": 51,
+                "min": 1,
+                "short": {
+                    "average": 20.0,
+                    "lost": {
+                        "average": 20.0,
+                        "max": 31,
+                        "min": 11,
+                        "total": 60
+                    },
+                    "max": 31,
+                    "min": 11,
+                    "total": 60,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0,
+                        "min": 9223372036854775807,
+                        "total": 0
+                    }
+                },
+                "total": 252,
+                "won": {
+                    "average": 34.75,
+                    "max": 51,
+                    "min": 11,
+                    "total": 139
+                }
+            },
+            "long": {
+                "lost": 5,
+                "pnl": {
+                    "average": -77.44444444444444,
+                    "lost": {
+                        "average": -360.8,
+                        "max": -430.0,
+                        "total": -1804.0
+                    },
+                    "total": -697.0,
+                    "won": {
+                        "average": 276.75,
+                        "max": 622.0,
+                        "total": 1107.0
+                    }
+                },
+                "total": 9,
+                "won": 4
+            },
+            "lost": {
+                "pnl": {
+                    "average": -351.125,
+                    "max": -430.0,
+                    "total": -2809.0
+                },
+                "total": 8
+            },
+            "pnl": {
+                "gross": {
+                    "average": -141.83333333333334,
+                    "total": -1702.0
+                },
+                "net": {
+                    "average": -141.83333333333334,
+                    "total": -1702.0
+                }
+            },
+            "short": {
+                "lost": 3,
+                "pnl": {
+                    "average": -335.0,
+                    "lost": {
+                        "average": -335.0,
+                        "max": -410.0,
+                        "total": -1005.0
+                    },
+                    "total": -1005.0,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0.0,
+                        "total": 0.0
+                    }
+                },
+                "total": 3,
+                "won": 0
+            },
+            "streak": {
+                "lost": {
+                    "current": 0,
+                    "longest": 5
+                },
+                "won": {
+                    "current": 1,
+                    "longest": 2
+                }
+            },
+            "total": {
+                "closed": 12,
+                "open": 0,
+                "total": 12
+            },
+            "won": {
+                "pnl": {
+                    "average": 276.75,
+                    "max": 622.0,
+                    "total": 1107.0
+                },
+                "total": 4
+            }
+        },
+        "VWR": {
+            "vwr": -10.261205151850458
+        }
+    },
+    "{\"period_ema1\": 8, \"period_ema2\": 23, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"ElderForceIndexSignal\"}": {
+        "SQN": {
+            "sqn": -1.2184199672222595,
+            "trades": 11
+        },
+        "TradeAnalyzer": {
+            "len": {
+                "average": 22.272727272727273,
+                "long": {
+                    "average": 23.125,
+                    "lost": {
+                        "average": 11.5,
+                        "max": 29,
+                        "min": 1,
+                        "total": 46
+                    },
+                    "max": 51,
+                    "min": 1,
+                    "total": 185,
+                    "won": {
+                        "average": 34.75,
+                        "max": 51,
+                        "min": 11,
+                        "total": 139
+                    }
+                },
+                "lost": {
+                    "average": 15.142857142857142,
+                    "max": 31,
+                    "min": 1,
+                    "total": 106
+                },
+                "max": 51,
+                "min": 1,
+                "short": {
+                    "average": 20.0,
+                    "lost": {
+                        "average": 20.0,
+                        "max": 31,
+                        "min": 11,
+                        "total": 60
+                    },
+                    "max": 31,
+                    "min": 11,
+                    "total": 60,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0,
+                        "min": 9223372036854775807,
+                        "total": 0
+                    }
+                },
+                "total": 245,
+                "won": {
+                    "average": 34.75,
+                    "max": 51,
+                    "min": 11,
+                    "total": 139
+                }
+            },
+            "long": {
+                "lost": 4,
+                "pnl": {
+                    "average": -45.375,
+                    "lost": {
+                        "average": -367.5,
+                        "max": -430.0,
+                        "total": -1470.0
+                    },
+                    "total": -363.0,
+                    "won": {
+                        "average": 276.75,
+                        "max": 622.0,
+                        "total": 1107.0
+                    }
+                },
+                "total": 8,
+                "won": 4
+            },
+            "lost": {
+                "pnl": {
+                    "average": -353.57142857142856,
+                    "max": -430.0,
+                    "total": -2475.0
+                },
+                "total": 7
+            },
+            "pnl": {
+                "gross": {
+                    "average": -124.36363636363636,
+                    "total": -1368.0
+                },
+                "net": {
+                    "average": -124.36363636363636,
+                    "total": -1368.0
+                }
+            },
+            "short": {
+                "lost": 3,
+                "pnl": {
+                    "average": -335.0,
+                    "lost": {
+                        "average": -335.0,
+                        "max": -410.0,
+                        "total": -1005.0
+                    },
+                    "total": -1005.0,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0.0,
+                        "total": 0.0
+                    }
+                },
+                "total": 3,
+                "won": 0
+            },
+            "streak": {
+                "lost": {
+                    "current": 0,
+                    "longest": 4
+                },
+                "won": {
+                    "current": 1,
+                    "longest": 2
+                }
+            },
+            "total": {
+                "closed": 11,
+                "open": 0,
+                "total": 11
+            },
+            "won": {
+                "pnl": {
+                    "average": 276.75,
+                    "max": 622.0,
+                    "total": 1107.0
+                },
+                "total": 4
+            }
+        },
+        "VWR": {
+            "vwr": -8.46186016260181
+        }
+    },
+    "{\"period_ema1\": 8, \"period_ema2\": 25, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"ElderForceIndexSignal\"}": {
+        "SQN": {
+            "sqn": -0.7676081267211337,
+            "trades": 10
+        },
+        "TradeAnalyzer": {
+            "len": {
+                "average": 24.2,
+                "long": {
+                    "average": 30.428571428571427,
+                    "lost": {
+                        "average": 18.333333333333332,
+                        "max": 29,
+                        "min": 10,
+                        "total": 55
+                    },
+                    "max": 51,
+                    "min": 10,
+                    "total": 213,
+                    "won": {
+                        "average": 39.5,
+                        "max": 51,
+                        "min": 30,
+                        "total": 158
+                    }
+                },
+                "lost": {
+                    "average": 14.0,
+                    "max": 29,
+                    "min": 4,
+                    "total": 84
+                },
+                "max": 51,
+                "min": 4,
+                "short": {
+                    "average": 9.666666666666666,
+                    "lost": {
+                        "average": 9.666666666666666,
+                        "max": 18,
+                        "min": 4,
+                        "total": 29
+                    },
+                    "max": 18,
+                    "min": 4,
+                    "total": 29,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0,
+                        "min": 9223372036854775807,
+                        "total": 0
+                    }
+                },
+                "total": 242,
+                "won": {
+                    "average": 39.5,
+                    "max": 51,
+                    "min": 30,
+                    "total": 158
+                }
+            },
+            "long": {
+                "lost": 3,
+                "pnl": {
+                    "average": 26.142857142857142,
+                    "lost": {
+                        "average": -349.6666666666667,
+                        "max": -407.0,
+                        "total": -1049.0
+                    },
+                    "total": 183.0,
+                    "won": {
+                        "average": 308.0,
+                        "max": 622.0,
+                        "total": 1232.0
+                    }
+                },
+                "total": 7,
+                "won": 4
+            },
+            "lost": {
+                "pnl": {
+                    "average": -348.6666666666667,
+                    "max": -429.0,
+                    "total": -2092.0
+                },
+                "total": 6
+            },
+            "pnl": {
+                "gross": {
+                    "average": -86.0,
+                    "total": -860.0
+                },
+                "net": {
+                    "average": -86.0,
+                    "total": -860.0
+                }
+            },
+            "short": {
+                "lost": 3,
+                "pnl": {
+                    "average": -347.6666666666667,
+                    "lost": {
+                        "average": -347.6666666666667,
+                        "max": -429.0,
+                        "total": -1043.0
+                    },
+                    "total": -1043.0,
+                    "won": {
+                        "average": 0.0,
+                        "max": 0.0,
+                        "total": 0.0
+                    }
+                },
+                "total": 3,
+                "won": 0
+            },
+            "streak": {
+                "lost": {
+                    "current": 0,
+                    "longest": 3
+                },
+                "won": {
+                    "current": 1,
+                    "longest": 2
+                }
+            },
+            "total": {
+                "closed": 10,
+                "open": 0,
+                "total": 10
+            },
+            "won": {
+                "pnl": {
+                    "average": 308.0,
+                    "max": 622.0,
+                    "total": 1232.0
+                },
+                "total": 4
+            }
+        },
+        "VWR": {
+            "vwr": -5.55559760336583
+        }
+    }
+}

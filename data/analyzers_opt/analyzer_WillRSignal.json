@@ -1,0 +1,1946 @@
+{
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.3515652526146292,
+            "trades": 391
+        },
+        "VWR": {
+            "vwr": 1.1588459386229333
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.8579825144876477,
+            "trades": 359
+        },
+        "VWR": {
+            "vwr": 2.9364768481803307
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.9755132511389407,
+            "trades": 333
+        },
+        "VWR": {
+            "vwr": 3.396046832946633
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.2853970686424822,
+            "trades": 325
+        },
+        "VWR": {
+            "vwr": 0.9997559904508568
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.531670714903316,
+            "trades": 288
+        },
+        "VWR": {
+            "vwr": 1.9372839878746364
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.5540803853847135,
+            "trades": 253
+        },
+        "VWR": {
+            "vwr": 2.0582175801381046
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.1645461510861609,
+            "trades": 265
+        },
+        "VWR": {
+            "vwr": 0.5968078975208202
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": -0.21201633149002247,
+            "trades": 225
+        },
+        "VWR": {
+            "vwr": -0.79036695161697
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": -0.06218768335803513,
+            "trades": 206
+        },
+        "VWR": {
+            "vwr": -0.24071683674793123
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.7395956391241632,
+            "trades": 386
+        },
+        "VWR": {
+            "vwr": 2.4056291933780347
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.9916352329543745,
+            "trades": 354
+        },
+        "VWR": {
+            "vwr": 3.3680015869379543
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.9593185214848915,
+            "trades": 322
+        },
+        "VWR": {
+            "vwr": 3.287681419165854
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.4200635978296571,
+            "trades": 321
+        },
+        "VWR": {
+            "vwr": 1.4597982051656129
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.517462661201018,
+            "trades": 283
+        },
+        "VWR": {
+            "vwr": 1.8680616722591306
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.5776645128485481,
+            "trades": 255
+        },
+        "VWR": {
+            "vwr": 2.1605058484719684
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.36496647966612283,
+            "trades": 256
+        },
+        "VWR": {
+            "vwr": 1.3032590721986912
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.005491145492352011,
+            "trades": 221
+        },
+        "VWR": {
+            "vwr": 0.020451641083456523
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.0009706489707675624,
+            "trades": 198
+        },
+        "VWR": {
+            "vwr": 0.0036813579132896797
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.8140424741163685,
+            "trades": 376
+        },
+        "VWR": {
+            "vwr": 2.604806015174367
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.9250266077171316,
+            "trades": 345
+        },
+        "VWR": {
+            "vwr": 3.0929768396021724
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 1.0041535188063522,
+            "trades": 316
+        },
+        "VWR": {
+            "vwr": 3.4033786591972595
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.3535858391490971,
+            "trades": 313
+        },
+        "VWR": {
+            "vwr": 1.2100076843687146
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.5812567214451365,
+            "trades": 279
+        },
+        "VWR": {
+            "vwr": 2.078365498392393
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.6426410383226383,
+            "trades": 242
+        },
+        "VWR": {
+            "vwr": 2.343186577708194
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.6586875573998768,
+            "trades": 250
+        },
+        "VWR": {
+            "vwr": 2.3146134762574007
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.43132910692847526,
+            "trades": 213
+        },
+        "VWR": {
+            "vwr": 1.5740931697870568
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.11571445988529,
+            "trades": 194
+        },
+        "VWR": {
+            "vwr": 0.4338964615770665
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.3515652526146292,
+            "trades": 391
+        },
+        "VWR": {
+            "vwr": 1.1588459386229333
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.8579825144876477,
+            "trades": 359
+        },
+        "VWR": {
+            "vwr": 2.9364768481803307
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.9755132511389407,
+            "trades": 333
+        },
+        "VWR": {
+            "vwr": 3.396046832946633
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.2853970686424822,
+            "trades": 325
+        },
+        "VWR": {
+            "vwr": 0.9997559904508568
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.531670714903316,
+            "trades": 288
+        },
+        "VWR": {
+            "vwr": 1.9372839878746364
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.5540803853847135,
+            "trades": 253
+        },
+        "VWR": {
+            "vwr": 2.0582175801381046
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.1645461510861609,
+            "trades": 265
+        },
+        "VWR": {
+            "vwr": 0.5968078975208202
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": -0.21201633149002247,
+            "trades": 225
+        },
+        "VWR": {
+            "vwr": -0.79036695161697
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": -0.06218768335803513,
+            "trades": 206
+        },
+        "VWR": {
+            "vwr": -0.24071683674793123
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.7395956391241632,
+            "trades": 386
+        },
+        "VWR": {
+            "vwr": 2.4056291933780347
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.9916352329543745,
+            "trades": 354
+        },
+        "VWR": {
+            "vwr": 3.3680015869379543
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.9593185214848915,
+            "trades": 322
+        },
+        "VWR": {
+            "vwr": 3.287681419165854
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.4200635978296571,
+            "trades": 321
+        },
+        "VWR": {
+            "vwr": 1.4597982051656129
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.517462661201018,
+            "trades": 283
+        },
+        "VWR": {
+            "vwr": 1.8680616722591306
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.5776645128485481,
+            "trades": 255
+        },
+        "VWR": {
+            "vwr": 2.1605058484719684
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.36496647966612283,
+            "trades": 256
+        },
+        "VWR": {
+            "vwr": 1.3032590721986912
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.005491145492352011,
+            "trades": 221
+        },
+        "VWR": {
+            "vwr": 0.020451641083456523
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.0009706489707675624,
+            "trades": 198
+        },
+        "VWR": {
+            "vwr": 0.0036813579132896797
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.8140424741163685,
+            "trades": 376
+        },
+        "VWR": {
+            "vwr": 2.604806015174367
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.9250266077171316,
+            "trades": 345
+        },
+        "VWR": {
+            "vwr": 3.0929768396021724
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 1.0041535188063522,
+            "trades": 316
+        },
+        "VWR": {
+            "vwr": 3.4033786591972595
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.3535858391490971,
+            "trades": 313
+        },
+        "VWR": {
+            "vwr": 1.2100076843687146
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.5812567214451365,
+            "trades": 279
+        },
+        "VWR": {
+            "vwr": 2.078365498392393
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.6426410383226383,
+            "trades": 242
+        },
+        "VWR": {
+            "vwr": 2.343186577708194
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.6586875573998768,
+            "trades": 250
+        },
+        "VWR": {
+            "vwr": 2.3146134762574007
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.43132910692847526,
+            "trades": 213
+        },
+        "VWR": {
+            "vwr": 1.5740931697870568
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.11571445988529,
+            "trades": 194
+        },
+        "VWR": {
+            "vwr": 0.4338964615770665
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.3515652526146292,
+            "trades": 391
+        },
+        "VWR": {
+            "vwr": 1.1588459386229333
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.8579825144876477,
+            "trades": 359
+        },
+        "VWR": {
+            "vwr": 2.9364768481803307
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.9755132511389407,
+            "trades": 333
+        },
+        "VWR": {
+            "vwr": 3.396046832946633
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.2853970686424822,
+            "trades": 325
+        },
+        "VWR": {
+            "vwr": 0.9997559904508568
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.531670714903316,
+            "trades": 288
+        },
+        "VWR": {
+            "vwr": 1.9372839878746364
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.5540803853847135,
+            "trades": 253
+        },
+        "VWR": {
+            "vwr": 2.0582175801381046
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.1645461510861609,
+            "trades": 265
+        },
+        "VWR": {
+            "vwr": 0.5968078975208202
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": -0.21201633149002247,
+            "trades": 225
+        },
+        "VWR": {
+            "vwr": -0.79036695161697
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": -0.06218768335803513,
+            "trades": 206
+        },
+        "VWR": {
+            "vwr": -0.24071683674793123
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.7395956391241632,
+            "trades": 386
+        },
+        "VWR": {
+            "vwr": 2.4056291933780347
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.9916352329543745,
+            "trades": 354
+        },
+        "VWR": {
+            "vwr": 3.3680015869379543
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.9593185214848915,
+            "trades": 322
+        },
+        "VWR": {
+            "vwr": 3.287681419165854
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.4200635978296571,
+            "trades": 321
+        },
+        "VWR": {
+            "vwr": 1.4597982051656129
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.517462661201018,
+            "trades": 283
+        },
+        "VWR": {
+            "vwr": 1.8680616722591306
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.5776645128485481,
+            "trades": 255
+        },
+        "VWR": {
+            "vwr": 2.1605058484719684
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.36496647966612283,
+            "trades": 256
+        },
+        "VWR": {
+            "vwr": 1.3032590721986912
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.005491145492352011,
+            "trades": 221
+        },
+        "VWR": {
+            "vwr": 0.020451641083456523
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.0009706489707675624,
+            "trades": 198
+        },
+        "VWR": {
+            "vwr": 0.0036813579132896797
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.8140424741163685,
+            "trades": 376
+        },
+        "VWR": {
+            "vwr": 2.604806015174367
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.9250266077171316,
+            "trades": 345
+        },
+        "VWR": {
+            "vwr": 3.0929768396021724
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 1.0041535188063522,
+            "trades": 316
+        },
+        "VWR": {
+            "vwr": 3.4033786591972595
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.3535858391490971,
+            "trades": 313
+        },
+        "VWR": {
+            "vwr": 1.2100076843687146
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.5812567214451365,
+            "trades": 279
+        },
+        "VWR": {
+            "vwr": 2.078365498392393
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.6426410383226383,
+            "trades": 242
+        },
+        "VWR": {
+            "vwr": 2.343186577708194
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.6586875573998768,
+            "trades": 250
+        },
+        "VWR": {
+            "vwr": 2.3146134762574007
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.43132910692847526,
+            "trades": 213
+        },
+        "VWR": {
+            "vwr": 1.5740931697870568
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.11571445988529,
+            "trades": 194
+        },
+        "VWR": {
+            "vwr": 0.4338964615770665
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.3515652526146292,
+            "trades": 391
+        },
+        "VWR": {
+            "vwr": 1.1588459386229333
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.8579825144876477,
+            "trades": 359
+        },
+        "VWR": {
+            "vwr": 2.9364768481803307
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.9755132511389407,
+            "trades": 333
+        },
+        "VWR": {
+            "vwr": 3.396046832946633
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.2853970686424822,
+            "trades": 325
+        },
+        "VWR": {
+            "vwr": 0.9997559904508568
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.531670714903316,
+            "trades": 288
+        },
+        "VWR": {
+            "vwr": 1.9372839878746364
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.5540803853847135,
+            "trades": 253
+        },
+        "VWR": {
+            "vwr": 2.0582175801381046
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.1645461510861609,
+            "trades": 265
+        },
+        "VWR": {
+            "vwr": 0.5968078975208202
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": -0.21201633149002247,
+            "trades": 225
+        },
+        "VWR": {
+            "vwr": -0.79036695161697
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": -0.06218768335803513,
+            "trades": 206
+        },
+        "VWR": {
+            "vwr": -0.24071683674793123
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.7395956391241632,
+            "trades": 386
+        },
+        "VWR": {
+            "vwr": 2.4056291933780347
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.9916352329543745,
+            "trades": 354
+        },
+        "VWR": {
+            "vwr": 3.3680015869379543
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.9593185214848915,
+            "trades": 322
+        },
+        "VWR": {
+            "vwr": 3.287681419165854
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.4200635978296571,
+            "trades": 321
+        },
+        "VWR": {
+            "vwr": 1.4597982051656129
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.517462661201018,
+            "trades": 283
+        },
+        "VWR": {
+            "vwr": 1.8680616722591306
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.5776645128485481,
+            "trades": 255
+        },
+        "VWR": {
+            "vwr": 2.1605058484719684
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.36496647966612283,
+            "trades": 256
+        },
+        "VWR": {
+            "vwr": 1.3032590721986912
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.005491145492352011,
+            "trades": 221
+        },
+        "VWR": {
+            "vwr": 0.020451641083456523
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.0009706489707675624,
+            "trades": 198
+        },
+        "VWR": {
+            "vwr": 0.0036813579132896797
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.8140424741163685,
+            "trades": 376
+        },
+        "VWR": {
+            "vwr": 2.604806015174367
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.9250266077171316,
+            "trades": 345
+        },
+        "VWR": {
+            "vwr": 3.0929768396021724
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 1.0041535188063522,
+            "trades": 316
+        },
+        "VWR": {
+            "vwr": 3.4033786591972595
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.3535858391490971,
+            "trades": 313
+        },
+        "VWR": {
+            "vwr": 1.2100076843687146
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.5812567214451365,
+            "trades": 279
+        },
+        "VWR": {
+            "vwr": 2.078365498392393
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.6426410383226383,
+            "trades": 242
+        },
+        "VWR": {
+            "vwr": 2.343186577708194
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.6586875573998768,
+            "trades": 250
+        },
+        "VWR": {
+            "vwr": 2.3146134762574007
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.43132910692847526,
+            "trades": 213
+        },
+        "VWR": {
+            "vwr": 1.5740931697870568
+        }
+    },
+    "{\"period_willr\": 10, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.11571445988529,
+            "trades": 194
+        },
+        "VWR": {
+            "vwr": 0.4338964615770665
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.3515652526146292,
+            "trades": 391
+        },
+        "VWR": {
+            "vwr": 1.1588459386229333
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.8579825144876477,
+            "trades": 359
+        },
+        "VWR": {
+            "vwr": 2.9364768481803307
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.9755132511389407,
+            "trades": 333
+        },
+        "VWR": {
+            "vwr": 3.396046832946633
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.2853970686424822,
+            "trades": 325
+        },
+        "VWR": {
+            "vwr": 0.9997559904508568
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.531670714903316,
+            "trades": 288
+        },
+        "VWR": {
+            "vwr": 1.9372839878746364
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.5540803853847135,
+            "trades": 253
+        },
+        "VWR": {
+            "vwr": 2.0582175801381046
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.1645461510861609,
+            "trades": 265
+        },
+        "VWR": {
+            "vwr": 0.5968078975208202
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": -0.21201633149002247,
+            "trades": 225
+        },
+        "VWR": {
+            "vwr": -0.79036695161697
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": -0.06218768335803513,
+            "trades": 206
+        },
+        "VWR": {
+            "vwr": -0.24071683674793123
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.7395956391241632,
+            "trades": 386
+        },
+        "VWR": {
+            "vwr": 2.4056291933780347
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.9916352329543745,
+            "trades": 354
+        },
+        "VWR": {
+            "vwr": 3.3680015869379543
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.9593185214848915,
+            "trades": 322
+        },
+        "VWR": {
+            "vwr": 3.287681419165854
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.4200635978296571,
+            "trades": 321
+        },
+        "VWR": {
+            "vwr": 1.4597982051656129
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.517462661201018,
+            "trades": 283
+        },
+        "VWR": {
+            "vwr": 1.8680616722591306
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.5776645128485481,
+            "trades": 255
+        },
+        "VWR": {
+            "vwr": 2.1605058484719684
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.36496647966612283,
+            "trades": 256
+        },
+        "VWR": {
+            "vwr": 1.3032590721986912
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.005491145492352011,
+            "trades": 221
+        },
+        "VWR": {
+            "vwr": 0.020451641083456523
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.0009706489707675624,
+            "trades": 198
+        },
+        "VWR": {
+            "vwr": 0.0036813579132896797
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.8140424741163685,
+            "trades": 376
+        },
+        "VWR": {
+            "vwr": 2.604806015174367
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.9250266077171316,
+            "trades": 345
+        },
+        "VWR": {
+            "vwr": 3.0929768396021724
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 1.0041535188063522,
+            "trades": 316
+        },
+        "VWR": {
+            "vwr": 3.4033786591972595
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.3535858391490971,
+            "trades": 313
+        },
+        "VWR": {
+            "vwr": 1.2100076843687146
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.5812567214451365,
+            "trades": 279
+        },
+        "VWR": {
+            "vwr": 2.078365498392393
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.6426410383226383,
+            "trades": 242
+        },
+        "VWR": {
+            "vwr": 2.343186577708194
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.6586875573998768,
+            "trades": 250
+        },
+        "VWR": {
+            "vwr": 2.3146134762574007
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.43132910692847526,
+            "trades": 213
+        },
+        "VWR": {
+            "vwr": 1.5740931697870568
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 60, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.11571445988529,
+            "trades": 194
+        },
+        "VWR": {
+            "vwr": 0.4338964615770665
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.3515652526146292,
+            "trades": 391
+        },
+        "VWR": {
+            "vwr": 1.1588459386229333
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.8579825144876477,
+            "trades": 359
+        },
+        "VWR": {
+            "vwr": 2.9364768481803307
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.9755132511389407,
+            "trades": 333
+        },
+        "VWR": {
+            "vwr": 3.396046832946633
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.2853970686424822,
+            "trades": 325
+        },
+        "VWR": {
+            "vwr": 0.9997559904508568
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.531670714903316,
+            "trades": 288
+        },
+        "VWR": {
+            "vwr": 1.9372839878746364
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.5540803853847135,
+            "trades": 253
+        },
+        "VWR": {
+            "vwr": 2.0582175801381046
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.1645461510861609,
+            "trades": 265
+        },
+        "VWR": {
+            "vwr": 0.5968078975208202
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": -0.21201633149002247,
+            "trades": 225
+        },
+        "VWR": {
+            "vwr": -0.79036695161697
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": -0.06218768335803513,
+            "trades": 206
+        },
+        "VWR": {
+            "vwr": -0.24071683674793123
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.7395956391241632,
+            "trades": 386
+        },
+        "VWR": {
+            "vwr": 2.4056291933780347
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.9916352329543745,
+            "trades": 354
+        },
+        "VWR": {
+            "vwr": 3.3680015869379543
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.9593185214848915,
+            "trades": 322
+        },
+        "VWR": {
+            "vwr": 3.287681419165854
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.4200635978296571,
+            "trades": 321
+        },
+        "VWR": {
+            "vwr": 1.4597982051656129
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.517462661201018,
+            "trades": 283
+        },
+        "VWR": {
+            "vwr": 1.8680616722591306
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.5776645128485481,
+            "trades": 255
+        },
+        "VWR": {
+            "vwr": 2.1605058484719684
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.36496647966612283,
+            "trades": 256
+        },
+        "VWR": {
+            "vwr": 1.3032590721986912
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.005491145492352011,
+            "trades": 221
+        },
+        "VWR": {
+            "vwr": 0.020451641083456523
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.0009706489707675624,
+            "trades": 198
+        },
+        "VWR": {
+            "vwr": 0.0036813579132896797
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.8140424741163685,
+            "trades": 376
+        },
+        "VWR": {
+            "vwr": 2.604806015174367
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.9250266077171316,
+            "trades": 345
+        },
+        "VWR": {
+            "vwr": 3.0929768396021724
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 1.0041535188063522,
+            "trades": 316
+        },
+        "VWR": {
+            "vwr": 3.4033786591972595
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.3535858391490971,
+            "trades": 313
+        },
+        "VWR": {
+            "vwr": 1.2100076843687146
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.5812567214451365,
+            "trades": 279
+        },
+        "VWR": {
+            "vwr": 2.078365498392393
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.6426410383226383,
+            "trades": 242
+        },
+        "VWR": {
+            "vwr": 2.343186577708194
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.6586875573998768,
+            "trades": 250
+        },
+        "VWR": {
+            "vwr": 2.3146134762574007
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.43132910692847526,
+            "trades": 213
+        },
+        "VWR": {
+            "vwr": 1.5740931697870568
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 10, \"threshold_lower\": 80, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.11571445988529,
+            "trades": 194
+        },
+        "VWR": {
+            "vwr": 0.4338964615770665
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.3515652526146292,
+            "trades": 391
+        },
+        "VWR": {
+            "vwr": 1.1588459386229333
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.8579825144876477,
+            "trades": 359
+        },
+        "VWR": {
+            "vwr": 2.9364768481803307
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.9755132511389407,
+            "trades": 333
+        },
+        "VWR": {
+            "vwr": 3.396046832946633
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.2853970686424822,
+            "trades": 325
+        },
+        "VWR": {
+            "vwr": 0.9997559904508568
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.531670714903316,
+            "trades": 288
+        },
+        "VWR": {
+            "vwr": 1.9372839878746364
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.5540803853847135,
+            "trades": 253
+        },
+        "VWR": {
+            "vwr": 2.0582175801381046
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.1645461510861609,
+            "trades": 265
+        },
+        "VWR": {
+            "vwr": 0.5968078975208202
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": -0.21201633149002247,
+            "trades": 225
+        },
+        "VWR": {
+            "vwr": -0.79036695161697
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": -0.06218768335803513,
+            "trades": 206
+        },
+        "VWR": {
+            "vwr": -0.24071683674793123
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.7395956391241632,
+            "trades": 386
+        },
+        "VWR": {
+            "vwr": 2.4056291933780347
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.9916352329543745,
+            "trades": 354
+        },
+        "VWR": {
+            "vwr": 3.3680015869379543
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.9593185214848915,
+            "trades": 322
+        },
+        "VWR": {
+            "vwr": 3.287681419165854
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.4200635978296571,
+            "trades": 321
+        },
+        "VWR": {
+            "vwr": 1.4597982051656129
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.517462661201018,
+            "trades": 283
+        },
+        "VWR": {
+            "vwr": 1.8680616722591306
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.5776645128485481,
+            "trades": 255
+        },
+        "VWR": {
+            "vwr": 2.1605058484719684
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.36496647966612283,
+            "trades": 256
+        },
+        "VWR": {
+            "vwr": 1.3032590721986912
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.005491145492352011,
+            "trades": 221
+        },
+        "VWR": {
+            "vwr": 0.020451641083456523
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.0009706489707675624,
+            "trades": 198
+        },
+        "VWR": {
+            "vwr": 0.0036813579132896797
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.8140424741163685,
+            "trades": 376
+        },
+        "VWR": {
+            "vwr": 2.604806015174367
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.9250266077171316,
+            "trades": 345
+        },
+        "VWR": {
+            "vwr": 3.0929768396021724
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 1.0041535188063522,
+            "trades": 316
+        },
+        "VWR": {
+            "vwr": 3.4033786591972595
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.3535858391490971,
+            "trades": 313
+        },
+        "VWR": {
+            "vwr": 1.2100076843687146
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.5812567214451365,
+            "trades": 279
+        },
+        "VWR": {
+            "vwr": 2.078365498392393
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.6426410383226383,
+            "trades": 242
+        },
+        "VWR": {
+            "vwr": 2.343186577708194
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.6586875573998768,
+            "trades": 250
+        },
+        "VWR": {
+            "vwr": 2.3146134762574007
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.43132910692847526,
+            "trades": 213
+        },
+        "VWR": {
+            "vwr": 1.5740931697870568
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 60, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.11571445988529,
+            "trades": 194
+        },
+        "VWR": {
+            "vwr": 0.4338964615770665
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.3515652526146292,
+            "trades": 391
+        },
+        "VWR": {
+            "vwr": 1.1588459386229333
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.8579825144876477,
+            "trades": 359
+        },
+        "VWR": {
+            "vwr": 2.9364768481803307
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 50, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.9755132511389407,
+            "trades": 333
+        },
+        "VWR": {
+            "vwr": 3.396046832946633
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.2853970686424822,
+            "trades": 325
+        },
+        "VWR": {
+            "vwr": 0.9997559904508568
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.531670714903316,
+            "trades": 288
+        },
+        "VWR": {
+            "vwr": 1.9372839878746364
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 50, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.5540803853847135,
+            "trades": 253
+        },
+        "VWR": {
+            "vwr": 2.0582175801381046
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.1645461510861609,
+            "trades": 265
+        },
+        "VWR": {
+            "vwr": 0.5968078975208202
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": -0.21201633149002247,
+            "trades": 225
+        },
+        "VWR": {
+            "vwr": -0.79036695161697
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 50, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": -0.06218768335803513,
+            "trades": 206
+        },
+        "VWR": {
+            "vwr": -0.24071683674793123
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.7395956391241632,
+            "trades": 386
+        },
+        "VWR": {
+            "vwr": 2.4056291933780347
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.9916352329543745,
+            "trades": 354
+        },
+        "VWR": {
+            "vwr": 3.3680015869379543
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 70, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.9593185214848915,
+            "trades": 322
+        },
+        "VWR": {
+            "vwr": 3.287681419165854
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.4200635978296571,
+            "trades": 321
+        },
+        "VWR": {
+            "vwr": 1.4597982051656129
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.517462661201018,
+            "trades": 283
+        },
+        "VWR": {
+            "vwr": 1.8680616722591306
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 70, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.5776645128485481,
+            "trades": 255
+        },
+        "VWR": {
+            "vwr": 2.1605058484719684
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.36496647966612283,
+            "trades": 256
+        },
+        "VWR": {
+            "vwr": 1.3032590721986912
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.005491145492352011,
+            "trades": 221
+        },
+        "VWR": {
+            "vwr": 0.020451641083456523
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 70, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.0009706489707675624,
+            "trades": 198
+        },
+        "VWR": {
+            "vwr": 0.0036813579132896797
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.8140424741163685,
+            "trades": 376
+        },
+        "VWR": {
+            "vwr": 2.604806015174367
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.9250266077171316,
+            "trades": 345
+        },
+        "VWR": {
+            "vwr": 3.0929768396021724
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 90, \"atrdist\": 0.8, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 1.0041535188063522,
+            "trades": 316
+        },
+        "VWR": {
+            "vwr": 3.4033786591972595
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.3535858391490971,
+            "trades": 313
+        },
+        "VWR": {
+            "vwr": 1.2100076843687146
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.5812567214451365,
+            "trades": 279
+        },
+        "VWR": {
+            "vwr": 2.078365498392393
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 90, \"atrdist\": 1.0, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.6426410383226383,
+            "trades": 242
+        },
+        "VWR": {
+            "vwr": 2.343186577708194
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 0.8, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.6586875573998768,
+            "trades": 250
+        },
+        "VWR": {
+            "vwr": 2.3146134762574007
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 1.0, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.43132910692847526,
+            "trades": 213
+        },
+        "VWR": {
+            "vwr": 1.5740931697870568
+        }
+    },
+    "{\"period_willr\": 30, \"threshold_upper\": 30, \"threshold_lower\": 80, \"period_atr\": 90, \"atrdist\": 1.2, \"atrprofit\": 1.2, \"time_start\": [9, 0], \"time_stop\": [17, 0], \"signal\": \"WillRSignal\"}": {
+        "SQN": {
+            "sqn": 0.11571445988529,
+            "trades": 194
+        },
+        "VWR": {
+            "vwr": 0.4338964615770665
+        }
+    }
+}

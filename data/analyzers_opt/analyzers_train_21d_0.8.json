@@ -1,0 +1,6008 @@
+[
+  {
+    "train": {
+      "fromdate": "2015-05-22 00:00:00",
+      "todate": "2015-06-16 00:00:00"
+    },
+    "test": {
+      "fromdate": "2015-06-17 00:00:00",
+      "todate": "2015-06-22 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 10,
+        "period_me2": 20,
+        "period_signal": 10,
+        "period_atr": 65,
+        "atrdist": 1.0,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 4.068805257974876,
+          "sqn": 1.5842628884132963,
+          "total": 3249.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 10,
+        "threshold_sell": 80,
+        "period_atr": 80,
+        "atrdist": 1.2,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 5.784288770263722,
+          "sqn": 2.6884660970575296,
+          "total": 4676.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 10,
+        "period_atr": 70,
+        "atrdist": 1.0,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 3.105438470350896,
+          "sqn": 1.425679558847103,
+          "total": 2453.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 12,
+        "period_ema2": 17,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": -1.0319424101581514,
+          "sqn": -0.36223511508003586,
+          "total": -824.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2015-06-23 00:00:00",
+      "todate": "2015-07-16 00:00:00"
+    },
+    "test": {
+      "fromdate": "2015-07-17 00:00:00",
+      "todate": "2015-07-22 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 15,
+        "period_me2": 20,
+        "period_signal": 10,
+        "period_atr": 65,
+        "atrdist": 1.0,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": -1.574998986039948,
+          "sqn": -0.7167030523671869,
+          "total": -1255.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 0,
+        "threshold_sell": 80,
+        "period_atr": 70,
+        "atrdist": 1.2,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 3.841283505853075,
+          "sqn": 2.2697800617535644,
+          "total": 3058.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 10,
+        "period_atr": 90,
+        "atrdist": 1.0,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": -1.057944763463032,
+          "sqn": -0.6113197328565307,
+          "total": -830.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 6,
+        "period_ema2": 15,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": -0.2302851638462814,
+          "sqn": -0.09273260889512765,
+          "total": -180.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2015-07-23 00:00:00",
+      "todate": "2015-08-14 00:00:00"
+    },
+    "test": {
+      "fromdate": "2015-08-17 00:00:00",
+      "todate": "2015-08-20 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 15,
+        "period_me2": 20,
+        "period_signal": 10,
+        "period_atr": 50,
+        "atrdist": 1.2,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 3.835023863685722,
+          "sqn": 1.3813096970597092,
+          "total": 3050.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 10,
+        "threshold_sell": 70,
+        "period_atr": 70,
+        "atrdist": 0.8,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 2.6790029164048335,
+          "sqn": 1.2505226350421252,
+          "total": 2115.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 10,
+        "period_atr": 50,
+        "atrdist": 1.0,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 2.0397331761984643,
+          "sqn": 0.8435732823189483,
+          "total": 1617.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 6,
+        "period_ema2": 23,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 2.6680732603930126,
+          "sqn": 0.8181590790050615,
+          "total": 2092.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2015-08-21 00:00:00",
+      "todate": "2015-09-15 00:00:00"
+    },
+    "test": {
+      "fromdate": "2015-09-16 00:00:00",
+      "todate": "2015-09-21 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 10,
+        "period_me2": 25,
+        "period_signal": 10,
+        "period_atr": 65,
+        "atrdist": 0.8,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 0.7753902320363887,
+          "sqn": 0.22508798109594375,
+          "total": 603.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 10,
+        "threshold_sell": 80,
+        "period_atr": 70,
+        "atrdist": 0.8,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 2.629436121841287,
+          "sqn": 0.9599319042230685,
+          "total": 2069.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 10,
+        "period_atr": 90,
+        "atrdist": 1.2,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 1.5865035353692947,
+          "sqn": 0.48830053220047553,
+          "total": 1238.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 4,
+        "period_ema2": 15,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 1.756488572691233,
+          "sqn": 0.42354259787290666,
+          "total": 1410.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2015-09-22 00:00:00",
+      "todate": "2015-10-15 00:00:00"
+    },
+    "test": {
+      "fromdate": "2015-10-16 00:00:00",
+      "todate": "2015-10-21 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 15,
+        "period_me2": 25,
+        "period_signal": 10,
+        "period_atr": 50,
+        "atrdist": 0.8,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 2.5980095408594845,
+          "sqn": 0.8335666895611186,
+          "total": 2065.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 10,
+        "threshold_sell": 70,
+        "period_atr": 80,
+        "atrdist": 1.0,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 4.580675028783709,
+          "sqn": 1.740888628039431,
+          "total": 3658.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 10,
+        "period_atr": 70,
+        "atrdist": 1.2,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 8.04268541702662,
+          "sqn": 2.835510344122634,
+          "total": 6509.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 2,
+        "period_ema2": 15,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": -1.418577506019731,
+          "sqn": -0.4372644439448516,
+          "total": -1140.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2015-10-22 00:00:00",
+      "todate": "2015-11-16 00:00:00"
+    },
+    "test": {
+      "fromdate": "2015-11-17 00:00:00",
+      "todate": "2015-11-23 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 15,
+        "period_me2": 20,
+        "period_signal": 5,
+        "period_atr": 65,
+        "atrdist": 1.2,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 2.7610365824082694,
+          "sqn": 0.9524927842394798,
+          "total": 2216.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 10,
+        "threshold_sell": 80,
+        "period_atr": 70,
+        "atrdist": 1.2,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 3.0216013754302327,
+          "sqn": 1.2140902255765404,
+          "total": 2402.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 10,
+        "period_atr": 50,
+        "atrdist": 1.0,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 3.462957061149131,
+          "sqn": 1.4752333605668062,
+          "total": 2750.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 10,
+        "period_ema2": 15,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 1.4706753989917172,
+          "sqn": 0.46451974265155194,
+          "total": 1184.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2015-11-24 00:00:00",
+      "todate": "2015-12-16 00:00:00"
+    },
+    "test": {
+      "fromdate": "2015-12-17 00:00:00",
+      "todate": "2015-12-22 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 15,
+        "period_me2": 20,
+        "period_signal": 5,
+        "period_atr": 50,
+        "atrdist": 1.0,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 4.018402707466286,
+          "sqn": 1.5827189557717063,
+          "total": 3197.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 0,
+        "threshold_sell": 70,
+        "period_atr": 70,
+        "atrdist": 1.2,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 4.625140702771645,
+          "sqn": 2.181117661212013,
+          "total": 3707.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 10,
+        "period_atr": 90,
+        "atrdist": 1.0,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 4.400786984110735,
+          "sqn": 1.9494510749249943,
+          "total": 3548.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 12,
+        "period_ema2": 17,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 6.712714450387021,
+          "sqn": 2.228128683699806,
+          "total": 5429.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2015-12-23 00:00:00",
+      "todate": "2016-01-20 00:00:00"
+    },
+    "test": {
+      "fromdate": "2016-01-21 00:00:00",
+      "todate": "2016-01-27 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 10,
+        "period_me2": 20,
+        "period_signal": 10,
+        "period_atr": 65,
+        "atrdist": 1.2,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 1.3293923313301084,
+          "sqn": 0.6493457140506574,
+          "total": 1027.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 0,
+        "threshold_sell": 80,
+        "period_atr": 70,
+        "atrdist": 1.2,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 3.428126696592213,
+          "sqn": 2.769062000051196,
+          "total": 2718.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 5,
+        "period_atr": 70,
+        "atrdist": 1.0,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 1.37637208616828,
+          "sqn": 0.7392774145040941,
+          "total": 1063.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 2,
+        "period_ema2": 15,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 0.3341643990212511,
+          "sqn": 0.14730930022541897,
+          "total": 256.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2016-01-28 00:00:00",
+      "todate": "2016-02-23 00:00:00"
+    },
+    "test": {
+      "fromdate": "2016-02-24 00:00:00",
+      "todate": "2016-02-29 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 10,
+        "period_me2": 20,
+        "period_signal": 5,
+        "period_atr": 65,
+        "atrdist": 0.8,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 3.085355782277888,
+          "sqn": 1.1910868981611529,
+          "total": 2452.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 10,
+        "threshold_sell": 80,
+        "period_atr": 70,
+        "atrdist": 1.0,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 0.34956141785074846,
+          "sqn": 0.16817684914702344,
+          "total": 275.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 5,
+        "period_atr": 70,
+        "atrdist": 1.2,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 5.714302034221496,
+          "sqn": 2.2300105915342336,
+          "total": 4608.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 2,
+        "period_ema2": 21,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 3.445438096740066,
+          "sqn": 1.1594214238260765,
+          "total": 2752.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2016-03-01 00:00:00",
+      "todate": "2016-03-23 00:00:00"
+    },
+    "test": {
+      "fromdate": "2016-03-24 00:00:00",
+      "todate": "2016-03-30 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 10,
+        "period_me2": 20,
+        "period_signal": 5,
+        "period_atr": 50,
+        "atrdist": 0.8,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": -3.3023342992474656,
+          "sqn": -0.8621613770910997,
+          "total": -2791.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 6,
+        "threshold_buy": 0,
+        "threshold_sell": 70,
+        "period_atr": 80,
+        "atrdist": 1.0,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 3.5972487411800995,
+          "sqn": 1.6966909966190529,
+          "total": 2857.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 5,
+        "period_atr": 50,
+        "atrdist": 1.0,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 3.7690239968814256,
+          "sqn": 0.9440765283386681,
+          "total": 3050.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 2,
+        "period_ema2": 17,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 0.14645683958998043,
+          "sqn": 0.03456856216451032,
+          "total": 116.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2016-03-31 00:00:00",
+      "todate": "2016-04-25 00:00:00"
+    },
+    "test": {
+      "fromdate": "2016-04-26 00:00:00",
+      "todate": "2016-04-29 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 15,
+        "period_me2": 25,
+        "period_signal": 5,
+        "period_atr": 65,
+        "atrdist": 1.0,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 4.3626053965700375,
+          "sqn": 1.3511383744678176,
+          "total": 3517.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 10,
+        "threshold_sell": 80,
+        "period_atr": 80,
+        "atrdist": 1.0,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 0.7971341578623745,
+          "sqn": 0.298505699321904,
+          "total": 626.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 10,
+        "period_atr": 90,
+        "atrdist": 0.8,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 1.5317982218886077,
+          "sqn": 0.580150505141956,
+          "total": 1210.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 12,
+        "period_ema2": 21,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 2.0025816844725,
+          "sqn": 0.5609150274444148,
+          "total": 1615.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2016-05-02 00:00:00",
+      "todate": "2016-05-24 00:00:00"
+    },
+    "test": {
+      "fromdate": "2016-05-25 00:00:00",
+      "todate": "2016-05-31 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 10,
+        "period_me2": 20,
+        "period_signal": 5,
+        "period_atr": 65,
+        "atrdist": 1.0,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 3.2424437085200517,
+          "sqn": 1.0540062017859877,
+          "total": 2557.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 0,
+        "threshold_sell": 70,
+        "period_atr": 70,
+        "atrdist": 1.2,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 4.001577286679566,
+          "sqn": 1.6400961417856403,
+          "total": 3182.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 5,
+        "period_atr": 50,
+        "atrdist": 0.8,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 3.2936335045490392,
+          "sqn": 1.0729993454298308,
+          "total": 2614.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 6,
+        "period_ema2": 17,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 5.980304539802399,
+          "sqn": 1.593529572206377,
+          "total": 4831.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2016-06-01 00:00:00",
+      "todate": "2016-06-23 00:00:00"
+    },
+    "test": {
+      "fromdate": "2016-06-24 00:00:00",
+      "todate": "2016-06-29 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 10,
+        "period_me2": 20,
+        "period_signal": 5,
+        "period_atr": 65,
+        "atrdist": 0.8,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 6.1039013359813845,
+          "sqn": 2.3454609311997356,
+          "total": 4909.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 10,
+        "threshold_buy": 10,
+        "threshold_sell": 80,
+        "period_atr": 70,
+        "atrdist": 0.8,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 0.4659295470865949,
+          "sqn": 0.8976193863413643,
+          "total": 344.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 10,
+        "period_atr": 70,
+        "atrdist": 1.2,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 3.6066937063271456,
+          "sqn": 1.499666706578486,
+          "total": 2869.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 2,
+        "period_ema2": 19,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 6.19754734381858,
+          "sqn": 1.9122528169851905,
+          "total": 4974.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2016-06-30 00:00:00",
+      "todate": "2016-07-22 00:00:00"
+    },
+    "test": {
+      "fromdate": "2016-07-25 00:00:00",
+      "todate": "2016-07-28 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 15,
+        "period_me2": 25,
+        "period_signal": 5,
+        "period_atr": 65,
+        "atrdist": 1.0,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 3.239358730577217,
+          "sqn": 1.4292942663170147,
+          "total": 2599.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 10,
+        "threshold_buy": 0,
+        "threshold_sell": 80,
+        "period_atr": 80,
+        "atrdist": 0.8,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 0.27155100135502813,
+          "sqn": 0.6275409767065023,
+          "total": 199.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 10,
+        "period_atr": 50,
+        "atrdist": 1.2,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 4.295878536955886,
+          "sqn": 2.1449835547179252,
+          "total": 3437.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 4,
+        "period_ema2": 17,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 3.253665222447397,
+          "sqn": 1.282059698935518,
+          "total": 2598.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2016-07-29 00:00:00",
+      "todate": "2016-08-22 00:00:00"
+    },
+    "test": {
+      "fromdate": "2016-08-23 00:00:00",
+      "todate": "2016-08-26 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 15,
+        "period_me2": 25,
+        "period_signal": 10,
+        "period_atr": 65,
+        "atrdist": 1.0,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 2.1876255112736334,
+          "sqn": 0.9047636970924876,
+          "total": 1703.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 10,
+        "threshold_buy": 0,
+        "threshold_sell": 80,
+        "period_atr": 70,
+        "atrdist": 1.2,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 0.7249523794422489,
+          "sqn": 1.4142995882937202,
+          "total": 544.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 10,
+        "period_atr": 50,
+        "atrdist": 1.2,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 2.0171938335109787,
+          "sqn": 0.9819098043175931,
+          "total": 1584.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 2,
+        "period_ema2": 15,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 0.9821142713523509,
+          "sqn": 0.34686754996066244,
+          "total": 786.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2016-08-29 00:00:00",
+      "todate": "2016-09-21 00:00:00"
+    },
+    "test": {
+      "fromdate": "2016-09-22 00:00:00",
+      "todate": "2016-09-27 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 15,
+        "period_me2": 25,
+        "period_signal": 10,
+        "period_atr": 50,
+        "atrdist": 1.2,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 5.089118886376721,
+          "sqn": 1.8412052114166575,
+          "total": 4066.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 10,
+        "threshold_sell": 80,
+        "period_atr": 80,
+        "atrdist": 1.2,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 3.9966279953546917,
+          "sqn": 1.6466221790760527,
+          "total": 3214.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 10,
+        "period_atr": 50,
+        "atrdist": 1.2,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 5.42246388630093,
+          "sqn": 2.5588594365448425,
+          "total": 4329.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 4,
+        "period_ema2": 17,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 1.445941994978713,
+          "sqn": 0.4611299126906442,
+          "total": 1153.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2016-09-28 00:00:00",
+      "todate": "2016-10-21 00:00:00"
+    },
+    "test": {
+      "fromdate": "2016-10-24 00:00:00",
+      "todate": "2016-10-27 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 15,
+        "period_me2": 20,
+        "period_signal": 10,
+        "period_atr": 50,
+        "atrdist": 1.0,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 2.172498202760927,
+          "sqn": 0.8090900548092258,
+          "total": 1716.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 10,
+        "threshold_sell": 80,
+        "period_atr": 70,
+        "atrdist": 1.0,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 2.825745826534051,
+          "sqn": 1.2585633607074382,
+          "total": 2214.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 5,
+        "period_atr": 70,
+        "atrdist": 1.0,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 7.340540043033146,
+          "sqn": 2.933055654639081,
+          "total": 5954.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 12,
+        "period_ema2": 19,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 1.5327849563945228,
+          "sqn": 0.5724462633039735,
+          "total": 1206.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2016-10-28 00:00:00",
+      "todate": "2016-11-24 00:00:00"
+    },
+    "test": {
+      "fromdate": "2016-11-25 00:00:00",
+      "todate": "2016-11-30 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 10,
+        "period_me2": 20,
+        "period_signal": 10,
+        "period_atr": 65,
+        "atrdist": 1.2,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": -1.0734694113997372,
+          "sqn": -0.22189428846785966,
+          "total": -859.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 10,
+        "threshold_buy": 10,
+        "threshold_sell": 70,
+        "period_atr": 70,
+        "atrdist": 1.2,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 2.1280343470386223,
+          "sqn": 1.2342158432955705,
+          "total": 1651.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 5,
+        "period_atr": 50,
+        "atrdist": 1.0,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 6.036793368237234,
+          "sqn": 1.3869625400933296,
+          "total": 4880.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 12,
+        "period_ema2": 23,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 3.1143892636055535,
+          "sqn": 0.598280096985826,
+          "total": 2519.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2016-12-01 00:00:00",
+      "todate": "2016-12-23 00:00:00"
+    },
+    "test": {
+      "fromdate": "2016-12-26 00:00:00",
+      "todate": "2016-12-29 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 10,
+        "period_me2": 25,
+        "period_signal": 10,
+        "period_atr": 65,
+        "atrdist": 1.2,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 1.9683484640620053,
+          "sqn": 0.524751525959928,
+          "total": 1581.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 0,
+        "threshold_sell": 70,
+        "period_atr": 70,
+        "atrdist": 1.2,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 6.2238030212147235,
+          "sqn": 2.082801098746016,
+          "total": 5013.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 5,
+        "period_atr": 90,
+        "atrdist": 0.8,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 3.06960578649321,
+          "sqn": 0.908671309649469,
+          "total": 2451.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 2,
+        "period_ema2": 19,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": -1.7122669210105568,
+          "sqn": -0.4487875091173954,
+          "total": -1405.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2017-01-02 00:00:00",
+      "todate": "2017-01-24 00:00:00"
+    },
+    "test": {
+      "fromdate": "2017-01-26 00:00:00",
+      "todate": "2017-01-31 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 15,
+        "period_me2": 20,
+        "period_signal": 10,
+        "period_atr": 65,
+        "atrdist": 1.2,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 1.7020995032512705,
+          "sqn": 0.6373189840633677,
+          "total": 1331.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 10,
+        "threshold_sell": 80,
+        "period_atr": 80,
+        "atrdist": 0.8,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 1.8668534138935278,
+          "sqn": 1.0007860708812906,
+          "total": 1452.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 5,
+        "period_atr": 90,
+        "atrdist": 1.0,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 4.025658851105087,
+          "sqn": 1.6910712580219203,
+          "total": 3242.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 2,
+        "period_ema2": 21,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 0.9904580204160546,
+          "sqn": 0.3726646011184043,
+          "total": 781.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2017-02-01 00:00:00",
+      "todate": "2017-02-23 00:00:00"
+    },
+    "test": {
+      "fromdate": "2017-02-24 00:00:00",
+      "todate": "2017-03-03 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 15,
+        "period_me2": 25,
+        "period_signal": 10,
+        "period_atr": 50,
+        "atrdist": 1.2,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 2.1681043016898336,
+          "sqn": 0.8857655757203474,
+          "total": 1694.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 10,
+        "threshold_buy": 10,
+        "threshold_sell": 80,
+        "period_atr": 70,
+        "atrdist": 1.2,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 0.4028372524891211,
+          "sqn": 0.9069294210185972,
+          "total": 297.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 5,
+        "period_atr": 90,
+        "atrdist": 1.0,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 4.934429867398393,
+          "sqn": 2.1685596669893874,
+          "total": 3931.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 6,
+        "period_ema2": 15,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 1.9437981405889466,
+          "sqn": 0.7100017932038163,
+          "total": 1525.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2017-03-06 00:00:00",
+      "todate": "2017-03-28 00:00:00"
+    },
+    "test": {
+      "fromdate": "2017-03-29 00:00:00",
+      "todate": "2017-04-03 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 15,
+        "period_me2": 20,
+        "period_signal": 10,
+        "period_atr": 65,
+        "atrdist": 0.8,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": -2.301041373988486,
+          "sqn": -0.7442057817443305,
+          "total": -1877.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 0,
+        "threshold_sell": 80,
+        "period_atr": 80,
+        "atrdist": 1.2,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 4.802965857544601,
+          "sqn": 2.251607363754447,
+          "total": 3855.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 5,
+        "period_atr": 50,
+        "atrdist": 0.8,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": -0.32325137237762747,
+          "sqn": -0.11400110207693395,
+          "total": -256.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 10,
+        "period_ema2": 23,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 6.873216305719648,
+          "sqn": 2.08628757035552,
+          "total": 5550.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2017-04-04 00:00:00",
+      "todate": "2017-04-28 00:00:00"
+    },
+    "test": {
+      "fromdate": "2017-05-02 00:00:00",
+      "todate": "2017-05-05 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 10,
+        "period_me2": 25,
+        "period_signal": 5,
+        "period_atr": 50,
+        "atrdist": 1.2,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 2.1532660357122846,
+          "sqn": 0.7019079692607479,
+          "total": 1723.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 10,
+        "threshold_sell": 70,
+        "period_atr": 70,
+        "atrdist": 1.0,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 2.8148990257539745,
+          "sqn": 1.0068988183155674,
+          "total": 2186.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 5,
+        "period_atr": 50,
+        "atrdist": 1.0,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": -1.0682489825742565,
+          "sqn": -0.3806389235754206,
+          "total": -858.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 6,
+        "period_ema2": 19,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 5.553525114040213,
+          "sqn": 1.6296310068621063,
+          "total": 4454.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2017-05-08 00:00:00",
+      "todate": "2017-05-30 00:00:00"
+    },
+    "test": {
+      "fromdate": "2017-05-31 00:00:00",
+      "todate": "2017-06-05 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 15,
+        "period_me2": 20,
+        "period_signal": 5,
+        "period_atr": 50,
+        "atrdist": 0.8,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 9.295014400980767,
+          "sqn": 1.616359556018834,
+          "total": 7478.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 10,
+        "threshold_buy": 0,
+        "threshold_sell": 70,
+        "period_atr": 80,
+        "atrdist": 1.2,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 2.2780230727370228,
+          "sqn": 1.3799686928060568,
+          "total": 1772.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 10,
+        "period_atr": 90,
+        "atrdist": 1.2,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 3.4028423241290287,
+          "sqn": 0.6644599617961545,
+          "total": 2746.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 6,
+        "period_ema2": 19,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 1.8016189384049397,
+          "sqn": 0.27841834274215976,
+          "total": 1435.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2017-06-06 00:00:00",
+      "todate": "2017-06-29 00:00:00"
+    },
+    "test": {
+      "fromdate": "2017-06-30 00:00:00",
+      "todate": "2017-07-05 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 10,
+        "period_me2": 25,
+        "period_signal": 10,
+        "period_atr": 65,
+        "atrdist": 1.2,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 1.340803121576837,
+          "sqn": 0.5551455597780648,
+          "total": 1042.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 10,
+        "threshold_sell": 80,
+        "period_atr": 80,
+        "atrdist": 1.0,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 2.6288986671691412,
+          "sqn": 1.5339018283552674,
+          "total": 2064.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 5,
+        "period_atr": 90,
+        "atrdist": 1.0,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 1.2292003771447393,
+          "sqn": 0.5776735542110912,
+          "total": 953.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 10,
+        "period_ema2": 19,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 0.8470668328448837,
+          "sqn": 0.3418744782948918,
+          "total": 662.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2017-07-06 00:00:00",
+      "todate": "2017-07-28 00:00:00"
+    },
+    "test": {
+      "fromdate": "2017-07-31 00:00:00",
+      "todate": "2017-08-03 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 10,
+        "period_me2": 25,
+        "period_signal": 10,
+        "period_atr": 65,
+        "atrdist": 0.8,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 3.033863102079848,
+          "sqn": 1.6470810541793852,
+          "total": 2399.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 10,
+        "threshold_sell": 70,
+        "period_atr": 80,
+        "atrdist": 1.0,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 3.762306215262762,
+          "sqn": 2.5407941904849847,
+          "total": 2994.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 5,
+        "period_atr": 90,
+        "atrdist": 1.0,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 2.40108110370216,
+          "sqn": 1.3620373072694179,
+          "total": 1880.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 2,
+        "period_ema2": 21,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 1.015422258457091,
+          "sqn": 0.5206108060601371,
+          "total": 789.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2017-08-04 00:00:00",
+      "todate": "2017-08-28 00:00:00"
+    },
+    "test": {
+      "fromdate": "2017-08-29 00:00:00",
+      "todate": "2017-09-01 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 10,
+        "period_me2": 20,
+        "period_signal": 5,
+        "period_atr": 50,
+        "atrdist": 0.8,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 2.8867671891318007,
+          "sqn": 1.3477762667033857,
+          "total": 2301.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 10,
+        "threshold_sell": 80,
+        "period_atr": 70,
+        "atrdist": 1.2,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 2.0643597101465443,
+          "sqn": 1.0087715147019398,
+          "total": 1594.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 10,
+        "period_atr": 50,
+        "atrdist": 1.0,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 6.177024300109675,
+          "sqn": 3.733685379183108,
+          "total": 4972.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 10,
+        "period_ema2": 15,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 0.813083917043358,
+          "sqn": 0.3412203894386208,
+          "total": 639.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2017-09-04 00:00:00",
+      "todate": "2017-09-27 00:00:00"
+    },
+    "test": {
+      "fromdate": "2017-09-28 00:00:00",
+      "todate": "2017-10-03 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 10,
+        "period_me2": 20,
+        "period_signal": 10,
+        "period_atr": 50,
+        "atrdist": 0.8,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 0.7231246956472186,
+          "sqn": 0.2851153355055726,
+          "total": 563.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 10,
+        "threshold_sell": 80,
+        "period_atr": 70,
+        "atrdist": 0.8,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 0.8227859878436222,
+          "sqn": 0.44606942895981944,
+          "total": 635.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 5,
+        "period_atr": 50,
+        "atrdist": 1.0,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 2.403005992712754,
+          "sqn": 0.9088284344927091,
+          "total": 1880.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 4,
+        "period_ema2": 15,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 3.66710902679139,
+          "sqn": 1.2182017357848767,
+          "total": 2928.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2017-10-04 00:00:00",
+      "todate": "2017-10-27 00:00:00"
+    },
+    "test": {
+      "fromdate": "2017-10-30 00:00:00",
+      "todate": "2017-11-03 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 10,
+        "period_me2": 20,
+        "period_signal": 10,
+        "period_atr": 65,
+        "atrdist": 1.2,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 3.133691539007059,
+          "sqn": 1.0953779946561457,
+          "total": 2508.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 0,
+        "threshold_sell": 70,
+        "period_atr": 70,
+        "atrdist": 1.2,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 1.922082893015859,
+          "sqn": 0.8849243226551466,
+          "total": 1497.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 5,
+        "period_atr": 70,
+        "atrdist": 1.0,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 2.20118741036846,
+          "sqn": 0.8309881146396045,
+          "total": 1768.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 12,
+        "period_ema2": 23,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 1.6117736084001282,
+          "sqn": 0.5938988641794667,
+          "total": 1269.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2017-11-06 00:00:00",
+      "todate": "2017-11-30 00:00:00"
+    },
+    "test": {
+      "fromdate": "2017-12-01 00:00:00",
+      "todate": "2017-12-06 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 10,
+        "period_me2": 20,
+        "period_signal": 5,
+        "period_atr": 65,
+        "atrdist": 1.2,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 4.106716233147272,
+          "sqn": 1.23502088432455,
+          "total": 3296.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 0,
+        "threshold_sell": 80,
+        "period_atr": 80,
+        "atrdist": 1.0,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 2.581261318904338,
+          "sqn": 1.3129810898385672,
+          "total": 2038.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 10,
+        "period_atr": 90,
+        "atrdist": 1.2,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 4.0990086572644495,
+          "sqn": 1.5326749211929662,
+          "total": 3252.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 8,
+        "period_ema2": 19,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": -0.1553239233490438,
+          "sqn": -0.04352267642544813,
+          "total": -125.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2017-12-07 00:00:00",
+      "todate": "2018-01-03 00:00:00"
+    },
+    "test": {
+      "fromdate": "2018-01-04 00:00:00",
+      "todate": "2018-01-09 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 15,
+        "period_me2": 20,
+        "period_signal": 10,
+        "period_atr": 50,
+        "atrdist": 1.2,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 0.16103696417040778,
+          "sqn": 0.05154749510882909,
+          "total": 126.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 10,
+        "threshold_sell": 80,
+        "period_atr": 70,
+        "atrdist": 1.0,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 5.5724724476789165,
+          "sqn": 2.4917654785119363,
+          "total": 4528.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 10,
+        "period_atr": 90,
+        "atrdist": 0.8,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 5.351878394494795,
+          "sqn": 2.5298276521219614,
+          "total": 4305.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 2,
+        "period_ema2": 15,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": -2.1905146131068984,
+          "sqn": -0.712397162291368,
+          "total": -1815.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2018-01-10 00:00:00",
+      "todate": "2018-02-02 00:00:00"
+    },
+    "test": {
+      "fromdate": "2018-02-05 00:00:00",
+      "todate": "2018-02-08 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 15,
+        "period_me2": 25,
+        "period_signal": 10,
+        "period_atr": 50,
+        "atrdist": 0.8,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": -0.8749177711487383,
+          "sqn": -0.2962820713890351,
+          "total": -700.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 6,
+        "threshold_buy": 10,
+        "threshold_sell": 70,
+        "period_atr": 80,
+        "atrdist": 0.8,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 0.12118861892112479,
+          "sqn": 0.08183709572216868,
+          "total": 93.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 10,
+        "period_atr": 90,
+        "atrdist": 1.0,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 4.470652972847091,
+          "sqn": 1.904528234586653,
+          "total": 3532.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 6,
+        "period_ema2": 17,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": -0.7504962529032723,
+          "sqn": -0.21267649925833265,
+          "total": -609.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2018-02-09 00:00:00",
+      "todate": "2018-03-07 00:00:00"
+    },
+    "test": {
+      "fromdate": "2018-03-08 00:00:00",
+      "todate": "2018-03-13 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 10,
+        "period_me2": 20,
+        "period_signal": 10,
+        "period_atr": 50,
+        "atrdist": 0.8,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 2.5320485286312633,
+          "sqn": 0.7277844004222145,
+          "total": 2014.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 10,
+        "threshold_sell": 80,
+        "period_atr": 80,
+        "atrdist": 0.8,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 3.6873274367873776,
+          "sqn": 1.4559016588506228,
+          "total": 2933.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 5,
+        "period_atr": 50,
+        "atrdist": 1.2,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 7.4291833340581075,
+          "sqn": 2.0389528923658595,
+          "total": 6011.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 8,
+        "period_ema2": 21,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 3.0042883994162444,
+          "sqn": 0.7460775598377375,
+          "total": 2420.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2018-03-14 00:00:00",
+      "todate": "2018-04-06 00:00:00"
+    },
+    "test": {
+      "fromdate": "2018-04-09 00:00:00",
+      "todate": "2018-04-12 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 10,
+        "period_me2": 25,
+        "period_signal": 5,
+        "period_atr": 65,
+        "atrdist": 1.0,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 2.25505247494855,
+          "sqn": 0.6150329208179567,
+          "total": 1795.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 0,
+        "threshold_sell": 80,
+        "period_atr": 70,
+        "atrdist": 0.8,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 4.7010910933578005,
+          "sqn": 2.215857063945693,
+          "total": 3750.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 5,
+        "period_atr": 70,
+        "atrdist": 1.0,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 6.152366614283105,
+          "sqn": 1.7872052088447923,
+          "total": 4951.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 10,
+        "period_ema2": 15,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 0.3333562131473333,
+          "sqn": 0.07776563703771551,
+          "total": 262.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2018-04-13 00:00:00",
+      "todate": "2018-05-08 00:00:00"
+    },
+    "test": {
+      "fromdate": "2018-05-09 00:00:00",
+      "todate": "2018-05-14 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 10,
+        "period_me2": 25,
+        "period_signal": 5,
+        "period_atr": 50,
+        "atrdist": 0.8,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 4.205981451548739,
+          "sqn": 1.2462792716781121,
+          "total": 3350.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 10,
+        "threshold_sell": 70,
+        "period_atr": 70,
+        "atrdist": 1.2,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 5.084308967208282,
+          "sqn": 1.7409690209090198,
+          "total": 4086.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 5,
+        "period_atr": 50,
+        "atrdist": 1.2,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 2.3053257758663506,
+          "sqn": 0.704346349919565,
+          "total": 1851.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 2,
+        "period_ema2": 15,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": -0.6552844946822615,
+          "sqn": -0.17922552371004727,
+          "total": -533.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2018-05-15 00:00:00",
+      "todate": "2018-06-07 00:00:00"
+    },
+    "test": {
+      "fromdate": "2018-06-08 00:00:00",
+      "todate": "2018-06-13 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 10,
+        "period_me2": 20,
+        "period_signal": 5,
+        "period_atr": 65,
+        "atrdist": 1.2,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 3.483713277661329,
+          "sqn": 0.6295031806635285,
+          "total": 2873.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 10,
+        "threshold_buy": 0,
+        "threshold_sell": 70,
+        "period_atr": 80,
+        "atrdist": 1.2,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 4.9916057698788405,
+          "sqn": 2.381906895515711,
+          "total": 3960.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 5,
+        "period_atr": 50,
+        "atrdist": 1.0,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": -0.5732913304473551,
+          "sqn": -0.10700978447641714,
+          "total": -464.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 8,
+        "period_ema2": 23,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 1.1762748700570342,
+          "sqn": 0.19243131353079604,
+          "total": 978.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2018-06-14 00:00:00",
+      "todate": "2018-07-06 00:00:00"
+    },
+    "test": {
+      "fromdate": "2018-07-10 00:00:00",
+      "todate": "2018-07-13 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 10,
+        "period_me2": 20,
+        "period_signal": 5,
+        "period_atr": 65,
+        "atrdist": 0.8,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 1.7449873334540174,
+          "sqn": 0.4072573360575671,
+          "total": 1409.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 10,
+        "threshold_sell": 70,
+        "period_atr": 70,
+        "atrdist": 1.0,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 4.995553001234855,
+          "sqn": 1.256904509711968,
+          "total": 4075.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 5,
+        "period_atr": 50,
+        "atrdist": 0.8,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 2.112288221449133,
+          "sqn": 0.5212748540665183,
+          "total": 1693.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 10,
+        "period_ema2": 15,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 4.93991712296163,
+          "sqn": 0.875813205263494,
+          "total": 3984.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2018-07-16 00:00:00",
+      "todate": "2018-08-07 00:00:00"
+    },
+    "test": {
+      "fromdate": "2018-08-08 00:00:00",
+      "todate": "2018-08-13 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 10,
+        "period_me2": 20,
+        "period_signal": 5,
+        "period_atr": 50,
+        "atrdist": 1.2,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 0.8763570602397776,
+          "sqn": 0.24028006055531514,
+          "total": 694.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 10,
+        "threshold_sell": 70,
+        "period_atr": 80,
+        "atrdist": 1.2,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 4.516490866933635,
+          "sqn": 1.490911033170558,
+          "total": 3628.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 5,
+        "period_atr": 50,
+        "atrdist": 0.8,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 3.1704052217635685,
+          "sqn": 1.035131739382818,
+          "total": 2519.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 6,
+        "period_ema2": 23,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": -1.1085568193376578,
+          "sqn": -0.29903412069920476,
+          "total": -896.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2018-08-14 00:00:00",
+      "todate": "2018-09-05 00:00:00"
+    },
+    "test": {
+      "fromdate": "2018-09-06 00:00:00",
+      "todate": "2018-09-12 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 15,
+        "period_me2": 25,
+        "period_signal": 5,
+        "period_atr": 65,
+        "atrdist": 1.2,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 3.046401018495632,
+          "sqn": 0.7822065130549657,
+          "total": 2432.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 10,
+        "threshold_sell": 70,
+        "period_atr": 80,
+        "atrdist": 1.2,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 5.6948520488326135,
+          "sqn": 1.615588289483402,
+          "total": 4603.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 10,
+        "period_atr": 50,
+        "atrdist": 1.0,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 2.628248436691794,
+          "sqn": 0.8486986357419223,
+          "total": 2077.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 2,
+        "period_ema2": 17,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 1.571949232059503,
+          "sqn": 0.3679534531690817,
+          "total": 1256.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2018-09-13 00:00:00",
+      "todate": "2018-10-05 00:00:00"
+    },
+    "test": {
+      "fromdate": "2018-10-08 00:00:00",
+      "todate": "2018-10-11 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 10,
+        "period_me2": 20,
+        "period_signal": 5,
+        "period_atr": 65,
+        "atrdist": 1.0,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 5.074036053475977,
+          "sqn": 1.185986855081187,
+          "total": 4093.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 10,
+        "threshold_sell": 80,
+        "period_atr": 80,
+        "atrdist": 1.0,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": -0.6897209025455322,
+          "sqn": -0.2093905741515941,
+          "total": -553.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 5,
+        "period_atr": 90,
+        "atrdist": 1.2,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 11.856792147708028,
+          "sqn": 2.7569556772326123,
+          "total": 9564.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 6,
+        "period_ema2": 17,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 6.42839240734406,
+          "sqn": 1.3420875520962303,
+          "total": 5231.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2018-10-15 00:00:00",
+      "todate": "2018-11-07 00:00:00"
+    },
+    "test": {
+      "fromdate": "2018-11-08 00:00:00",
+      "todate": "2018-11-13 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 10,
+        "period_me2": 25,
+        "period_signal": 10,
+        "period_atr": 65,
+        "atrdist": 0.8,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 5.817973404605861,
+          "sqn": 1.2604025610816316,
+          "total": 4712.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 10,
+        "threshold_sell": 80,
+        "period_atr": 70,
+        "atrdist": 1.0,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 5.467496133585574,
+          "sqn": 1.4742442789817816,
+          "total": 4406.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 10,
+        "period_atr": 90,
+        "atrdist": 1.2,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 6.768332301820079,
+          "sqn": 1.662325522089584,
+          "total": 5500.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 12,
+        "period_ema2": 21,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 3.557846349490682,
+          "sqn": 0.5335573474033735,
+          "total": 2890.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2018-11-14 00:00:00",
+      "todate": "2018-12-10 00:00:00"
+    },
+    "test": {
+      "fromdate": "2018-12-11 00:00:00",
+      "todate": "2018-12-14 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 10,
+        "period_me2": 20,
+        "period_signal": 5,
+        "period_atr": 65,
+        "atrdist": 1.2,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 2.114127186806679,
+          "sqn": 0.4668531469107544,
+          "total": 1692.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 10,
+        "threshold_buy": 10,
+        "threshold_sell": 80,
+        "period_atr": 80,
+        "atrdist": 1.2,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 1.3625016158825611,
+          "sqn": 1.2553065402092949,
+          "total": 1052.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 5,
+        "period_atr": 50,
+        "atrdist": 1.0,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 5.944506766987,
+          "sqn": 1.454439694635096,
+          "total": 4782.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 6,
+        "period_ema2": 19,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": -2.173092292496424,
+          "sqn": -0.4348727524597544,
+          "total": -1803.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2018-12-17 00:00:00",
+      "todate": "2019-01-14 00:00:00"
+    },
+    "test": {
+      "fromdate": "2019-01-15 00:00:00",
+      "todate": "2019-01-18 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 15,
+        "period_me2": 25,
+        "period_signal": 10,
+        "period_atr": 65,
+        "atrdist": 1.0,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 2.521014289518329,
+          "sqn": 0.6011760790161342,
+          "total": 2040.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 10,
+        "threshold_sell": 80,
+        "period_atr": 70,
+        "atrdist": 1.0,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 4.939579160007853,
+          "sqn": 1.3981635135471726,
+          "total": 3965.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 10,
+        "period_atr": 90,
+        "atrdist": 1.2,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 7.79783467310652,
+          "sqn": 2.172535958642096,
+          "total": 6315.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 2,
+        "period_ema2": 19,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 1.0573401693111126,
+          "sqn": 0.2317907255812428,
+          "total": 859.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2019-01-21 00:00:00",
+      "todate": "2019-02-13 00:00:00"
+    },
+    "test": {
+      "fromdate": "2019-02-14 00:00:00",
+      "todate": "2019-02-19 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 10,
+        "period_me2": 20,
+        "period_signal": 5,
+        "period_atr": 50,
+        "atrdist": 0.8,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 5.8605001961966545,
+          "sqn": 1.467220622044565,
+          "total": 4773.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 6,
+        "threshold_buy": 0,
+        "threshold_sell": 70,
+        "period_atr": 80,
+        "atrdist": 0.8,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 0.7059858377683286,
+          "sqn": 0.36169704791358503,
+          "total": 538.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 5,
+        "period_atr": 50,
+        "atrdist": 1.2,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 4.425289313396225,
+          "sqn": 1.045658457271689,
+          "total": 3636.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 12,
+        "period_ema2": 15,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 2.233114521989876,
+          "sqn": 0.4802983986274954,
+          "total": 1799.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2019-02-20 00:00:00",
+      "todate": "2019-03-18 00:00:00"
+    },
+    "test": {
+      "fromdate": "2019-03-19 00:00:00",
+      "todate": "2019-03-22 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 15,
+        "period_me2": 25,
+        "period_signal": 10,
+        "period_atr": 65,
+        "atrdist": 1.0,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 5.677318336609413,
+          "sqn": 1.4883346165463038,
+          "total": 4647.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 10,
+        "threshold_sell": 80,
+        "period_atr": 70,
+        "atrdist": 0.8,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 4.489035308133728,
+          "sqn": 1.5649007851713381,
+          "total": 3649.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 5,
+        "period_atr": 70,
+        "atrdist": 0.8,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 1.970333647471265,
+          "sqn": 0.5642187733652749,
+          "total": 1560.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 12,
+        "period_ema2": 21,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 4.340849187519265,
+          "sqn": 1.011806377742166,
+          "total": 3514.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2019-03-25 00:00:00",
+      "todate": "2019-04-16 00:00:00"
+    },
+    "test": {
+      "fromdate": "2019-04-17 00:00:00",
+      "todate": "2019-04-23 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 10,
+        "period_me2": 20,
+        "period_signal": 10,
+        "period_atr": 65,
+        "atrdist": 1.2,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": -2.026064382677965,
+          "sqn": -0.40846736050363025,
+          "total": -1676.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 10,
+        "threshold_sell": 80,
+        "period_atr": 70,
+        "atrdist": 0.8,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 6.011939901911601,
+          "sqn": 1.5286800596125616,
+          "total": 4854.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 5,
+        "period_atr": 90,
+        "atrdist": 0.8,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 6.619563608582878,
+          "sqn": 1.4114542064153663,
+          "total": 5349.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 12,
+        "period_ema2": 23,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": -7.09310902492355,
+          "sqn": -1.4370191273185073,
+          "total": -6355.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2019-04-24 00:00:00",
+      "todate": "2019-05-17 00:00:00"
+    },
+    "test": {
+      "fromdate": "2019-05-20 00:00:00",
+      "todate": "2019-05-23 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 15,
+        "period_me2": 20,
+        "period_signal": 5,
+        "period_atr": 65,
+        "atrdist": 1.2,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 1.0348845371654127,
+          "sqn": 0.256906054031468,
+          "total": 817.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 10,
+        "threshold_sell": 70,
+        "period_atr": 70,
+        "atrdist": 1.0,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 2.390252716177121,
+          "sqn": 0.7326018007955981,
+          "total": 1893.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 10,
+        "period_atr": 50,
+        "atrdist": 0.8,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 4.722694870117956,
+          "sqn": 1.4901529289899984,
+          "total": 3837.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 6,
+        "period_ema2": 15,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 4.915751626933715,
+          "sqn": 1.1621420025258404,
+          "total": 3951.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2019-05-24 00:00:00",
+      "todate": "2019-06-17 00:00:00"
+    },
+    "test": {
+      "fromdate": "2019-06-18 00:00:00",
+      "todate": "2019-06-24 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 10,
+        "period_me2": 25,
+        "period_signal": 5,
+        "period_atr": 65,
+        "atrdist": 1.2,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 2.5607216443355396,
+          "sqn": 0.6306836322998494,
+          "total": 2022.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 10,
+        "threshold_sell": 80,
+        "period_atr": 80,
+        "atrdist": 1.0,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 5.138946016953582,
+          "sqn": 1.5876695778891854,
+          "total": 4107.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 5,
+        "period_atr": 90,
+        "atrdist": 1.0,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 3.8837551428904886,
+          "sqn": 1.103307129885357,
+          "total": 3108.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 2,
+        "period_ema2": 17,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 0.37270084027156053,
+          "sqn": 0.08006816591081808,
+          "total": 295.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2019-06-25 00:00:00",
+      "todate": "2019-07-18 00:00:00"
+    },
+    "test": {
+      "fromdate": "2019-07-19 00:00:00",
+      "todate": "2019-07-24 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 10,
+        "period_me2": 20,
+        "period_signal": 10,
+        "period_atr": 65,
+        "atrdist": 0.8,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 3.253669785779048,
+          "sqn": 0.9090244610794169,
+          "total": 2630.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 10,
+        "threshold_sell": 80,
+        "period_atr": 80,
+        "atrdist": 1.0,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 2.9814252559423853,
+          "sqn": 0.889728224323625,
+          "total": 2379.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 5,
+        "period_atr": 50,
+        "atrdist": 1.2,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 6.610975352238356,
+          "sqn": 1.6798382865253285,
+          "total": 5371.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 2,
+        "period_ema2": 23,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": -0.2890656100780602,
+          "sqn": -0.06724088447807039,
+          "total": -234.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2019-07-25 00:00:00",
+      "todate": "2019-08-16 00:00:00"
+    },
+    "test": {
+      "fromdate": "2019-08-19 00:00:00",
+      "todate": "2019-08-22 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 10,
+        "period_me2": 20,
+        "period_signal": 5,
+        "period_atr": 65,
+        "atrdist": 1.2,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 7.07182635390583,
+          "sqn": 1.4535093198592717,
+          "total": 5730.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 10,
+        "threshold_sell": 70,
+        "period_atr": 70,
+        "atrdist": 0.8,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 3.6827022799926477,
+          "sqn": 0.9857105157047397,
+          "total": 2964.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 5,
+        "period_atr": 90,
+        "atrdist": 1.2,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 4.721931263818927,
+          "sqn": 0.9889753818797585,
+          "total": 3785.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 6,
+        "period_ema2": 19,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 10.197580928686568,
+          "sqn": 1.9220682905101412,
+          "total": 8274.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2019-08-23 00:00:00",
+      "todate": "2019-09-16 00:00:00"
+    },
+    "test": {
+      "fromdate": "2019-09-17 00:00:00",
+      "todate": "2019-09-20 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 10,
+        "period_me2": 20,
+        "period_signal": 10,
+        "period_atr": 65,
+        "atrdist": 1.0,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": -2.685666995305884,
+          "sqn": -0.6511239353117632,
+          "total": -2233.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 10,
+        "threshold_sell": 80,
+        "period_atr": 70,
+        "atrdist": 1.2,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 5.801136274389808,
+          "sqn": 1.3987330164580223,
+          "total": 4655.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 5,
+        "period_atr": 50,
+        "atrdist": 1.0,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 1.2799792630032438,
+          "sqn": 0.3015897522366954,
+          "total": 1031.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 2,
+        "period_ema2": 23,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": -1.4167895775948578,
+          "sqn": -0.2842216537003008,
+          "total": -1160.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2019-09-23 00:00:00",
+      "todate": "2019-10-15 00:00:00"
+    },
+    "test": {
+      "fromdate": "2019-10-16 00:00:00",
+      "todate": "2019-10-21 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 15,
+        "period_me2": 25,
+        "period_signal": 5,
+        "period_atr": 65,
+        "atrdist": 1.2,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": -1.9990297986650927,
+          "sqn": -0.4889601428580124,
+          "total": -1643.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 0,
+        "threshold_sell": 80,
+        "period_atr": 80,
+        "atrdist": 1.2,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 4.4393045814964385,
+          "sqn": 1.5333033582522388,
+          "total": 3555.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 5,
+        "period_atr": 50,
+        "atrdist": 1.0,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 7.422961888826611,
+          "sqn": 1.86449418791236,
+          "total": 6004.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 4,
+        "period_ema2": 15,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": -5.061033894959077,
+          "sqn": -1.2204129255911733,
+          "total": -4354.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2019-10-22 00:00:00",
+      "todate": "2019-11-13 00:00:00"
+    },
+    "test": {
+      "fromdate": "2019-11-14 00:00:00",
+      "todate": "2019-11-21 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 15,
+        "period_me2": 20,
+        "period_signal": 5,
+        "period_atr": 50,
+        "atrdist": 1.0,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 4.11701849839195,
+          "sqn": 1.1174246197331748,
+          "total": 3290.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 0,
+        "threshold_sell": 80,
+        "period_atr": 80,
+        "atrdist": 1.0,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 3.319163752587117,
+          "sqn": 1.434844888863715,
+          "total": 2612.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 10,
+        "period_atr": 90,
+        "atrdist": 1.2,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 0.7481039740112861,
+          "sqn": 0.2213275508908863,
+          "total": 597.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 12,
+        "period_ema2": 23,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 2.753251492107596,
+          "sqn": 0.649166299154359,
+          "total": 2194.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2019-11-22 00:00:00",
+      "todate": "2019-12-16 00:00:00"
+    },
+    "test": {
+      "fromdate": "2019-12-17 00:00:00",
+      "todate": "2019-12-20 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 10,
+        "period_me2": 25,
+        "period_signal": 5,
+        "period_atr": 65,
+        "atrdist": 1.0,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 0.5175143852071351,
+          "sqn": 0.16774626126637432,
+          "total": 410.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 10,
+        "threshold_sell": 70,
+        "period_atr": 70,
+        "atrdist": 1.0,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 1.4817810855345992,
+          "sqn": 0.5874362755993047,
+          "total": 1161.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 10,
+        "period_atr": 90,
+        "atrdist": 1.2,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 6.267288781388464,
+          "sqn": 2.634251746059292,
+          "total": 5033.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 10,
+        "period_ema2": 15,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 2.049216290262905,
+          "sqn": 0.6290074938532872,
+          "total": 1634.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2019-12-23 00:00:00",
+      "todate": "2020-01-20 00:00:00"
+    },
+    "test": {
+      "fromdate": "2020-01-21 00:00:00",
+      "todate": "2020-01-24 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 10,
+        "period_me2": 25,
+        "period_signal": 10,
+        "period_atr": 65,
+        "atrdist": 1.0,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 3.6683294969709497,
+          "sqn": 0.9665851579714487,
+          "total": 2964.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 10,
+        "threshold_buy": 10,
+        "threshold_sell": 70,
+        "period_atr": 70,
+        "atrdist": 0.8,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 0.8059388640867061,
+          "sqn": 0.5802308915270645,
+          "total": 612.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 5,
+        "period_atr": 70,
+        "atrdist": 1.2,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 5.390767404713374,
+          "sqn": 1.4563402379889867,
+          "total": 4376.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 2,
+        "period_ema2": 23,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 2.116724044277903,
+          "sqn": 0.5186940150983289,
+          "total": 1688.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2020-01-27 00:00:00",
+      "todate": "2020-02-18 00:00:00"
+    },
+    "test": {
+      "fromdate": "2020-02-19 00:00:00",
+      "todate": "2020-02-26 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 15,
+        "period_me2": 25,
+        "period_signal": 5,
+        "period_atr": 65,
+        "atrdist": 1.0,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 4.6893625561696135,
+          "sqn": 1.0552062938058444,
+          "total": 3778.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 10,
+        "threshold_sell": 70,
+        "period_atr": 70,
+        "atrdist": 0.8,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 5.041531785207602,
+          "sqn": 1.3354925128866482,
+          "total": 4048.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 10,
+        "period_atr": 50,
+        "atrdist": 1.2,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 9.93938962202125,
+          "sqn": 2.4621577881603733,
+          "total": 8123.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 6,
+        "period_ema2": 17,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 5.543587782925444,
+          "sqn": 1.182778955276672,
+          "total": 4429.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2020-02-27 00:00:00",
+      "todate": "2020-03-20 00:00:00"
+    },
+    "test": {
+      "fromdate": "2020-03-23 00:00:00",
+      "todate": "2020-03-26 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 15,
+        "period_me2": 20,
+        "period_signal": 5,
+        "period_atr": 50,
+        "atrdist": 1.2,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 28.730629057327445,
+          "sqn": 1.7868840629114744,
+          "total": 22624.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 10,
+        "threshold_buy": 10,
+        "threshold_sell": 70,
+        "period_atr": 80,
+        "atrdist": 0.8,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 11.485957239427956,
+          "sqn": 2.808993831162053,
+          "total": 9321.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 10,
+        "period_atr": 50,
+        "atrdist": 1.0,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 11.36404477380851,
+          "sqn": 0.8005956971565983,
+          "total": 9391.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 6,
+        "period_ema2": 15,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 5.627855846014681,
+          "sqn": 0.31811083214832425,
+          "total": 4799.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2020-03-27 00:00:00",
+      "todate": "2020-04-22 00:00:00"
+    },
+    "test": {
+      "fromdate": "2020-04-23 00:00:00",
+      "todate": "2020-04-28 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 15,
+        "period_me2": 25,
+        "period_signal": 5,
+        "period_atr": 50,
+        "atrdist": 1.2,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": -1.5750198666818436,
+          "sqn": -0.1892260438238752,
+          "total": -1365.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 0,
+        "threshold_sell": 70,
+        "period_atr": 80,
+        "atrdist": 0.8,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 3.6717464356192333,
+          "sqn": 0.6076246523443334,
+          "total": 2984.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 5,
+        "period_atr": 50,
+        "atrdist": 0.8,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 4.833097181546658,
+          "sqn": 0.6365359661182515,
+          "total": 3905.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 6,
+        "period_ema2": 15,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 0.7495899802502897,
+          "sqn": 0.09048482097854407,
+          "total": 608.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2020-04-29 00:00:00",
+      "todate": "2020-05-22 00:00:00"
+    },
+    "test": {
+      "fromdate": "2020-05-25 00:00:00",
+      "todate": "2020-05-28 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 15,
+        "period_me2": 25,
+        "period_signal": 5,
+        "period_atr": 50,
+        "atrdist": 1.2,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 6.6749468613560765,
+          "sqn": 1.048621255229093,
+          "total": 5448.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 10,
+        "threshold_sell": 70,
+        "period_atr": 70,
+        "atrdist": 1.2,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 9.71767800988468,
+          "sqn": 1.8593677324891869,
+          "total": 7968.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 10,
+        "period_atr": 50,
+        "atrdist": 0.8,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 5.7537379903405945,
+          "sqn": 1.2022051874376336,
+          "total": 4621.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 8,
+        "period_ema2": 15,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": -4.663986658546076,
+          "sqn": -0.7270675338731238,
+          "total": -4021.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2020-05-29 00:00:00",
+      "todate": "2020-06-23 00:00:00"
+    },
+    "test": {
+      "fromdate": "2020-06-24 00:00:00",
+      "todate": "2020-06-29 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 15,
+        "period_me2": 25,
+        "period_signal": 5,
+        "period_atr": 65,
+        "atrdist": 1.2,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 7.701934778912705,
+          "sqn": 1.1653422984986117,
+          "total": 6289.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 10,
+        "threshold_sell": 80,
+        "period_atr": 80,
+        "atrdist": 1.2,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 6.5706194238721825,
+          "sqn": 1.0785520475065895,
+          "total": 5355.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 10,
+        "period_atr": 50,
+        "atrdist": 1.0,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 11.003195474333623,
+          "sqn": 2.0714724685075936,
+          "total": 8958.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 8,
+        "period_ema2": 15,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 2.810403775601406,
+          "sqn": 0.4085527418210128,
+          "total": 2312.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2020-06-30 00:00:00",
+      "todate": "2020-07-22 00:00:00"
+    },
+    "test": {
+      "fromdate": "2020-07-23 00:00:00",
+      "todate": "2020-07-28 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 15,
+        "period_me2": 25,
+        "period_signal": 5,
+        "period_atr": 65,
+        "atrdist": 1.2,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 5.6836207157854854,
+          "sqn": 1.2273912715848474,
+          "total": 4587.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 10,
+        "threshold_sell": 70,
+        "period_atr": 70,
+        "atrdist": 1.2,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 4.61808975986943,
+          "sqn": 1.1673092441098394,
+          "total": 3734.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 5,
+        "period_atr": 70,
+        "atrdist": 1.2,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 9.779200829539977,
+          "sqn": 2.27699840400591,
+          "total": 7977.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 6,
+        "period_ema2": 23,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 6.218139228628825,
+          "sqn": 1.2127311147406608,
+          "total": 5054.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2020-07-29 00:00:00",
+      "todate": "2020-08-20 00:00:00"
+    },
+    "test": {
+      "fromdate": "2020-08-21 00:00:00",
+      "todate": "2020-08-26 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 10,
+        "period_me2": 25,
+        "period_signal": 10,
+        "period_atr": 65,
+        "atrdist": 1.2,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 6.013333731049055,
+          "sqn": 1.0237980496877028,
+          "total": 4940.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 0,
+        "threshold_sell": 70,
+        "period_atr": 80,
+        "atrdist": 1.2,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 8.443402881302063,
+          "sqn": 1.7240937697127325,
+          "total": 6861.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 5,
+        "period_atr": 90,
+        "atrdist": 0.8,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": -0.691718166980523,
+          "sqn": -0.1333979536899667,
+          "total": -569.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 4,
+        "period_ema2": 15,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 8.072708931833724,
+          "sqn": 1.2063945773851261,
+          "total": 6592.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2020-08-27 00:00:00",
+      "todate": "2020-09-21 00:00:00"
+    },
+    "test": {
+      "fromdate": "2020-09-22 00:00:00",
+      "todate": "2020-09-25 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 10,
+        "period_me2": 20,
+        "period_signal": 10,
+        "period_atr": 65,
+        "atrdist": 0.8,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 7.83915433685528,
+          "sqn": 1.5794081172559675,
+          "total": 6431.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 0,
+        "threshold_sell": 70,
+        "period_atr": 80,
+        "atrdist": 0.8,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 2.750851462367989,
+          "sqn": 0.7857441865043739,
+          "total": 2203.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 5,
+        "period_atr": 90,
+        "atrdist": 1.2,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 8.845045659486868,
+          "sqn": 1.6839295731408999,
+          "total": 7166.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 8,
+        "period_ema2": 23,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 3.590136463669927,
+          "sqn": 0.6231728529039966,
+          "total": 2930.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2020-09-28 00:00:00",
+      "todate": "2020-10-21 00:00:00"
+    },
+    "test": {
+      "fromdate": "2020-10-22 00:00:00",
+      "todate": "2020-10-27 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 10,
+        "period_me2": 20,
+        "period_signal": 10,
+        "period_atr": 50,
+        "atrdist": 1.2,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 3.2394252116501607,
+          "sqn": 0.6128625388884418,
+          "total": 2653.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 0,
+        "threshold_sell": 70,
+        "period_atr": 70,
+        "atrdist": 0.8,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 5.86623010230285,
+          "sqn": 1.5337806456602683,
+          "total": 4732.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 5,
+        "period_atr": 50,
+        "atrdist": 1.0,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 3.7207741958186036,
+          "sqn": 0.7380313822117996,
+          "total": 3013.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 2,
+        "period_ema2": 17,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 3.9769202456719164,
+          "sqn": 0.6700313796895525,
+          "total": 3276.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2020-10-28 00:00:00",
+      "todate": "2020-11-20 00:00:00"
+    },
+    "test": {
+      "fromdate": "2020-11-23 00:00:00",
+      "todate": "2020-11-26 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 15,
+        "period_me2": 25,
+        "period_signal": 5,
+        "period_atr": 65,
+        "atrdist": 1.2,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 9.372563868800912,
+          "sqn": 1.7427082395404445,
+          "total": 7662.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 10,
+        "threshold_sell": 80,
+        "period_atr": 70,
+        "atrdist": 1.2,
+        "atrprofit": 1.0,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 4.612440141360173,
+          "sqn": 0.9763890065168845,
+          "total": 3761.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 5,
+        "period_atr": 50,
+        "atrdist": 0.8,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 10.110691151170132,
+          "sqn": 1.9798037053828696,
+          "total": 8240.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 10,
+        "period_ema2": 15,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 5.683963836815275,
+          "sqn": 0.96885501504441,
+          "total": 4709.0
+        }
+      }
+    }
+  },
+  {
+    "train": {
+      "fromdate": "2020-11-27 00:00:00",
+      "todate": "2020-12-21 00:00:00"
+    },
+    "test": {
+      "fromdate": "2020-12-22 00:00:00",
+      "todate": "2020-12-29 00:00:00"
+    },
+    "output_train": {
+      "MACDSignal": {
+        "period_me1": 15,
+        "period_me2": 25,
+        "period_signal": 10,
+        "period_atr": 65,
+        "atrdist": 1.2,
+        "atrprofit": 0.8,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 1.9609595017648875,
+          "sqn": 0.41201242485499906,
+          "total": 1558.0
+        }
+      },
+      "RSISignal": {
+        "period_rsi": 2,
+        "threshold_buy": 10,
+        "threshold_sell": 70,
+        "period_atr": 70,
+        "atrdist": 1.2,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 8.060379871226752,
+          "sqn": 1.7739473159681007,
+          "total": 6572.0
+        }
+      },
+      "ADXSignal": {
+        "period_adx": 10,
+        "period_adxr": 5,
+        "period_atr": 50,
+        "atrdist": 1.2,
+        "atrprofit": 1.2,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 4.327338254766002,
+          "sqn": 0.9226822838816966,
+          "total": 3502.0
+        }
+      },
+      "ElderForceIndexSignal": {
+        "period_ema1": 12,
+        "period_ema2": 15,
+        "time_start": [
+          9,
+          0
+        ],
+        "time_stop": [
+          17,
+          0
+        ],
+        "analyzer_opt": {
+          "vwr": 2.4728154546575203,
+          "sqn": 0.48469318509303516,
+          "total": 1972.0
+        }
+      }
+    }
+  }
+]
