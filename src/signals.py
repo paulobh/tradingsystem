@@ -573,6 +573,32 @@ class ElderForceIndexSignal(bt.Indicator):
 
 
 
+class BuyHoldSignal(bt.Indicator):
+    lines = (('signal'),)
+
+    # params = (('time_start', [9, 0]),
+    #           ('time_stop', [17, 0]),
+    #           )
+    # plotinfo = dict(subplot=False)
+
+    def __init__(self, **kwargs):
+        # self.__dict__.update(kwargs)
+        allowed_keys = {'fromdate', 'todate'}
+        self.params.__dict__.update((k, v) for k, v in kwargs.items() if k in allowed_keys)
+
+        self.todate = self.params.todate
+        self.fromdate = self.params.fromdate
+
+    def next(self):
+        self.datetime = self.data.datetime.datetime()
+        if len(self) >= (len(self.data.array)-1):
+            self.lines.signal[0] = -1
+        elif (self.datetime >= self.fromdate) & (self.datetime <= self.todate):
+            self.lines.signal[0] = 1
+
+
+
+
 # class GenericSignal(bt.Indicator):
 #     lines = (('signal'),
 #              ('atr'),

@@ -114,7 +114,8 @@ def df_split_params_opt(df):
     df_analyzers = df_split_param(df_analyzers, cols_ids, var_name="variable")
 
     # update analyzers col from Signals
-    filter_signals = df_analyzers["signal"] == "Signals"
+    filter_signals = df_analyzers["signal"].isin(["Signals","BuyHold"])
+    # filter_signals = df_analyzers["signal"] == "Signals"
     df_analyzers_signals = df_analyzers[filter_signals]
     df_analyzers = df_analyzers[~filter_signals]
 
@@ -554,14 +555,19 @@ def plot_objetive_dates_line(settings, df, f_objetive=None, diff=False):
     return df
 
 
-def plot_param_signals_box(df, signal, diff=False):
+def plot_param_signals_box(df, signal, diff=False, stops=False):
     filename = sys._getframe().f_code.co_name
     filename = "_".join([filename, signal])
 
     filter_var_type = df["var_type"] == "params"
     filter_signal = df["signal"] == signal
-    filter_param = df["variable"].isin(["time_start", "time_stop", "atrdist", "atrprofit"])
-    df = df[filter_var_type & filter_signal & ~filter_param]
+    if stops:
+        filename = "_".join([filename, "stops"])
+        filter_param = df["variable"].isin(["atrdist", "atrprofit"])
+        df = df[filter_var_type & filter_signal & filter_param]
+    else:
+        filter_param = df["variable"].isin(["time_start", "time_stop", "atrdist", "atrprofit"])
+        df = df[filter_var_type & filter_signal & ~filter_param]
 
     df_melt = df["train"].apply(pandas.Series)
     df = pandas.concat([df_melt, df], axis=1)
@@ -583,14 +589,19 @@ def plot_param_signals_box(df, signal, diff=False):
     return df
 
 
-def plot_params_dates_line(df, signal, diff=False):
+def plot_params_dates_line(df, signal, diff=False, stops=False):
     filename = sys._getframe().f_code.co_name
     filename = "_".join([filename, signal])
 
     filter_var_type = df["var_type"] == "params"
     filter_signal = df["signal"] == signal
-    filter_param = df["variable"].isin(["time_start", "time_stop", "atrdist", "atrprofit"])
-    df = df[filter_var_type & filter_signal & ~filter_param]
+    if stops:
+        filename = "_".join([filename, "stops"])
+        filter_param = df["variable"].isin(["atrdist", "atrprofit"])
+        df = df[filter_var_type & filter_signal & filter_param]
+    else:
+        filter_param = df["variable"].isin(["time_start", "time_stop", "atrdist", "atrprofit"])
+        df = df[filter_var_type & filter_signal & ~filter_param]
 
     df_melt = df["train"].apply(pandas.Series)
     df = pandas.concat([df_melt, df], axis=1)
@@ -635,7 +646,7 @@ def main(settings):
 
     df_values = df_extract_values(settings)
 
-    #
+
     # # Generate tables: 1
     # cols_idx = ["signal", "variable"]
     # df_params_table, params_latex = table_output_type(df_values, cols_idx, "params")
@@ -643,39 +654,50 @@ def main(settings):
     # # Generate tables: 2
     # cols_idx = ["signal", "variable", "type"]
     # df_analyzers_table, analyzers_latex = table_output_type(df_values, cols_idx, "analyzer_opt")
+
+    # # Generate plots: 1
+    # plot_objetive_signals_box(settings, df_values, f_objetive="vwr")
     #
-
-    # Generate plots: 1
-    plot_objetive_signals_box(settings, df_values, f_objetive="vwr")
-
     # Generate plots: 2
     plot_objetive_signals_box(settings, df_values, f_objetive="vwr", diff=True)
-
-    # Generate plots: 3
-    plot_objetive_dates_line(settings, df_values, f_objetive="vwr")
-
+    #
+    # # Generate plots: 3
+    # plot_objetive_dates_line(settings, df_values, f_objetive="vwr")
+    #
     # Generate plots: 4
     plot_objetive_dates_line(settings, df_values, f_objetive="vwr", diff=True)
-
-    # Generate plots: 5
-    signals = list(df_values["signal"].unique())
-    signals.remove("Signals")
-    [plot_param_signals_box(df_values, signal=signal) for signal in signals]
-
-    # Generate plots: 6
-    signals = list(df_values["signal"].unique())
-    signals.remove("Signals")
-    [plot_param_signals_box(df_values, signal=signal, diff=True) for signal in signals]
-
-    # Generate plots: 7
-    signals = list(df_values["signal"].unique())
-    signals.remove("Signals")
-    [plot_params_dates_line(df_values, signal=signal, diff=False) for signal in signals]
-
-    # Generate plots: 8
-    signals = list(df_values["signal"].unique())
-    signals.remove("Signals")
-    [plot_params_dates_line(df_values, signal=signal, diff=True) for signal in signals]
+    #
+    # # Generate plots: 5
+    # signals = list(df_values["signal"].unique())
+    # signals.remove("Signals")
+    # [plot_param_signals_box(df_values, signal=signal) for signal in signals]
+    #
+    # # Generate plots: 6
+    # signals = list(df_values["signal"].unique())
+    # signals.remove("Signals")
+    # [plot_param_signals_box(df_values, signal=signal, diff=True) for signal in signals]
+    #
+    # # Generate plots: 7
+    # signals = list(df_values["signal"].unique())
+    # signals.remove("Signals")
+    # [plot_params_dates_line(df_values, signal=signal, diff=False) for signal in signals]
+    #
+    # # Generate plots: 8
+    # signals = list(df_values["signal"].unique())
+    # signals.remove("Signals")
+    # [plot_params_dates_line(df_values, signal=signal, diff=True) for signal in signals]
+    #
+    # # Generate plots: 9
+    # signals = list(df_values["signal"].unique())
+    # signals.remove("Signals")
+    # signals.remove("ElderForceIndex")
+    # [plot_params_dates_line(df_values, signal=signal, diff=True, stops=True) for signal in signals]
+    #
+    # # Generate plots: 10
+    # signals = list(df_values["signal"].unique())
+    # signals.remove("Signals")
+    # signals.remove("ElderForceIndex")
+    # [plot_param_signals_box(df_values, signal=signal, diff=True, stops=True) for signal in signals]
 
     return None
 

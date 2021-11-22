@@ -1,11 +1,9 @@
 from __future__ import (absolute_import, division, print_function,
                         unicode_literals)
-import glob
 import os
 import json
 import pandas
 import numpy as np
-from multiprocessing import Process
 
 import pandas as pd
 
@@ -17,10 +15,9 @@ import datetime  # For datetime objects
 # import sys  # To find out the script name (in argv[0])
 # import argparse
 
-from src.args import parse_args
+from src.helpers.args import parse_args
 from time import process_time
-from src.datafeed import pandasdatafeed
-from backtrader.utils.py3 import range
+from src.helpers.datafeed import pandasdatafeed
 
 # from strategies import TestStrategy
 # from strategies import MainStrategy

@@ -796,3 +796,137 @@ class SignalsStrategy(bt.Strategy):
                  f'Ending Value: {balance}',
                  doprint=True)
 
+
+class BuyHoldStrategy(bt.Strategy):
+    params = (('plot_entry', True),
+              ('plot_exit', True),
+              ('printlog', True),
+              ('limdays', 1),  # limit of days of alive orders
+              )
+
+    def __init__(self, **kwargs):
+        self.params_opt = kwargs
+        self.params.__dict__.update(kwargs)
+        self.__dict__.update(kwargs)
+        # allowed_keys = {'args', 'period_rsi', 'threshold_buy', 'threshold_sell'}
+        # self.__dict__.update((k, v) for k, v in kwargs.items() if k in allowed_keys)
+
+        # self.tstart = process_time()
+        self.initial_value = self.broker.getvalue()
+
+        # Activate the fund mode and set the default value at 100
+        self.broker.set_fundmode(fundmode=True, fundstartval=100.0)
+        self.cash_start = self.broker.get_cash()
+        # self.val_start = 100.0
+
+        # To keep track of pending orders and buy price / commission.
+        self.order = None
+        self.buyprice = None
+        self.buycomm = None
+
+        # Keep a reference to the OHLC line in the data[0] dataseries
+        self.dataopen = self.datas[0].open
+        self.datahigh = self.datas[0].high
+        self.datalow = self.datas[0].low
+        self.dataclose = self.datas[0].close
+
+        # Add indicators signals
+        # self.signal_time = signals.TIMESignal()
+        opt_type = self.params_opt.get("opt_type")
+        signal_params = {
+            "fromdate": self.params_opt.get(opt_type).get("fromdate"),
+            "todate": self.params_opt.get(opt_type).get("todate")
+        }
+
+        signal = self.params_opt.get("signal_strategy")
+        self.signal_name = "signal_" + signal.lower()
+        self.__dict__.update({self.signal_name: getattr(signals, "".join([signal, "Signal"]))(**signal_params)})
+
+        self.orefs = list()
+        self.os = list()
+
+    def log(self, txt, dt=None, doprint=False):
+        """Logging function for this strategy"""
+        if self.params.printlog or doprint:
+            dt = dt or self.datas[0].datetime.datetime(0)
+            print('%s, %s' % (dt.isoformat(), txt))
+
+    def notify_trade(self, trade):
+        """Receives a trade whenever there has been a change in one"""
+        if not trade.isclosed:
+            return
+
+        self.log('OPERATION PROFIT, REF: %s, PRICE: %.2f, GROSS %.2f' %
+                 (trade.ref,
+                  trade.price,
+                  trade.pnl,
+                  ))
+
+    def notify_order(self, order):
+        """Receives an order whenever there has been a change in one"""
+        # Check whether an order has enough Margin to call or was Rejected by the Broker
+        if order.status in [order.Margin, order.Rejected]:
+            self.log('REJECTED ORDER. Type: %s, REF: %s, PRICE: %.2f, SIZE: %.2f' %
+                     (order.getstatusname(),
+                      order.ref,
+                      order.executed.price,
+                      order.executed.size,
+                      ))
+
+        # Check whether an order is Submitted or Accepted by the Broker
+        if order.status in [order.Submitted, order.Accepted]:
+            return
+
+        elif order.status in [order.Cancelled]:
+            self.log('CANCEL ORDER. STATUS: %s, Type: %s, REF: %s, PRICE: %.2f, SIZE: %.2f' %
+                     (order.getstatusname(),
+                      'Buy' * order.isbuy() or 'Sell',
+                      order.ref,
+                      order.executed.price,
+                      order.executed.size,
+                      ))
+
+        # Check if an order is completed
+        elif order.status in [order.Completed]:
+            self.log("COMPLETED ORDER. STATUS: %s, Type: %s, REF: %s, PRICE : %.3f, SIZE : %.2f" %
+                     (order.getstatusname(),
+                      'Buy' * order.isbuy() or 'Sell',
+                      order.ref,
+                      order.executed.price,
+                      order.executed.size,
+                      ))
+
+        if not order.alive() and order.ref in self.orefs:
+            self.orefs.remove(order.ref)
+
+    def next(self):
+        """Simply log the closing price of the series from the reference"""
+        # Check if an order is in Pending state, if yes, we cannot send a 2nd one
+        if self.orefs:
+            self.log('An order already in Pending state')
+            return  # pending orders do nothing
+
+        # Check whether we have an open position already, if no, then we can enter a new position by entering a trade
+        elif not self.position:
+            self.signal = getattr(self, self.signal_name)
+
+            # valid = datetime.timedelta(self.params.limdays)
+            if self.signal.lines.signal[0] > 0:
+                self.os = self.buy()
+                # self.orefs = [o.ref for o in self.os]
+                self.log(
+                    'Signal, Close: %.2f, Signal: %.2f, Indicator: %s' %
+                    (self.dataclose[0],
+                     self.signal.lines.signal[0],
+                     self.signal_name)
+                    )
+
+        elif self.position:
+            if self.signal.lines.signal[0] < 0:
+                self.os = self.sell()
+                # self.orefs = [o.ref for o in self.os]
+                self.log('Signal, Close: %.2f,Signal: %.2f, Indicator: %s' %
+                         (self.dataclose[0],
+                          self.signal.lines.signal[0],
+                          self.signal_name)
+                         )

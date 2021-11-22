@@ -6,15 +6,11 @@ import backtrader as bt  # Import the backtrader platform
 # import os.path  # To manage paths
 # import sys  # To find out the script name (in argv[0])
 # import argparse
-import pandas
-import glob
 import json
-import datetime  # For datetime objects
 
-from src.datafeed import pandasdatafeed
+from src.helpers.datafeed import pandasdatafeed
 from time import process_time
-from src.args import parse_args
-from backtrader.utils.py3 import range
+from src.helpers.args import parse_args
 
 # from src.strategies import MainStrategy
 # from strategies import TestStrategy
@@ -36,7 +32,6 @@ def runstrat_main(settings, **kwargs):
                          # optdatas=not args.no_optdatas,
                          # optreturn=not args.no_optreturn
                          )
-
 
     # Add a strategy
     cerebro.addstrategy(strategies.MainStrategy, **settings, **kwargs)

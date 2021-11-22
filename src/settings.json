@@ -5,6 +5,7 @@
     "path_output": "./data/analyzers_opt/analyzers_output.json",
     "path_output_train": "./data/analyzers_opt/analyzers_train_{}d_{}.json",
     "path_output_test": "./data/analyzers_opt/analyzers_test_{}d_{}.json",
+    "path_output_validation": "./data/analyzers_opt/analyzers_validation_{}d_{}.json",
     "datapath": "./data/WIN$N_5M_2015.05.22_2021.01.22_.csv",
     "fromdate": "",
     "todate": "2021.01.22",
@@ -13,6 +14,7 @@
     "analyzer_opt": "vwr",
     "output_train_key": "output_train",
     "output_test_key": "output_test",
+    "output_validation_key": "output_validation",
     "noprint": true
   },
   "opt_params" : {
@@ -87,6 +89,7 @@
     },
     "OBVSignal": {
       "period_obv": [20, 40, 5]
-    }
+    },
+    "BUYHOLDSignal": {"size": 1 }
   }
 }

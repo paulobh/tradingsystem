@@ -1,5 +1,5 @@
 # from src import main
-from src import main, main_signals, main_opt
+from src.helpers import main
 import json
 # from src.args import parse_args
 

@@ -7,21 +7,15 @@ import backtrader as bt  # Import the backtrader platform
 # import sys  # To find out the script name (in argv[0])
 # import argparse
 import os
-import pandas
-import glob
 import json
 import numpy as np
 import dateutil.parser
-import datetime  # For datetime objects
 
-from src.datafeed import pandasdatafeed
+from src.helpers.datafeed import pandasdatafeed
 from time import process_time
-from src.args import parse_args
-from backtrader.utils.py3 import range
+from src.helpers.args import parse_args
 
 from src import strategies
-from src import main_opt
-
 
 
 class NpEncoder(json.JSONEncoder):
@@ -40,13 +34,9 @@ def runstrat_signals(settings, **kwargs):
     # clock the start of the process
     tstart = process_time()
 
-    opt_type = kwargs.pop("opt_type")
+    # opt_type = kwargs.pop("opt_type")
+    opt_type = kwargs.get("opt_type")
     filename, output_key = filename_key_opt_type(settings, opt_type=opt_type)
-    # opt_type_dict = {
-    #     "train": {"key": "output_train_key", "path": "path_output_train"},
-    #     "test": {"key": "output_test_key", "path": "path_output_test"}
-    # }
-    # output_key = settings["opt_analyzer"][opt_type_dict[opt_type]["key"]]
 
     # update args of strategy
     args = parse_args(kwargs)
@@ -60,10 +50,10 @@ def runstrat_signals(settings, **kwargs):
                          # optreturn=not args.no_optreturn
                          )
 
-
-
     # Add a strategy
-    cerebro.addstrategy(strategies.SignalsStrategy, **settings, **kwargs)
+    strategy = getattr(strategies, "".join([kwargs.get("signal_strategy"), "Strategy"]))
+    cerebro.addstrategy(strategy, **settings, **kwargs)
+    # cerebro.addstrategy(strategies.SignalsStrategy, **settings, **kwargs)
 
     # Get a data source path
     datapath = args.data
@@ -111,33 +101,37 @@ def runstrat_signals(settings, **kwargs):
 
 def analyzers_signals_log(settings, results, **kwargs):
     output_key = kwargs.pop("output_key")
+    opt_type = kwargs.pop("opt_type")
+    signal_strategy = kwargs.pop("signal_strategy")
     analyzers_dict = kwargs
     for stratrun in results:
         analysis_value = {analyzer.__class__.__name__: analyzer.get_analysis() for analyzer in stratrun.analyzers}
-        analyzers_dict.update({output_key: {"Signals": {"analyzer_opt": analysis_value}}})
+        analyzers_dict.update({output_key: {signal_strategy: {"analyzer_opt": analysis_value}}})
 
-    filepath = settings["opt_analyzer"]["path_log"].format('Signals')
+    filepath = settings["opt_analyzer"]["path_log"].format(signal_strategy)
     json.dump(analyzers_dict, open(filepath, "w"), indent=2, default=str)
 
     return None
 
 
 def analyzers_signals_read(settings, **kwargs):
-    filepath = settings["opt_analyzer"]["path_log"].format("Signals")
+    opt_type = kwargs.get("opt_type")
+    signal_strategy = kwargs.get("signal_strategy")
+    filepath = settings["opt_analyzer"]["path_log"].format(signal_strategy)
     output = json.load(open(filepath, 'r'))
 
     # opt_type = kwargs.pop("opt_type")
-    filename, output_key = filename_key_opt_type(settings, opt_type="test")
+    filename, output_key = filename_key_opt_type(settings, opt_type=opt_type)
 
     with open(filename, "r+") as file:
         data = json.load(file)
         match_date = False
 
         for idx, row in enumerate(data):
-            if (row.get("test").get("fromdate") == str(output.get("test").get("fromdate"))) & \
-                    (row.get("test").get("todate") == str(output.get("test").get("todate"))):
+            if (row.get(opt_type).get("fromdate") == str(output.get(opt_type).get("fromdate"))) & \
+                    (row.get(opt_type).get("todate") == str(output.get(opt_type).get("todate"))):
                 data[idx]["output_train"] = output["output_train"]
-                data[idx][output_key]["Signals"] = output[output_key]["Signals"]
+                data[idx][output_key][signal_strategy] = output[output_key][signal_strategy]
                 match_date = True
                 break
 
@@ -160,8 +154,9 @@ def datetime_parser(json_dict):
 
 
 def params_output_validate(settings, **kwargs):
-    # opt_type = kwargs.pop("opt_type")
-    filename, output_key = filename_key_opt_type(settings, opt_type="test")
+    signal = kwargs.pop("signal")  # signal = "Signals"
+    opt_type = kwargs.pop("opt_type")   # opt_type = "test"
+    filename, output_key = filename_key_opt_type(settings, opt_type=opt_type)
     output = {}
     output.update(kwargs)
     # signal_opt = list(kwargs[output_key].keys())[0]
@@ -174,7 +169,7 @@ def params_output_validate(settings, **kwargs):
         for idx, row in enumerate(data):
             if (row.get("test").get("fromdate") == str(output.get("test").get("fromdate"))) & \
                     (row.get("test").get("todate") == str(output.get("test").get("todate"))) & \
-                    ("Signals" in list(row.get(output_key).keys())):
+                    (signal in list(row.get(output_key).keys())):
                 file.close()
                 return True
     return False
@@ -183,7 +178,8 @@ def params_output_validate(settings, **kwargs):
 def filename_key_opt_type(settings, **kwargs):
     opt_type_dict = {
         "train": {"key": "output_train_key", "path": "path_output_train"},
-        "test": {"key": "output_test_key", "path": "path_output_test"}
+        "test": {"key": "output_test_key", "path": "path_output_test"},
+        "validation": {"key": "output_validation_key", "path": "path_validation_test"}
     }
     opt_type = kwargs.get("opt_type")
     days_train = settings["opt_analyzer"]["daterange_opt"]
@@ -205,16 +201,18 @@ def main(settings, **kwargs):
 
     for idx, params_opt in enumerate(params):
 
-        # validate if params already calculated, very helpful is case the code breaks
-        if params_output_validate(settings, override=False, opt_type="test", **params_opt):
-            continue
+        signals = ["Signals", "BuyHold"]
+        for signal in signals:
+            # validate if params already calculated, very helpful in case the code breaks
+            if params_output_validate(settings, override=False, opt_type="test", signal=signal, **params_opt):
+                continue
 
-        else:
-            # run optimization strategy
-            runstrat_signals(settings, opt_type="test", **params_opt)
+            else:
+                # run strategy
+                runstrat_signals(settings, opt_type="test", signal_strategy=signal, **params_opt)
 
-            # read analyzers and save output
-            analyzers_signals_read(settings, opt_type="test", **params_opt)
+                # read analyzers and save output
+                analyzers_signals_read(settings, opt_type="test", signal_strategy=signal, **params_opt)
 
     return None
 
