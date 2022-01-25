@@ -14,7 +14,6 @@ import dateutil.parser
 from src.helpers.datafeed import pandasdatafeed
 from time import process_time
 from src.helpers.args import parse_args
-
 from src import strategies
 
 

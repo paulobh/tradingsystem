@@ -12,7 +12,7 @@ import datetime
 # print(os.getcwd())
 
 
-def list_data_files(data_path ="./data/*.csv"):
+def list_data_files(data_path="./data/*.csv"):
     """List available file to do the data analysis and group in a dict according the data frequency.
 
     Files should have the following structure:
